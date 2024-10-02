@@ -1,0 +1,24 @@
+.themePicker {
+  display: flex;
+  align-items: space-between;
+}
+
+.themePicker svg {
+  width: 24px;
+}
+
+.sun circle {
+  fill: transparent;
+}
+
+.sun path {
+  fill: transparent;
+}
+
+.sun:hover circle {
+  fill: red;
+}
+
+.sun:hover path {
+  fill: red;
+}

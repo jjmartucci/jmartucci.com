@@ -1,0 +1,30 @@
+---
+import FormattedDate from '../FormattedDate.astro';
+import Tag from '../Tag/Tag.astro';
+import styles from "./PostPreview.module.css"
+const { post } = Astro.props;
+---
+<div class={styles.PostPreview}>
+    <a href={`/blog/${post.slug}/`} >
+        <div class={styles.heroWrapper}>
+            <img width={720} height={360} src={post.data.heroImage} alt="" />
+            <img width={720} height={360} src={post.data.heroImage} alt="" class={styles.dupeImage}/>
+            <div class={styles.infoWrapper}>
+                <h4 class={styles.title}>{post.data.title}</h4>
+            </div>        
+        </div>
+        <span class={styles.date}>
+            <FormattedDate date={post.data.pubDate} />
+        </span>
+        <p class={styles.description}>{post.data.description}</p>
+    </a>
+    <div class={styles.footer}>
+
+        {post.data.tags && 
+            <ul class={styles.tagList}>
+                {post.data.tags.map(tag => <li><Tag tag={tag}/></li>)}
+            </ul>}
+
+    </div>
+</div>
+

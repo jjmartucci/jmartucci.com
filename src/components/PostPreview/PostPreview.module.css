@@ -1,0 +1,149 @@
+.PostPreview {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  height: 100%;
+}
+
+.PostPreview:after {
+  position: absolute;
+  content: "";
+  bottom: 2rem;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(45deg, #2e8b7a, #efb045, #c8466b, #335d7d);
+}
+
+.PostPreview h4 {
+  font-size: 1.3rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  width: 100%;
+}
+ul li * {
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+ul li img {
+  width: 100%;
+}
+
+ul li img {
+  border-radius: 12px;
+}
+ul li a {
+  display: block;
+}
+
+.title {
+  margin: 0;
+  color: var(--big-blue);
+}
+
+.date {
+  display: inline-block;
+  color: rgb(var(--gray));
+  font-size: 0.8rem;
+}
+
+.description {
+  color: rgb(var(--gray));
+  font-size: 1rem;
+}
+
+ul li a:hover h4,
+ul li a:hover .date {
+  color: var(--bright-blue);
+}
+ul a:hover img {
+  box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 720px) {
+  ul {
+    gap: 0.5em;
+  }
+  ul li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.infoWrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  backdrop-filter: blur(5px);
+  border-radius: 0 0 12px 12px;
+}
+
+.heroWrapper {
+  position: relative;
+}
+
+/* .heroWrapper:after {
+  content: "";
+  border-radius: 12px;
+  background: linear-gradient(45deg, #2e8b7a, #efb045, #c8466b, #335d7d);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+a:hover .heroWrapper:after {
+  opacity: 1;
+
+  transform: rotate(2deg);
+  transform-origin: center center;
+} */
+
+.dupeImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 1s ease;
+  transform: scale(1);
+  opacity: 0;
+  filter: hue-rotate(90deg) blur(8px);
+}
+
+a:hover .dupeImage {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.date {
+  display: block;
+
+  text-align: center;
+}
+.tagList {
+  display: inline-flex;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}

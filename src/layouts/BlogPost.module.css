@@ -1,0 +1,23 @@
+.prose {
+  width: 720px;
+  max-width: calc(100% - 2em);
+  margin: auto;
+  padding: 1em;
+  color: rgb(var(--gray-dark));
+}
+
+.prose video {
+  max-width: 100%;
+}
+
+.prose blockquote {
+  background: rgba(var(--big-blue-rgb), 4%);
+  border-left: 1px solid rgba(var(--big-blue-rgb), 14%);
+  color: var(--big-blue);
+  font-size: 1.2rem;
+}
+
+.prose img {
+  display: block;
+  margin: 0 auto;
+}
