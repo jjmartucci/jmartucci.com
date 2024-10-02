@@ -22,7 +22,7 @@ const { post } = Astro.props;
 
         {post.data.tags && 
             <ul class={styles.tagList}>
-                {post.data.tags.map(tag => <li><Tag tag={tag}/></li>)}
+                {post.data.tags.map((tag: string) => <li><Tag tag={tag}/></li>)}
             </ul>}
 
     </div>
