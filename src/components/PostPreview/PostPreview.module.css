@@ -58,7 +58,7 @@ ul li a {
 }
 
 .description {
-  color: rgb(var(--gray));
+  /* color: rgb(var(--gray)); */
   font-size: 1rem;
 }
 
