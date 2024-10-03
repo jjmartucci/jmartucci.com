@@ -6,12 +6,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 
 import { getCollection } from 'astro:content';
-import FormattedDate from '../components/FormattedDate.astro';
 import PostPreview from '../components/PostPreview/PostPreview.astro';
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-).slice(0, 10);
+).filter(post => !post.data.draft).slice(0, 10);
 ---
 
 <!doctype html>

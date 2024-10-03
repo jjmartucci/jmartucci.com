@@ -58,6 +58,16 @@ body {
   line-height: 1.7;
 }
 
+#logo {
+  height: 60px;
+  margin-right: 1rem;
+}
+
+#home-link {
+  display: flex;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -140,6 +150,10 @@ hr {
 @media (max-width: 720px) {
   body {
     font-size: 18px;
+  }
+  #logo {
+    height: 40px;
+    margin-right: 1rem;
   }
   main {
     padding: 1em;

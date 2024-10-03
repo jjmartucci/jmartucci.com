@@ -1,9 +1,28 @@
 ---
 ---
+<script>
 
+	const phrases = ["Software Developer", "Not a Robot", "Harris Walz 2024"];
+	const replace = document.getElementById("scrolly");
+	const sleep = (ms:number) => new Promise(r => setTimeout(r, ms));
+
+	setInterval(async () =>  {
+		const newPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+		replace?.classList.add('fade-out');
+		await sleep(1000);
+		if(replace) {
+			replace.innerText = newPhrase
+		}
+		replace?.classList.remove('fade-out');
+	}, 15000)
+  </script>
 <header>
 	<nav>
-		<h2><a href="/">Joe Martucci | <span class="mono">Software Developer</span></a></h2>
+		<h2><a href="/" id="home-link"><img src="/joecropped.png" height="40px" id="logo"/>
+			<span id="scrolly" class="mono">Joe Martucci</span>
+		</div>
+		</a>
+	</h2>
 
 		<div class="social-links">
 
@@ -69,7 +88,7 @@
 		margin: 0 auto;
 	}
 	nav a {
-		padding: 1em 0.5em;
+		padding: 0.5em;
 		color: var(--black);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
@@ -79,6 +98,17 @@
 		border-bottom-color: var(--accent);
 	}
 
+
+	#scrolly {
+		transition: all 900ms ease-in-out;
+	}
+	#scrolly.fade-out{
+		opacity: 0;
+	}
+	#scrolly span {
+		display: block;
+		transition: all 500ms ease-in-out;
+	}
 
 .social-links,
 	.social-links a {
