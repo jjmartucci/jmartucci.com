@@ -3,7 +3,7 @@ title: We’ve Moved
 description: Swapping up what domains are used for what.
 heroImage: /blog-hero-images/2024/moved.jpeg
 pubDate: 2024-10-03
-draft: true
+draft: false
 tags:
   - meta
 ---
