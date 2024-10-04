@@ -1,62 +1,48 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from "astro:content";
+import PostPreview from "../components/PostPreview/PostPreview.astro";
 
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import { getCollection } from 'astro:content';
-import PostPreview from '../components/PostPreview/PostPreview.astro';
-
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-).filter(post => !post.data.draft).slice(0, 10);
+const posts = (await getCollection("blog"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .filter((post) => !post.data.draft)
+  .slice(0, 10);
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			.grid {
-				display: grid;
-				grid-template-columns: 1fr;
-				grid-row-gap: 1rem;
+<BaseLayout>
+  <div class="intro">
+    <p>
+      Hi, I’m Joe, this is my website. I write about life, things that interest
+      me here.
+    </p>
+  </div>
+  <ul class="grid">
+    {
+      posts.map((post) => (
+        <li>
+          <PostPreview post={post} />
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>
 
-				@media screen and (min-width: 700px) {
-					grid-template-columns: 1fr 1fr;
-					grid-column-gap: 2rem;
+<style>
+  .intro {
+    @media screen and (min-width: 700px) {
+      max-width: 600px;
+      margin: 4rem auto;
+    }
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
 
-				}
-			}
-
-			main {
-				margin: 0 auto;
-				padding: 0 1rem;
-				max-width: calc(1000px - 2rem);
-			}
-			.intro {
-				max-width: 600px;
-				margin: 4rem auto;
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<div class="intro">
-				<p>Hi, I’m Joe, this is my website. I write about life, things that interest me here.</p>
-			</div>
-			<ul class="grid">
-			{posts.map((post) => (
-				<li>
-					<PostPreview post={post} />
-	
-							</li>
-
-			))}
-			</ul>
-		</main>
-		<Footer />
-	</body>
-</html>
+    @media screen and (min-width: 700px) {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 2rem;
+    }
+  }
+</style>

@@ -1,58 +1,47 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
-import PostPreview from '../../components/PostPreview/PostPreview.astro';
+import { getCollection } from "astro:content";
+import PostPreview from "../../components/PostPreview/PostPreview.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-).filter(post => !post.data.draft).slice(0, 10);
+const posts = (await getCollection("blog"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .filter((post) => !post.data.draft)
+  .slice(0, 9);
 ---
 
+<BaseLayout>
+  <h1>Past Posts</h1>
+  <ul class="grid">
+    {
+      posts.map((post, index) => (
+        <li data-count={index}>
+          <PostPreview post={post} />
+        </li>
+      ))
+    }
+  </ul>
+  <a href="/blog/2">More</a>
+</BaseLayout>
 
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			.grid {
-				display: grid;
-				grid-template-columns: 1fr;
-				grid-row-gap: 1rem;
+<style>
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
 
-				@media screen and (min-width: 700px) {
-					grid-template-columns: 1fr 1fr;
-					grid-column-gap: 2rem;
+    @media screen and (min-width: 700px) {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 2rem;
 
-				}
-			}
-
-			main {
-				margin: 0 auto;
-				padding: 0 1rem;
-				max-width: calc(1000px - 2rem);
-			}
-			.intro {
-				max-width: 600px;
-				margin: 4rem auto;
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-
-			<ul class="grid">
-			{posts.map((post) => (
-				<li>
-					<PostPreview post={post} />
-	
-							</li>
-
-			))}
-			</ul>
-		</main>
-		<Footer />
-	</body>
-
-
+      > li:first-of-type {
+        grid-column: span 2;
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
+</style>

@@ -1,54 +1,65 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../../components/FormattedDate.astro';
-import type { Page } from 'astro';
-import type { CollectionEntry } from 'astro:content';
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+import type { Page } from "astro";
+import type { CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostPreview from "../../components/PostPreview/PostPreview.astro";
 
 export async function getStaticPaths({ paginate }: any) {
-    const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+  const posts = (await getCollection("blog")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
   // Generate pages from our array of astronauts, with 2 to a page
-  return paginate(posts, { pageSize: 10 });
+  return paginate(posts, { pageSize: 9 });
 }
 
-
 interface Props {
-  page: Page<CollectionEntry<'blog'>>
+  page: Page<CollectionEntry<"blog">>;
 }
 const { page } = Astro.props;
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{
-						page.data.map((post) => (
-							<li>
-								<a href={`/blog/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
-</html>
+<BaseLayout>
+  <section>
+    <ul class="grid">
+      {
+        page.data.map((post) => (
+          <li>
+            <PostPreview post={post} />
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <div class="pager">
+    {page.url.prev && <a href={page.url.prev}>Newer</a>}
+    {page.url.next && <a href={page.url.next}>Older</a>}
+  </div>
+</BaseLayout>
+
+<style>
+  .pager {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+
+    @media screen and (min-width: 700px) {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 2rem;
+
+      > li:first-of-type {
+        grid-column: span 2;
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
+</style>
