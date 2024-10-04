@@ -1,152 +1,160 @@
 ---
+
 ---
+
 <script>
+  const phrases = ["Software Developer", "Not a Robot", "Harris Walz 2024"];
+  const replace = document.getElementById("scrolly");
+  const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-	const phrases = ["Software Developer", "Not a Robot", "Harris Walz 2024"];
-	const replace = document.getElementById("scrolly");
-	const sleep = (ms:number) => new Promise(r => setTimeout(r, ms));
-
-	setInterval(async () =>  {
-		const newPhrase = phrases[Math.floor(Math.random() * phrases.length)];
-		replace?.classList.add('fade-out');
-		await sleep(1000);
-		if(replace) {
-			replace.innerText = newPhrase
-		}
-		replace?.classList.remove('fade-out');
-	}, 15000)
-  </script>
+  setInterval(async () => {
+    const newPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+    replace?.classList.add("fade-out");
+    await sleep(1000);
+    if (replace) {
+      replace.innerText = newPhrase;
+    }
+    replace?.classList.remove("fade-out");
+  }, 15000);
+</script>
 <header>
-	<nav>
-		<h2><a href="/" id="home-link"><img src="/joecropped.png" height="40px" id="logo"/>
-			<span id="scrolly" class="mono">Joe Martucci</span>
-		</div>
-		</a>
-	</h2>
+  <nav>
+    <h2>
+      <a href="/" id="home-link"
+        ><img src="/joecropped.png" height="40px" id="logo" />
+        <span id="scrolly" class="mono">Joe Martucci</span>
+      </a>
+    </h2>
 
-		<div class="social-links">
-
-			<a href="/rss.xml" target="_blank">
-				<span class="sr-only">RSS feed</span>
-<svg fill="#000000" version="1.1" id="Layer_1"  
-	 width="32px" height="32px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
-<g>
-	<path d="M26.258,64.949c-4.848,0-8.78,3.93-8.78,8.784c0,4.848,3.932,8.782,8.78,8.782c4.855,0,8.784-3.934,8.784-8.782
-		C35.042,68.878,31.113,64.949,26.258,64.949z"/>
-	<path d="M23.536,40.801c-0.046,0-0.09,0.006-0.135,0.007v-0.007h-3.464v0.039c-1.698,0.193-3.021,1.603-3.056,3.344h-0.007v6.159
+    <div class="social-links">
+      <a href="/rss.xml" target="_blank">
+        <span class="sr-only">RSS feed</span>
+        <svg
+          fill="#000000"
+          version="1.1"
+          id="Layer_1"
+          width="32px"
+          height="32px"
+          viewBox="0 0 100 100"
+          enable-background="new 0 0 100 100"
+        >
+          <g>
+            <path
+              d="M26.258,64.949c-4.848,0-8.78,3.93-8.78,8.784c0,4.848,3.932,8.782,8.78,8.782c4.855,0,8.784-3.934,8.784-8.782
+		C35.042,68.878,31.113,64.949,26.258,64.949z"
+            ></path>
+            <path
+              d="M23.536,40.801c-0.046,0-0.09,0.006-0.135,0.007v-0.007h-3.464v0.039c-1.698,0.193-3.021,1.603-3.056,3.344h-0.007v6.159
 		h0.041c0.19,1.581,1.437,2.822,3.021,3.002v0.039h3.464v-0.048c0.045,0.001,0.09,0.007,0.135,0.007
 		c12.772,0,23.173,10.321,23.311,23.061h-0.033v3.464h0.039c0.193,1.698,1.603,3.021,3.344,3.056v0.007h6.158v-0.041
-		c1.581-0.19,2.822-1.437,3.002-3.021h0.039v-3.464h-0.006C59.252,56.748,43.223,40.801,23.536,40.801z"/>
-	<path d="M83.119,76.403C82.98,43.664,56.308,17.07,23.536,17.07c-0.046,0-0.09,0.006-0.135,0.007V17.07h-3.464v0.039
+		c1.581-0.19,2.822-1.437,3.002-3.021h0.039v-3.464h-0.006C59.252,56.748,43.223,40.801,23.536,40.801z"
+            ></path>
+            <path
+              d="M83.119,76.403C82.98,43.664,56.308,17.07,23.536,17.07c-0.046,0-0.09,0.006-0.135,0.007V17.07h-3.464v0.039
 		c-1.698,0.193-3.021,1.603-3.056,3.344h-0.007v6.159h0.041c0.19,1.582,1.437,2.822,3.021,3.002v0.039h3.464v-0.048
 		c0.045,0.001,0.09,0.007,0.135,0.007c25.857,0,46.902,20.967,47.041,46.792h-0.035v3.464h0.039
-		c0.193,1.698,1.603,3.021,3.344,3.056v0.007h6.159v-0.041c1.581-0.19,2.822-1.437,3.002-3.021h0.039v-3.464H83.119z"/>
-</g>
-</svg>
-<span>RSS</span>
-</a>
-			<a href="https://front-end.social/@threetonesun" target="_blank">
-				<span class="sr-only">Follow me on Mastodon</span>
-				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
-					><path
-						d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"
-					></path></svg
-				>
-				<span>Mastodon</span>
-			</a>
-
-	
-		</div>
-		
-	</nav>
+		c0.193,1.698,1.603,3.021,3.344,3.056v0.007h6.159v-0.041c1.581-0.19,2.822-1.437,3.002-3.021h0.039v-3.464H83.119z"
+            ></path>
+          </g>
+        </svg>
+        <span>RSS</span>
+      </a>
+      <a href="https://front-end.social/@threetonesun" target="_blank">
+        <span class="sr-only">Follow me on Mastodon</span>
+        <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
+          ><path
+            d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"
+          ></path></svg
+        >
+        <span>Mastodon</span>
+      </a>
+    </div>
+  </nav>
 </header>
+
 <style>
-	header {
-		margin: 0;
-		padding: 0 1rem;
-		background: white;
-		box-shadow: var(--header-shadow);
-		position: relative;
+  header {
+    margin: 0;
+    padding: 0 1rem;
+    background: white;
+    box-shadow: var(--header-shadow);
+    position: relative;
+  }
 
-	}
+  h2 {
+    margin: 0;
+    font-size: 1em;
+  }
 
-	h2 {
-		margin: 0;
-		font-size: 1em;
-		
-	}
+  h2 a,
+  h2 a.active {
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  nav a {
+    padding: 0.5em;
+    color: var(--black);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+  }
+  nav a.active {
+    text-decoration: none;
+    border-bottom-color: var(--accent);
+  }
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		max-width: 900px;
-		margin: 0 auto;
-	}
-	nav a {
-		padding: 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
+  #scrolly {
+    transition: all 900ms ease-in-out;
+  }
+  #scrolly.fade-out {
+    opacity: 0;
+  }
+  #scrolly span {
+    display: block;
+    transition: opacity 500ms ease-in-out;
+  }
 
+  .social-links,
+  .social-links a {
+    display: flex;
+    position: relative;
+  }
+  .social-links span {
+    position: absolute;
+    font-size: 0.8rem;
+    bottom: 0;
+    width: 100px;
+    left: 50%;
+    left: calc(50% - 50px);
+    display: block;
+    text-align: center;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+  }
 
-	#scrolly {
-		transition: all 900ms ease-in-out;
-	}
-	#scrolly.fade-out{
-		opacity: 0;
-	}
-	#scrolly span {
-		display: block;
-		transition: all 500ms ease-in-out;
-	}
+  .social-links svg {
+    transition: all 300ms ease-in-out;
+  }
 
-.social-links,
-	.social-links a {
-		display: flex;
-		position: relative;
-	}
-	.social-links span{
-		position: absolute;
-		font-size: .8rem;
-		bottom: 0;
-		width: 100px;
-		left: 50%;
-		left: calc(50% - 50px);
-		display: block;
-		text-align: center;
-		opacity: 0;
-		transition: all 300ms ease-in-out;
-	}
+  .social-links a:hover span {
+    opacity: 1;
+    color: var(--big-blue);
+  }
 
-	.social-links svg {
-		transition: all 300ms ease-in-out;
-	}
-
-	.social-links a:hover span{
-		opacity: 1;
-		color: var(--big-blue)
-	}
-
-	.social-links a:hover svg{
-		
-		fill: var(--big-blue)
-	}
-	@media (max-width: 720px) {
-		header {
-			padding: 1rem 1rem;
-		}
-		.social-links {
-			display: none;
-		}
-	}
+  .social-links a:hover svg {
+    fill: var(--big-blue);
+  }
+  @media (max-width: 720px) {
+    header {
+      padding: 1rem 1rem;
+    }
+    .social-links {
+      display: none;
+    }
+  }
 </style>
