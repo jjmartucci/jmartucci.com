@@ -18,6 +18,8 @@
   --dark: 34, 34, 34;
   --green: 46, 139, 122;
 
+  --tag: #c8466b;
+
   --yellow: #efb045;
   --yellow-rgb: 239, 176, 69; /* #EFB045 */
   --gray-gradient: rgba(var(--big-blue-rgb), 10%), #fff;

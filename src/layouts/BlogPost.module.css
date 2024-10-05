@@ -6,8 +6,11 @@
   color: rgb(var(--gray-dark));
 }
 
-.prose video {
+.prose video,
+.prose iframe {
   max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .prose blockquote {

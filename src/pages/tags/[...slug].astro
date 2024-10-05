@@ -32,24 +32,38 @@ export async function getStaticPaths() {
 }
 const post = Astro.props;
 const { slug } = Astro.params;
-
-console.log(post);
 ---
 
 <BaseLayout>
-  <h1>{`${Object.keys(post).length} posts tagged: ${slug}`}</h1>
+  <h1>{`${Object.keys(post).length} posts tagged: `}<span>{slug}</span></h1>
   <ol>
     {
       Object.keys(post).map((key) => {
         return (
-          <a href={"/blog/" + post[key].slug}>
-            <li>
+          <li>
+            <a href={"/blog/" + post[key].slug}>
               <h2>{post[key].data.title}</h2>
-              <p>{post[key].data.description}</p>
-            </li>
-          </a>
+            </a>
+            <p>{post[key].data.description}</p>
+          </li>
         );
       })
     }
   </ol>
 </BaseLayout>
+<style>
+  a {
+    text-decoration: none;
+  }
+  a h2 {
+    color: rgb(var(--big-blue-rgb));
+  }
+
+  a:hover h2 {
+    color: var(--bright-blue);
+  }
+
+  h1 span {
+    color: var(--tag);
+  }
+</style>

@@ -1,6 +1,10 @@
 ---
 const { tag } = Astro.props;
-import styles from "./Tag.module.css"
+import styles from "./Tag.module.css";
 ---
-<span class={styles.tag}>{tag}</span>
 
+<span class={styles.tag}>
+  <a href={`/tags/${tag}`}>
+    {tag}
+  </a>
+</span>
