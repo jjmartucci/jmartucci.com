@@ -38,3 +38,8 @@
 .prose a:hover {
   background: rgba(var(--yellow-rgb), 30%);
 }
+
+.prose sup a {
+  font-size: 0.7rem;
+  padding: 0.1rem;
+}
