@@ -1,6 +1,6 @@
 ---
 title: Supercommunicators by Charles Duhigg
-description: Getting app callback and shortcuts URLs to work in Apple Freeform
+description: Notes on the book Supercommunicators by Charles Duhigg.
 heroImage: /blog-hero-images/2024/supercommunicators.jpeg
 pubDate: 2024-10-14T15:15:00.000Z
 tags: [books]
