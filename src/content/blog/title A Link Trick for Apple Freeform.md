@@ -14,7 +14,7 @@ I wrote [Fuck Donald Trump, Part 1](/blog/fuck-donald-trump/), I guess[^1], back
 
 Would _not_ be reelected. I mean I wasn’t necessarily surprised, we gave Reagan and Bush a second chance, but it does require some mental gymnastics to vote for the guy who said elections were rigged and then, again, tried to overthrow the government.
 
-I don’t have any immediate actions or ideas or anything.  I don’t have any thoughts on the Democrats, or voter demographics, or whatever. We’re Americans, we’re probably all uniquely stupid in our own ways, but there’s no reason to not be kind at at least attempt to repudiate those who are not. I am disappointed so many people fell for the “Republicans are populists!” trick again. At this point it’s like watching Charlie Brown try to kick the football, where Charlie Brown are the voters and the football is the economy and Lucy is a billionaire.
+I don’t have any immediate actions or ideas or anything.  I don’t have any thoughts on the Democrats, or voter demographics, or whatever. We’re Americans, we’re probably all uniquely stupid in our own ways, but there’s no reason to not be kind and at least attempt to repudiate those who are not. I am disappointed so many people fell for the “Republicans are populists!” trick again. At this point it’s like watching Charlie Brown try to kick the football, where Charlie Brown are the voters and the football is the economy and Lucy is a billionaire.
 
 Anyway… fuck Donald Trump. And if that upsets you, I’d like to remind you the campaign unofficially endorsed flags with the slogan “Fuck your Feelings” on them, as well as “Fuck Joe Biden”, it’s basically the Calvin pissing on something[^2] of the modern day, you can’t keep it all for yourself.
 
