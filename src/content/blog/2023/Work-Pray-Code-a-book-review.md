@@ -5,8 +5,7 @@ description: My notes on the book Work Pray Code by Carolyn Chen
 heroImage: /blog-hero-images/2023/work-pray-code.jpg
 draft: false
 pubDate: 2023-06-12T04:00:00.000Z
-tags:
-  - books
+tags: [books]
 ---
 
 Lately I’ve been picking up new reading by wandering around the “new books” section of the library and grabbing a few interesting books off the shelves after doing exactly zero research about what the book might be about besides looking at the cover. Yes, this is literally me judging books by their covers, but I’ve had some good luck with it. I try to pick up one fiction and one non-fiction book, and last trip the non-fiction one was [*Work Pray Code* by Carolyn Chen](https://press.princeton.edu/books/hardcover/9780691219080/work-pray-code). The description on the inner jacket cover starts with “How tech giants are reshaping spirituality to serve their religion of peak productivity”. You could read this two ways, either the way I did, where that sounds awful and makes me want to live in a cabin in the woods, or where that sounds great, what a novel idea, using spirituality to increase productivity, hmm have we considered selling copies of the Bible as NFTs?
