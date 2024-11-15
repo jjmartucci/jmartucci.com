@@ -1,6 +1,6 @@
 ---
 title: PEM
-pubDate: 2024-11-15
+pubDate: 2024-11-15T21:03:13Z
 draft: false
 description: Little field trip to the Peabody Essex Museum. 
 heroImage: /blog-hero-images/2024/pem.jpeg
