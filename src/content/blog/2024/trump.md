@@ -4,6 +4,7 @@ description: I did not expect there would be a sequel.
 heroImage: /blog-hero-images/2024/2021.jpg
 pubDate: 2024-11-07
 tags: [Politics]
+homepage: false
 ---
 
 I wrote [Fuck Donald Trump, Part 1](/blog/fuck-donald-trump/), I guess[^1], back in 2021. I didn’t think there would be a Part 2. I kind of thought the guy who, among all of his other issues:

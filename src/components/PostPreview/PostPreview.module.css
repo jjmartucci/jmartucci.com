@@ -135,11 +135,16 @@ a:hover .dupeImage {
 
 .date {
   display: block;
-
   text-align: center;
 }
+
 .tagList {
   display: inline-flex;
+  gap: 0.4rem;
+}
+
+.tagList__tag {
+  width: auto;
 }
 
 .footer {
