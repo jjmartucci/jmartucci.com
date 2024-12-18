@@ -9,10 +9,16 @@
 }
 .prose {
   width: 720px;
-  max-width: calc(100% - 2em);
+  max-width: 100%;
   margin: auto;
-  padding: 1em;
+
   color: rgb(var(--gray-dark));
+}
+
+@media screen and (min-width: 700px) {
+  .prose {
+    max-width: calc(100% - 2rem);
+  }
 }
 
 .prose video,
