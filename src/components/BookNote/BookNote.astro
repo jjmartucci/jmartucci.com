@@ -1,0 +1,111 @@
+---
+const { book } = Astro.props;
+import { getEntry, render } from 'astro:content';
+
+const entry = await getEntry('books', book.slug);
+if (!entry) {
+    // Handle Error, for example:
+    throw new Error('Could not find blog post 1');
+}
+const { Content, headings } = await render(entry);
+
+const categoryToTag = (category: string) => {
+    const table = {
+        "Fiction": "f",
+        "Non-Fiction": "nf",
+        "Comics & Graphic Novels": "c",
+        "Manga": "m",
+    }
+    if(!category) {
+        return null
+    } else {
+        return table[category]
+    }
+}
+
+---
+
+<div class="book">
+    <strong class="title">{book.data.title}</strong>
+    <span class="deets">
+    <i class="author">by {book.data.author}</i>
+    {book.data.link && <a href={book.data.link} class="link"><span role="img" aria-label="external link to purchase the book">⎋</span></a>}
+    </span>
+    <div class="book-content">
+    <Content />
+    </div>
+    <p class="tags">
+    <span class={`tag tag--${categoryToTag(book.data.category)}`}>{book.data.category}</span>
+    </p>
+
+
+
+</div>
+
+<style>
+
+    .book {
+        margin-bottom: 1rem;
+    }
+
+    .author {
+        font-size: 1rem;
+    }
+
+    .title {
+        display: block;
+        margin-right: 1rem;
+        margin-bottom: -.5rem;
+    }
+
+    .book-content {
+        border-left: 1px solid rgba(var(--gray), .3);
+        padding-left: 1.1rem;
+        font-size: 1.1rem;
+    }
+
+    .link {
+        font-family: system;
+        margin-left: .25rem;
+        font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+        display: inline-block;
+        transform: rotate(90deg);
+
+    }
+
+    .tags {
+        margin: 0;
+    }
+
+
+    .tag {
+        font-size: .8rem;
+
+        font-variant: small-caps;
+        display: inline-block;
+        align-items: center;
+
+        background-color: var(--tag);
+        color: white;
+        padding: 0 8px;
+        border-radius: 5px;
+    }
+
+    .tag--nf {
+        background-color: var(--big-blue);
+    }
+
+    .tag--f {
+        background-color: var(--tag);
+    }
+
+    .tag--c {
+        background-color: rgba(var(--gray), 1);
+    }
+
+    .tag--m {
+        background-color: var(--yellow);
+    }
+</style>

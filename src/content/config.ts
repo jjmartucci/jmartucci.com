@@ -17,4 +17,17 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const books = defineCollection({
+  type: "content",
+  // Type-check frontmatter using a schema
+  schema: z.object({
+    title: z.string(),
+    link: z.string().optional(),
+    date: z.coerce.date().optional(),
+    homepage: z.boolean().optional(),
+    author: z.string().optional(),
+    category: z.enum(["Fiction", "Non-Fiction", "Manga", 'Comics & Graphic Novels']).optional(),
+  }),
+});
+
+export const collections = { blog, books };
