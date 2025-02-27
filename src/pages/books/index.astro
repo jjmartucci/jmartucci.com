@@ -2,25 +2,11 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BookNote from "../../components/BookNote/BookNote.astro";
+import type { CollectionEntry } from "astro:content";
 
 const posts = (await getCollection("books"))
 const years = [/*"2019", "2020", "2021", "2022", */ "2023", "2024", "2025"].reverse();
-const dateSort = (a, b) => new Date(b.data.started) - new Date(a.data.started);
-
-const categoryToTag = (category: string) => {
-    const table = {
-        "Fiction": "f",
-        "Non-Fiction": "nf",
-        "Comics & Graphic Novels": "c",
-        "Manga": "m",
-    }
-    if(!category) {
-        return null
-    } else {
-        return table[category]
-    }
-}
----
+const dateSort = (a: CollectionEntry<"books">, b: CollectionEntry<"books">) => new Date(b.data.date as Date).getTime() - new Date(a.data.date as Date).getTime();---
 
 
 <BaseLayout>

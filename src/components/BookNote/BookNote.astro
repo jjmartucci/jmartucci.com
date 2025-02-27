@@ -10,7 +10,7 @@ if (!entry) {
 const { Content, headings } = await render(entry);
 
 const categoryToTag = (category: string) => {
-    const table = {
+    const table: { [key: string]: string } = {
         "Fiction": "f",
         "Non-Fiction": "nf",
         "Comics & Graphic Novels": "c",
@@ -22,7 +22,6 @@ const categoryToTag = (category: string) => {
         return table[category]
     }
 }
-
 ---
 
 <div class="book">
