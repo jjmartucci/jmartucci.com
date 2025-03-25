@@ -1,0 +1,28 @@
+---
+import {CollectionEntry} from "astro:content";
+import SlottedPreview from "./SlottedPreview.astro";
+interface Props {
+    book: CollectionEntry<"book">
+}
+const {book} = Astro.props
+---
+<SlottedPreview type="book" title={book.data.title} image={} description={book.data.description} tags={book.data.tags}>
+    <p class="etc">{book.body !='' && <a href={`/garden/plant/${book.slug}`}>notes</a>} {book.data.link && <a class="external" href={book.data.link}>bookshop.org</a>}</p>
+    <img src={book.data.cover_image} slot="image" />
+</SlottedPreview>
+
+
+<style>
+    .etc {
+        font-size: .8rem;
+    }
+    .external {
+        background: hsla(var(--tag-hsl), .2);
+
+    }
+img {
+    object-fit: contain;
+    height: 140px;
+    padding: 8px;
+}
+</style>

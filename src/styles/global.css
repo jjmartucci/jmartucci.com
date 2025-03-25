@@ -19,7 +19,7 @@
   --green: 46, 139, 122;
 
   --tag: #c8466b;
-
+  --tag-hsl: 343deg, 54.2%, 52.9%;
   --yellow: #efb045;
   --yellow-rgb: 239, 176, 69; /* #EFB045 */
   --gray-gradient: rgba(var(--big-blue-rgb), 10%), #fff;
@@ -28,6 +28,8 @@
     0 8px 24px rgba(var(--green), 33%), 0 16px 32px rgba(var(--yellow), 33%);
 
   --small-break: 700px;
+  --font-mono: "RobotoMono", monospace;
+  --font-black: "RobotoBlack", sans-serif;
 }
 
 @font-face {

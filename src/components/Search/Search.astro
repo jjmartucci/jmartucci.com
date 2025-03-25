@@ -1,0 +1,53 @@
+---
+
+---
+<form id="search">
+<input type="text" placeholder="Search the garden" id="searchField"/>
+    <button>Search</button>
+</form>
+<script>
+    const form = document.getElementById('search');
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const href = window.location.href
+        const searchTerm = document.getElementById('searchField').value;
+
+        if(!searchTerm || !href) {
+            return false;
+        }
+        document.location.href = `${href}/search?q=${searchTerm}`;
+    })
+</script>
+<style>
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    button, input {
+        display: block;
+        height: 2.4rem;
+    }
+
+    button {
+        font-family: var(--font-mono);
+        text-transform: uppercase;
+        font-size: 1rem;
+        border: 0;
+        background: var(--big-blue);
+        color: white;
+        margin: 0;
+    }
+    input {
+        padding: 0 .4rem;
+        width: 100%;
+        border: 0;
+        font-family: var(--font-mono);
+    }
+
+    input:focus {
+        outline: 1px solid var(--big-blue);
+    }
+</style>

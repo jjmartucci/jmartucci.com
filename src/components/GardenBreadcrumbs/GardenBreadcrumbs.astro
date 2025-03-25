@@ -1,0 +1,21 @@
+---
+interface Props {
+    pages?: Array<{text: string; url?: string}>
+}
+const { pages } = Astro.props;
+const spacer = " > "
+---
+
+<span class="breadcrumbs">
+    <a href="/garden" class="garden">🪴the garden</a>
+    {pages && pages.map(page => page.url? <span>{spacer}<a href={page.url}>{page.text}</a></span> : <span>{spacer}{page.text}</span>)}
+</span>
+
+<style>
+    .breadcrumbs {
+        display: block;
+        font-style: italic;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+</style>

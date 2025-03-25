@@ -1,0 +1,34 @@
+---
+interface Props {
+    tags: string[];
+}
+const { tags } = Astro.props;
+---
+
+<ul>
+    {tags?.map(tag => <li class="tag"><a href={`/garden/tag/${tag}`} >{tag}</a></li>)}
+</ul>
+
+<style>
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+    .tag {
+
+        color: var(--big-blue);
+        font-size: .8rem;
+        transition: all 200ms ease-in-out;
+        display: inline;
+    }
+
+    .tag:hover{
+        background: rgba(var(--yellow-rgb), .2)
+    }
+
+    .tag + .tag {
+        margin-left: .4rem;
+    }
+</style>

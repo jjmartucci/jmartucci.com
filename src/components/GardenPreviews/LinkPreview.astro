@@ -1,0 +1,44 @@
+---
+import {CollectionEntry} from "astro:content";
+import PlantTag from "../PlantTag/PlantTag.astro";
+import SlottedPreview from "./SlottedPreview.astro";
+interface Props {
+    link: CollectionEntry<"link">
+}
+const {link} = Astro.props
+const url = new URL(link.data.url)
+const host = url.hostname
+---
+<SlottedPreview type="link" title={link.data.title} description={link.data.description} image={link.data.image} tags={link.data.tags}>
+    <a href={link.data.url} target="_blank">{host}</a>
+    <img src={link.data.image} slot="image"/>
+</SlottedPreview>
+<style>
+
+    a {
+        font-size: .8rem;
+        background: hsla(var(--tag-hsl), .2);
+    }
+
+
+
+
+    @media screen and (min-width: 720px) {
+        img {
+            height: 80px;
+            aspect-ratio: 16/9;
+            border-radius: 0;
+            object-fit: cover;
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
+        img {
+            height: 180px;
+            aspect-ratio: 16/9;
+            border-radius: 0;
+            object-fit: cover;
+        }
+    }
+
+</style>

@@ -1,0 +1,13 @@
+---
+import {CollectionEntry} from "astro:content";
+import PlantTag from "../PlantTag/PlantTag.astro";
+import SlottedPreview from "./SlottedPreview.astro";
+interface Props {
+    note: CollectionEntry<"garden">
+}
+const {note} = Astro.props
+---
+
+<SlottedPreview slug={note.slug} type="note" title={note.data.title} description={note.data.description} tags={note.data.tags}>
+
+</SlottedPreview>

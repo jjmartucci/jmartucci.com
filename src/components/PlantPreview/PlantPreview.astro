@@ -1,0 +1,32 @@
+---
+import PlantTag from "../PlantTag/PlantTag.astro";
+const { post } = Astro.props;
+---
+
+<div>
+<h2><a href={`/garden/plant/${post.slug}`}>{post.data.title}</a></h2>
+    <p>{post.data.description}</p>
+    <ul>
+        {post.data.tags?.map(tag => (<PlantTag tag={tag} />))}
+    </ul>
+</div>
+
+<style>
+    div {
+        margin-bottom: 1rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    p {
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+
+</style>

@@ -1,0 +1,97 @@
+---
+
+import PlantTag from "../PlantTag/PlantTag.astro";
+interface Props {
+    type: string,
+    title: string,
+    description: string,
+    tags: string[],
+    full: boolean;
+    slug?: string;
+
+}
+const {type, title, description,  tags, slug, full = false} = Astro.props;
+
+---
+
+<small>{type}</small>
+
+<div class:list={['wrapper', { wrapperFull: full }]}>
+    <div class="details">
+        {slug && type==="blog" && <p class="title"><a href={`/blog/${slug}`}>{title}</a></p>}
+        {slug && !(type==="blog") && <p class="title"><a href={`/garden/plant/${slug}`}>{title}</a></p>}
+        {!slug && <p class="title">{title}</p>}
+    <p class="description">{description}</p>
+        <slot />
+        <PlantTag tags={tags} />
+    </div>
+    <slot name="image" />
+</div>
+
+<style>
+    small {
+        text-transform: uppercase;
+        background: var(--big-blue);
+        color: white;
+        padding: 0 .4rem;
+        line-height: .7;
+        font-size: .8rem;
+    }
+
+    .title {
+    font-weight: bold;
+        margin: 0;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1px solid rgba(var(--big-blue-rgb), .3);
+        margin-top: -6px;
+        border-radius: 0 8px 8px 8px;
+        margin-bottom: 1rem;
+    }
+
+    .details {
+        padding: .4rem 1rem;
+        font-size: 1rem;
+        order: 1;
+    }
+
+    @media screen and (min-width: 720px) {
+        .details {
+            padding: .4rem 1rem;
+            font-size: 1rem;
+            order: -1;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            border: 1px solid rgba(var(--big-blue-rgb), .3);
+            margin-top: -6px;
+            border-radius: 0 8px 8px 8px;
+            margin-bottom: 1rem;
+
+        }
+    }
+
+
+    .wrapperFull {
+        display: flex;
+    }
+
+    .description {
+        line-clamp: 3;
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+
+    .image {
+        height: 200px;
+        border-radius: 0;
+        object-fit: var(--imageScale);
+    }
+
+
+
+</style>

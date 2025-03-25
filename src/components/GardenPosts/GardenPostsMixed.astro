@@ -1,0 +1,40 @@
+---
+import NotePreview from "../GardenPreviews/NotePreview.astro";
+import LinkPreview from "../GardenPreviews/LinkPreview.astro";
+import PlantPreview from "../PlantPreview/PlantPreview.astro";
+import BookPreview from "../GardenPreviews/BookPreview.astro";
+import type { CollectionEntry } from "astro:content";
+import BlogPreview from "../GardenPreviews/BlogPreview.astro";
+
+interface Props {
+    posts: Array<CollectionEntry<"books">> | Array<CollectionEntry<"links">> | Array<CollectionEntry<"garden">>
+}
+
+const {posts} = Astro.props
+---
+
+<ul>
+{posts.map((post) => {
+    if(post.collection === 'books') {
+        return <li><BookPreview book={post} /></li>
+        }
+    if(post.collection === "links") {
+        return <li><LinkPreview link={post} /></li>
+        }
+    if(post.collection === "garden") {
+        return <li><NotePreview note={post} /></li>
+        }
+    if(post.collection === "blog") {
+        return <li><BlogPreview post={post} /></li>
+    }
+    return <li><PlantPreview post={post} /></li>
+    })}
+</ul>
+
+<style>
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+</style>

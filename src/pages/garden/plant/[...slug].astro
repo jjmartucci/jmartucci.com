@@ -1,0 +1,66 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BaseLayout from "@layouts/BaseLayout.astro";
+import {convertISOToMMMDDYYYY} from "@utils/time";
+import PlantTag from "@components/PlantTag/PlantTag.astro";
+import GardenBreadcrumbs from "@components/GardenBreadcrumbs/GardenBreadcrumbs.astro";
+import {getAllGardenContent} from "../../../utils/getAllGardenContent";
+
+export async function getStaticPaths() {
+    const posts = await getAllGardenContent();
+
+    return posts.content.map((post) => ({
+        params: { slug: post.slug },
+        props: post,
+    }));
+}
+
+
+const post = Astro.props;
+const { Content, remarkPluginFrontmatter } = await post.render();
+---
+
+<BaseLayout>
+
+    <GardenBreadcrumbs />
+    <h1>{post.data.title}</h1>
+
+
+    <Content />
+    <hr />
+    <PlantTag tags={post.data.tags} />
+    <p class="file-details">
+        <span class="time">Created:</span> {convertISOToMMMDDYYYY(remarkPluginFrontmatter.createdDate)}, <span class="time">Last updated:</span> {convertISOToMMMDDYYYY(remarkPluginFrontmatter.modifiedDate)}
+    </p>
+</BaseLayout>
+
+<style>
+    .garden {
+        font-size: .8rem;
+        font-style: italic;
+    }
+
+    .file-details {
+        font-size: .8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+
+    .tags {
+        margin-top: 4rem;
+    }
+
+    .time {
+        color: var(--tag);
+
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+</style>

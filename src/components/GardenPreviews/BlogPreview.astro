@@ -1,0 +1,27 @@
+---
+import {CollectionEntry} from "astro:content";
+import SlottedPreview from "./SlottedPreview.astro";
+interface Props {
+    post: CollectionEntry<"blog">
+}
+const {post} = Astro.props
+---
+<SlottedPreview type="blog" title={post.data.title} slug={post.slug} description={post.data.description} tags={post.data.tags}>
+    <img src={post.data.heroImage} slot="image" />
+</SlottedPreview>
+
+
+<style>
+    .etc {
+        font-size: .8rem;
+    }
+    .external {
+        background: hsla(var(--tag-hsl), .2);
+
+    }
+    img {
+        object-fit: contain;
+        height: 140px;
+        padding: 8px;
+    }
+</style>

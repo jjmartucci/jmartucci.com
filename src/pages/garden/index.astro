@@ -1,0 +1,44 @@
+---
+import {getAllGardenContent} from "../../utils/getAllGardenContent";
+import GardenLayout from "../../layouts/GardenLayout.astro";
+import GardenPostsMixed from "../../components/GardenPosts/GardenPostsMixed.astro";
+import Search from "../../components/Search/Search.astro";
+
+const {content : posts,  tags : allTags} = await getAllGardenContent()
+
+// maybe limit here, sort by latest update.
+const tags = [...new Set(allTags)]
+---
+
+    <GardenLayout>
+        <h1>Garden</h1>
+        <Search />
+            <div slot="garden-main">
+            <GardenPostsMixed posts={posts} />
+            </div>
+        <div slot="garden-aside">
+            <h3>Types</h3>
+            <ul>
+                <li><a href={`/garden/type/blog`}>Blog Post</a></li>
+                <li><a href={`/garden/type/note`}>Note</a></li>
+                <li><a href={`/garden/type/book`}>Book</a></li>
+                <li><a href={`/garden/type/link`}>Link</a></li>
+            </ul>
+            <h3>Tags</h3>
+            <ul>
+                {tags?.map((tag) => <li><a href={`/garden/tag/${tag}`}>{tag}</a></li>)}
+            </ul>
+        </div>
+    </GardenLayout>
+
+
+
+<style>
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+
+
+</style>

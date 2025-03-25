@@ -1,0 +1,35 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+---
+
+<BaseLayout>
+    <slot />
+    <div class="grid">
+        <div>
+            <slot name="garden-main" />
+        </div>
+        <aside>
+            <slot name="garden-aside" />
+        </aside>
+    </div>
+
+</BaseLayout>
+
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1rem;
+
+        @media screen and (min-width: 700px) {
+            grid-template-columns: 1fr 200px;
+            grid-column-gap: 2rem;
+
+            > li:first-of-type {
+                grid-column: span 2;
+                width: 60%;
+                margin: 0 auto;
+            }
+        }
+    }
+</style>

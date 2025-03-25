@@ -1,0 +1,46 @@
+---
+import {getAllGardenContent} from "../../../utils/getAllGardenContent";
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import GardenBreadcrumbs from "../../../components/GardenBreadcrumbs/GardenBreadcrumbs.astro";
+import GardenPostsMixed from "../../../components/GardenPosts/GardenPostsMixed.astro";
+
+export async function getStaticPaths() {
+    const allContent = await getAllGardenContent()
+    const posts = allContent.content
+    const allTags = allContent.tags
+
+    const tagMap = new Map();
+    allTags.forEach(tag => {
+        tagMap.set(tag, posts.filter(post => post.data?.tags?.includes(tag)))
+    })
+
+    const taggedPosts = [];
+    for (const [key, value] of tagMap) { // Using the default iterator (could be `map.entries()` instead)
+        taggedPosts.push({
+            params: {slug: key},
+            props: {
+                posts: value
+            }
+
+        })
+    }
+
+    return taggedPosts
+}
+
+type Props = {posts: Array<CollectionEntry<'garden'>>};
+const {slug} = Astro.params;
+const {posts} = Astro.props;
+const pages = [
+    {
+        text: `tag: ${slug}`,
+    }
+]
+---
+
+<BaseLayout>
+    <GardenBreadcrumbs pages={pages} />
+    <GardenPostsMixed posts={posts} />
+
+</BaseLayout>

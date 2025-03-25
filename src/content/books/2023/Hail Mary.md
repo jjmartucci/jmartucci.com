@@ -9,4 +9,3 @@ cover_image: 'https://coffee-cake.nyc3.digitaloceanspaces.com/book_covers/2023/h
 canLend: false
 category: Fiction
 ---
-
