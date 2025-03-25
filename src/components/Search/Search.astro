@@ -8,10 +8,10 @@
 <script>
     const form = document.getElementById('search');
 
-    form.addEventListener('submit', (e) => {
+    form?.addEventListener('submit', (e) => {
         e.preventDefault();
         const href = window.location.href
-        const searchTerm = document.getElementById('searchField').value;
+        const searchTerm = document.getElementById('searchField')?.value;
 
         if(!searchTerm || !href) {
             return false;

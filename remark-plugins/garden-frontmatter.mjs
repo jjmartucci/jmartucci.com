@@ -13,7 +13,6 @@ export function gardenFrontMatterPlugin() {
         const createdDate = stats.birthtime.toISOString();
         const modifiedDate = stats.mtime.toISOString();
 
-        console.log(createdDate, modifiedDate);
         // Append new fields to the frontmatter
         file.data.astro.frontmatter.createdDate = createdDate;
         file.data.astro.frontmatter.modifiedDate = modifiedDate;
