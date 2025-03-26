@@ -45,7 +45,7 @@ const garden = defineCollection({
 const links = defineCollection({
   schema: z.object({
     title: z.string(),
-    url: z.string().optional(),
+    url: z.string(),
     description: z.string().optional(),
     image: z.string().optional(),
     tags: z.array(z.string()).optional(),

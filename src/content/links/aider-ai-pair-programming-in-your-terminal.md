@@ -1,10 +1,11 @@
 ---
 title: Aider - AI Pair Programming in Your Terminal
-description: ''
-image: ''
+description: '""'
+image: '""'
 url: https://aider.chat
 tags:
   - clipped
+  - ai
 ---
 
 # Aider - AI Pair Programming in Your Terminal
