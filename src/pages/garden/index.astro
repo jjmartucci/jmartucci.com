@@ -13,9 +13,9 @@ const tags = [...new Set(allTags)]
     <GardenLayout>
         <h1>Garden</h1>
         <Search />
-            <div slot="garden-main">
-            <GardenPostsMixed posts={posts} />
-            </div>
+
+                <GardenPostsMixed posts={posts}  slot="garden-main"/>
+
         <div slot="garden-aside">
             <h3>Types</h3>
             <ul>
@@ -38,7 +38,4 @@ const tags = [...new Set(allTags)]
         text-align: center;
         margin-bottom: 2rem;
     }
-
-
-
 </style>

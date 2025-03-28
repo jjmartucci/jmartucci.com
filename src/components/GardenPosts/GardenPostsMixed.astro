@@ -13,21 +13,21 @@ interface Props {
 const {posts} = Astro.props
 ---
 
-<ul>
+<ul class="list">
 {posts.map((post) => {
     if(post.collection === 'books') {
-        return <li><BookPreview book={post} /></li>
+        return <li class="item"><BookPreview book={post} /></li>
         }
     if(post.collection === "links") {
-        return <li><LinkPreview link={post} /></li>
+        return <li class="item"><LinkPreview link={post} /></li>
         }
     if(post.collection === "garden") {
-        return <li><NotePreview note={post} /></li>
+        return <li class="item"><NotePreview note={post} /></li>
         }
     if(post.collection === "blog") {
-        return <li><BlogPreview post={post} /></li>
+        return <li class="item"><BlogPreview post={post} /></li>
     }
-    return <li><PlantPreview post={post} /></li>
+    return <li class="item"><PlantPreview post={post} /></li>
     })}
 </ul>
 
@@ -36,5 +36,10 @@ const {posts} = Astro.props
         list-style: none;
         margin: 0;
         padding: 0;
+        max-width: 100%;
+    }
+
+    .item {
+        max-width: 100%;
     }
 </style>

@@ -5,9 +5,9 @@ import BaseLayout from "./BaseLayout.astro";
 <BaseLayout>
     <slot />
     <div class="grid">
-        <div>
-            <slot name="garden-main" />
-        </div>
+
+        <slot name="garden-main" />
+
         <aside>
             <slot name="garden-aside" />
         </aside>
@@ -20,6 +20,7 @@ import BaseLayout from "./BaseLayout.astro";
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 1rem;
+        width: 100%;
 
         @media screen and (min-width: 700px) {
             grid-template-columns: 1fr 200px;

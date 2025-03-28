@@ -9,3 +9,6 @@ tags: [art, comics]
 
 - [Poorly Drawn Lines](https://poorlydrawnlines.com)
 - [False Knees](https://falseknees.com)
+
+## Others
+- [Pizza Cake](https://pizzacakecomic.com)
