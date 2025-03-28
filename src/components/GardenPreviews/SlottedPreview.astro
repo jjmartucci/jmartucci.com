@@ -11,7 +11,7 @@ interface Props {
 
 }
 const {type, title, description,  tags, slug, full = false} = Astro.props;
-
+console.log(description)
 ---
 
 <small>{type}</small>
@@ -21,6 +21,7 @@ const {type, title, description,  tags, slug, full = false} = Astro.props;
         {slug && type==="blog" && <p class="title"><a href={`/blog/${slug}`}>{title}</a></p>}
         {slug && !(type==="blog") && <p class="title"><a href={`/garden/plant/${slug}`}>{title}</a></p>}
         {!slug && <p class="title">{title}</p>}
+
     <p class="description">{description}</p>
         <slot />
         <PlantTag tags={tags} />
@@ -54,6 +55,7 @@ const {type, title, description,  tags, slug, full = false} = Astro.props;
 
     .details {
         padding: .4rem 1rem;
+        max-width: 100%;
         font-size: 1rem;
         order: 1;
     }
@@ -84,6 +86,8 @@ const {type, title, description,  tags, slug, full = false} = Astro.props;
         line-clamp: 3;
         font-size: .8rem;
         margin-bottom: 0;
+        padding: 0;
+        overflow-wrap: anywhere;
     }
 
     .image {
