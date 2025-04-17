@@ -18,7 +18,7 @@ export async function GET(context) {
     stylesheet: "/rss/styles.xsl",
     items: posts.map((post) => ({
       title: post.data.title,
-      pubDate: post.data.pubDate,
+      pubDate: post.data.created,
       description: post.data.description,
       //customData: post.data.customData,
 
