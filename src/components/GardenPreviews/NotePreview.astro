@@ -6,8 +6,15 @@ interface Props {
     note: CollectionEntry<"garden">
 }
 const {note} = Astro.props
+console.log(note)
 ---
 
 <SlottedPreview slug={note.slug} type="note" title={note.data.title} description={note.data.description} tags={note.data.tags}>
-
+    <img src={note.data.image} slot="image"/>
 </SlottedPreview>
+
+<style>
+    img {
+        border-radius: 0;
+    }
+</style>

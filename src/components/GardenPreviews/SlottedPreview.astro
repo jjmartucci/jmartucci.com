@@ -11,10 +11,7 @@ interface Props {
 
 }
 const {type, title, description,  tags, slug, full = false} = Astro.props;
-console.log(description)
 ---
-
-<small>{type}</small>
 
 <div class:list={['wrapper', { wrapperFull: full }]}>
     <div class="details">
@@ -26,7 +23,9 @@ console.log(description)
         <slot />
         <PlantTag tags={tags} />
     </div>
+    <div class="image">
     <slot name="image" />
+    </div>
 </div>
 
 <style>
@@ -40,43 +39,33 @@ console.log(description)
     }
 
     .title {
-    font-weight: bold;
+        font-weight: bold;
         margin: 0;
     }
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 80px;
         border: 1px solid rgba(var(--big-blue-rgb), .3);
         margin-top: -6px;
         border-radius: 0 8px 8px 8px;
         margin-bottom: 1rem;
+        overflow: hidden;
+    }
+
+    .image {
+        display: flex;
+    }
+
+    .image img {
+        border-radius: 0;
+        object-fit: cover;
     }
 
     .details {
         padding: .4rem 1rem;
-        max-width: 100%;
         font-size: 1rem;
-        order: 1;
     }
-
-    @media screen and (min-width: 720px) {
-        .details {
-            padding: .4rem 1rem;
-            font-size: 1rem;
-            order: -1;
-        }
-        .wrapper {
-            display: grid;
-            grid-template-columns: 1fr auto;
-            border: 1px solid rgba(var(--big-blue-rgb), .3);
-            margin-top: -6px;
-            border-radius: 0 8px 8px 8px;
-            margin-bottom: 1rem;
-
-        }
-    }
-
 
     .wrapperFull {
         display: flex;
@@ -90,11 +79,26 @@ console.log(description)
         overflow-wrap: anywhere;
     }
 
-    .image {
-        height: 200px;
-        border-radius: 0;
-        object-fit: var(--imageScale);
+
+    @media screen and (min-width: 720px) {
+        .details {
+            padding: .4rem 1rem;
+            font-size: 1rem;
+            order: -1;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 220px;
+            border: 1px solid rgba(var(--big-blue-rgb), .3);
+            margin-top: -6px;
+            border-radius: 0 8px 8px 8px;
+            margin-bottom: 1rem;
+
+        }
     }
+
+
+
 
 
 

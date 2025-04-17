@@ -4,10 +4,7 @@ import {getCollection} from "astro:content";
 import GardenBreadcrumbs from "@components/GardenBreadcrumbs/GardenBreadcrumbs.astro";
 import {getTags} from "@utils/getAllGardenContent";
 import GardenLayout from "@layouts/GardenLayout.astro";
-import LinkPreview from "../../../../../components/GardenPreviews/LinkPreview.astro";
-import BookPreview from "../../../../../components/GardenPreviews/BookPreview.astro";
-import NotePreview from "../../../../../components/GardenPreviews/NotePreview.astro";
-import BlogPreview from "../../../../../components/GardenPreviews/BlogPreview.astro";
+import AllPreviews from "../../../../../components/GardenPreviews/AllPreviews.astro";
 
 export async function getStaticPaths() {
     const types = ['book', 'note', 'blog', 'recipe', 'link', 'research']
@@ -63,10 +60,8 @@ const crumbs = [
 
     <div slot="garden-main">
         <p>{posts.length} entries</p>
-        {type === "book" && posts.map(post => (<BookPreview book={post} />))}
-        {type === "link" && posts.map(post => (<LinkPreview link={post} />))}
-        {type === "note" && posts.map(post => (<NotePreview note={post} />))}
-        {type === "blog" && posts.map(post => (<BlogPreview post={post} />))}
+        <AllPreviews type={type} posts={posts} />
+
     </div>
     <div slot="garden-aside">
 

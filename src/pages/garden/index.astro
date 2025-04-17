@@ -17,13 +17,6 @@ const tags = [...new Set(allTags)]
                 <GardenPostsMixed posts={posts}  slot="garden-main"/>
 
         <div slot="garden-aside">
-            <h3>Types</h3>
-            <ul>
-                <li><a href={`/garden/type/blog`}>Blog Post</a></li>
-                <li><a href={`/garden/type/note`}>Note</a></li>
-                <li><a href={`/garden/type/book`}>Book</a></li>
-                <li><a href={`/garden/type/link`}>Link</a></li>
-            </ul>
             <h3>Tags</h3>
             <ul>
                 {tags?.map((tag) => <li><a href={`/garden/tag/${tag}`}>{tag}</a></li>)}

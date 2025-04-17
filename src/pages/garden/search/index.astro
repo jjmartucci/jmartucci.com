@@ -12,6 +12,7 @@ const url = Astro.url;
 <script>
     import Fuse from 'fuse.js'
     import {getSearchList} from "@utils/getSearchList";
+
     const fuseOptions = {
         // isCaseSensitive: false,
         includeScore: true, // default false
@@ -39,8 +40,10 @@ const url = Astro.url;
 
     const url = new URL(window.location.href);
     const query = url.searchParams.get("q");
+
     document.getElementById("query").innerText = query;
     const results = fuse.search(query)
+    console.log(`results`, results);
 
     const mapCollectionToName = (collection: string) => {
         switch (collection) {

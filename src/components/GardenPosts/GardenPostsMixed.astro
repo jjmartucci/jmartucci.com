@@ -1,10 +1,6 @@
 ---
-import NotePreview from "../GardenPreviews/NotePreview.astro";
-import LinkPreview from "../GardenPreviews/LinkPreview.astro";
-import PlantPreview from "../PlantPreview/PlantPreview.astro";
-import BookPreview from "../GardenPreviews/BookPreview.astro";
 import type { CollectionEntry } from "astro:content";
-import BlogPreview from "../GardenPreviews/BlogPreview.astro";
+import AllPreviews from "../GardenPreviews/AllPreviews.astro";
 
 interface Props {
     posts: Array<CollectionEntry<"books">> | Array<CollectionEntry<"links">> | Array<CollectionEntry<"garden">>
@@ -15,19 +11,15 @@ const {posts} = Astro.props
 
 <ul class="list">
 {posts.map((post) => {
-    if(post.collection === 'books') {
-        return <li class="item"><BookPreview book={post} /></li>
-        }
-    if(post.collection === "links") {
-        return <li class="item"><LinkPreview link={post} /></li>
-        }
-    if(post.collection === "garden") {
-        return <li class="item"><NotePreview note={post} /></li>
-        }
-    if(post.collection === "blog") {
-        return <li class="item"><BlogPreview post={post} /></li>
+    let typeMap = {
+        "books": "book",
+        "links": "link",
+        "garden": "note",
+        "blog": "blog",
+        "recipes": "recipe"
     }
-    return <li class="item"><PlantPreview post={post} /></li>
+    return <AllPreviews type={typeMap[post.collection]} posts={[post]} />
+
     })}
 </ul>
 

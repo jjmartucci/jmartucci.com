@@ -7,18 +7,18 @@ import BaseLayout from "./BaseLayout.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, created, updatedDate, image } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} image={heroImage}>
+<BaseLayout title={title} description={description} image={image}>
   <article>
     <div class="hero-image">
-      {heroImage && <img width={960} height={540} src={heroImage} alt="" />}
+      {image && <img width={960} height={540} src={image} alt="" />}
     </div>
     <div class={styles.prose}>
       <div class="title">
         <div class="date">
-          <FormattedDate date={pubDate} />
+          <FormattedDate date={created} />
           {
             updatedDate && (
               <div class="last-updated-on">
@@ -30,12 +30,22 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         <h1>{title}</h1>
         <hr />
       </div>
+      <div id="content">
       <slot />
+      </div>
     </div>
   </article>
 </BaseLayout>
 
 <style>
+  #content :global(h1) {
+    display: none;
+  }
+
+  #content :global(p:first-of-type img) {
+    display: none;
+  }
+
   @media screen and (min-width: 700px) {
     main {
       width: calc(100% - 2em);

@@ -2,11 +2,8 @@
 import {getCollection} from "astro:content";
 import GardenLayout from "../../../../layouts/GardenLayout.astro";
 import GardenBreadcrumbs from "../../../../components/GardenBreadcrumbs/GardenBreadcrumbs.astro";
-import {getTags} from "../../../../utils/getAllGardenContent";
-import BookPreview from "@components/GardenPreviews/BookPreview.astro"
-import LinkPreview from "../../../../components/GardenPreviews/LinkPreview.astro";
-import NotePreview from "../../../../components/GardenPreviews/NotePreview.astro";
-import BlogPreview from "../../../../components/GardenPreviews/BlogPreview.astro";
+import {filterGardenByTag, getTags} from "../../../../utils/getAllGardenContent";
+import AllPreviews from "../../../../components/GardenPreviews/AllPreviews.astro";
 
 export async function getStaticPaths() {
     const types = ['book', 'blog', 'note', 'blog', 'recipe', 'link', 'research']
@@ -16,13 +13,16 @@ export async function getStaticPaths() {
         let posts = []
         switch(type) {
             case "book":
-                posts = (await getCollection('books'));
+                posts = (await filterGardenByTag("book"))
                 break
             case "note":
                 posts = (await getCollection('garden'));
                 break
             case "link":
-                posts = (await getCollection('links'));
+                posts = (await filterGardenByTag("link"))
+                break
+            case "recipe":
+                posts = (await filterGardenByTag("recipe"))
                 break
             case "blog":
                 posts = (await getCollection('blog'))
@@ -56,10 +56,7 @@ const crumbs = [{text: `type: ${type}`}]
     <GardenBreadcrumbs pages={crumbs} />
 
     <div slot="garden-main">
-        {type === "book" && posts.map(post => (<BookPreview book={post} />))}
-        {type === "link" && posts.map(post => (<LinkPreview link={post} />))}
-        {type === "note" && posts.map(post => (<NotePreview note={post} />))}
-        {type === "blog" && posts.map(post => (<BlogPreview post={post} />))}
+        <AllPreviews type={type} posts={posts} />
 
     </div>
     <div slot="garden-aside">

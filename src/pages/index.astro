@@ -3,19 +3,28 @@ import { getCollection } from "astro:content";
 import PostPreview from "../components/PostPreview/PostPreview.astro";
 
 import BaseLayout from "../layouts/BaseLayout.astro";
+import {migrateBlogPosts} from "../utils/getAllGardenContent";
 
-const posts = (await getCollection("blog"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .filter((post) => !post.data.draft)
-  .filter((post) => post.data.homepage != false)
-  .slice(0, 10);
+
+
+const newPosts = (await getCollection("garden"))
+  .filter(post => post.data.tags.includes("blog"))
+  .filter((post) => {
+    return !(process.env.node === "production" && post.data.tags.includes("draft"));
+  })
+    .sort((a,b) => new Date(b.data.created) - new Date(a.data.created))
+
+
+
+const oldPosts = (await migrateBlogPosts());
+const posts = [...newPosts, ...oldPosts].slice(0, 10);
 ---
 
 <BaseLayout>
   <div class="intro">
     <p>
       Hi, I’m Joe, this is my website. I write about life, things that interest
-      me here.
+      me here. I organize this site like a garden, and you can find all the plants <a href="/garden">here</a>.
     </p>
   </div>
   <ul class="grid">
