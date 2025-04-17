@@ -4,8 +4,8 @@ import GardenLayout from "../../layouts/GardenLayout.astro";
 import GardenPostsMixed from "../../components/GardenPosts/GardenPostsMixed.astro";
 import Search from "../../components/Search/Search.astro";
 
-const {content : posts,  tags : allTags} = await getAllGardenContent()
-
+const {content,  tags : allTags} = (await getAllGardenContent())
+const posts = content.slice(0,20)
 // maybe limit here, sort by latest update.
 const tags = [...new Set(allTags)]
 ---

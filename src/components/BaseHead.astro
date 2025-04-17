@@ -15,20 +15,10 @@ const { title, description, image = "/blog-placeholder-1.jpg" } = Astro.props;
 ---
 
 <!-- Font preloads -->
-<link
-  rel="preload"
-  href="/fonts/Roboto-Black.ttf"
-  as="font"
-  type="font/ttf"
-  crossorigin
-/>
-<link
-  rel="preload"
-  href="/fonts/RobotoMono-VariableFont_wght.ttf"
-  as="font"
-  type="font/ttf"
-  crossorigin
-/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
 {/* <!-- micro.blog verification --> */}
 <link href="https://micro.blog/jjmartucci" rel="me" />

@@ -9,8 +9,23 @@ interface Props {
     full: boolean;
     slug?: string;
     image?: string;
+    created?: string;
+    modified?: string;
 }
-const {type, title, description,  tags, slug, image, full = false} = Astro.props;
+const {type, title, created, modified, description,  tags, slug, image, full = false} = Astro.props;
+
+let date = null;
+let display = "";
+try {
+    const date = new Date(modified);
+    display = 	date.toLocaleDateString('en-us', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+    })
+} catch {
+    display = 'none';
+}
 ---
 
 <div class:list={['wrapper', { wrapperFull: full }]}>
@@ -20,8 +35,7 @@ const {type, title, description,  tags, slug, image, full = false} = Astro.props
         {!slug && <p class="title">{title}</p>}
 
     <p class="description">{description}</p>
-        <slot />
-        <PlantTag tags={tags} />
+        <div class="date-and-tag"><span class="last-update">{`Updated: ${display}`}</span><PlantTag tags={tags} /></div>
     </div>
     <div class="image">
         <img src={image} alt=""/>
@@ -36,6 +50,19 @@ const {type, title, description,  tags, slug, image, full = false} = Astro.props
         padding: 0 .4rem;
         line-height: .7;
         font-size: .8rem;
+    }
+
+    .date-and-tag {
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .last-update {
+        margin-right: 1rem;
+        color: var(--tag)
     }
 
     .title {

@@ -9,7 +9,7 @@ export async function GET(context) {
   const posts = (await getCollection("garden"))
     .filter(post => post.data.tags.includes("blog"))
     .filter((post) =>  !post.data.tags.includes("draft"))
-    .sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf())
+    .sort((a, b) => new Date(b.data.created) - new Date(a.data.created))
 
   return rss({
     title: SITE_TITLE,

@@ -5,7 +5,7 @@ export const getAllGardenContent = async () => {
         .filter((post) => {
             return !(process.env.NODE_ENV === "production" && post.data.tags.includes("draft"));
         })
-        .sort((a,b) => new Date(b.data.created) - new Date(a.data.created))
+        .sort((a,b) => new Date(b.data.modified) - new Date(a.data.modified))
 
     const allTags =  getTags(content)
 
