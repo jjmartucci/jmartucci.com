@@ -1,14 +1,15 @@
 ---
 title: "Hi"
-description: ""
+description: "I’m just here to make sure you didn’t accidentally push draft posts live. 😺"
 image: "/garden/funny-cat-pictures-046-019.jpg"
 tags: ["blog", "draft"]
-created: 2023-04-14T14:50:38-0400
-modified: 2025-04-15T16:50:32-0400
+created: 2026-04-14T14:50:38-0400
+modified: 2025-04-17T09:05:09-0400
 whatever: and ever and ever
 ---
 # Hi
 
+I’m just here to make sure you didn’t accidentally push draft posts live. 😺  
 ![](/garden/funny-cat-pictures-046-019.jpg)
 
   

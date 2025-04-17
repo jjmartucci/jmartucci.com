@@ -1,75 +1,72 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import {getSearchList} from "../../../utils/getSearchList";
-import Fuse from "fuse.js";
-const url = Astro.url;
-
+import {getSearchList} from "@utils/getSearchList";
+import GardenBreadcrumbs from "../../../components/GardenBreadcrumbs/GardenBreadcrumbs.astro";
+const list = JSON.stringify((await getSearchList()));
+const pages = []
 ---
 <BaseLayout title="Search" description="Search the garden">
+    <GardenBreadcrumbs pages={pages} />
     <h1>search: <span id="query"></span></h1>
+    <div id="searchList" data-list={list} />
     <ol id="results">Searching...</ol>
 </BaseLayout>
+
 <script>
     import Fuse from 'fuse.js'
-    import {getSearchList} from "@utils/getSearchList";
 
-    const fuseOptions = {
-        // isCaseSensitive: false,
-        includeScore: true, // default false
-        // ignoreDiacritics: false,
-        // shouldSort: true,
-        // includeMatches: false,
-        // findAllMatches: false,
-        // minMatchCharLength: 1,
-        // location: 0,
-        threshold: 0.2, // default 0.6
-        // distance: 100,
-        // useExtendedSearch: false,
-        // ignoreLocation: false,
-        // ignoreFieldNorm: false,
-        // fieldNormWeight: 1,
-        keys: [
-            "title",
-            "description",
-            "slug",
-            "tags"
-        ]
-    }
-    const list = (await getSearchList());
-    const fuse = new Fuse(list, fuseOptions);
-
-    const url = new URL(window.location.href);
-    const query = url.searchParams.get("q");
-
-    document.getElementById("query").innerText = query;
-    const results = fuse.search(query)
-    console.log(`results`, results);
-
-    const mapCollectionToName = (collection: string) => {
-        switch (collection) {
-            case "garden":
-                return "note"
-            case "books":
-                return "book"
-            case "links":
-                return "link"
+        const fuseOptions = {
+            // isCaseSensitive: false,
+            includeScore: true, // default false
+            // ignoreDiacritics: false,
+            // shouldSort: true,
+            // includeMatches: false,
+            // findAllMatches: false,
+            // minMatchCharLength: 1,
+            // location: 0,
+            threshold: 0.2, // default 0.6
+            // distance: 100,
+            // useExtendedSearch: false,
+            // ignoreLocation: false,
+            // ignoreFieldNorm: false,
+            // fieldNormWeight: 1,
+            keys: [
+                "title",
+                "description",
+                "slug",
+                "tags"
+            ]
         }
-    }
+        const list = JSON.parse(document.getElementById("searchList").dataset.list);
 
-    const html = "";
-    document.getElementById("results").innerHTML = results.map(item => {
-        let html = "";
-        html = `${html}<li class="result"><a href="/garden/plant/${item.item.slug}">${item.item.title}</a><span class="collection">${mapCollectionToName(item.item.collection)}</span>`;
-        if(item.item.description){
-            html = `${html}<p>${item.item.description}</p>`;
-        }
-        if(item.item.tags){
-            html = `${html}<p class="tags">${item.item.tags?.map(tag => `<a href="/garden/tag/${tag}">${tag}</a>`)}</p>`
-        }
-        html = `${html}</li>`
-        return html;
+        const fuse = new Fuse(list, fuseOptions);
 
-    }).join("");
+
+        const url = new URL(window.location.href);
+        const query = url.searchParams.get("q");
+
+        document.getElementById("query").innerText = query;
+        const results = fuse.search(query)
+        console.log(`results`, results, query);
+
+        if(!Array.isArray(query) || query.length === 0) {
+            document.getElementById("results").innerHTML = `<span>Nothing found></span>`
+        }
+
+        const html = "";
+        document.getElementById("results").innerHTML = results?.map(item => {
+            let html = "";
+            html = `${html}<li class="result"><a href="/garden/plant/${item.item.slug}">${item.item.title}</a>`;
+            if(item.item.description){
+                html = `${html}<p>${item.item.description}</p>`;
+            }
+            if(item.item.tags){
+                html = `${html}<p class="tags">${item.item.tags?.map(tag => `<a href="/garden/tag/${tag}">${tag}</a>`)}</p>`
+            }
+            html = `${html}</li>`
+            return html;
+
+        }).join("");
 
 </script>
 

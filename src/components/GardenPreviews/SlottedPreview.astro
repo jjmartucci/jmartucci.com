@@ -8,9 +8,9 @@ interface Props {
     tags: string[],
     full: boolean;
     slug?: string;
-
+    image?: string;
 }
-const {type, title, description,  tags, slug, full = false} = Astro.props;
+const {type, title, description,  tags, slug, image, full = false} = Astro.props;
 ---
 
 <div class:list={['wrapper', { wrapperFull: full }]}>
@@ -24,7 +24,7 @@ const {type, title, description,  tags, slug, full = false} = Astro.props;
         <PlantTag tags={tags} />
     </div>
     <div class="image">
-    <slot name="image" />
+        <img src={image} alt=""/>
     </div>
 </div>
 
@@ -45,7 +45,7 @@ const {type, title, description,  tags, slug, full = false} = Astro.props;
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 80px;
+        grid-template-columns: 1fr;
         border: 1px solid rgba(var(--big-blue-rgb), .3);
         margin-top: -6px;
         border-radius: 0 8px 8px 8px;
@@ -55,6 +55,7 @@ const {type, title, description,  tags, slug, full = false} = Astro.props;
 
     .image {
         display: flex;
+        order: -1;
     }
 
     .image img {
@@ -79,6 +80,36 @@ const {type, title, description,  tags, slug, full = false} = Astro.props;
         overflow-wrap: anywhere;
     }
 
+
+    @media screen and (min-width: 500px) {
+        .image {
+            order: unset;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image img {
+            border-radius: 4px;
+            max-height: 120px;
+            box-shadow: 5px 5px 8px rgba(var(--big-blue-rgb), .25);
+        }
+
+        .details {
+            padding: .4rem 1rem;
+            font-size: 1rem;
+            order: -1;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 120px;
+            border: 1px solid rgba(var(--big-blue-rgb), .3);
+            margin-top: -6px;
+            border-radius: 0 8px 8px 8px;
+            margin-bottom: 1rem;
+
+        }
+    }
 
     @media screen and (min-width: 720px) {
         .details {

@@ -8,8 +8,7 @@ interface Props {
 const {note} = Astro.props
 ---
 
-<SlottedPreview slug={note.slug} type="note" title={note.data.title} description={note.data.description} tags={note.data.tags}>
-    <img src={note.data.image} slot="image"/>
+<SlottedPreview slug={note.slug} image={note.data.image} type="note" title={note.data.title} description={note.data.description} tags={note.data.tags}>
 </SlottedPreview>
 
 <style>

@@ -3,7 +3,7 @@ title: "Guitar Pedals"
 description: "Notes on guitar pedals, brands, settings, etc."
 tags: ["guitar"]
 created: 2025-04-08T11:08:06-0400
-modified: 2025-04-14T14:50:38-0400
+modified: 2025-04-16T22:26:19-0400
 ---
 # Guitar Pedals
 
@@ -42,6 +42,7 @@ Notes on guitar pedals, brands, settings, etc.
 *   [electro-harmonix](https://www.ehx.com)
 *   [Old Blood Noise Endeavors](https://oldbloodnoise.com)
 *   [EarthQuaker Devices](https://www.earthquakerdevices.com)
+*   [Black Arts Toneworks](https://www.blackartstoneworks.com/)
 *   [Wampler](https://www.wamplerpedals.com)
 *   [Dunlop](https://www.jimdunlop.com) who owns [Way Huge](http://wayhuge.com) and [MXR](https://www.jimdunlop.com/products/electronics/mxr/).
 *   [Alexander](https://www.alexanderpedals.com)
@@ -50,4 +51,3 @@ Notes on guitar pedals, brands, settings, etc.
 *   [ZVEX](https://www.zvex.com)
 *   [Strymon](https://www.strymon.net)
 *   [Decibelics](https://decibelics.com)
-*   [Greenhouse Effects](https://www.gheffects.com)
