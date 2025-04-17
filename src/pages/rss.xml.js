@@ -6,10 +6,11 @@ import MarkdownIt from "markdown-it";
 const parser = new MarkdownIt();
 
 export async function GET(context) {
-  const posts = (await getCollection("blog"))
-    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-    .filter((post) => !post.data.draft)
-    .filter((post) => !post.data.hideRSS);
+  const posts = (await getCollection("garden"))
+    .filter(post => post.data.tags.includes("blog"))
+    .filter((post) =>  !post.data.tags.includes("draft"))
+    .sort((a, b) => new Date(b.data.created) - new Date(a.data.created))
+
   return rss({
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
@@ -17,7 +18,7 @@ export async function GET(context) {
     stylesheet: "/rss/styles.xsl",
     items: posts.map((post) => ({
       title: post.data.title,
-      pubDate: post.data.pubDate,
+      pubDate: post.data.created,
       description: post.data.description,
       //customData: post.data.customData,
 

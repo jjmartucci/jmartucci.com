@@ -8,13 +8,25 @@ interface Props {
     tags: string[],
     full: boolean;
     slug?: string;
-
+    image?: string;
+    created?: string;
+    modified?: string;
 }
-const {type, title, description,  tags, slug, full = false} = Astro.props;
-console.log(description)
----
+const {type, title, created, modified, description,  tags, slug, image, full = false} = Astro.props;
 
-<small>{type}</small>
+let date = null;
+let display = "";
+try {
+    const date = new Date(modified);
+    display = 	date.toLocaleDateString('en-us', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+    })
+} catch {
+    display = 'none';
+}
+---
 
 <div class:list={['wrapper', { wrapperFull: full }]}>
     <div class="details">
@@ -23,10 +35,11 @@ console.log(description)
         {!slug && <p class="title">{title}</p>}
 
     <p class="description">{description}</p>
-        <slot />
-        <PlantTag tags={tags} />
+        <div class="date-and-tag"><span class="last-update">{`Updated: ${display}`}</span><PlantTag tags={tags} /></div>
     </div>
-    <slot name="image" />
+    <div class="image">
+        <img src={image} alt=""/>
+    </div>
 </div>
 
 <style>
@@ -39,8 +52,21 @@ console.log(description)
         font-size: .8rem;
     }
 
+    .date-and-tag {
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .last-update {
+        margin-right: 1rem;
+        color: var(--tag)
+    }
+
     .title {
-    font-weight: bold;
+        font-weight: bold;
         margin: 0;
     }
 
@@ -51,32 +77,23 @@ console.log(description)
         margin-top: -6px;
         border-radius: 0 8px 8px 8px;
         margin-bottom: 1rem;
+        overflow: hidden;
+    }
+
+    .image {
+        display: flex;
+        order: -1;
+    }
+
+    .image img {
+        border-radius: 0;
+        object-fit: cover;
     }
 
     .details {
         padding: .4rem 1rem;
-        max-width: 100%;
         font-size: 1rem;
-        order: 1;
     }
-
-    @media screen and (min-width: 720px) {
-        .details {
-            padding: .4rem 1rem;
-            font-size: 1rem;
-            order: -1;
-        }
-        .wrapper {
-            display: grid;
-            grid-template-columns: 1fr auto;
-            border: 1px solid rgba(var(--big-blue-rgb), .3);
-            margin-top: -6px;
-            border-radius: 0 8px 8px 8px;
-            margin-bottom: 1rem;
-
-        }
-    }
-
 
     .wrapperFull {
         display: flex;
@@ -90,11 +107,56 @@ console.log(description)
         overflow-wrap: anywhere;
     }
 
-    .image {
-        height: 200px;
-        border-radius: 0;
-        object-fit: var(--imageScale);
+
+    @media screen and (min-width: 500px) {
+        .image {
+            order: unset;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image img {
+            border-radius: 4px;
+            max-height: 120px;
+            box-shadow: 5px 5px 8px rgba(var(--big-blue-rgb), .25);
+        }
+
+        .details {
+            padding: .4rem 1rem;
+            font-size: 1rem;
+            order: -1;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 120px;
+            border: 1px solid rgba(var(--big-blue-rgb), .3);
+            margin-top: -6px;
+            border-radius: 0 8px 8px 8px;
+            margin-bottom: 1rem;
+
+        }
     }
+
+    @media screen and (min-width: 720px) {
+        .details {
+            padding: .4rem 1rem;
+            font-size: 1rem;
+            order: -1;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 220px;
+            border: 1px solid rgba(var(--big-blue-rgb), .3);
+            margin-top: -6px;
+            border-radius: 0 8px 8px 8px;
+            margin-bottom: 1rem;
+
+        }
+    }
+
+
+
 
 
 

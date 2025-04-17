@@ -28,7 +28,7 @@
     0 8px 24px rgba(var(--green), 33%), 0 16px 32px rgba(var(--yellow), 33%);
 
   --small-break: 700px;
-  --font-mono: "RobotoMono", monospace;
+  --font-mono: "Outfit", sans-serif;
   --font-black: "RobotoBlack", sans-serif;
 }
 
@@ -49,7 +49,8 @@
 }
 
 body {
-  font-family: "RobotoMono", monospace;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   text-align: left;
@@ -58,7 +59,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: rgb(var(--black));
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
@@ -78,7 +79,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "RobotoBlack", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
   margin: 0 0 0.5rem 0;
   color: rgb(var(--black));
   line-height: 1.2;
@@ -87,7 +89,7 @@ h1 {
   font-size: 3.052em;
 }
 h2 {
-  font-size: 2.441em;
+  font-size: 2.2em;
 }
 h3 {
   font-size: 1.953em;
@@ -130,6 +132,7 @@ img {
   border-radius: 8px;
 }
 code {
+  font-size: 1rem;
   padding: 2px 5px;
   background-color: rgb(var(--gray-light));
   border-radius: 2px;
@@ -183,8 +186,4 @@ hr {
   white-space: nowrap;
 }
 
-.mono {
-  font-family: "RobotoMono", sans-serif;
-  font-size: 1rem;
-  font-weight: 800;
-}
+

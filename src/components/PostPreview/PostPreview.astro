@@ -8,11 +8,11 @@ const { post } = Astro.props;
 <div class={styles.PostPreview}>
   <a href={`/blog/${post.slug}/`}>
     <div class={styles.heroWrapper}>
-      <img width={720} height={360} src={post.data.heroImage} alt="" />
+      <img width={720} height={360} src={post.data.image} alt="" />
       <img
         width={720}
         height={360}
-        src={post.data.heroImage}
+        src={post.data.image}
         alt=""
         class={styles.dupeImage}
       />
@@ -21,7 +21,7 @@ const { post } = Astro.props;
       </div>
     </div>
     <span class={styles.date}>
-      <FormattedDate date={post.data.pubDate} />
+      <FormattedDate date={post.data.created} />
     </span>
     <p class={styles.description}>{post.data.description}</p>
   </a>
