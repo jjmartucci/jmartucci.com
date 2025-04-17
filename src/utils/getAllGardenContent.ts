@@ -3,7 +3,7 @@ import {getCollection} from "astro:content";
 export const getAllGardenContent = async () => {
     const content = (await getCollection("garden"))
         .filter((post) => {
-            return !(process.env.node === "production" && post.data.tags.includes("draft"));
+            return !(process.env.NODE_ENV === "production" && post.data.tags.includes("draft"));
         })
         .sort((a,b) => new Date(b.data.created) - new Date(a.data.created))
 

@@ -6,11 +6,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import {migrateBlogPosts} from "../utils/getAllGardenContent";
 
 
-
+console.log(`ENV`, process.env.NODE_ENV)
 const newPosts = (await getCollection("garden"))
   .filter(post => post.data.tags.includes("blog"))
   .filter((post) => {
-    return !(process.env.node === "production" && post.data.tags.includes("draft"));
+    return !(process.env.NODE_ENV === "production" && post.data.tags.includes("draft"));
   })
     .sort((a,b) => new Date(b.data.created) - new Date(a.data.created))
 

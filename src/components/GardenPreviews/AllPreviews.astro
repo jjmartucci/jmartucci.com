@@ -1,12 +1,6 @@
 ---
-import BookPreview from "./BookPreview.astro";
-import BlogPreview from "./BlogPreview.astro";
 import NotePreview from "./NotePreview.astro";
-import LinkPreview from "./LinkPreview.astro";
-import RecipePreview from "./RecipePreview.astro";
-
-const {type, posts} = Astro.props
-console.log(posts)
+const { posts} = Astro.props
 ---
 {posts.map(post => (<NotePreview note={post} />))}
 
