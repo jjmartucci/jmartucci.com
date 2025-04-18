@@ -1,14 +1,15 @@
 ---
 title: "The Constant Gardener"
 description: "I’ve been working behind the scenes for the last few months on converting this site into less of a blog and more of a digital garden."
-image: "/garden/63DB5B09-431E-41BA-BDE0-404D4BD81D12_1_201_a.heic"
+image: "/garden/garden.jpg"
 tags: ["blog"]
 created: 2025-04-17T23:19:36-0400
-modified: 2025-04-17T19:23:28-0400
+modified: 2025-04-18T09:19:10-0400
 ---
 # The Constant Gardener
 
-![](/garden/63DB5B09-431E-41BA-BDE0-404D4BD81D12_1_201_a.heic)I’ve been working behind the scenes for the last few months on converting this site into less of a _blog_ and more of a _digital garden_.
+![](/garden/garden.jpg)  
+I’ve been working behind the scenes for the last few months on converting this site into less of a _blog_ and more of a _digital garden_.
 
 ## What is a digital garden?
 
