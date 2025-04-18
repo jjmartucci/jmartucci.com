@@ -4,12 +4,11 @@ description: "I’ve been working behind the scenes for the last few months on c
 image: "/garden/garden.jpg"
 tags: ["blog"]
 created: 2025-04-17T23:19:36-0400
-modified: 2025-04-18T09:19:10-0400
+modified: 2025-04-18T11:06:13-0400
 ---
 # The Constant Gardener
 
-![](/garden/garden.jpg)  
-I’ve been working behind the scenes for the last few months on converting this site into less of a _blog_ and more of a _digital garden_.
+![](/garden/garden.jpg)I’ve been working behind the scenes for the last few months on converting this site into less of a _blog_ and more of a _digital garden_.
 
 ## What is a digital garden?
 

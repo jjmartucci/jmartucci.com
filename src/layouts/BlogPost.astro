@@ -5,9 +5,9 @@ import FormattedDate from "../components/FormattedDate.astro";
 import styles from "./BlogPost.module.css";
 import BaseLayout from "./BaseLayout.astro";
 
-type Props = CollectionEntry<"blog">["data"];
+type Props = CollectionEntry<"garden">["data"];
 
-const { title, description, created, updatedDate, image } = Astro.props;
+const { title, description, created,  image } = Astro.props;
 ---
 
 <BaseLayout title={title} description={description} image={image}>
@@ -19,13 +19,6 @@ const { title, description, created, updatedDate, image } = Astro.props;
       <div class="title">
         <div class="date">
           <FormattedDate date={created} />
-          {
-            updatedDate && (
-              <div class="last-updated-on">
-                Last updated on <FormattedDate date={updatedDate} />
-              </div>
-            )
-          }
         </div>
         <h1>{title}</h1>
         <hr />

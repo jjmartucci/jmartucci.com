@@ -20,7 +20,7 @@ const post = Astro.props;
 const { Content, remarkPluginFrontmatter } = await post.render();
 ---
 
-<BaseLayout>
+<BaseLayout description={post.data.description} image={post.data.description} title={post.data.title}>
 
     <GardenBreadcrumbs />
     <div class="prose">
