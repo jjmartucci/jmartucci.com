@@ -3,28 +3,17 @@ title: "Guitar Pedals"
 description: "Notes on guitar pedals, brands, settings, etc."
 tags: ["guitar"]
 created: 2025-04-08T11:08:06-0400
-modified: 2025-04-16T22:26:19-0400
+modified: 2025-04-18T11:09:35-0400
 ---
 # Guitar Pedals
 
 Notes on guitar pedals, brands, settings, etc.
 
-  
-
-## Owned Pedals with Settings
-
-[Fender Marine Layer](/garden/plant/fender-marine-layer)
-
-  
-
 ## Pedals I'd like to try
 
 [Old Blood Noise Endeavors Visitor](https://oldbloodnoise.com/pedals/p/visitor-parallel-multi-modulator)  
-[https://robertkeeley.com/product/fuzz-bender/](https://robertkeeley.com/product/fuzz-bender/)  
 [Keeley Octa Psi Transfigurating Fuzz](https://reverb.com/p/keeley-octa-psi-transfigurating-fuzz)  
 [Walrus Audio Eons Five-State Fuzz](https://reverb.com/p/walrus-audio-eons-five-state-fuzz)
-
-  
 
 ## Previously Owned Pedals
 

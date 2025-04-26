@@ -39,6 +39,39 @@ const { title, description, created,  image } = Astro.props;
     display: none;
   }
 
+  #content :global(p) {
+    overflow: auto;
+  }
+
+  /* two items */
+  #content :global(img:first-child:nth-last-child(2)),
+  #content :global(img:first-child:nth-last-child(2) ~ img) {
+    float: left;
+    width: calc(50% - 1rem);
+
+  }
+
+  #content :global(img:first-child:nth-last-child(2) ~ img) {
+    margin-left: 1rem;
+  }
+
+  /* three items
+  img:first-child:nth-last-child(3),
+  img:first-child:nth-last-child(3) ~ img {
+    float: left;
+    width: calc(33.3333% - 2rem);
+    margin: 0 1rem;
+  }
+
+  /* four items 
+  img:first-child:nth-last-child(4),
+  img:first-child:nth-last-child(4) ~ img {
+    float: left;
+    width: calc(25% - 2rem);
+    margin: 0 1rem;
+  }
+  */
+
   @media screen and (min-width: 700px) {
     main {
       width: calc(100% - 2em);
