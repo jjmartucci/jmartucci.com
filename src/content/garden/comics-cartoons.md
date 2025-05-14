@@ -4,7 +4,7 @@ description: "Top level list of web comics I enjoy and other notes about comics 
 image: "/garden/with-a-book.png"
 tags: ["comics"]
 created: 2025-04-14T14:32:59-0400
-modified: 2025-04-15T17:11:06-0400
+modified: 2025-05-10T08:22:00-0400
 ---
 # Comics & Cartoons
 
@@ -28,5 +28,7 @@ Top level list of web comics I enjoy and other notes about comics & cartoons.
 
 ## Others
 
+*   [The Other End Comics](https://www.kohney.com/)
 *   [Pizza Cake](https://pizzacakecomic.com)
 *   [https://www.kickpunch.se](https://www.kickpunch.se)
+*   [ONE GIANT HAND](https://onegianthand.com/)
