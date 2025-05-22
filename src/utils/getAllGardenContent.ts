@@ -6,7 +6,7 @@ export const getAllGardenContent = async () => {
     const garden = (await getCollection("garden"))
     const all =[...books, ...posts, ...garden];
         all.filter((post) => {
-            return !(process.env.NODE_ENV === "production" && !post.data.draft);
+            return process.env.NODE_ENV === "production" ? !post.data.draft : true;
         })
         .sort((a,b) => new Date(b.data.modified) - new Date(a.data.modified))
 

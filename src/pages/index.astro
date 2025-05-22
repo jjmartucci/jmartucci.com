@@ -6,7 +6,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 const newPosts = (await getCollection("blog"))
   .filter((post) => {
-    return !(process.env.NODE_ENV === "production" && !post.data.draft);
+    return process.env.NODE_ENV === "production" ? !post.data.draft : true;
   })
     .sort((a,b) => b.data.published - a.data.published)
 
