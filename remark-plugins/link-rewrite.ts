@@ -23,7 +23,6 @@ export const externalLink: RehypePlugin = (options?: Options) => {
 
             const url = getUrl(element);
 
-            console.log(url)
 
             if(isLocalReference(url)) {
 

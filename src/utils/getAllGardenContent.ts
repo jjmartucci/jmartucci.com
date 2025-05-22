@@ -29,21 +29,3 @@ export const filterGardenByTag = async (tag: string) => {
     return posts;
 }
 
-export const migrateBlogPosts = async () => {
-    const oldBlog = (await getCollection("blog"))
-        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-        .filter((post) => !post.data.draft)
-        .filter((post) => post.data.homepage != false)
-
-    return oldBlog.map(post => {
-        const converted = {
-            ...post,
-            data: {
-                ...post.data,
-                created: post.data.pubDate,
-                image: post.data.heroImage
-            }
-        }
-        return converted;
-    })
-}
