@@ -47,7 +47,6 @@ const pages = []
 
         document.getElementById("query").innerText = query;
         const results = fuse.search(query)
-        console.log(`results`, results, query);
 
         if(!Array.isArray(query) || query.length === 0) {
             document.getElementById("results").innerHTML = `<span>Nothing found></span>`

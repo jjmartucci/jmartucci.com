@@ -2,7 +2,7 @@
 title: "How to Do Nothing"
 finished: 2020-05-30T14:56:00.000Z
 indiebound_link: "https://www.indiebound.org/book/9781612197494"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9781612197494.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9781612197494.webp
 author: "Jenny Odell"
 date: 2020-10-01T00:46:02+00:00
 recommended: true

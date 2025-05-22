@@ -1,8 +1,9 @@
 ---
-title: "How to work better"
+title: How to work better
 description: ""
-image: "/garden/image.png"
-tags: ["life"]
+image: /blog/master-and-margarita.jpg
+tags:
+  - life
 created: 2020-04-08T12:47:20-0400
 modified: 2025-04-30T09:20:08-0400
 ---
@@ -19,8 +20,6 @@ modified: 2025-04-30T09:20:08-0400
 9.  Be calm
 10.  Smile
 
-![](/garden/image.png)
-
-  
+![](../images/garden/work-better.png)
 
 This was on [Houston Street in New York](https://www.guggenheim.org/articles/checklist/how-to-work-better-making-a-mural-on-houston-street).

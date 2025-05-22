@@ -1,0 +1,31 @@
+---
+const {book} = Astro.props;
+import { Image } from 'astro:assets';
+let imageUrl = null;
+
+if(book.data.image && !book.data.image.includes("https")) {
+    try {
+        imageUrl = await import(`../../content/${book.data.image}`)
+    } catch(e) {
+        imageUrl = null
+    }
+}
+---
+<div class="wrapper">
+    <div>
+        {imageUrl && <Image src={imageUrl.default} alt={`Cover of ${book.data.title}`}/>}
+    </div>
+    <div>
+    <h1>{book.data.title}</h1>
+        <span>by {book.data.author} <em /><a href={book.data.link}>Buy it</a></span>
+    </div>
+</div>
+
+
+<style>
+    .wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-column-gap: 1rem;
+    }
+</style>

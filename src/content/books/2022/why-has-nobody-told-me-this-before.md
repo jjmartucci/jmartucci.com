@@ -2,7 +2,7 @@
 title: Why Has Nobody Told Me This Before?
 finished: 2022-04-09T12:57:31-04:00
 indiebound_link: https://www.indiebound.org/book/9780063227934
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2022/why-has-nobody-told-me-this-before.jpg 
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2022/why-has-nobody-told-me-this-before.jpg 
 date: 2022-04-09T12:58:11-04:00
 type: book
 ---

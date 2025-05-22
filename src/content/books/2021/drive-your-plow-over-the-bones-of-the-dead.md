@@ -2,7 +2,7 @@
 title: Drive Your Plow Over The Bones Of The Dead
 finished: 2021-01-03T20:07:42.211Z
 indiebound_link: "https://www.indiebound.org/book/9780525541349"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/drive-your-plow.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/drive-your-plow.webp
 date: 2021-01-03T20:07:42.211Z
 ---
 

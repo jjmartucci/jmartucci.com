@@ -2,9 +2,9 @@
 title: Triggers by Marshall Goldsmith
 slug: triggers-marshall-goldsmith
 description: Some notes on the book Triggers by Marshall Goldsmith.
-heroImage: /blog-hero-images/2023/triggers.jpg
+image: images/blog/2023/triggers.jpg
 draft: false
-pubDate: 2023-09-05T04:00:00.000Z
+published: 2023-09-05T04:00:00.000Z
 tags:
   - books
 ---

@@ -1,11 +1,11 @@
 ---
 title: Montreal - Trip Notes
-pubDate: 2024-06-30
+published: 2024-06-30
 draft: false
-description: Bonjour/hello to our neighbors to the North. Or West? I’m still not sure. 
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2024/montreal/intro.jpeg
-tags: [travel]
-heroImage: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2024/montreal/hero.jpeg
+description: Bonjour/hello to our neighbors to the North. Or West? I’m still not sure.
+image: images/blog/2024/montreal.jpeg
+tags:
+  - travel
 ---
 
 Back from another family vacation with notes on how things went. This year we went to Montreal!
@@ -22,6 +22,7 @@ Montreal is an odd spot to get to from Boston because you’ll quickly figure ou
 We stayed at [Hotel Bonaventure](https://hotelbonaventure.com/en/). My review is mixed. I would say in general the way it looks on the website is much nicer than it looks in real life. Also the crowd there was an interesting mix of families, business travelers having meetings on site, and then by the weekend, groups up to party in Montreal. This is probably true of any hotel, but it was perhaps more noticeable here because the one outstanding point of the hotel is it’s pool, which is set inside a little park in the middle of the hotel. The hotel is on the 10th and 11th floors of Place Bonaventure, so it’s like a little urban forest-oasis that pretty much everyone who was staying at the hotel hung out at.
 
 ![The “park” side of Hotel Bonaventure.](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2024/montreal/hotel.jpeg)
+
 _This side of the hotel was poorly maintained, but did have this nice duck pond, which was closed to access almost immediately after we found it._
 
 The pool has generous open hours, and all told we probably spent a good 8 or so hours in it over the course of the week.
@@ -57,6 +58,7 @@ The Insectarium tour starts with you going down under the building into a simula
 On the way back we made our way to the [Happy Cat Cafe](https://cafechatlheureux.com/en). There are no cat cafes near us where the cats are actually in the dining area, so it was a treat to find one where they were! It struck me as a place that could only exist because Montreal is very accessible but seemingly not yet gentrified.
 
 ![Cat on a table at the Happy Cat Cafe.](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2024/montreal/chat.jpeg)
+
 _Cats on the table might not be everyone’s thing._
 
 We took an Uber back from the cafe to the hotel, and our innocuous conversation about chowder[^1] took a bit of a turn when I mentioned the Metro was wonderful compared to the Boston T. Our driver then informed us that America thinks it’s #1 at everything, but it’s falling apart and spending all its money on the military, while us Americans eat up all the propaganda fed to us by television. Well, maybe not us, riding in the Uber, because we were smart enough to see what it’s like outside of America. Anyway, we’d know all this already if we listened to Joe Rogan.

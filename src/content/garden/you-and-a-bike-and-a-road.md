@@ -1,8 +1,9 @@
 ---
-title: "You and a Bike and a Road"
+title: You and a Bike and a Road
 description: ""
-image: "/garden/image.JPG"
-tags: ["book"]
+image: /garden/image.JPG
+tags:
+  - books
 created: 2025-04-24T10:00:46-0400
 modified: 2025-04-26T13:12:25-0400
 ---

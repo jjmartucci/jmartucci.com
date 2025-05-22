@@ -2,7 +2,7 @@
 title: Code
 finished: 2020-07-01T16:48:00.000Z
 indiebound_link: "https://www.indiebound.org/book/9780735611313"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/code.jpg
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/code.jpg
 author: "Charles Petzold"
 date: 2020-09-27T14:58:06+00:00
 recommended: true

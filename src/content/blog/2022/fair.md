@@ -1,6 +1,6 @@
 ---
 title: The Comedy and Tragedy of County Fairs
-pubDate: 2022-08-26T21:44:43-04:00
+published: 2022-08-26T21:44:43-04:00
 description: Wherein we visit the fair and Lorelei is married off to a Vermont boy.
 heroImage: /assets/images/2022/card.jpeg
 ---

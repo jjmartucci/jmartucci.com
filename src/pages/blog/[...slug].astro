@@ -4,9 +4,8 @@ import BlogPost from '../../layouts/BlogPost.astro';
 import {migrateBlogPosts} from "../../utils/getAllGardenContent";
 
 export async function getStaticPaths() {
-	const posts = (await getCollection('garden')).filter(post => post.data.tags.includes("blog"));
-	const oldPosts = (await migrateBlogPosts())
-	return [...posts, ...oldPosts].map((post) => ({
+	const posts = (await getCollection('blog'))
+	return [...posts,].map((post) => ({
 		params: { slug: post.slug },
 		props: post,
 	}));

@@ -2,7 +2,7 @@
 title: Atomic Habits
 finished: 2021-04-11T17:00:00Z
 indiebound_link: https://www.indiebound.org/book/9780735211292
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/atomic-habits.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/atomic-habits.webp
 date: 2021-04-11T17:00:00Z
 
 ---

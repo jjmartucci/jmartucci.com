@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Annual maintenance
-pubDate: 2022-01-15T15:53:59-05:00
+published: 2022-01-15T15:53:59-05:00
 description: Pandemic musings while waiting for an oil change. And tire rotation. Oh and the inspection, don’t forget that.
 heroImage: /assets/images/2022/bug.png
 ---

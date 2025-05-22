@@ -1,6 +1,6 @@
 ---
 title: Books and cats and books and cats and….
-pubDate: 2022-04-24T21:27:57.000Z
+published: 2022-04-24T21:27:57.000Z
 description: >-
   The end of last week we were in Connecticut and Andrea wanted to go to a used
   book store, so I suggested we go to the Niantic Book Barn.

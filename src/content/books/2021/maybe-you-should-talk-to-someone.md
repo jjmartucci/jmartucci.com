@@ -2,7 +2,7 @@
 title: Maybe You Should Talk To Someone
 finished: 2021-04-17T16:00:00Z
 indiebound_link: https://www.indiebound.org/book/9781328662057
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/talk-to-someone.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/talk-to-someone.webp
 date: 2021-04-17T16:00:00Z
 
 ---

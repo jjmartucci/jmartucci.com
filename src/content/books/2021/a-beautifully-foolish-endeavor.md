@@ -2,7 +2,7 @@
 title: A Beautifully Foolish Endeavor
 finished: 2021-01-15T13:14:26.915Z
 indiebound_link: "https://www.indiebound.org/book/9781524743475 "
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/a-beautifully-foolish-endeavor.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/a-beautifully-foolish-endeavor.webp
 date: 2021-01-15T13:14:26.915Z
 type: book
 ---

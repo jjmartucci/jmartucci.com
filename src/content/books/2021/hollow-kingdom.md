@@ -2,7 +2,7 @@
 title: Hollow Kingdom
 finished: 2021-03-14T16:00:00Z
 indiebound_link: https://www.indiebound.org/book/9781538745823
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/hollow-kingdom.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/hollow-kingdom.webp
 date: 2021-03-14T16:00:00Z
 
 ---

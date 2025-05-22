@@ -1,14 +1,12 @@
 ---
 title: Small Animals
 finished: 2020-12-11T00:50:03.850Z
-indiebound_link: "https://www.indiebound.org/book/9781250089557"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/small-animals.webp
-image: /assets/images/book_covers/2020/small-animals.jpg
-author: "Kim Brooks"
+indiebound_link: https://www.indiebound.org/book/9781250089557
+image: /images/books/2020/small-animals.jpg
+author: Kim Brooks
 date: 2020-12-11T00:50:03.850Z
-description: "Parenthood in the Age of Fear."
+description: Parenthood in the Age of Fear.
 ---
-
 > Margaret Mead wrote, “A society that cuts off older people from meaningful contact with children, a society that segregates any group of men and women in such a way that they are prevented from having or caring for children, is greatly endangered.” _Bullshit_, I’d thought when I read this in college. _If I ever have kids of my own, I’d sooner let a stranger on the street help me care for them than the lunatics who raised me_.
 
 > When child-rearing is something most people do for one reason or another (economic necessity, religious obligation, creating future warriors for battling rival tribes, and so on), when birthrates are high, parenthood common, children abundant and well integrated into various aspects of communal life, a baseline level of cooperation and benefit-of-the-doubt-giving pervades. But when being a parent is elevated to the most important thing you will ever do, a thing you in particular have chosen, a special duty and responsibility that only some accept, the stakes rise. If parenthood is no longer just a relationship or a part of “ordinary life” but instead a new kind of secular religion, then true tolerance of each other’s parenting differences becomes a lot more complicated and a lot less common. As Paula S. Fass writes in The End of American Childhood, “Once having children is defined as an individual choice, American parents often imagine that when they do not succeed or are less than completely successful … it is somehow their fault. Having made the choice, they are somehow obligated to do it right.” But obligated to whom?

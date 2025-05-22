@@ -13,6 +13,7 @@ interface Props {
     modified?: string;
 }
 const {type, title, created, modified, description,  tags, slug, image, full = false} = Astro.props;
+import { Image } from 'astro:assets';
 
 let date = null;
 let display = "";
@@ -26,6 +27,17 @@ try {
 } catch {
     display = 'none';
 }
+
+let imageUrl = null;
+if(image) {
+    try {
+        imageUrl = await import(`../../content/${image}`)
+    } catch(e) {
+        console.log(`error with image: ${image}`)
+        imageUrl = null
+    }
+}
+
 ---
 
 <div class:list={['wrapper', { wrapperFull: full }]}>
@@ -38,7 +50,11 @@ try {
         <div class="date-and-tag"><span class="last-update">{`Updated: ${display}`}</span><PlantTag tags={tags} /></div>
     </div>
     <div class="image">
-        <img src={image} alt=""/>
+        {imageUrl && <Image src={imageUrl.default}
+               widths={[240, 540, 720, imageUrl.default.width]}
+               sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${imageUrl.default.width}px`}
+               alt=""/>
+        }
     </div>
 </div>
 

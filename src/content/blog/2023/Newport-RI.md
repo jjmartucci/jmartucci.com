@@ -1,9 +1,10 @@
 ---
-title: 'Newport, RI'
-description: 'Trip notes from a quick little vacation in Newport, Rhode Island.'
-heroImage: /blog-hero-images/2023/newport.jpg
-pubDate: 2023-08-24T04:00:00.000Z
-tags: ['travel']
+title: Newport, RI
+description: Trip notes from a quick little vacation in Newport, Rhode Island.
+image: images/blog/2023/newport.jpg
+published: 2023-08-24T04:00:00.000Z
+tags:
+  - travel
 ---
 
 It’s not quite yet a tradition but this year and last we dropped our daughter off for an end of Summer week at the Grandparents and then went to Rhode Island. Last year it was [Block Island](https://www.builtwith.coffee/blog-posts/2022/07/morning-view), this year Newport. It was a shorter trip this year, as we planned on spending the latter half of the week doing house projects / staycationing, but it was a good two days.

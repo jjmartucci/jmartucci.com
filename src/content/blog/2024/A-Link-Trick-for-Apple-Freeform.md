@@ -1,9 +1,8 @@
 ---
 title: A Link Trick for Apple Freeform
 description: Getting app callback and shortcuts URLs to work in Apple Freeform
-heroImage: /blog-hero-images/2024/freeform.jpg
-
-pubDate: 2024-03-09T15:15:00.000Z
+image: images/blog/2024/freeform.jpg
+published: 2024-03-09T15:15:00.000Z
 tags:
   - software
 ---
