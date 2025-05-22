@@ -1,6 +1,6 @@
 ---
 title: "Arts Fest Beverly 2022: Bridge to Nowhere"
-pubDate: 2022-06-18T16:12:23-04:00
+published: 2022-06-18T16:12:23-04:00
 description: Arts Fest Beverly 2022.
 heroImage: /assets/images/2022/cats-cats-cats.jpeg 
 tags: ['life']

@@ -2,7 +2,7 @@
 title: "The Hilarious World Of Depression"
 finished: 2020-11-28T02:30:30.805Z
 indiebound_link: "https://www.indiebound.org/book/9781250209283"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/thwod.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/thwod.webp
 author: "John Moe"
 date: 2020-11-28T02:30:30.805Z
 ---

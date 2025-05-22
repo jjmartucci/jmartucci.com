@@ -2,7 +2,7 @@
 title: Smarter Than You Think
 finished: 2022-12-17T19:50:55-05:00
 indiebound_link: https://www.indiebound.org/book/9780593135648
-cover_image: https://coffee-cake.nyc3.digitaloceanspaces.com/book_covers/2022/smarter-than-you-think.jpg
+image: https://coffee-cake.nyc3.digitaloceanspaces.com/book_covers/2022/smarter-than-you-think.jpg
 date: 2022-12-17T19:40:34-05:00
 type: book
 ---

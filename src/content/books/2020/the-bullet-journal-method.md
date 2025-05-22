@@ -2,7 +2,7 @@
 title: "The Bullet Journal Method"
 finished: 2020-11-28T02:32:28.251Z
 indiebound_link: "https://www.indiebound.org/book/9780525533337"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/bullet.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/bullet.webp
 author: "Ryder Carroll "
 date: 2020-11-28T02:32:28.251Z
 ---

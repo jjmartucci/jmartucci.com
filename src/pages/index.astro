@@ -3,21 +3,14 @@ import { getCollection } from "astro:content";
 import PostPreview from "../components/PostPreview/PostPreview.astro";
 
 import BaseLayout from "../layouts/BaseLayout.astro";
-import {migrateBlogPosts} from "../utils/getAllGardenContent";
 
-
-console.log(`ENV`, process.env.NODE_ENV)
-const newPosts = (await getCollection("garden"))
-  .filter(post => post.data.tags.includes("blog"))
+const newPosts = (await getCollection("blog"))
   .filter((post) => {
-    return !(process.env.NODE_ENV === "production" && post.data.tags.includes("draft"));
+    return !(process.env.NODE_ENV === "production" && !post.data.draft);
   })
-    .sort((a,b) => new Date(b.data.created) - new Date(a.data.created))
+    .sort((a,b) => b.data.published - a.data.published)
 
-
-
-const oldPosts = (await migrateBlogPosts());
-const posts = [...newPosts, ...oldPosts].slice(0, 10);
+const posts = [...newPosts].slice(0, 10);
 ---
 
 <BaseLayout>
@@ -36,6 +29,7 @@ const posts = [...newPosts, ...oldPosts].slice(0, 10);
       ))
     }
   </ul>
+  <a href="/blog/archive/2">more</a>
 </BaseLayout>
 
 <style>

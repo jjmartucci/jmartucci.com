@@ -1,6 +1,6 @@
 ---
 title: Elden Ring
-pubDate: 2022-08-05T22:05:11-04:00
+published: 2022-08-05T22:05:11-04:00
 tags: [gaming]
 description: I have become the Elden Lord.
 heroImage: /assets/images/2022/elden-ring-done.jpeg

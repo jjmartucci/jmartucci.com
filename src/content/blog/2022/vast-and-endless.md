@@ -1,6 +1,6 @@
 ---
  title: Teach Them to Yearn for the Vast and Endless Sea
- pubDate: 2022-09-30T19:43:56-04:00
+ published: 2022-09-30T19:43:56-04:00
  draft: false
  description: Three loosely related thoughts on “getting things done”. Entirely not something on my mind after a week of work, for any reason.
 ---

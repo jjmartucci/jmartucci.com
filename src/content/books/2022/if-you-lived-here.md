@@ -2,12 +2,13 @@
 title: If You Lived Here You’d Be Home By Now
 finished: 2022-01-01T09:55:22-05:00
 indiebound_link: https://www.indiebound.org/book/9780062861474
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2022/if-you-lived-here.jpg
+image: /books/2022/covers/if-you-lived-here.jpg
 date: 2022-01-01T09:55:22-05:00
-type: book
+tags:
+  - books
 canLend: true
+author: CHRISTOPHER INGRAHAM
 ---
-
 > ... city residents have tended to be “well compensated for their joylessness”.
 
 > But nobody talked to on another — everyone kept their heads down, desperate to avoid having to humanize the people you knew only as, say, the source of the music that blared every weeknight at 4PM or the arguments you could hear through your paper thin walls.

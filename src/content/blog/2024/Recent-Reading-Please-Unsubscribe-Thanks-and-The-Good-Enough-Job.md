@@ -1,12 +1,11 @@
 ---
-title: 'Recent Reading: Please Unsubscribe, Thanks! and The Good Enough Job'
+title: "Recent Reading: Please Unsubscribe, Thanks! and The Good Enough Job"
 slug: recent-reading-please-unsubscribe-thanks-and-the-good-enough-job
-description: >-
-  Some notes on two books in the “why the fuck are we doing (gestures broadly)
-  this?!” genre.
-heroImage: /blog-hero-images/2024/recent-reading.jpeg
-pubDate: 2024-02-28T16:00:00.000Z
-tags: [books]
+description: Some notes on two books in the “why the fuck are we doing (gestures broadly) this?!” genre.
+image: images/blog/2024/recent-reading.jpeg
+published: 2024-02-28
+tags:
+  - books
 ---
 
 In this period I’m in currently, “figuring out what’s next”, I’ve been hitting the library more often and doing more reading. Two recent library pickups were [Please Unsubscribe, Thanks!](https://hardcover.app/books/please-unsubscribe-thanks-how-to-take-back-our-time-attention-and-purpose-in-a-world-designed-to-bury-us-in-bullshit) by Julio Vincent Gambuto and [The Good Enough Job: Reclaiming Life from Work](https://hardcover.app/books/the-good-enough-job) by Simone Stolzoff.

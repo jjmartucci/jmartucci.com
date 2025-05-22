@@ -2,7 +2,7 @@
 title: Glass Hotel
 finished: 2020-11-21T19:38:29.135Z
 indiebound_link: "https://www.indiebound.org/book/9780525521143"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/glass-hotel.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/glass-hotel.webp
 author: "Emily St. John Mandel "
 date: 2020-11-21T19:38:29.135Z
 ---

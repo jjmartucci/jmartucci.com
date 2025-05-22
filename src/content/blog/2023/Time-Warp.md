@@ -1,12 +1,10 @@
 ---
 title: Time Warp
-description: >-
-  I’ve been reading Saving Time by Jenny Odell. I’m not halfway through it yet,
-  and maybe it’s a bit of a Baader–Meinhof thing going on, but now I’m noticing
-  the notion of shifting the perception of time in more places.
-heroImage: /blog-hero-images/2023/time.jpg
-tags: ['books']
-pubDate: 2023-08-01T04:00:00.000Z
+description: I’ve been reading Saving Time by Jenny Odell. I’m not halfway through it yet, and maybe it’s a bit of a Baader–Meinhof thing going on, but now I’m noticing the notion of shifting the perception of time in more places.
+image: images/blog/2023/time.jpg
+tags:
+  - books
+published: 2023-08-01T04:00:00.000Z
 ---
 
 I’ve been reading [Saving Time by Jenny Odell](https://www.penguinrandomhouse.com/books/672377/saving-time-by-jenny-odell/). I’m not halfway through it yet, and maybe it’s a bit of a [Baader–Meinhof thing](https://en.wikipedia.org/wiki/Frequency_illusion) going on, but now I’m noticing the notion of shifting the perception of time in more places.

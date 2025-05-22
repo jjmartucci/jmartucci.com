@@ -1,7 +1,8 @@
 ---
-title: "Fudge Brownies"
-description: "I found this recipe when looking for a brownie recipe that required no whole chocolate as we had run out -- but always have cocoa powder around."
-tags: ["recipe"]
+title: Fudge Brownies
+description: I found this recipe when looking for a brownie recipe that required no whole chocolate as we had run out -- but always have cocoa powder around.
+tags:
+  - recipes
 created: 2025-04-14T09:17:20-0400
 modified: 2025-04-14T09:17:43-0400
 ---

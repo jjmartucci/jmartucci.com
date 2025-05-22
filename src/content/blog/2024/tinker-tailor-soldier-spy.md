@@ -1,9 +1,13 @@
 ---
 title: Tinker Tailor Soldier Spy
 description: A topical read on flushing out Russian double agents.
-heroImage: /blog-hero-images/2024/tinker.jpeg
-pubDate: 2024-11-17T15:15:00.000Z
-tags: [books, movies]
+image: images/blog/2024/tinker.jpeg
+created: 2024-11-17T12:00:00-0400
+tags:
+  - books
+  - movies
+  - blog
+published: 2024-11-17T12:04:00
 ---
 
 Back in 2022 I picked up a well-loved copy of _The Spy Who Came in from the Cold_ from our [favorite cat rescue / used book store](/blog/2022/books-and-cats/). I’d never read anything by John le Carré, but after his passing in 2020 I saw all these “best of le Carré” lists that had me intrigued. His work is often described as “the opposite of James Bond”, le Carré[^1] himself worked for MI5 and MI6, and many of the books have a central plot based on real events.

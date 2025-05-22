@@ -52,9 +52,20 @@ ul li a {
 }
 
 .date {
-  display: inline-block;
   color: rgb(var(--gray));
   font-size: 0.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-variant: all-small-caps;
+}
+
+.topDate {
+  position: absolute;
+  top: .4rem;
+  right: .4rem;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  padding: .2rem;
 }
 
 .description {
@@ -133,10 +144,7 @@ a:hover .dupeImage {
   transform: scale(1.02);
 }
 
-.date {
-  display: block;
-  text-align: center;
-}
+
 
 .tagList {
   display: inline-flex;

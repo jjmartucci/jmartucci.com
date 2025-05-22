@@ -2,7 +2,7 @@
 title: Range
 finished: 2020-10-12T01:22:00.000Z
 indiebound_link: "https://www.indiebound.org/book/9780735214484"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9780735214484.jpg
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9780735214484.jpg
 author: "David Epstein"
 date: 2020-10-13T01:23:28+00:00
 description: "Some reading notes from Range by David Epstein."

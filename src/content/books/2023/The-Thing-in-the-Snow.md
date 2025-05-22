@@ -6,7 +6,7 @@ finished: 2023-11-05T04:00:00.000Z
 author: Sean Adams
 indiebound_link: >-
   https://www.harpercollins.com/products/the-thing-in-the-snow-sean-adams?variant=40371768885282
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2023/the-thing-in-the-snow.JPG
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2023/the-thing-in-the-snow.JPG
 category: Fiction
 ---
 

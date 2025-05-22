@@ -2,7 +2,7 @@
 title: Rainbow In The Dark
 finished: 2021-08-14T16:00:00Z
 indiebound_link: ''
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/rainbowinthedark.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/rainbowinthedark.webp
 date: 2021-08-14T16:00:00Z
 
 ---

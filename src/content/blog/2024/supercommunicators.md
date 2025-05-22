@@ -1,9 +1,10 @@
 ---
 title: Supercommunicators by Charles Duhigg
 description: Notes on the book Supercommunicators by Charles Duhigg.
-heroImage: /blog-hero-images/2024/supercommunicators.jpeg
-pubDate: 2024-10-14T15:15:00.000Z
-tags: [books]
+image: images/blog/2024/supercommunicators.jpeg
+published: 2024-10-14T15:15:00.000Z
+tags:
+  - books
 ---
 
 I’ve read [some of Duhigg’s books](https://www.charlesduhigg.com) in the past, they’re all good, maybe a little “chicken soup for the MBA soul”-ish. Here’s a few quick take aways from Supercommunicators, his latest book:

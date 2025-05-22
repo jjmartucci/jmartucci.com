@@ -2,7 +2,7 @@
 title: "The Life-Changing Magic of Tidying Up"
 finished: 2020-09-23T12:50:00.000Z
 indiebound_link: "https://www.indiebound.org/book/9781607747307"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9781607747307.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9781607747307.webp
 author: "Marie Kondo"
 date: 2020-10-01T00:06:17+00:00
 ---

@@ -2,7 +2,7 @@
 title: "Smarter, Faster, Better"
 finished: 2020-09-01T00:00:00.000Z
 indiebound_link: "https://www.indiebound.org/book/9780812993394"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9780812993394.jpg
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9780812993394.jpg
 author: "Charles Duhigg"
 date: 2020-10-01T00:03:28+00:00
 ---

@@ -2,7 +2,7 @@
 title: Can't Even
 finished: 2021-05-26T08:45:10-04:00
 indiebound_link: https://www.indiebound.org/book/9780358315070
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/cant-even.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2021/cant-even.webp
 date: 2021-05-26T08:45:22-04:00
 ---
 If you want the TL;DR of why everything is awful:

@@ -2,7 +2,7 @@
 title: "My Year of Meats"
 finished: 2020-07-17T12:50:00.000Z
 indiebound_link: "https://www.indiebound.org/book/9780140280463"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9780140280463.jpg
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9780140280463.jpg
 author: "Ruth Ozeki"
 date: 2020-09-30T23:47:28+00:00
 recommended: true

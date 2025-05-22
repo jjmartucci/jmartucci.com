@@ -2,7 +2,7 @@
 title: "Big Magic"
 finished: 2020-08-02T15:16:00.000Z
 indiebound_link: "https://www.indiebound.org/book/9781594634727"
-cover_image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9781594634727.webp
+image: https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/book_covers/2020/9781594634727.webp
 date: 2020-09-30T23:58:28+00:00
 ---
 
