@@ -19,7 +19,4 @@ export default defineConfig({
     rehypePlugins: [externalLink],
     remarkPlugins: [gardenFrontMatterPlugin]
   },
-
-  output: "server",
-  adapter: netlify(),
 });
