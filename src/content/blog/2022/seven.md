@@ -6,7 +6,7 @@ description: Lorelei turned seven this week.
 slug: seven
 image: /assets/images/2022/seven.jpeg 
 tags:
-	- life
+- life
 ---
 
 Lorelei turned seven this week. We had a party today, with a princess / fairy theme. We did a pile of yard work on Friday to finish off projects in the back yard, then woke up to clouds. Luckily it burned off by the time the kids got here, and they got to play outside for a bit. None of them mentioned the work we did, although I suppose they would have noticed if it was all a big dirt pile still (and, maybe enjoyed it more).

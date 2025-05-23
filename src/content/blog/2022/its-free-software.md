@@ -5,7 +5,7 @@ draft: false
 description: The joys of software that keeps getting better.
 slug: its-free-software
 tags: 
-	- guitar
+- guitar
 ---
 I’ve currently got my Helix LT updating to version [3.5](https://line6.com/support/page/kb/effects-controllers/helix/helix-350-release-notes-r1003/). Updates for the Helix are interesting because every update gives you more value for your initial investment. It’s essentially free amps, pedals, better tones. This release fixes a lot of the issues with the stock cabs, including allowing you to easily do dual cabs with a simple delay and pan between them, which is something I used to do with every preset in Bias FX.
 	

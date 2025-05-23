@@ -32,6 +32,7 @@ const books = defineCollection({
   }),
 });
 
+
 const garden = defineCollection({
   schema: z.object({
     title: z.string(),
