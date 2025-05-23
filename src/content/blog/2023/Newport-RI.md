@@ -1,7 +1,7 @@
 ---
 title: Newport, RI
 description: Trip notes from a quick little vacation in Newport, Rhode Island.
-image: images/blog/2023/newport.jpg
+image: ../images/2023/newport.jpg
 published: 2023-08-24T04:00:00.000Z
 tags:
   - travel
@@ -29,7 +29,7 @@ They also did an in-room Continental breakfast, which is exactly the amount of e
 
 Because we were only there for one full day, and got in late on a Sunday where a lot of things were closed, we primarily planned on doing a few mansions and walking around. On Monday we went to [The Breakers](https://www.newportmansions.org/mansions-and-gardens/the-breakers/) and did a tiny bit of the [Cliff Walk](https://www.discovernewport.org/things-to-do/cliff-walk/), and then before heading home we stopped at [Marble House](https://www.newportmansions.org/mansions-and-gardens/marble-house/).
 
-![](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2023/newport-2.jpeg)
+![](https://coffee-cake.nyc3.digitaloceanspaces.com/../images/2023/newport-2.jpeg)
 
 It is tradition that you take a photo that makes it look like you're moving in to your new house, of course.
 
@@ -37,4 +37,4 @@ If we had more time (and they had been open!) I would have liked to go to the [N
 
 I will note that one of the very appealing things about Newport if you’re staying in the heart of it is that you can walk everywhere, and if you don’t feel like walking there’s decent public transportation too. Obviously the weather has to cooperate, and you should avoid any weekends where some sort of boating event is going on that will push the restaurants to 300% capacity, but it’s a good town for wandering.
 
-![](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2023/newport.jpeg)
+![](https://coffee-cake.nyc3.digitaloceanspaces.com/../images/2023/newport.jpeg)

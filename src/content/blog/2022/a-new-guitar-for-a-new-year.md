@@ -3,7 +3,6 @@ title: A New Guitar for a New Year
 published: 2022-12-30T22:02:56-05:00
 draft: false
 description: 20-odd years later, I finally have a shreddy guitar.
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/san-dimas-3.jpeg
 tags: [guitar]
 slug: a-new-guitar-for-a-new-year
 ---

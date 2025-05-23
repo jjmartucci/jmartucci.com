@@ -3,14 +3,12 @@ draft: false
 title: Weeknotes for the week ending November 14, 2021
 published: 2021-11-14T18:31:19-05:00
 description: No words only leaves
-image: /assets/images/2021/leaf-kid-bike.jpeg
-slug: weeknotes-for-the-week-ending-november-14-2021
 ---
 <span role="image" aria-label="Falling Leaves">🍂🍂🍂</span>
 
-![Lorelei riding her bike at the school.](/assets/images/2021/leaf-kid-bike.jpeg)
-![A bird’s nest with broken eggs on top of a pile of leaves.](/assets/images/2021/leaf-seasons.jpeg)
-![A mountain bike in the woods next to a beat up couch.](/assets/images/2021/leaf-bike.jpeg)
+![Lorelei riding her bike at the school.](../images/2021/leaf-kid-bike.jpeg)
+![A bird’s nest with broken eggs on top of a pile of leaves.](../images/2021/leaf-seasons.jpeg)
+![A mountain bike in the woods next to a beat up couch.](../images/2021/leaf-bike.jpeg)
 
 ### etc
 - Our not quite five-year-old LCD TV has been acting up lately, sometimes turning two solid colors and then shutting down, sometimes not wanting to turn on, sometimes not wanting to turn off. Like any piece of modern technology, debugging the issue is a combination of:

@@ -3,7 +3,6 @@ draft: false
 title: Working Conditions
 published: 2021-04-10T16:00:00Z
 description: Thoughts on work schedules, pre and post pandemic, and how much you can expect from a 🧠.
-slug: working-conditions
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Three days in the office, two days at home is the ideal combo in my mind, and every time I write about remote work I come across more evidence that lots of people want something roughly similar, but so much of the talk is about all-or-nothing scenarios that most people will hate <a href="https://t.co/eRmii4NJ5Z">https://t.co/eRmii4NJ5Z</a></p>&mdash; Amanda Mull (@amandamull) <a href="https://twitter.com/amandamull/status/1377627762224214029?ref_src=twsrc%5Etfw">April 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -3,7 +3,6 @@ draft: false
 title: Compact discs
 published: 2022-02-21T10:29:06-05:00
 description: The last time I stopped by my parent’s house they handed me a medium sized box full of my old CDs. As an elder-millennial I did have an iPod and a hard drive full of mp3s in college, so these CDs were from the pre-Internet days, and none of them were good enough that I wanted them around after graduating college. So, take a trip down memory lane with me, by way of CD.
-heroImage: /assets/images/2022/cd-superman.jpeg
 tags:
   - music
 ---

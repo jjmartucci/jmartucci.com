@@ -3,8 +3,6 @@ title: Veteran’s Day
 published: 2022-11-12T00:54:08.506Z
 draft: false
 description: the Battle of Metz
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/grandpa.jpeg
-slug: veterans-day-2022
 ---
 
 ![My Grandfather in his fabulously cluttered shed.](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/grandpa.jpeg)

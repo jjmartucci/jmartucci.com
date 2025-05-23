@@ -3,8 +3,6 @@ draft: false
 title: The End of Everything
 published: 2022-01-23T12:50:58-05:00
 description: Happy Sunday, life is meaningless. But not just yours, everyone's!
-image: /assets/images/2022/endofeverything.jpg
-slug: the-end-of-everything
 tags:
   - books
 ---

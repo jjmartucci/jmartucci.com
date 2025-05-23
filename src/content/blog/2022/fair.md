@@ -2,7 +2,6 @@
 title: The Comedy and Tragedy of County Fairs
 published: 2022-08-26T21:44:43-04:00
 description: Wherein we visit the fair and Lorelei is married off to a Vermont boy.
-heroImage: /assets/images/2022/card.jpeg
 ---
 
 We went to the [Caledonia County Fair](https://caledoniacountyfair.com) yesterday. I used to go with my parents every Summer when I was a kid, because it was honestly about the only thing to do in the Summer in the Northeast Kingdom back then, short of the day they switched the movie at the theatre in St. Johnsbury.

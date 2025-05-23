@@ -8,6 +8,6 @@ category: Comics & Graphic Novels
 tags:
   - comics
   - books
-image: /images/books/2025/bowling.jpg
+image: ../images/2025/bowling.jpg
 ---
 I hope this series continues!

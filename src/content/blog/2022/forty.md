@@ -2,7 +2,6 @@
 title: Forty
 published: 2022-05-30T18:48:47-04:00
 description: Notes on turning forty.
-heroImage: /assets/images/2022/cake.jpeg
 tags: ['life']
 ---
 

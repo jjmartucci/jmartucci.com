@@ -10,4 +10,4 @@ tags:
 
 ...that get sad. Some [Procreate](https://procreate.art/) doodlin’ on a Winter weekend.
 
-<video autoplay loop muted playsinline src="/assets/images/2020/cloud.mp4"></video>
+<video autoplay loop muted playsinline src="../images/2020/cloud.mp4"></video>

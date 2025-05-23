@@ -3,10 +3,8 @@ draft: false
 title: Stencil, Markdown, and web components in Markdown
 published: 2021-03-02T00:30:29Z
 description: "I’ve had an idea floating around for a while: MDX is great, but I hate all of the steps around configuring / building React components with it. If I’m writing Markdown, HTML is valid in Markdown, and Web Components are valid HTML, so why not just stick Web Components in Markdown and call it a day?"
-image: ""
 tags:
   - web-development
-slug: stencil-markdown-and-web-components-in-markdown
 ---
 I’ve had an idea floating around for a while: [MDX](https://mdxjs.com) is great, but I hate all of the steps around configuring / building React components with it. If I’m writing Markdown, HTML is valid in Markdown, and Web Components are valid HTML, so why not just stick Web Components in Markdown and call it a day?
 

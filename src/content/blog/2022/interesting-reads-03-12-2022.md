@@ -3,7 +3,6 @@ draft: false
 title: Interesting reads from the last week
 published: 2022-03-12T15:03:33-05:00
 description: Throughout the week I throw interesting articles in my Things inbox, to either file or re-read on the weekend. I’m clearing it out, but these are some I thought you might enjoy.
-slug: interesting-reads-03-12-2022
 ---
 Throughout the week I throw interesting articles in my [Things](http://culturedcode.com/things/) inbox, to either file or re-read on the weekend. I’m clearing it out, but these are some I thought you, dear reader, might enjoy.
 

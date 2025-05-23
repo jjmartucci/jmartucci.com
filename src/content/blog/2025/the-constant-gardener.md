@@ -1,7 +1,7 @@
 ---
 title: The Constant Gardener
 description: I’ve been working behind the scenes for the last few months on converting this site into less of a blog and more of a digital garden.
-image: images/blog/2025/constant-gardener.jpg
+image: ../images/2025/constant-gardener.jpg
 tags:
   - web-development
 created: 2025-04-17T23:19:36-0400

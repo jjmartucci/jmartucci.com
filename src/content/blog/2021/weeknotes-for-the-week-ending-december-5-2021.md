@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending December 5, 2021
 published: 2021-12-05T17:59:04-05:00
 description: None of us are comfortable until we are all comfortable.
-image: /assets/images/2021/donuts.jpeg
-slug: weeknotes-for-the-week-ending-december-5-2021
 ---
 
 Added a December folder. I also spent some time looking for a previous post on this site that I thought existed, but it doesn’t. I can search the files that make up this blog in [iA Writer](https://ia.net/writer), but maybe it’s time to figure out a search feature for the site itself.
@@ -13,14 +11,14 @@ Added a December folder. I also spent some time looking for a previous post on t
 Netlify is doing this [Dusty Domains](https://dusty.domains) thing and I have a domain which is not _that_ dusty but for some reason I bought it and now it’s a website, so please enjoy [whatisannft.digital](https://whatisannft.digital).
 
 ### Second shot snacks
-![Lorelei eating a chocolate mint donut](/assets/images/2021/donuts.jpeg)
+![Lorelei eating a chocolate mint donut](../images/2021/donuts.jpeg)
 
 Lorelei got her second shot so we celebrated with donuts from [Half Baked Cafe](http://halfbakedbeverly.com).
 
 ### Replay (and replay, and replay)
 Apple Music has their year end [personalized replay lists](https://music.apple.com/replay) thing up, and this is a highlight from mine:
 
-![Screenshot showing we listened to the Centaurworld soundtrack 614 times](/assets/images/2021/centaurworld.png)
+![Screenshot showing we listened to the Centaurworld soundtrack 614 times](../images/2021/centaurworld.png)
 
 Yeah, we like [Centaurworld](https://www.netflix.com/title/80992673) in this house. We’re very excited for Season 2 tomorrow. You will often hear one of us say “none of us are comfortable until we are all comfortable” (watch from below if you have no idea what I’m talking about. Then go back and watch the entire show).
 

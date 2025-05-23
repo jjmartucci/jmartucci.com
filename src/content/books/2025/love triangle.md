@@ -7,5 +7,5 @@ link: https://bookshop.org/p/books/love-triangle-how-trigonometry-shapes-the-wor
 category: Non-Fiction
 tags:
   - books
-image: /images/books/2025/triangle.jpg
+image: ../images/2025/triangle.jpg
 ---

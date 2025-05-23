@@ -1,13 +1,13 @@
 ---
 title: Arts Fest Beverly, 2019
 published: 2019-06-16
-image: /assets/images/2018/arts-fest.jpeg
+image: ../images/2018/arts-fest.jpeg
 draft: false
 slug: arts-fest-beverly
 description: Art we picked up at the Beverly Arts Fest.
 ---
 
-![Art we picked up at the Beverly Arts Fest](/assets/images/2018/arts-fest.jpeg)
+![Art we picked up at the Beverly Arts Fest](../images/2018/arts-fest.jpeg)
 
 Our haul from Arts Fest Beverly this year. We definitely have a style we like, specifically down to how many legs a fox should have in the air.
 

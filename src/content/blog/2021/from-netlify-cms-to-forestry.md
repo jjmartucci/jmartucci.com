@@ -3,10 +3,6 @@ title: From Netlify CMS to Forestry
 published: 2021-02-23T17:00:00Z
 description: Why I switched the content editor on this site from Netlify CMS
   to Forestry.io.
-image: "/assets/images/2021/02/forestry-pos-symbol.svg"
-draft: false
-slug: from-netlify-cms-to-forestry
-
 ---
 I’ve used [Netlify CMS](https://www.netlifycms.org) on and off on this site (and previous iterations of it) and while I think it’s a really great idea, the execution of the application is incredibly lacking, for a few reason:
 
@@ -30,7 +26,7 @@ To be clear, the **very good idea** behind Netlify CMS is that it is a light UI 
 
 But all of those started with “download” or “get started by installing”. Then I found [Forestry.io](https://forestry.io), which runs the UI on their servers (headless, the kids call it), but against your Github content. Getting started was similar to setting up a site on Netlify, you connect your Github account, pick the repo, pick the default branch. After that you give forestry some config settings (which it saves in a `.forestry` folder in the repo) and your content, assuming you already have some, sort of magically appears. You can then configure your media library (which, annoyingly, also doesn’t use folders but at least saves correctly to folders if you configure it to), and you can use existing content to build out a reusable front matter structure. I picked one of my “album a day” posts and forestry did (most of) this for me:
 
-![](/assets/images/2021/02/forestry-front-matter.png)
+![](../images/2021/02/forestry-front-matter.png)
 
 (I added the Draft field after, since the post I picked didn’t have that in the front matter already).
 

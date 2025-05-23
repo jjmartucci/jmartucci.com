@@ -3,7 +3,6 @@ title: JavaScript Generators
 published: 2022-11-08T03:45:19.875Z
 draft: false
 description: Functions with but with a fun *.
-slug: javascript-generators
 tags:
   - web-development
 ---

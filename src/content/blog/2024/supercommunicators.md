@@ -1,7 +1,7 @@
 ---
 title: Supercommunicators by Charles Duhigg
 description: Notes on the book Supercommunicators by Charles Duhigg.
-image: images/blog/2024/supercommunicators.jpeg
+image: ../images/2024/supercommunicators.jpeg
 published: 2024-10-14T15:15:00.000Z
 tags:
   - books

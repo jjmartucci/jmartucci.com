@@ -2,7 +2,6 @@
 title: Dude You Got a Dell
 published: 2018-02-03
 description: About a year ago I was ready for a new computer. I had money set aside to buy one, and was just waiting for the release of the new Macbook Pros. And then they released it... and I didn't get one. I had a number of older Macbook Pros that I 💖, and when I had them you couldn’t convince me to ever use a Windows laptop instead. 
-image: /assets/images/2018/dell-dude.jpg
 draft: false
 ---
 
@@ -25,7 +24,7 @@ So Apple decided to get rid of all of the things I liked, and focus on things I 
 
 So instead of a Macbook, I am now the “proud” owner of a refurbished Dell Inspiron 7577.
 
-![Dude you're getting a Dell](/assets/images/2018/dell-dude.jpg)
+![Dude you're getting a Dell](../images/2018/dell-dude.jpg)
 
 Pros:
 

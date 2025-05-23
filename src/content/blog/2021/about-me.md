@@ -3,7 +3,6 @@ title: "New about page"
 published: 2021-01-27T02:23:27.220Z
 description: I’ve been lazy about putting a new about page on this site, because I wanted to make it look better than the plain text wall I had in the last design. I decided since I’m sitting at my home desk almost always these days, I’d make an interactive version for you to play along with.
 draft: false
-slug: about-me
 ---
 
 I’ve been lazy about putting a new about page on this site, because I wanted to make it look better than the plain text wall I had in the last design. I decided since I’m sitting at my home desk _almost always_ these days, I’d make an interactive version for you to play along with.

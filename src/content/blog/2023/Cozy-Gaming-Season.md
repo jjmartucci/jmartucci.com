@@ -2,7 +2,7 @@
 title: Cozy Gaming Season
 slug: cozy-gaming-season
 description: Almost every year this time of year I pick up some “cozy games”, which generally means indie games that aren’t overly mentally taxing, have a good story, have a good gameplay loop, and have an “end” or an “I’ve enjoyed this enough” experience that you can hit in a few hours. The kid of thing you could finish between Christmas and New Years.
-image: images/blog/2023/dd.jpg
+image: ../images/2023/dd.jpg
 draft: false
 published: 2023-12-24T05:00:00.000Z
 tags:

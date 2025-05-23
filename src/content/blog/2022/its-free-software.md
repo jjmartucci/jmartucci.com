@@ -3,7 +3,6 @@ title: It’s free software
 published: 2022-11-03T20:21:43.224Z
 draft: false
 description: The joys of software that keeps getting better.
-slug: its-free-software
 tags: 
 - guitar
 ---

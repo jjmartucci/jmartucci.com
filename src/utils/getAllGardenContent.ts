@@ -13,7 +13,7 @@ export const getAllGardenContent = async () => {
     const allTags =  getTags(all)
     return {
         content: all,
-        tags: allTags
+        tags: Object.keys(allTags).map(key => ([key, allTags[key]])).sort()
     }
 }
 
@@ -21,7 +21,18 @@ export const getTags = (posts: Array<any>) => {
     if(!posts) {
         return []
     }
-    return [...new Set(posts.map((post) => post.data.tags).flat().filter(tag => !!tag))]
+    const tags: { [index: string]: number } = {}
+    posts.forEach(post => {
+        post.data.tags?.forEach((tag: string) => {
+            if(tags[tag]) {
+                tags[tag]++;
+            } else {
+                tags[tag] = 1;
+            }
+        })
+
+    })
+    return tags
 }
 
 export const filterGardenByTag = async (tag: string) => {

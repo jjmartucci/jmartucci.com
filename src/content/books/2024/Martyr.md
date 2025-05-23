@@ -5,7 +5,7 @@ started: 2024-07-15
 finished: 2024-07-15
 author: Kaveh Akbar
 indiebound_link: https://hardcover.app/books/martyr-2024
-image: /books/2024/covers/martyr.jpg
+image: ../images/2024/martyr.jpg
 tags:
   - books
 ---

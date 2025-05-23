@@ -3,9 +3,6 @@ title: Rush - ing a repo
 published: 2021-02-24T00:00:00Z
 description: Some notes on moving an existing Git repository into a Rush monorepo
   structure.
-image: ''
-draft: false
-slug: rush-ing-a-repo
 ---
 Some notes on moving an existing Git repository into a [Rush monorepo structure](https://rushjs.io):
 - The last monorepo setup I did was with Lerna. I much prefer the documentation and incredibly verbose configuration files of Rush. Lerna certainly has it’s place in specific setups but not the one I was trying to set up.

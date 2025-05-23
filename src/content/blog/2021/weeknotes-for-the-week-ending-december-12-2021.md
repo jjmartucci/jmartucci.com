@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending December 12, 2021
 published: 2021-12-12T20:09:45-05:00
 description: None of us are comfortable until we are all comfortable.
-image: /assets/images/2021/santy-claws.jpeg
-slug: weeknotes-for-the-week-ending-december-12-2021
 ---
 
 I was in the office two days this week. I took the train in both days, it was a ~50% as crowded as I remembered it from the pre-pandemic times. It was comfortably crowded, if you can call it that.
@@ -19,12 +17,12 @@ Got my third Pfizer shot this week. That’s… as exciting as it was. Got a rea
 ### What are you watching, Apple Watch
 I do like my Apple Watch but lately it’s been… finicky. This was from a bike ride today.
 
-![Apple Watch readings from a bike ride today](/assets/images/2021/watch.jpeg)
+![Apple Watch readings from a bike ride today](../images/2021/watch.jpeg)
 
 I made it almost two miles without increasing my heart rate at all, and then teleported almost two miles later.
 
 ### Christmas Prep
-![Lorelei with a Santa Claus mask](/assets/images/2021/santy-claws.jpeg)
+![Lorelei with a Santa Claus mask](../images/2021/santy-claws.jpeg)
 
 ### etc
 Reading from this week:

@@ -1,6 +1,6 @@
 ---
 title: "CDs were better than this"
-image: /assets/images/2020/216x216sr-60.jpg
+image: ../images/2020/216x216sr-60.jpg
 published: 2020-10-16T19:51:41+00:00
 decription: “Hey Siri, play Disney Radio”
 draft: false

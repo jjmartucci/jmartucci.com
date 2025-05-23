@@ -1,7 +1,7 @@
 ---
 title: DNS & mar2c.xyz
 description: "After setting up my homeserver I wanted to do something seemingly simple: visit [service].mar2c.xyz from anywhere and be able to reach that service on my home server via HTTPS. Here’s a breakdown of the steps to accomplish that."
-image: images/blog/2025/networking.jpeg
+image: ../images/2025/networking.jpeg
 tags:
   - homeserver
 created: 2025-01-03T12:00:00-0400
@@ -62,14 +62,14 @@ The advantage of options 2 and 3 is you can do other DNS filtering and blocking 
 ## Recap
 
 For those who prefer a visual[^2]
-![](../../images/blog/2025/DNS.png)
+![](../images/2025/DNS.png)
   
   Or quickly:
   
 1. On Tailscale go find the Tailscale IP for Nginx Proxy Manager.  
 2. Locally go find the local IP for Nginx Proxy Manager  
 3. And importantly if you make the request on the Internet at large…  
-  ![](../../images/blog/2025/your-going-nowhere.gif)
+  ![](../images/2025/your-going-nowhere.gif)
 
 Also if you’re wondering what the header image on this post is, it comes from [this wonderfully odd music video for Warren Zevon’s song _Networking_](https://www.youtube.com/watch?v=csQq7kPBRbA), which is some great background music if you want to try setting this up yourself.
 * * *

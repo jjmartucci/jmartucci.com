@@ -3,8 +3,6 @@ draft: false
 title: Why Didn’t Someone Tell Me This Sooner?
 published: 2022-04-10T22:23:28-04:00
 description: Sometimes a cigar is just a useless thing to learn about.
-slug: why-has-nobody-told-me-this-before
-image: /assets/images/2022/the-next-right-thing.jpg
 ---
 I finished _[Why Has Nobody Told Me This Before?](https://www.indiebound.org/book/9780063227934)_ yesterday. It’s a good high level intro into almost everything a person might go see a therapist for.  It’s better organized than 6000 Tik Tok videos, which seems to be the _de rigueur_ way to learn about these things.
 

@@ -3,7 +3,6 @@ draft: false
 title: Weeknotes for the week ending June 27, 2021
 published: 2021-06-27T20:15:17-04:00
 description: Oh this one will be a simple project....
-slug: weeknotes-for-the-week-ending-june-27
 ---
 
 - Packed up the entire kitchen this weekend. We’re getting some work done to the cabinets, new counters, other things. We’ve lived in three houses and in each wanted to do kitchen work to make it more how we’d want it instead of how we bought it: we DYI’d it in our first house and it was an improvement but didn’t really solve any of the fundamental problems of that kitchen (galley kitchen, 80 year old cabinets), we never even started in our second house (having a newborn was enough), this time we’ll finally have the kitchen we made decisions on, instead of someone else.

@@ -1,7 +1,7 @@
 ---
 title: We’ve Moved
 description: Swapping up what domains are used for what.
-image: images/blog/2024/moved.jpeg
+image: ../images/2024/moved.jpeg
 published: 2024-10-03
 draft: false
 tags:

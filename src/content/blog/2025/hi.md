@@ -1,7 +1,7 @@
 ---
 title: Hi
 description: I’m just here to make sure you didn’t accidentally push draft posts live. 😺
-image: images/blog/2025/funny-cat-pictures-046-019.jpg
+image: ../images/2025/funny-cat-pictures-046-019.jpg
 tags:
   - draft
 created: 2026-04-14T14:50:38-0400
@@ -15,4 +15,4 @@ I’m just here to make sure you didn’t accidentally push draft posts live. �
 
 This is the content.
 But only one image is hidden, right?  
-![](../../images/blog/2025/cute-cat-with-yellow-headband-on.png)
+![](../images/2025/cute-cat-with-yellow-headband-on.png)

@@ -3,7 +3,6 @@ draft: false
 title: Not all ideas are good ideas
 published: 2022-07-02T22:03:52-04:00
 description: Convincing your kid that walking into the woods at night is worth it.
-slug: fourth-fireworks
 tags:
 - life
 ---

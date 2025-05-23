@@ -3,8 +3,6 @@ draft: false
 title: First ride
 published: 2022-02-23T21:09:32-05:00
 description: 66 and sunny.
-image: /assets/images/2022/bike-at-gordon.jpeg
-slug: first-ride
 ---
 I see:
 

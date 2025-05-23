@@ -3,8 +3,6 @@ draft: false
 title: Seven
 published: 2022-05-21T16:29:53-04:00
 description: Lorelei turned seven this week.
-slug: seven
-image: /assets/images/2022/seven.jpeg 
 tags:
 - life
 ---

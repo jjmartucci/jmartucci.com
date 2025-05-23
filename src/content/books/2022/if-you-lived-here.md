@@ -2,7 +2,7 @@
 title: If You Lived Here You’d Be Home By Now
 finished: 2022-01-01T09:55:22-05:00
 indiebound_link: https://www.indiebound.org/book/9780062861474
-image: /books/2022/covers/if-you-lived-here.jpg
+image: ../images/2022/if-you-lived-here.jpg
 date: 2022-01-01T09:55:22-05:00
 tags:
   - books

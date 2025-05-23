@@ -6,7 +6,7 @@ slug: don-t-worry-bee-happy
 description: scootering
 ---
 
-![](/assets/images/2019/be_happy_m.jpg)
+![](../images/2019/be_happy_m.jpg)
 
 alt: don't worry, bee happy.
 

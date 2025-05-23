@@ -3,7 +3,6 @@ title: Setting up an iPad as a multi-user device
 published: 2022-11-14T00:46:38.111Z
 draft: false
 description: Wherein I consider throwing my iPad into the river.
-slug: setting-up-an-ipad-as-a-multi-user-device
 ---
 Andrea had a good idea the other day to set up a digital display in our kitchen area to be able to see shared calendars, reminders, other digital debris we individually see on our devices but don’t have a great way of seeing as a family.
 

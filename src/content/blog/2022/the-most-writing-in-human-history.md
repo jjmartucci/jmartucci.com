@@ -3,7 +3,6 @@ draft: false
 title: The most writing in human history
 published: 2022-04-03T20:15:25-04:00
 description: There’s more writing going on now than ever before in human history.
-slug: the-most-writing-in-human-history
 ---
 I’ve been reading [Smarter Than You Think](https://www.indiebound.org/book/9780143125822). Chapter 2 is about online writing and blogging, and Clive Thompson mentions how there’s more writing going on now than ever before in human history:
 

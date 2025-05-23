@@ -8,7 +8,7 @@ tags:
   - psychology
   - books/non-fiction
 link: https://bookshop.org/p/books/the-anxious-generation-how-the-great-rewiring-of-childhood-is-causing-an-epidemic-of-mental-illness-jonathan-haidt/20144236?ean=9780593655030&next=t&next=t
-image: /images/books/2025/anxious.webp
+image: ../images/2025/anxious.webp
 ---
 # The Anxious Generation
 [Bookshop.org](https://bookshop.org/p/books/the-anxious-generation-how-the-great-rewiring-of-childhood-is-causing-an-epidemic-of-mental-illness-jonathan-haidt/20144236?ean=9780593655030&next=t&next=t)

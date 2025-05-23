@@ -3,13 +3,11 @@ draft: false
 title: Weeknotes for the week ending May 16, 2021
 published: 2021-05-16T16:01:00Z
 description: What happened this week, May 11 - May 16, 2021.
-image: "/assets/images/2021/05/img_4796.jpeg"
-slug: weeknotes-for-the-week-ending-may-16-2021
 ---
 * First meal from our garden: cucumber and watermelon salad with mint. That might sound impressive, but the only ingredient from the garden was the mint.
 * Got a decent bike ride in. One thing from this time last year that I _do_ miss was the reduction in traffic, but I can understand why everyone wanted to be out on a near eighty-degree day in May.
 
-![](/assets/images/2021/05/img_4796.jpeg)
+![](../images/2021/05/img_4796.jpeg)
 
 _Being able to ride to the ocean is a thing I will never stop appreciating._
 

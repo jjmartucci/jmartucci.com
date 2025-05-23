@@ -1,7 +1,6 @@
 ---
 title: "Shelf Love Podcast"
 published: 2020-05-03T15:06:05+00:00
-image: /assets/gifs/mulan-dishonor.gif
 description: Late last year my wife started a new podcast called [Shelf Love](https://podcasts.apple.com/us/podcast/shelf-love-a-romance-novel-book-club/id1480593827). I built her a website. It was not good. It worked, but brought us both great shame.
 draft: false
 slug: shelf-love-podcast
@@ -19,4 +18,4 @@ Beyond a visual refresh, the back-end of the site was changed from pulling episo
 
 Anywho, [go check it out](https://shelflovepodcast.com).
 
-![](/assets/images/2020/shelf-love-logo.jpg)
+![](../images/2020/shelf-love-logo.jpg)

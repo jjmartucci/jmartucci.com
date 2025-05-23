@@ -7,6 +7,7 @@ import GardenBreadcrumbs from "@components/GardenBreadcrumbs/GardenBreadcrumbs.a
 import {getAllGardenContent} from "../../../utils/getAllGardenContent";
 import Prose from "../../../components/Prose/Prose.astro";
 import BookHeader from "../../../components/BookHeader/BookHeader.astro";
+import BlogPost from "../../../components/BlogPost/BlogPost.astro";
 
 export async function getStaticPaths() {
     const posts = await getAllGardenContent();
@@ -19,7 +20,8 @@ export async function getStaticPaths() {
 
 const post = Astro.props;
 
-const isBook = post.collection === "books"
+const isBook = post.collection === "books";
+const isBlog = post.collection === "blog";
 const { Content, remarkPluginFrontmatter } = await post.render();
 ---
 
@@ -28,7 +30,8 @@ const { Content, remarkPluginFrontmatter } = await post.render();
     <GardenBreadcrumbs />
     <Prose>
         {isBook && <BookHeader book={post} />}
-        <Content />
+        {isBlog && <BlogPost {...post.data}><Content /></BlogPost>}
+        {!isBlog && <Content />}
     </Prose>
     <hr />
     <PlantTag tags={post.data.tags} />

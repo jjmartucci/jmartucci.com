@@ -3,12 +3,10 @@ draft: false
 title: Weeknotes for the week ending October 24, 2021
 published: 2021-10-24T19:08:18-04:00
 description: I’m just glad I’m not the oldest person at this show yet.
-image: /assets/images/2021/days-n-daze.jpeg
-slug: weeknotes-for-the-week-ending-october-24-2021
 ---
 
 ### Get in the pit
-![Days N Daze at the Middle East in Cambridge](/assets/images/2021/days-n-daze.jpeg)
+![Days N Daze at the Middle East in Cambridge](../images/2021/days-n-daze.jpeg)
 
 Went to a concert for the first time since COVID. The show was [Crazy & The Brains](https://crazyandthebrains.net) (first punk band I’ve seen use a xylophone), [Bridge City Sinners](https://www.bridgecitysinners.com), better explained in their own words:
 
@@ -27,7 +25,7 @@ An iPhone 13 Pro showed up this week. I wasn’t planning on upgrading my XR (it
 
 So far that camera has been great for taking pictures of my child who finds the most adorable faces to make.
 
-![Lorelei smooshing her face](/assets/images/2021/smoosh-face.jpeg) 
+![Lorelei smooshing her face](../images/2021/smoosh-face.jpeg) 
 
 ### etc
 Just posting this for posterity, so some day my kid can find this and know that I was good at video games (some times, when other people are bad).

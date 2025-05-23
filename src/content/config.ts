@@ -1,17 +1,17 @@
 import { defineCollection, z } from "astro:content";
-import {glob} from "astro/loaders";
+
 
 const blog = defineCollection({
   type: "content",
   // Type-check frontmatter using a schema
-  schema: z.object({
+  schema: ({image}) => z.object({
     title: z.string(),
     description: z.string(),
     // Transform string to Date object
     published: z.coerce.date().optional(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
-    image: z.string().optional(),
+    image: image().optional(),
     tags: z.array(z.string()).optional(),
     draft: z.boolean().optional(),
     hideRSS: z.boolean().optional(),
@@ -22,10 +22,10 @@ const blog = defineCollection({
 const books = defineCollection({
   type: "content",
   // Type-check frontmatter using a schema
-  schema: z.object({
+  schema: ({image}) => z.object({
     title: z.string(),
     link: z.string().optional(),
-    image: z.string().optional(),
+    image: image().optional(),
     tags: z.array(z.string()).optional(),
     draft: z.boolean().optional(),
     author: z.string().optional(),
@@ -34,14 +34,14 @@ const books = defineCollection({
 
 
 const garden = defineCollection({
-  schema: z.object({
+  schema: ({image}) => z.object({
     title: z.string(),
     tags: z.array(z.string()).optional(),
     created: z.string().optional(),
     modified: z.string().optional(),
     published: z.date().optional(),
     description: z.string().optional(),
-    image: z.string().optional(),
+    image: image().optional(),
   })
 });
 

@@ -3,13 +3,11 @@ draft: false
 title: Weeknotes for the week ending October 31, 2021
 published: 2021-10-31T19:28:53-04:00
 description: Waiting for the Great Pumpkin edition.
-image: /assets/images/2021/halloween-door.jpeg
-slug: weeknotes-for-the-week-ending-october-31-2021
 ---
 
 Writing this while manning the trick-or-treat duties. Not a lot of kids so far this year[^3], which is surprising. Last year we had a decent turnout even with COVID and it being below freezing.
 
-![Our house, decorated for Halloween](/assets/images/2021/halloween-door.jpeg)
+![Our house, decorated for Halloween](../images/2021/halloween-door.jpeg)
 
 ### Y, the First Book
 I started re-reading _Y: The Last Man_. We’ve been watching [the TV series](https://press.hulu.com/shows/y-the-last-man/) on Hulu, but I’d forgotten the exact plot beats of the comic. _Y_ was the first comic I got into when I got _back_ into comics as an adult, and I’m enjoying how the TV series is going deeper into some character’s backstories, being _more_ subtle about others[^1], and splitting other characters into multiple characters (and going deeper into the backstories of both!). I’m glad it’s getting the treatment it deserves.

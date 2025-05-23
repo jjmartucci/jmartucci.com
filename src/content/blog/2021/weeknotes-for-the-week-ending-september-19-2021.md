@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending September 19, 2021
 published: 2021-09-19T19:01:29-04:00
 description: This week, summed up in two short scenes with my daughter.
-image: /assets/images/2021/shark.jpeg
-slug: weeknotes-for-the-week-ending-september-19-2021
 ---
 
 This week, summed up in two short scenes with my daughter.
@@ -42,7 +40,7 @@ _Scene: at [Stage Fort Park](https://essexheritage.org/attractions/stage-fort-pa
 <span role="image" aria-label="Me">👨</span>: I don’t think there are sharks here.<br />
 <span role="image" aria-label="Daughter">👧</span>: It’s right there!<br />
 <span role="image" aria-label="Me">👨</span>: It’s probably just a ro… oh it is a shark.<br />
-![Sandshark in the water near Stage Fort Park in Gloucester](/assets/images/2021/shark.jpeg)
+![Sandshark in the water near Stage Fort Park in Gloucester](../images/2021/shark.jpeg)
 
 ### etc
 - I’ve used [Magnet](https://magnet.crowdcafe.com) for window management on MacOS for a long time, but it turns out there’s a free option called [Rectangle](https://github.com/rxhanson/Rectangle) that works just as well, and you can install it via [Homebrew](https://brew.sh), which is extra great because I have zero interest in using Mac App store apps on my work Mac.

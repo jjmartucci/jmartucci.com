@@ -1,7 +1,7 @@
 ---
 title: Portland
 description: A mid-week trip to the Portland of the East Coast.
-image: images/blog/2025/port.jpeg
+image: ../images/2025/port.jpeg
 tags:
   - travel
 created: 2025-04-25T21:54:14-0400
@@ -20,12 +20,12 @@ We stayed at the [Longfellow Hotel](https://www.longfellowhotel.com/), which mus
 ## Itinerary
 
 Uh… there wasn’t one. I had a few ideas but all we really did (besides some shopping) was go to the [Portland Museum of Art](https://www.portlandmuseum.org/) which has a good size to collection ratio. Also this painting of a moose that I like, that I forgot to take a picture of the description of.
-  ![](../../images/blog/2025/IMG_9707.jpeg)
+  ![](../images/2025/IMG_9707.jpeg)
 
 I did take up a side project to find the old McDonald’s Garfield glasses at each vintage store.
 
-![|100](../../images/blog/2025/garfield1.jpeg)
-![|100](../../images/blog/2025/garfield2.jpeg)
+![|100](../images/2025/garfield1.jpeg)
+![|100](../images/2025/garfield2.jpeg)
   
 ## Food
 

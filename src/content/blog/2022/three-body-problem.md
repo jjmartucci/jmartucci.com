@@ -3,8 +3,6 @@ draft: false
 title: The Three-Body Problem or the Three-Book problem?
 published: 2022-04-16T10:29:17-04:00
 description: In this era of “more of everything” it’s nice to enjoy something that ends.
-image: /assets/images/book_covers/2022/three-body.jpg 
-slug: three-body-problem
 tags:
 - books
 ---

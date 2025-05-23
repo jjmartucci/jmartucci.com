@@ -3,7 +3,6 @@ title: "I’m just a performer, I don’t know anything about circuits"
 published: 2022-10-16T08:06:17-04:00
 draft: false
 description: Breakdown of where tone come from in a guitar amp.
-slug: where-does-the-tone-come-from
 tags: [music]
 ---
 [Jim Lill](https://www.youtube.com/user/JimLill45) has a lot of great videos breaking down what makes a difference in guitar sound. This one might be the best because the guitar market for amplifiers (along with guitar pedals) has had this mix of classic collectors claiming only one amp can get one tone, and deep-state conspiracy theorists arguing one wire makes all the difference (but don’t _look_ at the wire, opening the amp will change everything).

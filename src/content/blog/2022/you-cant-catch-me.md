@@ -3,8 +3,6 @@ title: You can’t catch me
 published: 2022-11-27T01:35:57.181Z
 draft: false
 description: Did some holiday decorating and baking after going out to see Strange World.
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/gingerbread.jpeg
-slug: you-cant-catch-me
 ---
 I’m the gingerbread man.
 

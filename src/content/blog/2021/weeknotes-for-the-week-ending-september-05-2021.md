@@ -3,18 +3,16 @@ draft: false
 title: Weeknotes for the week ending September 5, 2021
 published: 2021-09-05T17:55:24-04:00
 description: Start of the new school year.
-image: /assets/images/2021//first-grade.jpeg
-slug: weeknotes-for-the-week-ending-september-05-2021
 ---
 ### First day of first grade
-![Lorelei wearing her first grade crown.](/assets/images/2021/first-grade.jpeg)
+![Lorelei wearing her first grade crown.](../images/2021/first-grade.jpeg)
 
 Started another school year. We’re doing in person this year, and Lorelei (and we) are much happier about that. The town didn’t have open arguments about mask usage, and the kids don’t seem to mind wearing them, and most of the parents seem reasonable around here, outside of some S-tier dumb-assess who showed up to the meet-and-greet day wearing AR-15 apparel[^1]. 
 
 If you think of everything in seasons, this Fall feels more optimistic than last Fall. Less “this isn’t what I wanted” and more “this isn’t what I expected” which is par for the course of life.
 
 ### NBD (new bike day)
-![My new 2021 Santa Cruz Tallboy.](/assets/images/2021/nbd.jpeg)
+![My new 2021 Santa Cruz Tallboy.](../images/2021/nbd.jpeg)
 _Last time it’ll ever be clean._
 
 I’ve been biking nearly as long as I’ve been walking, and mountain biking only a bit less than that, but for the last few years I’ve been without a mountain bike. The last one I had was a Santa Cruz Nickel frame that I had slapped hand me down parts on, which was a nice enough bike, but it went into storage for a while and when it came out I realized a lot of those parts needed to be replaced, and if I was going to do that, wouldn’t it make more sense to buy something newer with bigger wheels? Sure. So I sold it, and then put off finding its replacement thinking, well, there’s house projects that need funding, and how often do I really have time with a kid, and all other excuses. I finally decided to look at getting a new bike in 2020 but… they all quickly disappeared. This Summer I finally said I’m going to find _something_ and kept tabs open at all the local shops and online, and found this 2021 Tallboy on [evo](https://www.evo.com) that’s likely a hold over shipment from last years orders. I’ve been out on two rides, and it’s a lot like the Nickel but with bigger wheels, so in the end I got what I wanted. I will add, mountain biking has gotten harder in the last 4 or 5 years that I’ve been away from it. Like, the mountains [^2] got bigger, or all the rain this year really washed out a lot more roots. It’s definitely not me being older or more out of shape.

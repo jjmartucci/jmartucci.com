@@ -3,8 +3,6 @@ title: The Ten (Insert Superlative Here) Christmas Songs
 published: 2022-12-11T14:07:35-05:00
 draft: false
 description: A list of ten Christmas songs with particular vibes I enjoy.
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/christmas-jake.jpeg
-slug: the-ten-insert-superlative-here-christmas-songs
 ---
 
 A list of ten Christmas songs with particular vibes I enjoy.

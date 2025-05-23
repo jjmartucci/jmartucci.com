@@ -2,7 +2,7 @@
 title: Yeet
 slug: yeet
 description: This is just a post to say I was laid off last week. I won’t write an elegy on the love of a corporation lost, I never presumed this was a forever thing and I would hope that no one reading here is naive enough to believe it ever is.
-image: images/blog/2023/boot.jpg
+image: ../images/2023/boot.jpg
 draft: false
 published: 2023-11-15T00:40:00.000Z
 ---

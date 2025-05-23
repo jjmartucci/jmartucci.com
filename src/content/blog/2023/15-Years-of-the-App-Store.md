@@ -4,7 +4,6 @@ slug: 15-years-of-the-app-store
 description: My day 1 downloads from the App Store.
 draft: false
 published: 2023-07-10T04:00:00.000Z
-image: images/blog/2023/app-store.jpg
 tags:
   - tech
 ---

@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending October 3, 2021
 published: 2021-10-03T20:51:20-04:00
 description: Welcome to spooky season.
-image: /assets/images/2021/deer.jpeg
-slug: weeknotes-for-the-week-ending-october-3-2021
 ---
 
 It’s October. The wife and I had Friday off, and thought maybe we’d get lunch in Salem. We didn’t really think October 1st, a full 30 days away from Halloween would be an issue, but people take October being spooky season seriously. Instead we ate lunch in town, which is another town that used to be part of Danvers, which is where the “Salem” Witch Trials took place, but don’t tell the tourists that.
@@ -12,7 +10,7 @@ It’s October. The wife and I had Friday off, and thought maybe we’d get lunc
 ### A Leaf on the Wind, and The Good Lord Bird.
 Before attempting lunch on Friday I went out for a bike ride. One of my favorite things when mountain biking is unintentionally sneaking up on wildlife, slipping through the trees quickly and quietly enough that they don’t notice you until you’re close, and then they jump and run off. Happened with a few deer, but the treat was a Pileated woodpecker jumping off a tree and flying in front of me for a few hundred feet.
 
-![Deer in the woods. Seems hungry.](/assets/images/2021/deer.jpeg)
+![Deer in the woods. Seems hungry.](../images/2021/deer.jpeg)
 _Find the deer. Someday I’ll have a phone with a telephoto lens._
 
 Related, an article I read this week about the [Ivory-billed woodpecker being declared extinct](https://www.vox.com/down-to-earth/22700280/extinct-animals-birds-biodiversity-loss). As a kid I had a t-shirt that was treated so that when it was cool the silhouettes of dozens of animals were on it, and when it got hot, they disappeared. This wasn’t even a commentary on global warming, it was just — hey, stop tearing down the places these animals live. But, they’re probably all gone now.

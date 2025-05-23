@@ -3,7 +3,7 @@ title: Montreal - Trip Notes
 published: 2024-06-30
 draft: false
 description: Bonjour/hello to our neighbors to the North. Or West? I’m still not sure.
-image: images/blog/2024/montreal.jpeg
+image: ../images/2024/montreal.jpeg
 tags:
   - travel
 ---

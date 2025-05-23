@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending November 28, 2021
 published: 2021-11-28T18:39:32-05:00
 description: Letting your brain turn to the consistency of canned cranberry sauce.
-image: /assets/images/2021/cat-christmas.jpeg
-slug: weeknotes-for-the-week-ending-november-28-2021
 ---
 
 Since we did the family Thanksgiving last weekend, the last four days have been nothing but relaxation for us. The six-year old watched TV until her brain melted, my wife read books or did research until her brain melted, and I just kind of chilled until my already melted brain reshaped. Or something. Maybe it’s still a little gooey.
@@ -17,7 +15,7 @@ I also said [last week](https://www.builtwith.coffee/blog-posts/2021/11/weeknote
 ### …start of snowy season
 Put up the tree. Immediately the cats starting losing their minds.
 
-![Maggie under the Christmas tree](/assets/images/2021/cat-christmas.jpeg)
+![Maggie under the Christmas tree](../images/2021/cat-christmas.jpeg)
 
 We also watched [The Shop Around the Corner](https://en.wikipedia.org/wiki/The_Shop_Around_the_Corner) which is the lesser known of the Jimmy Stewart Christmas movies. Arguably the better of the two.
 

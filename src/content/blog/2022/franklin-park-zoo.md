@@ -3,8 +3,6 @@
  published: 2022-09-24T20:08:01-04:00
  draft: false
  description: Do the lions not delight you, child?
- image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/smile-try.jpeg
- slug: franklin-park-zoo
 ---
 We had plans to visit friends in Dorchester today, and earlier in the week I thought “well what else can we do if we have to drive to Dorchester”, then realized the [Franklin Park Zoo](https://www.zoonewengland.org/franklin-park-zoo) was nearby, and the weather looked nice, and it was “Princess & Pirates” day so why not.
 

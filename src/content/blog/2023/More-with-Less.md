@@ -1,7 +1,7 @@
 ---
 title: More with Less
 description: Asking "what problem does this really solve?"
-image: images/blog/2023/ouroboros.jpg
+image: ../images/2023/ouroboros.jpg
 published: 2023-11-03T04:00:00.000Z
 tags:
   - tech

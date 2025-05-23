@@ -3,19 +3,17 @@ draft: false
 title: Weeknotes for the week ending June 20, 2021
 published: 2021-06-20T20:50:47-04:00
 description: The "no not salad" days of Summer.
-image: "/assets/images/2021//salad-days.jpeg"
-slug: weeknotes-for-the-week-ending-june-20
 ---
 
 - It’s finished:
-![Full photo of the patio in our backyard at night.](/assets/images/2021//patio-far.jpeg)
-![Close up photo of the patio in our backyard at night.](/assets/images/2021//patio-close.jpeg)
+![Full photo of the patio in our backyard at night.](../images/2021//patio-far.jpeg)
+![Close up photo of the patio in our backyard at night.](../images/2021//patio-close.jpeg)
 
 Well, “finished”. We still need ~1.5 yards of top soil to make a flower bed, and the light “poles” are a “temporary” solution of zip-tying 2x2s to the chain link fence. As with every time we do a yard project I overestimated how much pea gravel we‘d need, so I‘m trying to figure out a place for what‘s left in the driveway before ordering more stuff to... have dumped on the driveway.
 
 - Woke up this morning and when my daughter came down she said “Happy Father’s day” followed by “... do you like salad?”. Me: “uh, sure?”
 
-![My Dad loves to eat... "salad"](/assets/images/2021//salad-days.jpeg)
+![My Dad loves to eat... "salad"](../images/2021//salad-days.jpeg)
 
 She came up with the same answer for her Mom on Mother’s Day. We eat a side salad with dinner a lot in this household, but I don’t think either of us have ever been like “oh yum yum salad my favorite”.
 

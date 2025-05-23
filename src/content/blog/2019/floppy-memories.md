@@ -1,7 +1,7 @@
 ---
 title: Floppy Memories
 published: 2019-12-03
-image: /assets/images/2019/0F3AA697-702C-41BC-8C27-DB1585671F79.jpeg
+image: ../images/2019/0F3AA697-702C-41BC-8C27-DB1585671F79.jpeg
 draft: false
 slug: floppy-memories
 description: This week is my last week as a software developer at Education First.
@@ -17,36 +17,36 @@ Of course I’m not in any of these pictures, so there’s no proof that I reall
 
 _kids playing soccer in an alley in Venice, which is peak Italy as I remember it_
 
-![](/assets/images/2019/0F3AA697-702C-41BC-8C27-DB1585671F79.jpeg)
+![](../images/2019/0F3AA697-702C-41BC-8C27-DB1585671F79.jpeg)
 
 _Michelangelo’s workshop in Florence_
 
-![](/assets/images/2019/75900236-26E0-40C4-81C7-1C5C4DBDED9F.jpeg)
+![](../images/2019/75900236-26E0-40C4-81C7-1C5C4DBDED9F.jpeg)
 
 _light from the center hole in the Pantheon_
 
-![](/assets/images/2019/3AB72ACF-39C9-400E-B23F-A1CFAD5CA8DF.jpeg)
+![](../images/2019/3AB72ACF-39C9-400E-B23F-A1CFAD5CA8DF.jpeg)
 
 _Spanish Steps in Rome_
 
-![](/assets/images/2019/8F8B7F57-B335-479B-A962-30FFAA00F6AF.jpeg)
+![](../images/2019/8F8B7F57-B335-479B-A962-30FFAA00F6AF.jpeg)
 
 _Florence from the Duomo_
 
-![](/assets/images/2019/D46EB544-A869-405D-96E8-941251F4AB92.jpeg)
+![](../images/2019/D46EB544-A869-405D-96E8-941251F4AB92.jpeg)
 
 _Venice from St. Mark’s campanile_
 
-![](/assets/images/2019/7160C475-C6AA-4240-AD6B-822CEDA049F7.jpeg)
+![](../images/2019/7160C475-C6AA-4240-AD6B-822CEDA049F7.jpeg)
 
 _the picture every Latin student has to take, from Pompeii_
 
-![](/assets/images/2019/AD5E7B89-88BB-41F7-ACC4-943EE04851B4.jpeg)
+![](../images/2019/AD5E7B89-88BB-41F7-ACC4-943EE04851B4.jpeg)
 
 _St. Mark’s square_
 
-![](/assets/images/2019/20C77B12-4340-4040-8A61-E67B6C56DD0A.jpeg)
+![](../images/2019/20C77B12-4340-4040-8A61-E67B6C56DD0A.jpeg)
 
 _the countryside around, if I remember correctly, Assisi_
 
-![](/assets/images/2019/57D890FE-1C97-4963-81AC-159B8674EF8E.jpeg)
+![](../images/2019/57D890FE-1C97-4963-81AC-159B8674EF8E.jpeg)

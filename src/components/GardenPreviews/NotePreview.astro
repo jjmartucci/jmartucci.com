@@ -8,7 +8,7 @@ interface Props {
 }
 const {note} = Astro.props
 const { remarkPluginFrontmatter } = await note.render();
-
+const collection = note.collection
 ---
 
 <SlottedPreview

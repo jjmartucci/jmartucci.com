@@ -9,20 +9,12 @@ import { Image } from 'astro:assets';
 type Props = CollectionEntry<"garden">["data"];
 
 const { title, published, description, created,  image } = Astro.props;
-let imageUrl = null;
-if(image) {
-  try {
-    imageUrl = await import(`../content/blog/${image}`)
-  } catch(e) {
-    imageUrl = null
-  }
-}
 ---
 
 <BaseLayout title={title} description={description} image={image}>
   <article>
     <div class="hero-image">
-      {imageUrl && <Image src={imageUrl.default} alt="" />}
+      {image && <Image src={image} alt="" />}
     </div>
     <div class={styles.prose}>
       <div class="title">

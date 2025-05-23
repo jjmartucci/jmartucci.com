@@ -2,7 +2,6 @@
 title: Wintering
 published: 2022-01-29T18:20:15-05:00
 description: Some ice, and some snow.
-heroImage: /assets/images/2022/wintering-ice.jpeg
 ---
 Some ice, and some snow.
 ![][image-1]![][image-2]

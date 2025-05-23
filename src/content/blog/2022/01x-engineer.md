@@ -3,7 +3,6 @@ title: 0.1x engineer
 published: 2022-11-10T02:45:52.714Z
 draft: false
 description: My favorite programmers are the ones that are smart and lazy.
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/cat.jpeg
 slug: 01x-engineer
 ---
 ![](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/cat.jpeg)

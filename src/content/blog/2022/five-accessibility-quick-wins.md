@@ -3,7 +3,6 @@ draft: false
 title: 5 Accessibility Quick Wins (and two for this site)
 published: 2022-02-27T19:41:32-05:00
 description: Practical A11Y improvements.
-slug: five-accessibility-quick-wins
 tags:
   - web-development
 ---

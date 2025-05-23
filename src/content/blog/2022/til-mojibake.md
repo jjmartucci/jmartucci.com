@@ -3,7 +3,6 @@ title: "TIL: Mojibake"
 published: 2022-10-06T00:19:34.137Z
 draft: false
 description: The garbled text that is the result of text being decoded using an unintended character encoding.
-slug: til-mojibake
 ---
 > the garbled text that is the result of text being decoded using an unintended character encoding.
 

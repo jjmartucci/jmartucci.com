@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending December 19, 2021
 published: 2021-12-19T15:29:59-05:00
 description: Red sky at morning, sailors take warning.
-image: /assets/images/2021/sky-1.jpeg
-slug: weeknotes-for-the-week-ending-december-19-2021
 ---
 
 My father has a few rhymes that he breaks out whenever relevant, and one is a common weather forecasting one:
@@ -16,10 +14,10 @@ My father has a few rhymes that he breaks out whenever relevant, and one is a co
 The sky was throwing some moods this week, but storms, at least for us landlubbers, didn’t develop in a meaningful way.
 
 Monday:
-![The sky on Monday morning](/assets/images/2021/sky-1.jpeg)
+![The sky on Monday morning](../images/2021/sky-1.jpeg)
 
 Tuesday:
-![The sky on Tuesday morning](/assets/images/2021/sky-2.jpeg)
+![The sky on Tuesday morning](../images/2021/sky-2.jpeg)
 
 What I do love about that little rhyme though is that it’s thousands of years old, and it’s [accurate enough](https://www.loc.gov/everyday-mysteries/item/is-the-old-adage-red-sky-at-night-sailors-delight-red-sky-in-morning-sailors-warning-true-or-is-it-just-an-old-wives-tale/) that it’s been worth repeating all of those thousands of years.
 
@@ -31,7 +29,7 @@ This has been an uneventful week. Ideally this next one is too, and the one afte
 - Also I introduced Lorelei to the idea of the doodle pad. Just a blank notebook you doodle in. Doodling seemed like a foreign concept to her, and honestly it’s been a while for me, as well. I explained it as just drawing shapes, and then seeing where you end up. I remember both my mother and her father having paper all over the house with doodles on it, opened envelopes, marginalia in catalogs, hotel sticky notepads. Just something to do while talking on the phone.
 
 This is where we ended up:
-![This is where our doodle session went](/assets/images/2021/doodles.jpeg)
+![This is where our doodle session went](../images/2021/doodles.jpeg)
 - I almost bought an interesting book in Apple Books this morning, then stopped. I’ll get it from the local book store or library. I’ve been adamant about not reading digital books lately, and I’d like to stay that way. Also I have a Winter plan to build a little library[^1] for the yard for Spring, and it needs more souls.
 
 ### etc

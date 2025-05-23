@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending September 26, 2021
 published: 2021-09-26T19:27:28-04:00
 description: General complaints about software updates and specific excitement about snake updates.
-image: /assets/images/2021/baby-snek.jpeg
-slug: weeknotes-for-the-week-ending-september-26-2021
 ---
 ### iOS 15
 I upgraded all of my iDevices to iOS15 (or… whatever their equivalents are called. tvOS/HomeOS _something-point-oh_). A few quick notes:
@@ -15,7 +13,7 @@ Beyond those gripes, there’s a ton of low level quality of life improvements. 
 
 ### Hitchin’ a ride
 
-![2014 Subaru Forester with the bumper removed for a hitch install.](/assets/images/2021/exhausting.jpeg)
+![2014 Subaru Forester with the bumper removed for a hitch install.](../images/2021/exhausting.jpeg)
 
 I put a trailer hitch on our Forester on Saturday. I wanted a hitch mount rack for the [new bike](https://www.builtwith.coffee/blog-posts/2021/09/weeknotes-for-the-week-ending-september-05-2021) - it’s way too long and heavy for me to easily get on and off the roof rack, but that necessitated having a hitch to put the hitch rack on first. I decided to do it myself because sometimes I enjoy working on cars, and I found a [version of the install that](https://www.subaruforester.org/threads/no-drill-curt-hitch-install.374929/) that involved no drilling, only wrenching. Some thoughts:
 
@@ -42,4 +40,4 @@ And before you’re like “well it’s Stop and Shop, what do you expect” let
 
 - We’ve had a little snake hanging out in our backyard. Lorelei and I went out this evening to see if we could find it. We didn’t, instead we found… baby snakes! 
 
-![Baby snake](/assets/images/2021/baby-snek.jpeg)
+![Baby snake](../images/2021/baby-snek.jpeg)

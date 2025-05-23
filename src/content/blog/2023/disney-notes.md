@@ -3,7 +3,7 @@ title: Disney World
 published: 2023-04-26T12:13:36-04:00
 draft: false
 description: Field notes from our 2023 trip to Disney World.
-image: images/blog/2023/epcot.jpeg
+image: ../images/2023/epcot.jpeg
 tags:
   - travel
 ---
@@ -59,7 +59,7 @@ My last experience with anything Disney related was a small trip to Disneyland i
 
 - A lot of the rides at Disney use glasses now for a 3D effect. They never seem to work as well as they should, and for someone who already has visual issues I don’t enjoy having to wear them. Flight of Passage was probably the biggest offender here, if you look straight ahead it looks great, if you don’t things get blurry and (at least to me) increase the amount of motion change you’re going to experience quite a bit. This is to say that if anyone is a little motion sick, some of the rides that don’t move much but use glasses might actually be worse than some of the ones that physically move a lot.
 
-![Lorelei making a sad face while wearing 3D glasses.](https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/images/2023/googles.jpeg)
+![Lorelei making a sad face while wearing 3D glasses.](https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/../images/2023/googles.jpeg)
 _Matches my feelings on the glasses._
 
 
@@ -67,7 +67,7 @@ _Matches my feelings on the glasses._
 ### Animal Kingdom Lodge
 Animal Kingdom Lodge (AKL) offers rooms with two specific experiences, one with a savanna view and one without. The savanna view costs a lot more money more per night, so we skipped it. We ended up with a room that looked at animals anyway. They might not have been as close or there as often but it was cool and unsurprisingly a seven year old ends up blasé to the idea of giraffes out the back window quite quickly.
 
-![](https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/images/2023/giraffes.jpeg)
+![](https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/../images/2023/giraffes.jpeg)
 
 _Giraffes from our balcony._
 
@@ -84,7 +84,7 @@ Real bummer because this was my favorite as a kid, and I thought the new Star Wa
 #### Magic Kingdom
  With Splash Mountain being closed (a personal favorite) we focused on some of the classic dark rides hitting Pirates and Haunted Mansion twice each. Didn’t do TRON because our virtual queue position ended up being way after we were planning on staying, and Lorelei hated Space Mountain. Didn’t get to ride Seven Dwarfs Mine Train because it broke in the morning and then the wait time was over 1.5 hours the rest of the day. So overall just fine. We did get a visit from Captain Jack Sparrow while eating lunch, which prompted Lorelei to watch the first three Pirates movies while we were back in the hotel room.
  
-![Captain Jack Sparrow](https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/images/2023/pirates.jpeg)
+![Captain Jack Sparrow](https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/../images/2023/pirates.jpeg)
 _He couldn’t convince her to dip her chips in the slushie but he did inspire her to ride Pirates again and buy a cutlass and start talking like a pirate._
 
 #### EPCOT

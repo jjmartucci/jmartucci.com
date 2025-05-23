@@ -12,7 +12,7 @@ Recently I've seen a similar theme on how now is _finally_ the time for people t
 
 The points raised are all valid. The main hosting platforms are each their own brand of awful – Twitter (full of character-limited hate crimes), Tumblr (censorship), Medium (adwalled), and Facebook/Instagram (still run by Mark "I don't know why they trust me" Zuckerberg). What these treatises ignore is that publishing your own content isn't easy, and monetizing what you own is ten times harder than that. There might be more and more articles popping up now about how to move away from Medium, but go back two years and you'd many of the same people arguing for moving to Medium – it was the hot new platform and had all of the eyeballs. Everything that gets popular on the web will eventually get hit with the "nobody goes there anymore, it’s too crowded" line, but if you want to be seen, you need to be where it's crowded, and it you want to make money you need to be where it's incredibly, unbearably crowded.
 
-![Medium Take Over](/assets/images/2018/medium.JPG)
+![Medium Take Over](../images/2018/medium.JPG)
 _posting on Medium seemed like a great idea before all of the content got stuck behind this pop-up._
 
 I have some bias in the "should you self publish" argument as you're reading this on a domain I own, but I also realize I have the technical and financial means to do so. Also, I'm not trying to sell you anything, and I don't particularly care if you even show up. This quote from [Khoi Vinh on "Own Your Content"](https://ownyourcontent.wordpress.com/2019/05/14/khoi-vinh-on-how-his-blog-amplified-his-work-and-career/) resonated with me:

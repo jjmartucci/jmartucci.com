@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending June 6, 2021
 published: 2021-06-06T08:06:23-04:00
 description: Vacation all I ever wanted, vacation, had to get away.
-image: "/assets/images/2021//backyard_so_far.jpeg"
-slug: weeknotes-for-the-week-ending-june-6
 ---
 
 - Our vacation didn’t quite go as planned, we ended up back and home after the long weekend, but still took the week off. Instead of going to one beach we went to a different, closer beach. Lessons were learned, let’s leave it at that.
@@ -13,11 +11,11 @@ slug: weeknotes-for-the-week-ending-june-6
 - Read [One Man’s Amazing Journey to the Center of the Bowling Ball](https://www.wired.com/story/one-mans-amazing-journey-to-the-center-of-the-bowling-ball/). I miss bowling. 
 - As a New Englander my instinct when taking a break from one type of work is to do a different type of work, so I finally started doing something about our backyard situation. It started as:
 
-![](/assets/images/2021//backyard_start.jpeg)
+![](../images/2021//backyard_start.jpeg)
 
 ... and now it looks like:
 
-![](/assets/images/2021//backyard_so_far.jpeg)
+![](../images/2021//backyard_so_far.jpeg)
 
 and all of the materials have been sourced, cobblestones ([from here](http://dilisiobros.com)) for edging and pea gravel ([from here](https://www.northeastnursery.com)) for the inside. We debated pea gravel or something else since we moved here, but then our neighbors did pea gravel and it looked really nice so we went for it.
 - Sourcing yard material is always wild. If anyone wants to make a claim about video games being fantasy they should point at _Minecraft_. This is like a 20 cube patio in _Minecraft_ and literally 5+ tons of rocks IRL.

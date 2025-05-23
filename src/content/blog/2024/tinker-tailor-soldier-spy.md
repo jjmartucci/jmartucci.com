@@ -1,7 +1,7 @@
 ---
 title: Tinker Tailor Soldier Spy
 description: A topical read on flushing out Russian double agents.
-image: images/blog/2024/tinker.jpeg
+image: ../images/2024/tinker.jpeg
 created: 2024-11-17T12:00:00-0400
 tags:
   - books

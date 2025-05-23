@@ -2,7 +2,7 @@
 title: Work Pray Code (a book review)
 slug: work-pray-code-review
 description: My notes on the book Work Pray Code by Carolyn Chen
-image: images/blog/2023/work-pray-code.jpg
+image: ../images/2023/work-pray-code.jpg
 draft: false
 published: 2023-06-12T04:00:00.000Z
 tags:

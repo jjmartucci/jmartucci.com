@@ -2,7 +2,7 @@
 title: Randy Pausch's Last Lecture
 description: On achieving your dreams, and helping other achieve theirs.
 published: 2023-07-23T04:00:00.000Z
-image: images/blog/2023/aladin.jpg
+image: ../images/2023/aladin.jpg
 tags:
   - video
 ---

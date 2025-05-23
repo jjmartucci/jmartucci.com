@@ -1,7 +1,7 @@
 ---
 title: Technically Screened
 description: Thoughts on tech screens in interviews.
-image: images/blog/2024/code-1.jpeg
+image: ../images/2024/code-1.jpeg
 created: 2024-12-18T12:00:00-0400
 modified: 2024-12-18T12:00:00-0400
 tags:
@@ -37,7 +37,7 @@ It rarely works out this cleanly, and honestly leaving the interviewee just ten 
 ### Don’t believe code screens are unbiased.
 Beyond the obvious fact that most code screens will be with camera on, and most will start with some sort of introductions, there’s also the fact that some people just don’t do well coding in front of others.
 
-![Meme, where the top panel shows the villain Rhino destroying a city with the words “Coding alone” next to it, and the bottom panel shows Rhino looking silly with the words “Coding when someone is watching” next to it.](../../images/blog/2024/rhino-coding.jpg)
+![Meme, where the top panel shows the villain Rhino destroying a city with the words “Coding alone” next to it, and the bottom panel shows Rhino looking silly with the words “Coding when someone is watching” next to it.](../images/2024/rhino-coding.jpg)
 
 Or, they just don’t code the way you do, or think about a problem the way you would, or have the ability to talk thorougly when typing or _whatever_. When I was the interviewer if someone approached a solution in a way I’d never seen or considered, I’d spend a good amount of time thinking about how they went about it before writing it off as “not the way I’d do it”. I don’t get the impression everyone does this, however, and it’s probably worth some introspection on whether or not you’re really trying to hire someone who thinks (and maybe, incidentally, looks) a lot like you.
 ## Interviews go both ways: red flags I’ve seen as an interviewee.

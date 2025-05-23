@@ -4,7 +4,7 @@ description: Notes from Thanksgiving dinner, 2024.
 created: 2024-11-30T12:00:00-0400
 tags:
   - cooking
-image: images/blog/2024/pie.jpeg
+image: ../images/2024/pie.jpeg
 published: 2024-11-30T12:04:00
 ---
 Even though I’ve made Thanksgiving dinner for the last… 14? years now, I’m _surprisingly bad_ at keeping notes of what went well and didn’t or what was good or wasn’t. I also, as an elder millennial, am not inclined to take pictures of food, so I had to go back a few years for the header image here [^1].
@@ -16,7 +16,7 @@ One year we hosted a particularly large Thanksgiving that required cooking two b
 
 Spatchcocking is just pulling the backbone from the turkey and pressing it flat to cook on a sheet. It cooks faster and more evenly and after cutting the backbone out you can hold it in the air like the Predator.
 
-![The Predator holding a spine in the air.](../../images/blog/2024/predator.jpg)
+![The Predator holding a spine in the air.](../images/2024/predator.jpg)
 
 I coat it in mayonnaise and, as long as I have it on hand, [this spice mix](https://www.generalstorepr.com/product/bird-herbs/317595).
 

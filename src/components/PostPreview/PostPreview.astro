@@ -4,23 +4,14 @@ import Tag from "../Tag/Tag.astro";
 import styles from "./PostPreview.module.css";
 const { post } = Astro.props;
 import { Image } from 'astro:assets';
-
-let imageUrl = null;
-if(post.data.image) {
-  try {
-    imageUrl = await import(`../../content/${post.data.image}`)
-  } catch(e) {
-    imageUrl = null
-  }
-}
 ---
 
 <div class={styles.PostPreview}>
   <a href={`/blog/${post.slug}/`}>
-    {imageUrl &&
+    {post.data.image &&
         <div class={styles.heroWrapper}>
-         <Image src={imageUrl.default} alt=""/>
-          <Image src={imageUrl.default} alt=""  class={styles.dupeImage}/>
+         <Image src={post.data.image} alt=""/>
+          <Image src={post.data.image} alt=""  class={styles.dupeImage}/>
           <span class={[styles.date, styles.topDate].join(" ")}>
       <FormattedDate date={post.data.published} />
     </span>
@@ -28,7 +19,7 @@ if(post.data.image) {
             <h4 class={styles.title}>{post.data.title}</h4>
           </div>
         </div>}
-    {!imageUrl &&
+    {!post.data.image &&
 
         <h4 class={styles.title}>{post.data.title}</h4>
         <span class={styles.date}><FormattedDate date={post.data.published} /></span>

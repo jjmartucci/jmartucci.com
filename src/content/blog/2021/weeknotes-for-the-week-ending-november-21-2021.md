@@ -3,7 +3,6 @@ draft: false
 title: Weeknotes for the week ending November 21, 2021
 published: 2021-11-21T19:09:44-05:00
 description: I wish that turkey only cost a nickel.
-slug: weeknotes-for-the-week-ending-november-21-2021
 ---
 
 ### Thanksgiving

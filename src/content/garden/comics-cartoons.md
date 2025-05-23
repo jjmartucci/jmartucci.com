@@ -1,7 +1,6 @@
 ---
 title: "Comics & Cartoons"
 description: "Top level list of web comics I enjoy and other notes about comics & cartoons."
-image: "/garden/with-a-book.png"
 tags: ["comics"]
 created: 2025-04-14T14:32:59-0400
 modified: 2025-05-10T08:22:00-0400

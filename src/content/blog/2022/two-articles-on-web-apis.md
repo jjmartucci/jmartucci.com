@@ -3,7 +3,6 @@ draft: false
 title: Two articles on web APIs
 published: 2022-03-19T13:49:54-04:00
 description: Web links worth reading on Canvas2D and the File System Access API.
-slug: two-articles-on-web-apis
 tags:
   - web-development
 ---

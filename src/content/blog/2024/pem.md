@@ -3,7 +3,7 @@ title: PEM
 published: 2024-11-15T21:03:13Z
 draft: false
 description: Little field trip to the Peabody Essex Museum.
-image: images/blog/2024/pem.jpeg
+image: ../images/2024/pem.jpeg
 tags:
   - travel
 ---

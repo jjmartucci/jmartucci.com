@@ -3,9 +3,7 @@ title: "Game Review: Dicey Dungeons and Monster Train"
 published: 2022-11-03T00:32:05.391Z
 draft: false
 description: A quick review of Dicey Dungeons and Monster Train
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/games.jpg
 tags: [gaming]
-slug: game-review-dicey-dungeons-and-monster-train
 ---
 ![Cover art for Dicey Dungeons and Monster Train](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/games.jpg)
 

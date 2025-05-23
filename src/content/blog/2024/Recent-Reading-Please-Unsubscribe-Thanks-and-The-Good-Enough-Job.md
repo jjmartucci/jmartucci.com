@@ -2,7 +2,7 @@
 title: "Recent Reading: Please Unsubscribe, Thanks! and The Good Enough Job"
 slug: recent-reading-please-unsubscribe-thanks-and-the-good-enough-job
 description: Some notes on two books in the “why the fuck are we doing (gestures broadly) this?!” genre.
-image: images/blog/2024/recent-reading.jpeg
+image: ../images/2024/recent-reading.jpeg
 published: 2024-02-28
 tags:
   - books

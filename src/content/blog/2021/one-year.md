@@ -3,15 +3,12 @@ draft: false
 title: One Year
 published: 2021-03-11T05:00:00Z
 description: One year of working from home, or whatever this last year was.
-image: "/assets/images/2021/03/a154197428db955c5908fa5bb0586172.jpeg"
-slug: one-year
-
 ---
 A year ago was my last day in the office. It was also my first day in that particular office — we were moving out of a WeWork into a new space and I needed to get my stuff out before everything shut down.
 
 The new place had (has?) a decent view. You can see from here that the city was already emptying out at this point.
 
-![](/assets/images/2021/03/a154197428db955c5908fa5bb0586172.jpeg)
+![](../images/2021/03/a154197428db955c5908fa5bb0586172.jpeg)
 
 I was also in the city because my parents were in town, and I met them for dinner. The restaurant only had us and one other table. The train I took home was almost empty.
 

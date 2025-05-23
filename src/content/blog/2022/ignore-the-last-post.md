@@ -3,7 +3,6 @@ title: Ignore the last post, I fixed it
 published: 2022-12-02T07:57:34-05:00
 draft: false
 description: Did you try turning it off and turning it on again?
-slug: ignore-the-last-post
 ---
 All the smart stuff in the house is back. I did two things:
 

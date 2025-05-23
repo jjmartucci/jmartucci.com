@@ -15,7 +15,7 @@ The guitar I ended up getting was a black Fender Stratocaster, Squire series. It
 
 It was a good guitar for my bad guitar playing, but after a few years I got a nicer Fender Lonestar Stratocaster and the Squire series sat in its case most of the time. I spent a lot of afternoons in Guitar Center back then, and I saw a Tom DeLonge Stratocaster, a one humbucker and a volume knob guitar, and thought the Squire would be a great base to recreate that with.
 
-![](/assets/images/2020/image.png)
+![](../images/2020/image.png)
 _A Tom DeLonge Strat. I think I liked the colors and the CBS style headstock more than anything else_
 
 I picked a Seymour Duncan JB for the pickup, got a single humbucker pickguard and wired it up. It worked fine, but the JB is known for having a lot of high end tones, and at the time I didn’t have a great setup to make the sound pleasant, so I thought I should wire the volume knob to a push/pull volume/tone knob so I had the option to roll the tone back and have a little less high end. Some combination of either bad pots, or bad soldering skills left with with a JB humbucker with about 2’’ of wire coming out of it, and a guitar that didn’t work.
@@ -30,17 +30,17 @@ I’ve been trying to either fix or get rid of things in our house, and I decide
 
 In redoing the look of the guitar, I harnessed my inner 15 year old and drew inspiration from the car we recently bought. It’s a black Volkswagen GTI with the usual red GTI accents, so I thought, sure, black guitar, black pickups, red trim black pickguard. A quick search found the Fender Noir Stratocaster to prove that this wasn’t the worst looking thing I could make.
 
-[![](/assets/images/2020/fender_noir.jpg)]()
+[![](../images/2020/fender_noir.jpg)]()
 _Fender Noir Strat. Granted, it has a matte black finish…_
 
 [Warmoth](https://www.warmoth.com) sells the three-ply black/red/black pickguards. I got one with some black control knobs and wired it up with the existing neck and middle single coil. Perhaps unsurprisingly, 20+ year old bottom of the budget-bin pickups don’t sound great. They sound better than I expected, in as much as one can expect from wire around magnets, but I figured at this point I was all in on this project, so I picked up two [DiMarzio Area 67](https://www.dimarzio.com/pickups/hum-canceling-strat/area-67) pickups for the neck and middle spots.
 
-![](/assets/images/2020/partscaster_open.jpg)
+![](../images/2020/partscaster_open.jpg)
 _When you’re bad at soldering you end up in a lot of questionable situations_
 
 So now it’s all bolted together, and it looks like this:
 
-![](/assets/images/2020/partscaster_done.png)
+![](../images/2020/partscaster_done.png)
 
 It plays and sounds pretty good. At some point in the past I had screwed the bridge down and put five springs on it, so it’s nearly a hardtail. It could probably use some nicer tuners and a black input jack to match the Noir, but the pickguard and the parts bolted to it cost about three times what the guitar cost, so I think it can wait another 20 years or so.
 

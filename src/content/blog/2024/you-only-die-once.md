@@ -1,7 +1,7 @@
 ---
 title: You Only Die Once
 description: Reading notes from "You Only Die Once", plus a handy calculator!
-image: images/blog/2024/you-only-die-once.webp
+image: ../images/2024/you-only-die-once.webp
 published: 2024-10-09T12:00:00
 tags:
   - books

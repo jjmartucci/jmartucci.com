@@ -3,8 +3,6 @@ title: Smarter Than You Think
 published: 2022-12-17T20:47:31-05:00
 draft: false
 description: Book notes on Smarter Than You Think.
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/book_covers/2022/smarter-than-you-think.jpg
-slug: smarter-than-you-think-notes
 tags:
   - books
 ---

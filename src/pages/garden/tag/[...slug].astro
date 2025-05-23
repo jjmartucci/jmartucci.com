@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
     const tagMap = new Map();
     allTags.forEach(tag => {
-        tagMap.set(tag, posts.filter(post => post.data?.tags?.includes(tag)))
+        tagMap.set(tag[0], posts.filter(post => post.data?.tags?.includes(tag[0])))
     })
 
     const taggedPosts = [];

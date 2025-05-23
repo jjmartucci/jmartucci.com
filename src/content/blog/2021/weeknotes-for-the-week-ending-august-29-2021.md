@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending August 29, 2021
 published: 2021-08-29T21:10:43-04:00
 description: 10 years.
-image: /assets/images/2021//10-years-later.jpeg
-slug: weeknotes-for-the-week-ending-august-29-2021
 ---
 
 Small update this week, as I spent most of the day on the Mass Pike. I forgot it’s “move in” weekend for the local colleges.
@@ -12,11 +10,11 @@ Small update this week, as I spent most of the day on the Mass Pike. I forgot it
 ### 10 years
 The main update for the week, Friday was Andrea and I’s tenth anniversary. We went out for dinner. We had (have had) grand plans to travel for… close to two years now, but having little interest in travel in never-ending pandemic times and with our town popping up a strong supply of new restaurants, we instead sent the kid down to the grandparents for the week and just enjoyed free time in our own town for the week.
 
-![](/assets/images/2021//a-and-j.jpeg)
+![](../images/2021//a-and-j.jpeg)
 
 _Babies on our wedding day_.
 
-![](/assets/images/2021//10-years-later.jpeg)
+![](../images/2021//10-years-later.jpeg)
 
 _Ten years later_.
 

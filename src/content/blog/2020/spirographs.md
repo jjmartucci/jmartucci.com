@@ -6,12 +6,12 @@ draft: false
 slug: spirographs
 tags:
   - art
-image: /assets/images/2020/gear-drawings.jpg
+image: ../images/2020/gear-drawings.jpg
 ---
 
 We were cleaning out toys this weekend and found a gear drawing set for making spirographs. A family member bought it for my daughter to take on a flight when she was younger, but she was _too_ young to enjoy it at the time. We had more fun with it this week, and finally got around to using [these Zebra pens](https://www.zebrapen.com/product/sarasa-clip-gel-retractable/?source=brand) I had.
 
-![Spirographs](/assets/images/2020/gear-drawings.jpg)
+![Spirographs](../images/2020/gear-drawings.jpg)
 
 But, the programmer in me said, “hey, sometimes the gear skips, what if we did it in code”, and made this.
 

@@ -1,6 +1,6 @@
 ---
 title: Code is not literature
-image: images/blog/2023/lit.jpg
+image: ../images/2023/lit.jpg
 draft: false
 published: 2023-08-16T04:00:00.000Z
 description: The overlap between coding and writing, to me, are the mental models you make while doing both.

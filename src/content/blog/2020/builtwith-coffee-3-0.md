@@ -1,7 +1,7 @@
 ---
 title: "builtwith.coffee 3.0"
 metaimage:
-  - /assets/images/2020/Statamic-Logo-Rad.png
+  - ../images/2020/Statamic-Logo-Rad.png
 description: 'It''s 2020 and I''m stuck in my house watching Democracy fall apart, why not rebuild my website again, and why not go full on "old man yells at clouds" while I''m at it.'
 published: 2020-09-29T19:51:41+00:00
 draft: false
@@ -28,7 +28,7 @@ That's me being grumpy about things, which, in 2020, I think I'm allowed to do. 
 
 I started as a developer hacking on PHP sites, so maybe this isn't a huge change. Statamic 3 [released very recently](https://statamic.com/blog/statamic-3-launch-announcement) and part of the release notes was this:
 
-![](/assets/images/2020/Screen-Shot-2020-09-28-at-9.18.09-PM.png)
+![](../images/2020/Screen-Shot-2020-09-28-at-9.18.09-PM.png)
 
 Which got me thinking. I'd used Statamic in the past and was familiar with how it stored content, it's all flat-file Markdown files, so that covered what I was trying to do with Netlify CMS before.
 
@@ -40,10 +40,10 @@ The outstanding question was, how hard would it be to move over what I had, and 
 - The way statamic handles variable scope is beautiful. I recently did hair-tearing work on a .NET app trying to pass values to the layout.
 - I switched the whole (admittedly small) site in ~three days. Maybe four. Who can really keep track of days.
 - I've been using headless / roll your own CMSs for so long that I forgot that ones that are focused around content come out of the box with a lot of the features you need. I went to make a Date field to set to the post date, but while I was setting that up I noticed this in the collection configuration panel:
-  ![](/assets/images/2020/Screen-Shot-2020-09-27-at-9.13.26-AM.png)
+  ![](../images/2020/Screen-Shot-2020-09-27-at-9.13.26-AM.png)
 - The "push button, make website" experience was slightly worse than a JavaScript project, but way better than the last time I used PHP. Adding to the project (like setting up the SSG) was easier than anything I've done recently on the JavaScript side. There were some odd errors, like:
 
-![](/assets/images/2020/Screen-Shot-2020-09-24-at-9.07.08-PM.png)
+![](../images/2020/Screen-Shot-2020-09-24-at-9.07.08-PM.png)
 I never figured that one out. [Laravel Valet](https://laravel.com/docs/8.x/valet) was another prickly point, it installed but missed at least one service, which required reading through Stack Overflow for a while.
 
 - The content field/layout/creation experience:

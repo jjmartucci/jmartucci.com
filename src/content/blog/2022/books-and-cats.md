@@ -4,7 +4,6 @@ published: 2022-04-24T21:27:57.000Z
 description: >-
   The end of last week we were in Connecticut and Andrea wanted to go to a used
   book store, so I suggested we go to the Niantic Book Barn.
-heroImage: /assets/images/2022/bb-1.jpeg
 tags: ['life', 'travel']
 ---
 
@@ -26,8 +25,8 @@ Lorelei and I found the cats. Credit to her sixth sense for finding the two unde
 
 I wouldn’t recommend going far out of the way to stop there, but if you’re by the Connecticut shoreline already it’s a fun stop. You won’t find a lot of *good* books unless you snipe one that just got sorted or you pull it straight from the newly arrived section. The stuff that accumulates… well, let’s say they had three entire shelves of L. Ron Hubbard.
 
-![The thermostat, in the politics section](/assets/images/2022/bb-5.jpeg)
+![The thermostat, in the politics section](../images/2022/bb-5.jpeg)
 
 As for me, I walked out with one, one dollar book. I think it was a steal.
 
-![A 1968 copy of Conan the Warrior](/assets/images/2022/bb-6.jpeg)
+![A 1968 copy of Conan the Warrior](../images/2022/bb-6.jpeg)

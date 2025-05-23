@@ -3,7 +3,6 @@ draft: false
 title: A Sunday Post that is not a Weeknotes Post
 published: 2022-01-02T10:49:41-05:00
 description: A post on a Sunday about the past week that is definitely not a weeknotes post.
-slug: not-a-weeknotes-post
 ---
 I said in my [last weeknotes post][1] I didn’t want to do weeknotes any more, so this isn’t that, it’s just a post that happens to be on a Sunday that _maybe_ talks about the past week.
 - We were at my parents house on Monday and Tuesday. This was considerably better than last year’s Zoom-Christmas for lots of reasons but I have to say one big reason is because my mother makes lasagna for Christmas and that’s very hard to reproduce digitally.

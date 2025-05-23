@@ -3,7 +3,7 @@ title: DOOM! Or, the web developer market in 2024
 published: 2024-06-23
 draft: false
 description: Insert the “this is fine” meme here.
-image: images/blog/2024/dr-m.jpg
+image: ../images/2024/dr-m.jpg
 ---
 If you’ve ever referred to yourself as a “web developer”, you’re probably aware that the job market right now is _not great_. 
 

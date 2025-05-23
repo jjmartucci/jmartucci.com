@@ -3,8 +3,6 @@ draft: false
 title: React 18
 published: 2022-03-29T21:48:01-04:00
 description: React 18 is now available on npm.
-image: /assets/images/2022/react.png
-slug: react-18
 tags:
   - web-development
 ---

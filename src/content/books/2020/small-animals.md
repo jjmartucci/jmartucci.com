@@ -2,7 +2,7 @@
 title: Small Animals
 finished: 2020-12-11T00:50:03.850Z
 indiebound_link: https://www.indiebound.org/book/9781250089557
-image: /images/books/2020/small-animals.jpg
+image: ../images/2020/small-animals.jpg
 author: Kim Brooks
 date: 2020-12-11T00:50:03.850Z
 description: Parenthood in the Age of Fear.

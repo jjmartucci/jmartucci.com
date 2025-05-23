@@ -3,8 +3,6 @@ draft: false
 title: The cognitive dissonance of digital communication.
 published: 2022-02-13T20:06:29-05:00
 description: Is a human on a Zoom call just an avatar of a human?
-image: https://pbs.twimg.com/media/E9LhOhLWUAwpozS?format=png&name=900x900
-slug: do-we-need-real-people
 ---
 Two things I read this weekend.
 

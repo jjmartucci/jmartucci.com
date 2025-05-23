@@ -1,7 +1,7 @@
 ---
 title: "The Big Dumb Box of Computer Parts: Linux Edition"
 description: Putting together a Linux box in “The Year of the Linux Desktop” - 1.
-image: images/blog/2024/tux.jpg
+image: ../images/2024/tux.jpg
 tags:
   - hardware
 created: 2024-12-17T12:00:00-0400
@@ -30,7 +30,7 @@ You might think I’m joking, but no, there’s so many cheap 4-ish-year-old par
 *   An Sapphire RX6600 GPU. Another $100. My early testing with running games on the 3400G was not impressive, so I figured why not try this.
 *   The original box I bought had a case and power supply but both were ugly and bad, so I did splurge and get a [Cooler Master Qube Macaron Edition](https://www.coolermaster.com/en-global/products/qube-500-flatpack-macaron-edition/) because from what I could find it is both the smallest (and most adorable) case that can fit 4 3.5" hard drives[4](#fn:4). I replaced the power supply with a [Corsair RM850x](https://www.corsair.com/us/en/p/psu/cp-9020270-na/rmx-series-rm850x-fully-modular-power-supply-cp-9020270-na) because it seemed well reviewed, was gold rated, and most importantly, was on sale.
 *   All of the 3.5" hard drives were coming from my long running collection, in different sizes and brands. This mish-mosh of drives is why I wanted a JBOD solution.
-![](../../images/blog/2025/qube.png)
+![](../images/2025/qube.png)
 ### The operating system
 
 There’s two paths you can go when building something like this:
@@ -82,7 +82,7 @@ Unraid has a free trial, but after that does [cost some money](https://unraid.ne
 Here’s my final take on this: the appeal of the “big dumb computer box” is I _could_ do all of this. The OS didn’t tell me I needed special hardware to run it, I could decide tomorrow to put another 32GB of RAM in and it would take 10 minutes, if I decide I never want to use it for gaming I could pull the GPU and nuke the Windows VM, if I decide I want to run alllll the things on this I could find a CPU with more cores and go nuts and take the existing CPU / motherboard and turn it into a little baby dumb computer for some other purpose.  
 Sometimes it’s good to remember what made computers fun and interesting in the first place.  
 Also look at this guy, who wouldn’t want to run an OS with this guy.  
-![](../../images/blog/2025/tuxwaddle.gif)
+![](../images/2025/tuxwaddle.gif)
 * * *
 
   

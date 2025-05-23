@@ -3,8 +3,6 @@ draft: false
 title: Museum of Science
 published: 2022-04-18T20:50:16-04:00
 description: Spending a school-break day underwhelmed at the Boston Museum of Science.
-image: /assets/images/2022/mos.jpeg 
-slug: museum-of-science
 tags: [life]
 ---
 

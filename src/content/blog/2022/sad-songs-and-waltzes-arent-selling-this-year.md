@@ -3,7 +3,6 @@ title: Sad songs and waltzes aren’t selling this year
 published: 2022-11-08T23:32:40.391Z
 draft: false
 description: So sad I could sing a little country song.
-slug: sad-songs-and-waltzes-arent-selling-this-year
 ---
 [A great list on Reddit of sad songs](https://www.reddit.com/r/Music/comments/yp0l4a/saddest_songs_youve_ever_heard/) if that’s a thing you might be in the mood for tonight.
 

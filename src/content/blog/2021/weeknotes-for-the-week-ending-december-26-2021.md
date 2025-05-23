@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending December 26, 2021
 published: 2021-12-26T09:12:41-05:00
 description: Looking back on 2021. Also I guess Christmas happened.
-image: /assets/images/2021/cat-christmas-energy.jpeg
-slug: weeknotes-for-the-week-ending-december-26-2021
 ---
 Last weeknotes of the year. Andrea and I were reflecting on something the other day, and we realized how hard it is to separate 2020 from 2021. There were some big, obvious, very good differences between the years but in terms of how things got filed away mentally they didn’t get their own boxes. For me 2020 continued until April / May, when Lorelei went to in-person school, I started a new job, and the adults started getting vaccines.
 
@@ -26,7 +24,7 @@ One good thing though, I can actually look back here and figure out what happene
 
 ### etc
 - Christmas! We don’t make a big deal of it here. I made cinnamon buns from a recipe my dad adapted from a King Arthur Flour cookbook that seems to not exist on their website. It’s basically: make dough, fill with sugar and nuts, stuff in face, but if you want the actual recipe just ask me. It seems easier than the ones they do have on their website.
-![Our cats Maggie and Jake exuding Christmas energy](/assets/images/2021/cat-christmas-energy.jpeg)
+![Our cats Maggie and Jake exuding Christmas energy](../images/2021/cat-christmas-energy.jpeg)
 - We started watching season two of _The Witcher_. It’s good, it’s not amazing. I really liked the first episode which was it’s own little story, but the season-wide plot is too high fantasy “it’s the end of the world as we know it” boring. The game had the same problem. I just want a _Columbo_ style _The Witcher_. Which of the townfolks turns into a monster at night? What clues will give it away? How great would Geralt angrily mumbling “one more thing” sound?
 - We also started watching _Station Eleven_. I read the book a long time ago and enjoyed it, the TV show is different but good in its own way.
 - Dave Barry’s humor is a hand-me-down from my dad, but at least unlike Scott Adams he didn’t turn out to be a terrible person and I still enjoy his yearly reviews in WaPo: [Dave Barry’s 2021 Year in Review](https://www.washingtonpost.com/magazine/2021/12/26/dave-barrys-year-review-2021/?itid=hp-top-table-main)

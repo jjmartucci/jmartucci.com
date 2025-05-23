@@ -3,7 +3,6 @@ title: Can we smoosh iA Writer, Bear, and Obsidian together
 published: 2022-11-15T02:58:29.034Z
 draft: false
 description: The best parts of my favorite note and writing apps.
-image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/obsidian-example.png
 slug: can-we-smoosh-ia-writer-bear-and-obsidian-together
 ---
 I use iA Writer, Bear, and Obsidian these days. I use iA Writer for writing (like writing this post), Bear for notes, and Obsidian at work for work notes. I wish all three could be smooshed together.

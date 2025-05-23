@@ -1,7 +1,7 @@
 ---
 title: The Last Murder at the End of the World by Stuart Turton
 description: Tiny little review of "The Last Murder at the End of the World" by Stuart Turton.
-image: images/blog/2024/last-murder.webp
+image: ../images/2024/last-murder.webp
 published: 2024-10-15T15:15:00.000Z
 tags:
   - books

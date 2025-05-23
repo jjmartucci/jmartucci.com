@@ -1,9 +1,7 @@
 ---
 title: Elden Ring
 published: 2022-08-05T22:05:11-04:00
-tags: [gaming]
 description: I have become the Elden Lord.
-heroImage: /assets/images/2022/elden-ring-done.jpeg
 ---
 
 ![Platinum trophy from Elden Ring.](/assets/images/2022/elden-ring-done.jpeg)

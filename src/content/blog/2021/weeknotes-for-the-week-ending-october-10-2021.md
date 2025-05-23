@@ -3,12 +3,10 @@ draft: false
 title: Weeknotes for the week ending October 10, 2021
 published: 2021-10-10T19:17:19-04:00
 description: Welcome to ~spooky~ puzzle season. A release at work, the trouble with manuals, and moving notes around.
-image: /assets/images/2021/mystery.jpeg
-slug: weeknotes-for-the-week-ending-october-10-2021
 ---
 
 ### Ship it!
-![Screenshot of the new design on Chewy.com's Connect with a Vet feature, which I worked on.](/assets/images/2021/cwav.png)
+![Screenshot of the new design on Chewy.com's Connect with a Vet feature, which I worked on.](../images/2021/cwav.png)
 
 Big release at work this week; it all went well, and our application is much more accessible now, so it feels pretty good! Remember if you ever need an on demand video or text consultation with a veterinarian, [Connect With a Vet](https://www.chewy.com/app/content/connect-with-a-vet)!
 
@@ -22,7 +20,7 @@ Three only slightly related thoughts, that mean something to me because I used t
 - I said last week it’s spooky season, it’s actually puzzle season. Finished two this week.
 
 <div class="two-up">
-<img src="/assets/images/2021/frida.jpeg" alt="Frida Kahlo puzzle completed."/><img src="/assets/images/2021/mystery.jpeg" alt="Mystic Maze puzzle competed."/>
+<img src="../images/2021/frida.jpeg" alt="Frida Kahlo puzzle completed."/><img src="../images/2021/mystery.jpeg" alt="Mystic Maze puzzle competed."/>
 </div>
 
 [Frida from eeboo](https://eeboo.com/collections/puzzles/products/viva-la-vida-1000-piece-puzzle) and [The Mystic Maze from Magic Puzzle Company](https://magicpuzzlecompany.com).

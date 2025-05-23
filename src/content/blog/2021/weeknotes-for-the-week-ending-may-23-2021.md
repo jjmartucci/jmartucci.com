@@ -3,7 +3,6 @@ draft: false
 title: Weeknotes for the week ending May 23, 2021
 published: 2021-05-23T17:48:09-04:00
 description: What happened this week, May 27 - May 23, 2021.
-slug: weeknotes-for-the-week-ending-may-23-2021
 ---
 * Finished [Think Again](https://www.indiebound.org/book/9781984878106). If you want the TL;DR version, watch this:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cJMwBwFj5nQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

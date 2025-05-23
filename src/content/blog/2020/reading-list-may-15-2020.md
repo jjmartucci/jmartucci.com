@@ -7,7 +7,7 @@ description: Interesting things from the week of May 15th, 2020.
 
 1. [Modern CSS Solutions](https://moderncss.dev)
 
-![](/assets/images/2020/iu.jpg)
+![](../images/2020/iu.jpg)
 CSS continues to improve, and browser support for modern solutions continues to grow, so all the ways you used to do things _might_ have better versions today.
 
 2. [JavaScript’s ecosystem is uniquely paranoid](https://listed.to/@crabmusket/14061/javascript-s-ecosystem-is-uniquely-paranoid)

@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending September 12, 2021
 published: 2021-09-12T21:51:50-04:00
 description: Blarg. That’s my high level recap of the week. Nothing bad happened, just a lot of blarg. I think it’s a bit of recovering from the whiplash of going from “school is about to start” to “September is almost half over”.
-image: /assets/images/2021/gordon-bike.jpeg
-slug: weeknotes-for-the-week-ending-september-12-2021
 ---
 
 Blarg. That’s my high level recap of the week. Nothing bad happened, just a lot of blarg. I think it’s a bit of recovering from the whiplash of going from “school is about to start” to “September is almost half over”.
@@ -18,7 +16,7 @@ Recently I’ve had a semi-regular “gaming night”, and I was thinking the ot
 Every once in a while I think “I miss playing softball”, but tonight I took Lorelei to a local park and was watching a game being played on a nearby field, and saw someone slap a line-drive at the second baseman off a carbon fiber bat and I immediately went to “oh no I don’t miss that”. Bowling, on the other hand, I occasionally look at what it would take to open my own lane.
 
 ### HEY MAN NICE BIKE
-![Tallboy at Gordon College](/assets/images/2021/gordon-bike.jpeg)
+![Tallboy at Gordon College](../images/2021/gordon-bike.jpeg)
 
 Took the bike out this weekend and on the way back someone felt the need to yell, “HEY MAN NICE BIKE” at me from his truck. This is not the first time this has happened, and I don’t understand why! That said, two hours in the woods was a pretty good way to beat the blargs.
 

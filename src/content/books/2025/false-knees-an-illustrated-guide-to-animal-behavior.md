@@ -1,7 +1,7 @@
 ---
 title: False Knees - An Illustrated Guide to Animal Behavior
 description: ""
-image: images/books/2025/false-knees.webp
+image: ../images/2025/false-knees.webp
 tags:
   - books
 created: 2025-04-26T11:19:59-0400

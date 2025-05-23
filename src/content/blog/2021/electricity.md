@@ -2,9 +2,6 @@
 title: Electricity
 published: 2021-03-22T18:00:00Z
 description: A guitar cable and a kid.
-image: ''
-draft: false
-slug: electricity
 tags: [video]
 ---
 

@@ -1,0 +1,30 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "@components/FormattedDate.astro";
+
+import styles from "./BlogPost.module.css";
+import { Image } from 'astro:assets';
+import Prose from "@components/Prose/Prose.astro";
+
+type Props = CollectionEntry<"garden">["data"];
+
+const { title, published, description, created,  image } = Astro.props;
+---
+
+<article>
+    <div class="hero-image">
+        {image && <Image src={image} alt="" />}
+    </div>
+    <div class={styles.prose}>
+        <div class={styles.title}>
+            <div class={styles.date}>
+                <FormattedDate date={published} />
+            </div>
+            <h1>{title}</h1>
+            <hr />
+        </div>
+        <Prose>
+            <slot />
+        </Prose>
+    </div>
+</article>

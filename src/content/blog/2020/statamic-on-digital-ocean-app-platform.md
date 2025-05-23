@@ -1,7 +1,7 @@
 ---
 title: "Statamic on Digital Ocean App Platform"
 meta_title: "Testing out Statamic on the Digital Ocean App Platform"
-image: /assets/images/2020/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png
+image: ../images/2020/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png
 description: "I have always really liked Digital Ocean's guides/documentation/shark loading animations, so thought I'd see what their new App Platform was about."
 published: 2020-10-07T19:51:41+00:00
 draft: false

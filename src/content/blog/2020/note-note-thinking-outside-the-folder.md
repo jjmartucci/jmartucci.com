@@ -26,7 +26,7 @@ Some newer apps like [Roam Research ](https://roamresearch.com) and [Obsidian](h
 
 then in the note `HIIT workout A` you can see all of the times you logged that note. Graph view is just these associations, but rather than buried in text, in a nice visual format. Bear can’t do this, but it’s not exactly magic to make a chart of associations, and Bear has the API to support it. There’s a [python script that will generate a Graphviz view of your notes for you on Github](https://github.com/rberenguel/bear-note-graph). It includes a handy `—anonymize` option so I can even show you what my Bear notes look like, graphically:
 
-![](/assets/images/2020/bear_graph.png)
+![](../images/2020/bear_graph.png)
 Is it useful? I dunno. I’ve recently started daily logging with backlinks in my notes at work, and it’s proving helpful being able to click into longer running projects and see all of the times I associated it with a Jira issue, a person, a meeting, etc. The idea is that you can, with pretty low effort, record every thought in your head as it comes, then look at the graph and see what the core areas you’re thinking about are, and what areas can probably be pruned.
 
 [^1]. Obsidian is interesting to me, and I’ve started using it at work instead of Bear. It’s a little clunky at the moment (it’s in a beta) and it’s clearly an Electron app, but it works off plain text files on a local file system, which is surprisingly hard to find. [Ia Writer](https://ia.net/writer) works that way, but doesn’t support backlinks.

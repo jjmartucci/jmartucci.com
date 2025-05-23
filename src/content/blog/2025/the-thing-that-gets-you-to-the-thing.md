@@ -1,14 +1,13 @@
 ---
 title: The Thing that Gets You to the Thing
 description: You got to remind yourself that you're just a 160 pounds of goo in the middle of a very big universe. So whatever's burning you up right now, just know that it'll fade.
-image: images/blog/2025/halt.jpg
+image: ../images/2025/halt.jpg
 tags:
   - tv
   - internet
 modified: 2025-04-15T20:20:52-0400
 published: 2025-01-19T12:00:00
 ---
-# The Thing that Gets You to the Thing
 Andrea and I binged watched[1](#fn:1) [“Halt and Catch Fire”](https://www.imdb.com/title/tt2543312/) recently. The show is great[2](#fn:2), and if you haven’t seen it but like computers, you should go watch it. The story is about the lives of a group of people tangled up together in the early days of computing and the Internet. It covers a little over 10 years, from about the release of the first Macintosh to [around Eternal September](https://en.wikipedia.org/wiki/Eternal_September).
 
   

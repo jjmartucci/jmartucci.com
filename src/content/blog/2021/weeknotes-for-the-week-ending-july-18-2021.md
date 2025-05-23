@@ -3,8 +3,6 @@ draft: false
 title: Weeknotes for the week ending July 18, 2021
 published: 2021-07-18T19:36:11-04:00
 description: I celebrate the guy's entire catalogue.
-image: /assets/images/2021//upbeat.jpeg
-slug: weeknotes-for-the-week-ending-july-18-2021
 ---
 
 - 🌧🌧🌧🌧☀️☀️🌧

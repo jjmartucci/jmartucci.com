@@ -3,7 +3,6 @@ title: A Little More Love for Links
 published: 2022-08-30T21:37:55-04:00
 draft: false
 description: Treating links on the blog as real content.
-slug: making-links-better
 tags: [link]
 ---
 

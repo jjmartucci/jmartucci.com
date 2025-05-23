@@ -2,7 +2,6 @@
 title: Above Black Bear
 published: 2022-08-23T17:59:25.144Z
 description: Even the bears don't want to hike up this.
-heroImage: images/blog/2022/my-east-haven.jpeg
 tags:
   - travel
 ---

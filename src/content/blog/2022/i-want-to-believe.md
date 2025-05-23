@@ -3,8 +3,6 @@
  published: 2022-09-11T01:22:37.168Z
  draft: false
  description: dun nuh na nuh nuh nuh, dun nuh na nuh nuh nuh, wah woo we woo we woooooo
- image: https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/i-want-to-believe.jpeg
- slug: i-want-to-believe
 ---
 ![A ballon over George Washington in the Boston Public Garden](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/i-want-to-believe.jpeg)
 
