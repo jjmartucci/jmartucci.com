@@ -4,8 +4,7 @@ description: Thoughts on tech screens in interviews.
 image: ../images/2024/code-1.jpeg
 created: 2024-12-18T12:00:00-0400
 modified: 2024-12-18T12:00:00-0400
-tags:
-  - blog
+tags: []
 published: 2024-12-18T12:04:00
 ---
 As I’m currently in the job search process I have thoughts on the “technical screen” round of software developer interviews. If you’re not a software developer, a technical screen round is an interviewer asking the interviewee to write code, in real time. Could be a small CRUD application, or coding trivia, or [fizz-buzz](https://en.wikipedia.org/wiki/Fizz_buzz), or something from [LeetCode](https://leetcode.com/problemset/), or something else entirely, but the expectation is code gets written while an interviewer watches.

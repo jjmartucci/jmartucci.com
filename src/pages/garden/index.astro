@@ -5,15 +5,15 @@ import GardenPostsMixed from "../../components/GardenPosts/GardenPostsMixed.astr
 import Search from "../../components/Search/Search.astro";
 
 const {content,  tags : allTags} = (await getAllGardenContent())
-const posts = content.slice(0,20)
+const posts = content.sort((a,b) => {
+    return Date.parse(b.rendered.metadata.frontmatter.modifiedDate) - Date.parse(a.rendered.metadata.frontmatter.modifiedDate)
+}).slice(0,20)
 ---
 
     <GardenLayout>
         <h1>Garden</h1>
         <Search />
-
-                <GardenPostsMixed posts={posts}  slot="garden-main"/>
-
+            <GardenPostsMixed posts={posts}  slot="garden-main"/>
         <div slot="garden-aside">
             <h3>Tags</h3>
             <ul>

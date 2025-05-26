@@ -15,9 +15,7 @@ import { Image } from 'astro:assets';
           <span class={[styles.date, styles.topDate].join(" ")}>
       <FormattedDate date={post.data.published} />
     </span>
-          <div class={styles.infoWrapper}>
             <h4 class={styles.title}>{post.data.title}</h4>
-          </div>
         </div>}
     {!post.data.image &&
 

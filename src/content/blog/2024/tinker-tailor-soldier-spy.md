@@ -6,7 +6,6 @@ created: 2024-11-17T12:00:00-0400
 tags:
   - books
   - movies
-  - blog
 published: 2024-11-17T12:04:00
 ---
 

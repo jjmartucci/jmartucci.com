@@ -25,4 +25,4 @@ But, the programmer in me said, “hey, sometimes the gear skips, what if we did
 The colors are random, have fun reloading / changing the variables.
 
 Obligatory Simpsons gif:
-<img src="/assets/gifs/spirographs.gif" />
+![Spirographs in the Simpsons](https://coffee-cake.nyc3.cdn.digitaloceanspaces.com/images/gifs/spirographs.gif)
