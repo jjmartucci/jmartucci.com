@@ -12,6 +12,8 @@ try {
         year: 'numeric',
         month: 'short',
         day: 'numeric',
+        timeZone: 'UTC' // Crucially, set the timeZone to 'UTC' to ignore local time
+
     })
 } catch {
     display = 'none';
