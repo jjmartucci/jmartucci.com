@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "68850632b6e7ce47",
+        "id": "ae6051e9015802b4",
         "type": "tabs",
         "children": [
           {
-            "id": "9f64b83e28c700c9",
+            "id": "18079883b35ea8e7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 241.5
   },
   "right": {
     "id": "4bb4c03495dd2a63",
@@ -162,5 +162,18 @@
     }
   },
   "active": "dac44e1da0a2a0ac",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "garden/im-sorry-you-do-what.md",
+    "garden/homeserver.md",
+    "garden/helpful-web-tools.md",
+    "garden/guitar-pedals.md",
+    "garden/crafty-amigo.md",
+    "garden/favorite-books.md",
+    "garden/commenting-systems-for-blogs.md",
+    "garden/comics-cartoons.md",
+    "garden/books.md",
+    "garden/ai-programming-tools.md",
+    "garden/100-best-books-of-the-21st-century.md",
+    "garden/images/work-better.png"
+  ]
 }
