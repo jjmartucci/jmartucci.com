@@ -9,9 +9,10 @@ import { Image } from 'astro:assets';
 type Props = CollectionEntry<"garden">["data"];
 
 const { title, published, description, created,  image } = Astro.props;
+console.log(image)
 ---
 
-<BaseLayout title={title} description={description} image={image}>
+<BaseLayout title={title} description={description} image={image.src}>
   <article>
     <div class="hero-image">
       {image && <Image src={image} alt="" />}
