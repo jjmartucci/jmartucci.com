@@ -5,6 +5,7 @@ import FormattedDate from "../components/FormattedDate.astro";
 import styles from "./BlogPost.module.css";
 import BaseLayout from "./BaseLayout.astro";
 import { Image } from 'astro:assets';
+import Prose from "../components/Prose/Prose.astro";
 
 type Props = CollectionEntry<"garden">["data"];
 
@@ -16,8 +17,9 @@ const { title, published, description, created,  image } = Astro.props;
     <div class="hero-image">
       {image && <Image src={image} alt="" />}
     </div>
-    <div class={styles.prose}>
-      <div class="title">
+    <Prose>
+
+    <div class="title">
         <div class="date">
           <FormattedDate date={published} />
         </div>
@@ -27,22 +29,12 @@ const { title, published, description, created,  image } = Astro.props;
       <div id="content">
       <slot />
       </div>
-    </div>
+    </Prose>
   </article>
 </BaseLayout>
 
 <style>
-  #content :global(h1) {
-    display: none;
-  }
 
-  #content :global(p:first-of-type img) {
-    display: none;
-  }
-
-  #content :global(p) {
-    overflow: auto;
-  }
 
   /* two items */
   #content :global(img:first-child:nth-last-child(2)),
