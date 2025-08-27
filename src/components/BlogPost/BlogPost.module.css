@@ -11,16 +11,11 @@
 }
 
 /* two items */
-#content :global(img:first-child:nth-last-child(2)),
-#content :global(img:first-child:nth-last-child(2) ~ img) {
-  float: left;
-  width: calc(50% - 1rem);
-
+#content :global(p:has(> img:nth-last-child(2):first-child)) {
+  display: flex;
 }
 
-#content :global(img:first-child:nth-last-child(2) ~ img) {
-  margin-left: 1rem;
-}
+
 
 /* three items
 img:first-child:nth-last-child(3),

@@ -1,103 +1,116 @@
 ---
-import type { CollectionEntry } from "astro:content";
+import type {CollectionEntry} from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 
 import styles from "./BlogPost.module.css";
 import BaseLayout from "./BaseLayout.astro";
-import { Image } from 'astro:assets';
+import {Image} from 'astro:assets';
 import Prose from "../components/Prose/Prose.astro";
 
 type Props = CollectionEntry<"garden">["data"];
 
-const { title, published, description, created,  image } = Astro.props;
+const {title, published, description, created, image} = Astro.props;
 ---
 
 <BaseLayout title={title} description={description} image={image?.src}>
-  <article>
-    <div class="hero-image">
-      {image && <Image src={image} alt="" />}
-    </div>
-    <Prose>
-
-    <div class="title">
-        <div class="date">
-          <FormattedDate date={published} />
+    <article>
+        <div class="hero-image">
+            {image &&
+                    <Image src={image} alt=""/>}
         </div>
-        <h1>{title}</h1>
-        <hr />
-      </div>
-      <div id="content">
-      <slot />
-      </div>
-    </Prose>
-  </article>
+        <Prose>
+
+            <div class="title">
+                <div class="date">
+                    <FormattedDate date={published}/>
+                </div>
+                <h1>{title}</h1>
+                <hr/>
+            </div>
+            <div id="content">
+                <slot/>
+            </div>
+        </Prose>
+    </article>
 </BaseLayout>
 
 <style>
 
-
-  /* two items */
-  #content :global(img:first-child:nth-last-child(2)),
-  #content :global(img:first-child:nth-last-child(2) ~ img) {
-    float: left;
-    width: calc(50% - 1rem);
-
-  }
-
-  #content :global(img:first-child:nth-last-child(2) ~ img) {
-    margin-left: 1rem;
-  }
-
-  /* three items
-  img:first-child:nth-last-child(3),
-  img:first-child:nth-last-child(3) ~ img {
-    float: left;
-    width: calc(33.3333% - 2rem);
-    margin: 0 1rem;
-  }
-
-  /* four items
-  img:first-child:nth-last-child(4),
-  img:first-child:nth-last-child(4) ~ img {
-    float: left;
-    width: calc(25% - 2rem);
-    margin: 0 1rem;
-  }
-  */
-
-  @media screen and (min-width: 700px) {
-    main {
-      width: calc(100% - 2em);
-      max-width: 100%;
-      margin: 4rem auto;
+    #content :global(p:has(> img:nth-last-child(2):first-child)) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 1rem;
     }
-  }
-  .hero-image {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  .hero-image img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 12px;
-    box-shadow: var(--box-shadow);
-  }
 
-  .title {
-    margin-bottom: 1em;
-    padding: 1em 0;
-    text-align: center;
-    line-height: 1;
-  }
-  .title h1 {
-    margin: 0 0 0.5em 0;
-  }
-  .date {
-    margin-bottom: 0.5em;
-    color: rgb(var(--gray));
-  }
-  .last-updated-on {
-    font-style: italic;
-  }
+    #content :global(p:has(> img:nth-last-child(2):first-child) img) {
+        margin-bottom: 1rem;
+    }
+    /* three items
+    img:first-child:nth-last-child(3),
+    img:first-child:nth-last-child(3) ~ img {
+      float: left;
+      width: calc(33.3333% - 2rem);
+      margin: 0 1rem;
+    }
+
+    /* four items
+    img:first-child:nth-last-child(4),
+    img:first-child:nth-last-child(4) ~ img {
+      float: left;
+      width: calc(25% - 2rem);
+      margin: 0 1rem;
+    }
+    */
+
+    @media screen and (min-width: 700px) {
+        main {
+            width: calc(100% - 2em);
+            max-width: 100%;
+            margin: 4rem auto;
+        }
+
+        /* two items */
+        #content :global(p:has(> img:nth-last-child(2):first-child)) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 1rem;
+        }
+
+        #content :global(p:has(> img:nth-last-child(2):first-child) img) {
+            margin-bottom: 0;
+        }
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .hero-image img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .title {
+        margin-bottom: 1em;
+        padding: 1em 0;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .title h1 {
+        margin: 0 0 0.5em 0;
+    }
+
+    .date {
+        margin-bottom: 0.5em;
+        color: rgb(var(--gray));
+    }
+
+    .last-updated-on {
+        font-style: italic;
+    }
 </style>
