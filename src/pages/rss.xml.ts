@@ -10,6 +10,11 @@ import { getImage } from "astro:assets";
 
 const parser = new MarkdownIt();
 
+/**
+ * Updated this code on 2025-08-29 to correctly handle relative images in Markdown. Most of the changes came from
+ * this blog post: https://billyle.dev/posts/adding-rss-feed-content-and-fixing-markdown-image-paths-in-astro
+ */
+
 // get dynamic import of images as a map collection
 const imagesGlob = import.meta.glob<{ default: ImageMetadata }>(
     "/src/content/blog/images/**/*.{jpeg,jpg,png,gif}", // add more image formats if needed
