@@ -80,7 +80,7 @@ export async function GET(context: AstroGlobal) {
     feed.push({
       title: post.data.title,
       description: post.data.description,
-      author: `Joe Martucci`,
+      author: `joseph.martucci@me.com`,
       pubDate: post.data.published,
       categories: post.data.tags,
       link: `/blog/${post.slug}/`,
