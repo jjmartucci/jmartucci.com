@@ -15,9 +15,10 @@
     "@astrojs/netlify": "^6.3.4",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.4.0",
-    "astro": "^5.8.0",
+    "astro": "^5.13.5",
     "fuse.js": "^7.1.0",
     "markdown-it": "^14.1.0",
+    "node-html-parser": "^7.0.1",
     "sanitize-html": "^2.13.0",
     "typescript": "^5.6.2"
   }
