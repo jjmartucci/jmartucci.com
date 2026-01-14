@@ -1,0 +1,239 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Fetch all books
+const allBooks = (await getCollection("books"))
+  .filter((book) => {
+    return process.env.NODE_ENV === "production" ? !book.data.draft : true;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.dateRead || a.data.reviewedAt;
+    const dateB = b.data.dateRead || b.data.reviewedAt;
+    if (!dateA) return 1;
+    if (!dateB) return -1;
+    return new Date(dateB).getTime() - new Date(dateA).getTime();
+  });
+
+// Group by year and month
+type BooksByYearMonth = Record<
+  number,
+  Record<string, typeof allBooks>
+>;
+
+const booksByYearMonth = allBooks.reduce<BooksByYearMonth>((acc, book) => {
+  const date = new Date(book.data.dateRead || book.data.reviewedAt || new Date());
+  const year = date.getFullYear();
+  const month = date.toLocaleDateString("en-US", { month: "long" });
+
+  if (!acc[year]) acc[year] = {};
+  if (!acc[year][month]) acc[year][month] = [];
+  acc[year][month].push(book);
+
+  return acc;
+}, {});
+
+// Function to render star rating
+function renderStars(rating: number | undefined): string {
+  if (!rating) return "";
+  return "⭐".repeat(rating);
+}
+---
+
+<BaseLayout title="Stream" description="A stream of books I've read">
+  <h1>Stream</h1>
+
+  {
+    Object.entries(booksByYearMonth)
+      .sort(([a], [b]) => Number(b) - Number(a))
+      .map(([year, months]) => (
+        <section class="year-section">
+          <h2>{year}</h2>
+
+          {Object.entries(months).map(([month, books]) => (
+            <div class="month-section">
+              <h3>
+                {month}
+                <span class="count">Books: {books.length}</span>
+              </h3>
+
+              <ul class="book-list">
+                {books.map((book) => (
+                  <li class="book-item">
+                    {book.data.image && (
+                      <div class="book-cover">
+                        <Image
+                          src={book.data.image}
+                          alt={`Cover of ${book.data.title}`}
+                          width={120}
+                          height={180}
+                        />
+                      </div>
+                    )}
+                    <div class="book-details">
+                      <h4>
+                        {book.data.link ? (
+                          <a href={book.data.link} target="_blank" rel="noopener noreferrer">
+                            {book.data.title}
+                          </a>
+                        ) : (
+                          book.data.title
+                        )}
+                      </h4>
+                      {book.data.author && <p class="author">by {book.data.author}</p>}
+                      {book.data.rating && (
+                        <p class="rating">{renderStars(book.data.rating)}</p>
+                      )}
+                      {book.body && (
+                        <div class="review-excerpt">
+                          {book.body.substring(0, 200)}
+                          {book.body.length > 200 ? "..." : ""}
+                        </div>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))
+  }
+
+  {allBooks.length === 0 && (
+    <p class="empty-state">
+      No books found. Run <code>npm run fetch:books</code> to sync from Hardcover.
+    </p>
+  )}
+</BaseLayout>
+
+<style>
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .year-section {
+    margin-bottom: 3rem;
+  }
+
+  .year-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color, #333);
+  }
+
+  .month-section {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+
+  .month-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--text-color-secondary, #555);
+  }
+
+  .count {
+    font-size: 0.875rem;
+    color: var(--text-color-muted, #999);
+    margin-left: 0.75rem;
+    font-weight: normal;
+  }
+
+  .book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .book-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color, #eee);
+    border-radius: 8px;
+    background: var(--bg-color, #fff);
+    transition: box-shadow 0.2s;
+  }
+
+  .book-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .book-cover {
+    flex-shrink: 0;
+  }
+
+  .book-cover img {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .book-details {
+    flex: 1;
+    min-width: 0; /* Allows text truncation */
+  }
+
+  .book-details h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.125rem;
+  }
+
+  .book-details h4 a {
+    color: var(--link-color, #0066cc);
+    text-decoration: none;
+  }
+
+  .book-details h4 a:hover {
+    text-decoration: underline;
+  }
+
+  .author {
+    color: var(--text-color-secondary, #666);
+    font-style: italic;
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9375rem;
+  }
+
+  .rating {
+    margin: 0 0 0.75rem 0;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .review-excerpt {
+    margin-top: 0.75rem;
+    color: var(--text-color, #333);
+    line-height: 1.6;
+    font-size: 0.9375rem;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-color-muted, #999);
+  }
+
+  .empty-state code {
+    background: var(--code-bg, #f5f5f5);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+
+  @media (max-width: 600px) {
+    .book-item {
+      flex-direction: column;
+    }
+
+    .book-cover {
+      align-self: center;
+    }
+  }
+</style>

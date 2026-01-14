@@ -6,9 +6,10 @@
     "dev": "astro dev",
     "start": "astro dev",
     "check": "astro check",
-    "build": "astro build",
+    "build": "npm run fetch:books && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "fetch:books": "tsx --env-file=.env src/scripts/fetch-hardcover-books.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -20,6 +21,7 @@
     "markdown-it": "^14.1.0",
     "node-html-parser": "^7.0.1",
     "sanitize-html": "^2.13.0",
+    "tsx": "^4.7.0",
     "typescript": "^5.6.2"
   }
 }

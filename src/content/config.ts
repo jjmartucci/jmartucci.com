@@ -24,11 +24,14 @@ const books = defineCollection({
   // Type-check frontmatter using a schema
   schema: ({image}) => z.object({
     title: z.string(),
+    author: z.string().optional(),
     link: z.string().optional(),
     image: image().optional(),
     tags: z.array(z.string()).optional(),
     draft: z.boolean().optional(),
-    author: z.string().optional(),
+    rating: z.number().optional(),
+    dateRead: z.coerce.date().optional(),
+    reviewedAt: z.coerce.date().optional(),
   }),
 });
 
