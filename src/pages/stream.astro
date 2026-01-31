@@ -5,105 +5,387 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 // Fetch all books
 const allBooks = (await getCollection("books"))
-  .filter((book) => {
-    return process.env.NODE_ENV === "production" ? !book.data.draft : true;
-  })
-  .sort((a, b) => {
-    const dateA = a.data.dateRead || a.data.reviewedAt;
-    const dateB = b.data.dateRead || b.data.reviewedAt;
-    if (!dateA) return 1;
-    if (!dateB) return -1;
-    return new Date(dateB).getTime() - new Date(dateA).getTime();
-  });
+  .filter((book) => process.env.NODE_ENV === "production" ? !book.data.draft : true)
+  .map(book => ({
+    type: 'book' as const,
+    date: book.data.reviewedAt || book.data.dateRead,
+    data: book
+  }));
 
-// Group by year and month
-type BooksByYearMonth = Record<
-  number,
-  Record<string, typeof allBooks>
->;
+// Fetch all music
+const allMusic = (await getCollection("music"))
+  .filter((track) => process.env.NODE_ENV === "production" ? !track.data.draft : true)
+  .map(track => ({
+    type: 'music' as const,
+    date: track.data.lovedDate,
+    data: track
+  }));
 
-const booksByYearMonth = allBooks.reduce<BooksByYearMonth>((acc, book) => {
-  const date = new Date(book.data.dateRead || book.data.reviewedAt || new Date());
+// Fetch all watching
+const allWatching = (await getCollection("watching"))
+  .filter((item) => process.env.NODE_ENV === "production" ? !item.data.draft : true)
+  .map(item => ({
+    type: 'watching' as const,
+    date: item.data.lastWatchedDate,
+    data: item
+  }));
+
+// Fetch all games
+const allGames = (await getCollection("games"))
+  .filter((game) => process.env.NODE_ENV === "production" ? !game.data.draft : true)
+  .filter((game) => game.data.rating !== undefined && game.data.rating !== null)
+  .map(game => ({
+    type: 'game' as const,
+    date: game.data.dateAdded,
+    data: game
+  }));
+
+// Fetch all toots (only current year)
+const currentYear = new Date().getFullYear();
+const allToots = (await getCollection("toots"))
+  .filter((toot) => process.env.NODE_ENV === "production" ? !toot.data.draft : true)
+  .filter((toot) => !toot.data.inReplyTo) // Only show original toots, not replies
+  .filter((toot) => new Date(toot.data.publishedDate).getFullYear() === currentYear) // Only current year
+  .map(toot => ({
+    type: 'toot' as const,
+    date: toot.data.publishedDate,
+    data: toot
+  }));
+
+// Combine and sort by date
+const allItems = [...allBooks, ...allMusic, ...allWatching, ...allGames, ...allToots]
+  .filter(item => item.date)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+// Group by year and month (only split current year by month, aggregate past years)
+type ItemsByYearMonth = Record<number, Record<string, typeof allItems>>;
+
+const itemsByYearMonth = allItems.reduce<ItemsByYearMonth>((acc, item) => {
+  const date = new Date(item.date);
   const year = date.getFullYear();
-  const month = date.toLocaleDateString("en-US", { month: "long" });
+  const month = year === currentYear
+    ? date.toLocaleDateString("en-US", { month: "long" })
+    : "All Year";
 
   if (!acc[year]) acc[year] = {};
   if (!acc[year][month]) acc[year][month] = [];
-  acc[year][month].push(book);
+  acc[year][month].push(item);
 
   return acc;
 }, {});
 
-// Function to render star rating
-function renderStars(rating: number | undefined): string {
-  if (!rating) return "";
-  return "⭐".repeat(rating);
+// Group items by type within a month
+function groupByType(items: typeof allItems) {
+  const groups = {
+    books: items.filter(i => i.type === 'book'),
+    movies: items.filter(i => i.type === 'watching' && i.data.data.type === 'movie'),
+    music: items.filter(i => i.type === 'music'),
+    tv: items.filter(i => i.type === 'watching' && i.data.data.type === 'tv'),
+    games: items.filter(i => i.type === 'game'),
+    toots: items.filter(i => i.type === 'toot'),
+  };
+  return groups;
+}
+
+// Count by category for each month
+function getCategoryCounts(items: typeof allItems) {
+  const groups = groupByType(items);
+  return {
+    books: groups.books.length,
+    movies: groups.movies.length,
+    tracks: groups.music.length,
+    tv: groups.tv.length,
+    games: groups.games.length,
+    toots: groups.toots.length,
+  };
+}
+
+// Function to normalize ratings to 0-10 scale
+function normalizeRating(rating: number | undefined, maxScale: number = 5): number | null {
+  if (!rating || rating === 0) return null;
+  // Normalize to 0-10 scale
+  return (rating / maxScale) * 10;
+}
+
+// Function to format rating as percentage
+function formatRatingAsPercentage(rating: number | undefined, maxScale: number = 5): string {
+  const normalized = normalizeRating(rating, maxScale);
+  if (normalized === null) return "";
+  const percentage = Math.round(normalized * 10);
+  return `${percentage}%`;
+}
+
+// Function to convert rating to 5-star scale
+function convertToFiveStars(rating: number | undefined, maxScale: number = 5): number | null {
+  if (!rating || rating === 0) return null;
+  // Convert to 5-star scale
+  return (rating / maxScale) * 5;
+}
+
+// Function to render star rating SVG
+function renderStarRating(rating: number | undefined, maxScale: number = 5): string {
+  const fiveStarRating = convertToFiveStars(rating, maxScale);
+  if (fiveStarRating === null) return "";
+
+  const fullStars = Math.floor(fiveStarRating);
+  const hasHalfStar = fiveStarRating % 1 >= 0.5;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+  let stars = '';
+  const starId = `star-${Math.random().toString(36).substr(2, 9)}`;
+
+  // Full stars (yellow fill)
+  for (let i = 0; i < fullStars; i++) {
+    stars += '<svg class="star" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#efb045" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+  }
+
+  // Half star (gradient fill)
+  if (hasHalfStar) {
+    stars += `<svg class="star" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="${starId}"><stop offset="50%" stop-color="#efb045"/><stop offset="50%" stop-color="transparent"/></linearGradient></defs><path fill="url(#${starId})" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/><path fill="none" stroke="#efb045" stroke-width="1" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
+  }
+
+  // Empty stars (yellow outline)
+  for (let i = 0; i < emptyStars; i++) {
+    stars += '<svg class="star" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#efb045" stroke-width="2" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+  }
+
+  return stars;
 }
 ---
 
-<BaseLayout title="Stream" description="A stream of books I've read">
+<BaseLayout title="Stream" description="Books, music, movies/TV, games, and toots from my life">
   <h1>Stream</h1>
+  <p>A collection of all the stuff I've read, watched, played, etc. This page was created in 2026, so data before then is... flaky at best!</p>
+  {Object.entries(itemsByYearMonth)
+    .sort(([a], [b]) => Number(b) - Number(a))
+    .map(([year, months]) => (
+      <section class="year-section">
+        <h2>{year}</h2>
 
-  {
-    Object.entries(booksByYearMonth)
-      .sort(([a], [b]) => Number(b) - Number(a))
-      .map(([year, months]) => (
-        <section class="year-section">
-          <h2>{year}</h2>
-
-          {Object.entries(months).map(([month, books]) => (
+        {Object.entries(months).map(([month, items]) => {
+          const counts = getCategoryCounts(items);
+          const grouped = groupByType(items);
+          return (
             <div class="month-section">
               <h3>
                 {month}
-                <span class="count">Books: {books.length}</span>
+                <span class="count">
+                  Books: {counts.books}, Movies: {counts.movies}, TV: {counts.tv}, Tracks: {counts.tracks}, Games: {counts.games}, Toots: {counts.toots}
+                </span>
               </h3>
 
-              <ul class="book-list">
-                {books.map((book) => (
-                  <li class="book-item">
-                    {book.data.image && (
-                      <div class="book-cover">
-                        <Image
-                          src={book.data.image}
-                          alt={`Cover of ${book.data.title}`}
-                          width={120}
-                          height={180}
-                        />
-                      </div>
-                    )}
-                    <div class="book-details">
-                      <h4>
-                        {book.data.link ? (
-                          <a href={book.data.link} target="_blank" rel="noopener noreferrer">
-                            {book.data.title}
+              {/* Books Section */}
+              {grouped.books.length > 0 && (
+                <>
+                  <h4 class="type-heading">Books</h4>
+                  <ul class="item-list media-grid">
+                    {grouped.books.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 5)} />
+                            )}
                           </a>
-                        ) : (
-                          book.data.title
-                        )}
-                      </h4>
-                      {book.data.author && <p class="author">by {book.data.author}</p>}
-                      {book.data.rating && (
-                        <p class="rating">{renderStars(book.data.rating)}</p>
-                      )}
-                      {book.body && (
-                        <div class="review-excerpt">
-                          {book.body.substring(0, 200)}
-                          {book.body.length > 200 ? "..." : ""}
-                        </div>
-                      )}
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </section>
-      ))
-  }
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 5)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
 
-  {allBooks.length === 0 && (
+              {/* Movies Section */}
+              {grouped.movies.length > 0 && (
+                <>
+                  <h4 class="type-heading">Movies</h4>
+                  <ul class="item-list media-grid">
+                    {grouped.movies.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </a>
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* TV Section */}
+              {grouped.tv.length > 0 && (
+                <>
+                  <h4 class="type-heading">TV Shows</h4>
+                  <ul class="item-list media-grid">
+                    {grouped.tv.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </a>
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* Music Section */}
+              {grouped.music.length > 0 && (
+                <>
+                  <h4 class="type-heading">Songs</h4>
+                  <ul class="item-list media-grid">
+                    {grouped.music.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={120}
+                            />
+                          </a>
+                        ) : item.data.data.image ? (
+                          <Image
+                            src={item.data.data.image}
+                            alt={item.data.data.title}
+                            width={120}
+                            height={120}
+                          />
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* Games Section */}
+              {grouped.games.length > 0 && (
+                <>
+                  <h4 class="type-heading">Games</h4>
+                  <ul class="item-list media-grid">
+                    {grouped.games.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={160}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </a>
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={160}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* Toots Section */}
+              {grouped.toots.length > 0 && (
+                <>
+                  <h4 class="type-heading">Mastodon</h4>
+                  <ul class="item-list toots-list">
+                    {grouped.toots.map((item) => (
+                      <li class={`item ${item.type}`}>
+                        <span class="category-label"></span>
+                        <div class="item-details toot-content">
+                          <div class="toot-text" set:html={item.data.body} />
+                          <p class="toot-meta">
+                            <a href={item.data.data.url} target="_blank" rel="noopener noreferrer">
+                              View on Mastodon →
+                            </a>
+                          </p>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </div>
+          );
+        })}
+      </section>
+    ))}
+
+  {allItems.length === 0 && (
     <p class="empty-state">
-      No books found. Run <code>npm run fetch:books</code> to sync from Hardcover.
+      No items found. Run <code>npm run fetch:books</code>, <code>npm run fetch:music</code>, <code>npm run fetch:watching</code>, <code>npm run fetch:games</code>, and <code>npm run fetch:toots</code> to sync.
     </p>
   )}
 </BaseLayout>
@@ -126,12 +408,11 @@ function renderStars(rating: number | undefined): string {
 
   .month-section {
     margin-bottom: 2rem;
-    margin-left: 1rem;
   }
 
   .month-section h3 {
     font-size: 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: var(--text-color-secondary, #555);
   }
 
@@ -142,76 +423,149 @@ function renderStars(rating: number | undefined): string {
     font-weight: normal;
   }
 
-  .book-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  .type-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1rem 0;
+    color: var(--text-color, #333);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
-  .book-item {
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .media-grid {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .media-item {
+    list-style: none;
+  }
+
+  .media-link {
+    display: block;
+    position: relative;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+
+  .media-link:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+  }
+
+  .media-link img,
+  .media-item img {
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: block;
+  }
+
+  .rating-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    gap: 2px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 4px 6px;
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+  }
+
+  .rating-overlay .star {
+    display: inline-block;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.8));
+  }
+
+  .rating-overlay .star path {
+    pointer-events: none;
+  }
+
+  .toots-list {
+    display: block;
+  }
+
+  .item {
+    display: flex;
+    overflow: hidden;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding: 1rem;
     border: 1px solid var(--border-color, #eee);
     border-radius: 8px;
     background: var(--bg-color, #fff);
     transition: box-shadow 0.2s;
+    position: relative;
   }
 
-  .book-item:hover {
+  .item:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .book-cover {
-    flex-shrink: 0;
+  .category-label {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    display: inline-block;
+    height: .5rem;
+    width: 100%;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0;
   }
 
-  .book-cover img {
-    width: 120px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  .item.toot .category-label {
+    background: #d1c4e9;
+    color: #4a148c;
   }
 
-  .book-details {
+  .item-details {
     flex: 1;
-    min-width: 0; /* Allows text truncation */
+    min-width: 0;
   }
 
-  .book-details h4 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.125rem;
+  .toot-content {
+    width: 100%;
   }
 
-  .book-details h4 a {
+  .toot-text {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--text-color, #333);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .toot-text a {
     color: var(--link-color, #0066cc);
     text-decoration: none;
   }
 
-  .book-details h4 a:hover {
+  .toot-text a:hover {
     text-decoration: underline;
   }
 
-  .author {
-    color: var(--text-color-secondary, #666);
-    font-style: italic;
-    margin: 0 0 0.5rem 0;
-    font-size: 0.9375rem;
-  }
-
-  .rating {
-    margin: 0 0 0.75rem 0;
-    font-size: 1rem;
-    line-height: 1;
-  }
-
-  .review-excerpt {
+  .toot-meta {
     margin-top: 0.75rem;
-    color: var(--text-color, #333);
-    line-height: 1.6;
-    font-size: 0.9375rem;
+    font-size: 0.875rem;
+  }
+
+  .toot-meta a {
+    color: var(--link-color, #0066cc);
+    text-decoration: none;
+  }
+
+  .toot-meta a:hover {
+    text-decoration: underline;
   }
 
   .empty-state {
@@ -227,13 +581,9 @@ function renderStars(rating: number | undefined): string {
     font-family: monospace;
   }
 
-  @media (max-width: 600px) {
-    .book-item {
-      flex-direction: column;
-    }
-
-    .book-cover {
-      align-self: center;
+  @media (max-width: 768px) {
+    .media-grid {
+      gap: 0.5rem;
     }
   }
 </style>

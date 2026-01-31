@@ -3,7 +3,7 @@ title: "Nothing Special"
 author: "Nicole Flattery"
 link: "https://hardcover.app/books/nothing-special-2023"
 image: "../images/2024/nothing-special-2023.jpeg"
-tags:
+genre:
   - Fiction
 rating: 4
 dateRead: "2024-02-03"

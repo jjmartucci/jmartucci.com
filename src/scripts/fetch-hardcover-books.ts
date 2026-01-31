@@ -108,12 +108,19 @@ async function main() {
         }
       }
 
-      // Extract tags from cached_tags (flatten all categories)
-      const tags = book.cached_tags
+      // Extract genre from cached_tags - only Fiction, Nonfiction, or comic
+      const ALLOWED_GENRES = ['Fiction', 'Nonfiction', 'comic'];
+      const genre = book.cached_tags
         ? Object.values(book.cached_tags)
             .flat()
             .map((t) => t.tag)
-            .filter((tag) => tag && typeof tag === 'string' && tag.trim().length > 0)
+            .filter((tag) => {
+              if (!tag || typeof tag !== 'string' || tag.trim().length === 0) return false;
+              // Case-insensitive match against allowed genres
+              return ALLOWED_GENRES.some(allowed =>
+                tag.toLowerCase() === allowed.toLowerCase()
+              );
+            })
         : undefined;
 
       // Create metadata object
@@ -122,7 +129,7 @@ async function main() {
         author,
         link: `https://hardcover.app/books/${book.slug}`,
         image: imagePath,
-        tags,
+        genre,
         rating: userBook.rating ?? undefined,
         dateRead: dateRead.toISOString().split('T')[0], // Format as YYYY-MM-DD
         reviewedAt: userBook.reviewed_at

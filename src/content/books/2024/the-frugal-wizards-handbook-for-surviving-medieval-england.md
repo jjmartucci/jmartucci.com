@@ -3,35 +3,8 @@ title: "The Frugal Wizard's Handbook for Surviving Medieval England"
 author: "Brandon Sanderson"
 link: "https://hardcover.app/books/the-frugal-wizards-handbook-for-surviving-medieval-england"
 image: "../images/2024/the-frugal-wizards-handbook-for-surviving-medieval-england.jpeg"
-tags:
-  - Fantasy
-  - Science Fiction
-  - Humor
+genre:
   - Fiction
-  - Adventure
-  - Young Adult
-  - Science Fiction & Fantasy
-  - Adventurous
-  - funny
-  - lighthearted
-  - mysterious
-  - inspiring
-  - emotional
-  - hopeful
-  - tense
-  - reflective
-  - challenging
-  - Gun violence
-  - Strong Character Development
-  - Loveable Characters
-  - A mix driven
-  - Diverse Characters
-  - Not Diverse Characters
-  - Plot driven
-  - Character driven
-  - Unloveable Characters
-  - Weak Character Development
-  - read
 rating: 1
 dateRead: "2024-01-04"
 reviewedAt: "2024-01-04"

@@ -3,41 +3,8 @@ title: "Silver Nitrate"
 author: "Silvia Moreno-Garcia"
 link: "https://hardcover.app/books/silver-nitrate"
 image: "../images/2024/silver-nitrate.jpeg"
-tags:
-  - Horror
+genre:
   - Fiction
-  - Fantasy
-  - Thriller
-  - LGBTQ
-  - Historical Fiction
-  - dark
-  - mysterious
-  - Adventurous
-  - tense
-  - hopeful
-  - emotional
-  - lighthearted
-  - funny
-  - Addiction
-  - death
-  - Racism
-  - Self harm
-  - Toxic relationship
-  - Violence
-  - Blood
-  - Grief
-  - Stalking
-  - Car accident
-  - Strong Character Development
-  - A mix driven
-  - Diverse Characters
-  - Loveable Characters
-  - Unloveable Characters
-  - Not Diverse Characters
-  - Plot driven
-  - Weak Character Development
-  - film
-  - Occult
 rating: 2.5
 dateRead: "2024-02-12"
 reviewedAt: "2024-02-12"

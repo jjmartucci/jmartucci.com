@@ -6,10 +6,16 @@
     "dev": "astro dev",
     "start": "astro dev",
     "check": "astro check",
-    "build": "npm run fetch:books && astro build",
+    "build": "npm run fetch:books && npm run fetch:music && npm run fetch:watching && npm run fetch:toots && astro build",
+    "fetch:all": "npm run fetch:books && npm run fetch:music && npm run fetch:watching && npm run fetch:toots",
     "preview": "astro preview",
     "astro": "astro",
-    "fetch:books": "tsx --env-file=.env src/scripts/fetch-hardcover-books.ts"
+    "fetch:books": "tsx --env-file=.env src/scripts/fetch-hardcover-books.ts",
+    "fetch:music": "tsx --env-file=.env src/scripts/fetch-lastfm-tracks.ts",
+    "fetch:watching": "tsx --env-file=.env src/scripts/fetch-trakt-watching.ts",
+    "fetch:games": "tsx --env-file=.env src/scripts/fetch-igdb-games.ts",
+    "fetch:toots": "tsx --env-file=.env src/scripts/fetch-mastodon-toots.ts",
+    "trakt:auth": "tsx --env-file=.env src/scripts/trakt-oauth-helper.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

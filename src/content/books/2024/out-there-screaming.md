@@ -3,23 +3,8 @@ title: "Out There Screaming"
 author: "Jordan Peele"
 link: "https://hardcover.app/books/out-there-screaming"
 image: "../images/2024/out-there-screaming.jpg"
-tags:
-  - Fantasy
+genre:
   - Fiction
-  - Science Fiction
-  - dark
-  - tense
-  - challenging
-  - mysterious
-  - emotional
-  - funny
-  - Diverse Characters
-  - A mix driven
-  - Weak Character Development
-  - Unloveable Characters
-  - Loveable Characters
-  - N/A driven
-  - Strong Character Development
 rating: 4
 dateRead: "2024-04-19"
 reviewedAt: "2024-03-27"

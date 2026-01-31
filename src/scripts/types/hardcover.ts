@@ -53,7 +53,7 @@ export interface BookMetadata {
   author?: string;
   link: string;
   image?: string;
-  tags?: string[];
+  genre?: string[];
   rating?: number;
   dateRead: string;
   reviewedAt?: string;

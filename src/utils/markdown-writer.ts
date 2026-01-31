@@ -1,21 +1,24 @@
 import type { BookMetadata } from '../scripts/types/hardcover';
 
 export function generateBookMarkdown(
-  metadata: BookMetadata,
+  metadata: BookMetadata | Record<string, any>,
   reviewContent: string
 ): string {
-  // Build frontmatter object, excluding undefined values
+  // Build frontmatter object, excluding undefined and null values
   const frontmatter: Record<string, any> = {};
 
-  if (metadata.title) frontmatter.title = metadata.title;
-  if (metadata.author) frontmatter.author = metadata.author;
-  if (metadata.link) frontmatter.link = metadata.link;
-  if (metadata.image) frontmatter.image = metadata.image;
-  if (metadata.tags && metadata.tags.length > 0) frontmatter.tags = metadata.tags;
-  if (metadata.rating !== undefined) frontmatter.rating = metadata.rating;
-  if (metadata.dateRead) frontmatter.dateRead = metadata.dateRead;
-  if (metadata.reviewedAt) frontmatter.reviewedAt = metadata.reviewedAt;
-  frontmatter.draft = metadata.draft;
+  for (const [key, value] of Object.entries(metadata)) {
+    // Skip undefined and null values
+    if (value === undefined || value === null) {
+      continue;
+    }
+    // Skip empty arrays
+    if (Array.isArray(value) && value.length === 0) {
+      continue;
+    }
+    // Include everything else
+    frontmatter[key] = value;
+  }
 
   // Convert to YAML frontmatter
   const yamlLines: string[] = [];
