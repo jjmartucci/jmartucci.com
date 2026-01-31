@@ -1,11 +1,29 @@
 .prose h1 {
     font-size: 2rem;
+    color: var(--big-blue);
 }
 
 @media screen and (min-width: 700px) {
     .prose h1 {
         font-size: 3.052em;
     }
+}
+
+.prose h2 {
+    color: var(--bright-blue);
+}
+
+.prose h3 {
+    font-size: 1.5em;
+    color: rgb(var(--green));
+}
+
+.prose h4 {
+    color: var(--yellow);
+}
+
+.prose h5 {
+    color: var(--tag);
 }
 .prose {
     width: 720px;

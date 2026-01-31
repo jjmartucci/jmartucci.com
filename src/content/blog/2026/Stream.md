@@ -3,7 +3,9 @@ title: Stream
 description: Logging all my data in one place.
 published: 2026-01-30
 ---
- I wanted a simple thing: one place to show all of the media I consume. For me that’s reading books, watching movies/tv, noting favorite songs, and video games. I wanted a way to see this locally _and_ here on the blog, with some level of ease for automating collection, which meant looking at third party services to store the data, then pulling from them to save the data in Markdown.
+**TL;DR:** the page is at [/stream](/stream).
+
+I wanted a simple thing: one place to show all of the media I consume. For me that’s reading books, watching movies/tv, noting favorite songs, and video games. I wanted a way to see this locally _and_ here on the blog, with some level of ease for automating collection, which meant looking at third party services to store the data, then pulling from them to save the data in Markdown.
 
 I didn’t want to spend a lot of time on this, so I offloaded ~~some~~ ~~most~~ all of the work to [Claude Code](https://claude.com/product/claude-code ) and some other AI tools. I thought the “how” of making the page might be of interest to others, so here it is!
 
@@ -31,3 +33,9 @@ I ended up landing on [Trakt](https://trakt.tv/) which integrates well with a lo
 I’ve inconsistently used [last.fm](https://www.last.fm/) for basically forever, and it has an API. I set it up to only pull loved songs, as I scrobble a _lot_ of music. But, I’ve loved almost no songs in the last decade or so that I’ve used last.fm. But intend to going forward. I use [NepTunes](https://apps.apple.com/us/app/neptunes-for-itunes-spotify/id1006739057?mt=12) on my Mac to make it easier to do from Apple Music.
 ### Video Games
 This is probably the clunkiest integration, currently. [Infinite Backlog](https://infinitebacklog.net) is great at syncing with my Steam and Playstation activity, but has no API. It does have an export feature, and references an [IGDB](https://www.igdb.com) ID for each game, so you can export the data and then hit the IGDB API to get richer details.
+
+## Process
+I used two tools extensively:
+1. [Kagi’s Assistant](https://kagi.com/assistant) to do AI assisted web searches for services that had APIs. It does an _amazing_ job of getting the information I needed, from comparing similar services, to digging into the APIs or finding libraries and scraping options that might work.
+2. Claude Code to write all the code. I manually wrote none when adding this feature. Putting together scripts to pull from documented APIs and formatting JSON to Markdown + YAML are two of its biggest strengths, so, go nuts Claude.
+
