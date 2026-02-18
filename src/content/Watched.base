@@ -1,0 +1,18 @@
+properties:
+  note.lastWatchedDate:
+    displayName: Watched
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("watching")
+        - file.ext == "md"
+    order:
+      - title
+      - lastWatchedDate
+    sort:
+      - property: lastWatchedDate
+        direction: DESC
+    image: note.image
+    imageFit: contain

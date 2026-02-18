@@ -91,10 +91,27 @@ function extractIGDBId(igdbField: string): number | null {
   return null;
 }
 
+async function findLatestExport(): Promise<string> {
+  const dataDir = path.join(process.cwd(), 'data');
+  const files = await fs.readdir(dataDir);
+  const csvFiles = files
+    .filter(f => /^InfiniteBacklog_GameCollection_\d{4}-\d{2}-\d{2}\.csv$/.test(f))
+    .sort()
+    .reverse();
+
+  if (csvFiles.length === 0) {
+    throw new Error(
+      'No InfiniteBacklog CSV exports found in /data.\n' +
+      'Expected format: data/InfiniteBacklog_GameCollection_YYYY-MM-DD.csv'
+    );
+  }
+
+  return path.join(dataDir, csvFiles[0]);
+}
+
 async function main() {
   const clientId = process.env.IGDB_CLIENT_ID;
   const clientSecret = process.env.IGDB_CLIENT_SECRET;
-  const exportFilePath = process.argv[2];
 
   if (!clientId) {
     throw new Error(
@@ -110,14 +127,8 @@ async function main() {
     );
   }
 
-  if (!exportFilePath) {
-    throw new Error(
-      'Please provide the path to your Infinite Backlog CSV export file.\n' +
-      'Usage: npm run fetch:games <path-to-export.csv>'
-    );
-  }
-
-  console.log('🎮 Reading CSV export file...');
+  const exportFilePath = await findLatestExport();
+  console.log(`🎮 Using export: ${path.basename(exportFilePath)}`);
   const csvContent = await fs.readFile(exportFilePath, 'utf-8');
   const allRows = parseCSV(csvContent);
 

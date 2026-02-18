@@ -1,161 +1,25 @@
 ---
-import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Prose from "../../components/Prose/Prose.astro";
+import {
+  fetchAllItems,
+  groupByYearMonth,
+  groupByType,
+  getCategoryCounts,
+  renderStarRating,
+  STREAM_TYPES,
+  type StreamTypeKey,
+} from "../../utils/stream";
 
-// Fetch all books
-const allBooks = (await getCollection("books"))
-  .filter((book) => process.env.NODE_ENV === "production" ? !book.data.draft : true)
-  .map(book => ({
-    type: 'book' as const,
-    date: book.data.reviewedAt || book.data.dateRead,
-    data: book
-  }));
-
-// Fetch all music
-const allMusic = (await getCollection("music"))
-  .filter((track) => process.env.NODE_ENV === "production" ? !track.data.draft : true)
-  .map(track => ({
-    type: 'music' as const,
-    date: track.data.lovedDate,
-    data: track
-  }));
-
-// Fetch all watching
-const allWatching = (await getCollection("watching"))
-  .filter((item) => process.env.NODE_ENV === "production" ? !item.data.draft : true)
-  .map(item => ({
-    type: 'watching' as const,
-    date: item.data.lastWatchedDate,
-    data: item
-  }));
-
-// Fetch all games
-const allGames = (await getCollection("games"))
-  .filter((game) => process.env.NODE_ENV === "production" ? !game.data.draft : true)
-  .filter((game) => game.data.rating !== undefined && game.data.rating !== null)
-  .map(game => ({
-    type: 'game' as const,
-    date: game.data.dateAdded,
-    data: game
-  }));
-
-// Fetch all toots (only current year)
-const currentYear = new Date().getFullYear();
-const allToots = (await getCollection("toots"))
-  .filter((toot) => process.env.NODE_ENV === "production" ? !toot.data.draft : true)
-  .filter((toot) => !toot.data.inReplyTo) // Only show original toots, not replies
-  .filter((toot) => new Date(toot.data.publishedDate).getFullYear() === currentYear) // Only current year
-  .map(toot => ({
-    type: 'toot' as const,
-    date: toot.data.publishedDate,
-    data: toot
-  }));
-
-// Combine and sort by date
-const allItems = [...allBooks, ...allMusic, ...allWatching, ...allGames, ...allToots]
-  .filter(item => item.date)
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-// Group by year and month (only split current year by month, aggregate past years)
-type ItemsByYearMonth = Record<number, Record<string, typeof allItems>>;
-
-const itemsByYearMonth = allItems.reduce<ItemsByYearMonth>((acc, item) => {
-  const date = new Date(item.date);
-  const year = date.getFullYear();
-  const month = year === currentYear
-    ? date.toLocaleDateString("en-US", { month: "long" })
-    : "All Year";
-
-  if (!acc[year]) acc[year] = {};
-  if (!acc[year][month]) acc[year][month] = [];
-  acc[year][month].push(item);
-
-  return acc;
-}, {});
-
-// Group items by type within a month
-function groupByType(items: typeof allItems) {
-  const groups = {
-    books: items.filter(i => i.type === 'book'),
-    movies: items.filter(i => i.type === 'watching' && i.data.data.type === 'movie'),
-    music: items.filter(i => i.type === 'music'),
-    tv: items.filter(i => i.type === 'watching' && i.data.data.type === 'tv'),
-    games: items.filter(i => i.type === 'game'),
-    toots: items.filter(i => i.type === 'toot'),
-  };
-  return groups;
-}
-
-// Count by category for each month
-function getCategoryCounts(items: typeof allItems) {
-  const groups = groupByType(items);
-  return {
-    books: groups.books.length,
-    movies: groups.movies.length,
-    tracks: groups.music.length,
-    tv: groups.tv.length,
-    games: groups.games.length,
-    toots: groups.toots.length,
-  };
-}
-
-// Function to normalize ratings to 0-10 scale
-function normalizeRating(rating: number | undefined, maxScale: number = 5): number | null {
-  if (!rating || rating === 0) return null;
-  // Normalize to 0-10 scale
-  return (rating / maxScale) * 10;
-}
-
-// Function to format rating as percentage
-function formatRatingAsPercentage(rating: number | undefined, maxScale: number = 5): string {
-  const normalized = normalizeRating(rating, maxScale);
-  if (normalized === null) return "";
-  const percentage = Math.round(normalized * 10);
-  return `${percentage}%`;
-}
-
-// Function to convert rating to 5-star scale
-function convertToFiveStars(rating: number | undefined, maxScale: number = 5): number | null {
-  if (!rating || rating === 0) return null;
-  // Convert to 5-star scale
-  return (rating / maxScale) * 5;
-}
-
-// Function to render star rating SVG
-function renderStarRating(rating: number | undefined, maxScale: number = 5): string {
-  const fiveStarRating = convertToFiveStars(rating, maxScale);
-  if (fiveStarRating === null) return "";
-
-  const fullStars = Math.floor(fiveStarRating);
-  const hasHalfStar = fiveStarRating % 1 >= 0.5;
-  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
-
-  let stars = '';
-  const starId = `star-${Math.random().toString(36).substr(2, 9)}`;
-
-  // Full stars (yellow fill)
-  for (let i = 0; i < fullStars; i++) {
-    stars += '<svg class="star" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#efb045" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
-  }
-
-  // Half star (gradient fill)
-  if (hasHalfStar) {
-    stars += `<svg class="star" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="${starId}"><stop offset="50%" stop-color="#efb045"/><stop offset="50%" stop-color="transparent"/></linearGradient></defs><path fill="url(#${starId})" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/><path fill="none" stroke="#efb045" stroke-width="1" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
-  }
-
-  // Empty stars (yellow outline)
-  for (let i = 0; i < emptyStars; i++) {
-    stars += '<svg class="star" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#efb045" stroke-width="2" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
-  }
-
-  return stars;
-}
+const allItems = await fetchAllItems();
+const itemsByYearMonth = groupByYearMonth(allItems);
 ---
 
 <BaseLayout title="Stream" description="Books, music, movies/TV, games, and toots from my life">
-  <h1>Stream</h1>
-  <p>A collection of all the stuff I've read, watched, played, etc. This page was created in 2026, so data before then is... flaky at best!</p>
+  <Prose>
+    <h1>Stream</h1>
+    <p>A collection of all the stuff I've read, watched, played, etc. This page was created in 2026, so data before then is... flaky at best!</p>
   {Object.entries(itemsByYearMonth)
     .sort(([a], [b]) => Number(b) - Number(a))
     .map(([year, months]) => (
@@ -177,7 +41,7 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
               {/* Books Section */}
               {grouped.books.length > 0 && (
                 <>
-                  <h4 class="type-heading">Books</h4>
+                  <h4 class="type-heading"><a href="/stream/books">Books</a></h4>
                   <ul class="item-list media-grid">
                     {grouped.books.map((item) => (
                       <li class="media-item">
@@ -215,7 +79,7 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
               {/* Movies Section */}
               {grouped.movies.length > 0 && (
                 <>
-                  <h4 class="type-heading">Movies</h4>
+                  <h4 class="type-heading"><a href="/stream/movies">Movies</a></h4>
                   <ul class="item-list media-grid">
                     {grouped.movies.map((item) => (
                       <li class="media-item">
@@ -253,7 +117,7 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
               {/* TV Section */}
               {grouped.tv.length > 0 && (
                 <>
-                  <h4 class="type-heading">TV Shows</h4>
+                  <h4 class="type-heading"><a href="/stream/tv">TV Shows</a></h4>
                   <ul class="item-list media-grid">
                     {grouped.tv.map((item) => (
                       <li class="media-item">
@@ -291,7 +155,7 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
               {/* Music Section */}
               {grouped.music.length > 0 && (
                 <>
-                  <h4 class="type-heading">Songs</h4>
+                  <h4 class="type-heading"><a href="/stream/music">Songs</a></h4>
                   <ul class="item-list media-grid">
                     {grouped.music.map((item) => (
                       <li class="media-item">
@@ -321,7 +185,7 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
               {/* Games Section */}
               {grouped.games.length > 0 && (
                 <>
-                  <h4 class="type-heading">Games</h4>
+                  <h4 class="type-heading"><a href="/stream/games">Games</a></h4>
                   <ul class="item-list media-grid">
                     {grouped.games.map((item) => (
                       <li class="media-item">
@@ -359,7 +223,7 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
               {/* Toots Section */}
               {grouped.toots.length > 0 && (
                 <>
-                  <h4 class="type-heading">Mastodon</h4>
+                  <h4 class="type-heading"><a href="/stream/toots">Mastodon</a></h4>
                   <ul class="item-list toots-list">
                     {grouped.toots.map((item) => (
                       <li class={`item ${item.type}`}>
@@ -388,9 +252,16 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
       No items found. Run <code>npm run fetch:books</code>, <code>npm run fetch:music</code>, <code>npm run fetch:watching</code>, <code>npm run fetch:games</code>, and <code>npm run fetch:toots</code> to sync.
     </p>
   )}
+  </Prose>
 </BaseLayout>
 
 <style>
+  /* Override Prose width constraint for stream page */
+  :global(.prose) {
+    width: 100%;
+    max-width: 1200px;
+  }
+
   h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -403,7 +274,6 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
   .year-section h2 {
     font-size: 1.75rem;
     margin-bottom: 1.5rem;
-    color: var(--text-color, #333);
   }
 
   .month-section {
@@ -411,9 +281,7 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
   }
 
   .month-section h3 {
-    font-size: 1.25rem;
     margin-bottom: 1.5rem;
-    color: var(--text-color-secondary, #555);
   }
 
   .count {
@@ -427,7 +295,6 @@ function renderStarRating(rating: number | undefined, maxScale: number = 5): str
     font-size: 1rem;
     font-weight: 600;
     margin: 1.5rem 0 1rem 0;
-    color: var(--text-color, #333);
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }

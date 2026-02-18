@@ -187,6 +187,17 @@ const {title, published, description, created, image} = Astro.props;
 </style>
 
 <script>
+    // Fix image link hrefs to use the actual processed img src
+    function setupImageLinks() {
+        const imageLinks = document.querySelectorAll('#content a.image-link');
+        imageLinks.forEach(link => {
+            const img = link.querySelector('img');
+            if (img && img.src) {
+                link.setAttribute('href', img.src);
+            }
+        });
+    }
+
     // Add copy link functionality to headers
     function setupHeaderLinks() {
         const headers = document.querySelectorAll('#content h1[id], #content h2[id], #content h3[id], #content h4[id], #content h5[id], #content h6[id]');
@@ -222,8 +233,12 @@ const {title, published, description, created, image} = Astro.props;
     }
 
     // Run on page load
+    setupImageLinks();
     setupHeaderLinks();
 
     // Re-run after view transitions if using Astro view transitions
-    document.addEventListener('astro:page-load', setupHeaderLinks);
+    document.addEventListener('astro:page-load', () => {
+        setupImageLinks();
+        setupHeaderLinks();
+    });
 </script>

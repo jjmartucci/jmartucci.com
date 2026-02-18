@@ -1,0 +1,37 @@
+formulas:
+  Year: published.year
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("blog")
+        - '!file.inFolder("blog/images")'
+    order:
+      - title
+      - published
+    sort:
+      - property: published
+        direction: DESC
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.inFolder("blog")
+        - '!file.inFolder("blog/images")'
+    groupBy:
+      property: formula.Year
+      direction: DESC
+    order:
+      - title
+      - published
+      - file.name
+      - tags
+      - formula.Year
+      - draft
+    sort:
+      - property: published
+        direction: DESC
+    markers: bullet
+    image: note.image
+    imageAspectRatio: 0.7

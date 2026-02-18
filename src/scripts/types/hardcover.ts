@@ -31,12 +31,17 @@ export interface HardcoverBookData {
   image: HardcoverImage | null;
 }
 
+export interface HardcoverUserBookRead {
+  finished_at: string | null;
+}
+
 export interface HardcoverUserBook {
   date_added: string;
   reviewed_at: string | null;
   review: string | null;
   review_raw: string | null;
   rating: number | null;
+  user_book_reads: HardcoverUserBookRead[];
   book: HardcoverBookData;
 }
 

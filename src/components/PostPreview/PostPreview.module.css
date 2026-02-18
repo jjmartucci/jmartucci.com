@@ -159,3 +159,11 @@ a:hover .dupeImage {
   display: flex;
   flex-direction: row;
 }
+
+.draft {
+  color: rgb(var(--gray));
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-variant: all-small-caps;
+  margin-top: 0.25rem;
+}

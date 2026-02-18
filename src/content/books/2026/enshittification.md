@@ -2,11 +2,11 @@
 title: "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"
 author: "Cory Doctorow"
 link: "https://hardcover.app/books/enshittification"
-image: "../images/2025/enshittification.jpeg"
+image: "../images/2026/enshittification.jpeg"
 genre:
   - Nonfiction
 rating: 4.5
-dateRead: "2025-12-29"
+dateRead: "2026-01-17"
 reviewedAt: "2026-01-17"
 draft: false
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Slaughterhouse-Five"
 author: "Kurt Vonnegut"
-link: "https://hardcover.app/books/slaughterhouse-five-1968"
-image: "../images/2024/slaughterhouse-five-1968.jpeg"
+link: "https://hardcover.app/books/slaughterhouse-five"
+image: "../images/2024/slaughterhouse-five.jpeg"
 genre:
   - Fiction
 rating: 4.5

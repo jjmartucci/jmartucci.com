@@ -55,8 +55,9 @@ async function main() {
     const book = userBook.book;
 
     try {
-      // Extract year from date_added
-      const dateRead = new Date(userBook.date_added);
+      // Use finished_at from the most recent read (when the book was completed), falling back to date_added
+      const finishedAt = userBook.user_book_reads?.[0]?.finished_at;
+      const dateRead = new Date(finishedAt || userBook.date_added);
       const year = dateRead.getFullYear().toString();
 
       // Generate filename from slug

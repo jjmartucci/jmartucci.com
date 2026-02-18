@@ -2,7 +2,7 @@
 title: "Circe"
 author: "Madeline Miller"
 link: "https://hardcover.app/books/circe"
-image: "../images/2024/circe.jpg"
+image: "../images/2024/circe.jpeg"
 genre:
   - Fiction
 rating: 5

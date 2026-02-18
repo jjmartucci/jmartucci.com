@@ -56,6 +56,21 @@
 .prose img {
     display: block;
     margin: 0 auto;
+    transition: transform 200ms ease-in-out;
+    cursor: zoom-in;
+}
+
+.prose img:hover {
+    transform: scale(1.02);
+}
+
+.prose a:global(.image-link) {
+    background: none;
+    display: block;
+}
+
+.prose a:global(.image-link):hover {
+    background: none;
 }
 
 .prose a {
@@ -75,4 +90,15 @@
 .prose sup a {
     font-size: 0.7rem;
     padding: 0.1rem;
+}
+
+.prose aside {
+    float: right;
+    width: 40%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(var(--green), .8);
+    border-left: 1px solid rgba(var(--green), .8);
+    padding-left: 1rem;
+    font-style: italic;
 }

@@ -23,6 +23,12 @@ export class HardcoverClient {
             review
             review_raw
             rating
+            user_book_reads(
+              limit: 1,
+              order_by: {finished_at: desc_nulls_last}
+            ) {
+              finished_at
+            }
             book {
               title
               slug
