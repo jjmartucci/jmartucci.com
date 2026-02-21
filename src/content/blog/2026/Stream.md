@@ -1,10 +1,10 @@
 ---
 title: Stream
 description: Collecting all my digital inputs in one place.
-published: 2026-02-14
-draft: true
+published: 2026-02-20
+draft: false
 image: ../images/2026/stream.jpeg
-updated: 2026-02-14
+updated: 2026-02-20
 ---
 **TL;DR:** the page is at [/stream](/stream).
 
