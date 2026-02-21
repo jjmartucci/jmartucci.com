@@ -1,8 +1,9 @@
 ---
 title: Tired
-published: 2022-11-13T01:37:57.818Z
+published: 2022-11-13
 draft: false
 description: The wheels on the vehicles go round and round.
+updated: 2022-11-13
 ---
 It’s a bad pun, I spent a fair share of time today mucking about with tires, swapping a bike one for a trainer tire for the still-not-yet-here Cold season, and putting on the Winter wheels for our Subaru (for the still-not-yet-here Snow season).
 

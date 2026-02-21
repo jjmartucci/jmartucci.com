@@ -1,8 +1,9 @@
 ---
 title: I wish that turkey only cost a nickel
-published: 2022-11-20T22:28:48.598Z
+published: 2022-11-20
 draft: false
 description: Record keeping for Thanksgiving menus.
+updated: 2022-11-20
 ---
 ![Thanksgiving food](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/thanksgiving.jpeg)
 

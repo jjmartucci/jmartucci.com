@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending September 5, 2021
-published: 2021-09-05T17:55:24-04:00
+published: 2021-09-05
 description: Start of the new school year.
+updated: 2021-09-05
 ---
 ### First day of first grade
 ![Lorelei wearing her first grade crown.](../images/2021/first-grade.jpeg)

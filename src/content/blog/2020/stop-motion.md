@@ -1,10 +1,11 @@
 ---
 title: "Stop Motion"
-published: 2020-05-09T15:06:05+00:00
+published: 2020-05-09
 description: My first Macbook was also my first laptop with a camera in it, so I asked a somewhat dumb question when I was buying it, which was, "can the camera take pictures?".
 draft: false
 slug: stop-motion
 tags: [video]
+updated: 2020-05-09
 ---
 
 My first Macbook was also my first laptop with a camera in it, so I asked a somewhat dumb question when I was buying it, which was, "can the camera take pictures?". I think what I was asking was essentially what the app Photo Booth is, but the sales person at the Apple store, for some reason, thought I wanted a camera to make stop motion videos. They said they weren't sure if it could, but that would be cool. I agreed. I never tried but I can imagine it would have been _not cool_, since the camera on those plasticBooks were about .1 megapixels and shoved in the top of the lid making for some awkward angles.

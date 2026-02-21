@@ -2,18 +2,16 @@
 import {CollectionEntry} from "astro:content";
 import PlantTag from "../PlantTag/PlantTag.astro";
 import SlottedPreview from "./SlottedPreview.astro";
-import {convertISOToMMMDDYYYY} from "../../utils/time";
 interface Props {
     note: CollectionEntry<"garden">
 }
 const {note} = Astro.props
-const { remarkPluginFrontmatter } = await note.render();
 const collection = note.collection
 ---
 
 <SlottedPreview
-        created={convertISOToMMMDDYYYY(remarkPluginFrontmatter.createdDate)}
-        modified={convertISOToMMMDDYYYY(remarkPluginFrontmatter.modifiedDate)}
+        created={note.data.published?.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })}
+        modified={note.data.updated?.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })}
         slug={note.slug} image={note.data.image} type="note" title={note.data.title} description={note.data.description} tags={note.data.tags}>
 </SlottedPreview>
 

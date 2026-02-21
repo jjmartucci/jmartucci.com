@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Effortless
-published: 2022-01-30T18:36:29-05:00
+published: 2022-01-30
 description: Notes on the book Effortless, by Greg McKeown.
+updated: 2022-01-30
 ---
 I read Greg McKeown’s book [Essentialism][1] back in 2020. It had been sitting on a shelf in our house for a long time, but I picked it up on a sunny pandemic Sunday and read the whole thing in one go. It’s a good book for that type of reading, lots of anecdotes and the central point is “say no to more things” which isn’t a terribly complicated message.
 

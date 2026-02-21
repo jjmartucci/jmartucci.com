@@ -5,6 +5,7 @@ image: ../images/2018/C631F6ED-36F3-4B4C-B7D4-1BE4EA5B0A92.jpg
 description: Definitely my favorite thing in the library, finding random things used as bookmarks.
 draft: false
 slug: random-bookmarks
+updated: 2019-09-09
 ---
 
 ![C631F6ED-36F3-4B4C-B7D4-1BE4EA5B0A92](../images/2018/C631F6ED-36F3-4B4C-B7D4-1BE4EA5B0A92.jpg)

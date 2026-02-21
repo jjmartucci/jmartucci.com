@@ -1,9 +1,10 @@
 ---
 title: "Fuck Donald Trump"
-published: 2021-01-20T23:28:41.048Z
+published: 2021-01-20
 description: Days after, or even the day of the 2017 inauguration, I was in North Station and someone was singing just the chorus of “FDT” over and over.
 draft: false
 tags: [politics]
+updated: 2021-01-20
 ---
 
 Days after, or even the day of the 2017 inauguration, I was in North Station and someone was singing just the chorus of “FDT” over and over.

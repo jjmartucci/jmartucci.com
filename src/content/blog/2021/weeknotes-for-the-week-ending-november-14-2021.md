@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending November 7, 2021
-published: 2021-11-07T20:41:35-05:00
+published: 2021-11-08
 description: Hello darkness my old friend.
+updated: 2021-11-08
 ---
 
 Not a lot of updates this week. It was a super busy one at work, so that was my main focus. When things get busy my journaling falls off first, then scraps of notes, _then_ photos, and I’ve got like two photos from this week so I guess that means something.

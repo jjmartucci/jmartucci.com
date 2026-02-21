@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending October 10, 2021
-published: 2021-10-10T19:17:19-04:00
+published: 2021-10-10
 description: Welcome to ~spooky~ puzzle season. A release at work, the trouble with manuals, and moving notes around.
+updated: 2021-10-10
 ---
 
 ### Ship it!

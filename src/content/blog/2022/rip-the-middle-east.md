@@ -1,8 +1,9 @@
 ---
 title: RIP The Middle East
-published: 2022-10-02T10:55:23-04:00
+published: 2022-10-02
 draft: false
 description: Who doesn’t love luxury hotels.
+updated: 2022-10-02
 ---
 ![](https://coffee-cake.nyc3.digitaloceanspaces.com/images/2022/a-wilhelm-scream.jpeg)
 

@@ -1,10 +1,11 @@
 ---
 title: "Testing, testing"
-published: 2020-04-30T15:06:05+00:00
+published: 2020-04-30
 image: ../images/2020/1024px-RCA_Indian_Head_Test_Pattern.svg.png
 description: Moved everything out of Contentful and Pocket to being pulled from local Markdown files.
 draft: false
 slug: testing-testing
+updated: 2020-04-30
 ---
 
 1,2,3.

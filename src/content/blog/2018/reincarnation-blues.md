@@ -1,9 +1,10 @@
 ---
 title: Chop wood; carry water. Do the dishes. Sweep the garage. Milk the cows.
-published: 2018-05-27T00:00:00.000Z
+published: 2018-05-27
 description: Chop wood; carry water. Do the dishes. Sweep the garage. Milk the cows.
 slug: reincarnation-blues
 draft: false
+updated: 2018-05-27
 ---
 
 > She decided to dye her hair.

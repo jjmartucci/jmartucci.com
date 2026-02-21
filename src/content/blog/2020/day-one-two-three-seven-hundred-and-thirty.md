@@ -2,11 +2,12 @@
 title: "Day One (two, three, seven-hundred and thirty...)"
 image: ../images/2020/day-one-map.png
 description: "I've been using the MacOS/iOS/iPadOS/WatchOS app Day One for two years now. And I know it's been two years, because Day One has a feature where it shows you what happened “on this day” in previous years, and yesterday was the first day it had an entry from two years ago."
-published: 2020-10-28T19:51:41+00:00
+published: 2020-10-28
 draft: false
 slug: day-one-two-three-seven-hundred-and-thirty
 tags:
   - software
+updated: 2020-10-28
 ---
 
 I've gone back and forth on where to journal things for a while, but I've been using the MacOS/iOS/iPadOS/WatchOS app [Day One](https://dayoneapp.com) for two years now. And I know it's been two years, because Day One has a feature where it shows you what happened “on this day” in previous years, and yesterday was the first day it had an entry from two years ago. And no, the entry wasn't “the end of 2020 is going to be terrible!”, it was about a job interview, which became theme in 2019.

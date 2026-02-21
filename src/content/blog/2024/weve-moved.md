@@ -6,6 +6,7 @@ published: 2024-10-03
 draft: false
 tags:
   - meta
+updated: 2024-10-03
 ---
 
 For quite a while now I’ve had both this site (jmartucci.com) and [Built with Coffee](https://builtwith.coffee). For years this domain has been a simple redirect to Built With Coffee, but I decided to split to two into two different things. Why?

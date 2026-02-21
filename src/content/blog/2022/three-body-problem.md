@@ -1,10 +1,11 @@
 ---
 draft: false
 title: The Three-Body Problem or the Three-Book problem?
-published: 2022-04-16T10:29:17-04:00
+published: 2022-04-16
 description: In this era of “more of everything” it’s nice to enjoy something that ends.
 tags:
 - books
+updated: 2022-04-16
 ---
 
 I finished [The Three-Body Problem](https://www.indiebound.org/book/9780765382030) this morning. I’ve been reading it in stops and starts, I found many parts too tell-not-show for my tastes. It’s an interesting sci-fi plot with a graduate-level physics class thrown in the middle. Or it’s not sci-fi at all and it’s an allegory for Communist China’s interactions with the West. 

@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Opening Day
-published: 2021-04-01T16:00:00Z
+published: 2021-04-01
 description: I don’t follow the Red Sox nearly as closely as I used to, but I at least knew today was opening day.  Or, was supposed to be, I saw it was cancelled. The last time I was at Fenway for opening day was 2009, and the weather was about the same, low 40s and rain / something that looks like snow but lands as rain. It was the middle of three events at Fenway that were each so miserably cold that I gave up on going for at least five years.
+updated: 2021-04-01
 ---
 I don’t follow the Red Sox nearly as closely as I used to, but I at least knew today was opening day.  Or, was supposed to be, I saw it was cancelled. The last time I was at Fenway for opening day was 2009, and the weather was about the same, low 40s and rain / something that looks like snow but lands as rain. It was the middle of three events at Fenway that were each so miserably cold that I gave up on going for at least five years.
 

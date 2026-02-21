@@ -1,12 +1,13 @@
 ---
 title: instax
-published: 2020-12-27T19:35:58.792Z
+published: 2020-12-27
 draft: false
 slug: instax
 tags:
   - hardware
 description: Got the kid an instax mini 11 for Christmas. It’s an instant camera that develops on 1.8’’ x 2.4’’ film.
 image: ../images/2020/instax-prints.jpeg
+updated: 2020-12-27
 ---
 
 Got the kid an [instax mini 11](https://instax.com/mini11/en/) for Christmas. It’s an instant camera that develops on 1.8’’ x 2.4’’ film. Some initial notes:

@@ -9,7 +9,7 @@ const blog = defineCollection({
     description: z.string(),
     // Transform string to Date object
     published: z.coerce.date().optional(),
-    updatedDate: z.coerce.date().optional(),
+    updated: z.coerce.date().optional(),
     heroImage: z.string().optional(),
     image: image().optional().catch(undefined),
     tags: z.array(z.string()).optional(),
@@ -54,9 +54,8 @@ const garden = defineCollection({
   schema: ({image}) => z.object({
     title: z.string(),
     tags: z.array(z.string()).optional(),
-    created: z.coerce.date().optional(),
-    modified: z.coerce.date().optional(),
-    published: z.date().optional(),
+    published: z.coerce.date().optional(),
+    updated: z.coerce.date().optional(),
     description: z.string().optional(),
     image: image().optional().catch(undefined),
   })

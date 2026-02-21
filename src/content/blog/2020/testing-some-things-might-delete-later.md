@@ -1,10 +1,11 @@
 ---
 title: SUNDAY SUNDAY SUNDAY
-published: 2020-11-10T02:18:41.882Z
+published: 2020-11-10
 description: The simple joys of recording RC cars in slow motion.
 draft: false
 tags: [video]
 slug: testing-some-things-might-delete-later
+updated: 2020-11-10
 ---
 
 Attempts at recording the RC car in slow motion. They’d be better if my kid didn’t get such a kick out of running off with the tripod.

@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending October 17, 2021
-published: 2021-10-17T17:29:43-04:00
+published: 2021-10-17
 description: You can have the things you want a long time from now, and the things you don't want now.
+updated: 2021-10-17
 ---
 
 Let’s start with a riddle:<br />

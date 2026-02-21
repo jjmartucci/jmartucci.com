@@ -7,6 +7,7 @@ draft: false
 slug: html-code-and-a-database
 tags:
   - web-development
+updated: 2019-05-15
 ---
 
 Found on a [Hacker News thread about PHP in 2019](https://news.ycombinator.com/item?id=19917655).

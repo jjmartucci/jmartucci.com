@@ -1,10 +1,11 @@
 ---
 title: Maple-Honey Pecan Pie
 description: Maple-Honey Pecan Pie.
-published: 2024-11-29T15:15:00.000Z
+published: 2024-11-29
 tags: [recipes]
 homepage: false
 hideRSS: true
+updated: 2024-11-29
 ---
 [Found on NYTimes Cooking](https://cooking.nytimes.com/recipes/1022734-maple-honey-pecan-pie).
 

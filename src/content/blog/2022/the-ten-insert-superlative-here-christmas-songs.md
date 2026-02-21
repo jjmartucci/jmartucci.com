@@ -1,8 +1,9 @@
 ---
 title: The Ten (Insert Superlative Here) Christmas Songs
-published: 2022-12-11T14:07:35-05:00
+published: 2022-12-11
 draft: false
 description: A list of ten Christmas songs with particular vibes I enjoy.
+updated: 2022-12-11
 ---
 
 A list of ten Christmas songs with particular vibes I enjoy.

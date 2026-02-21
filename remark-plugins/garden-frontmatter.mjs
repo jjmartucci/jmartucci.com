@@ -10,12 +10,12 @@ export function gardenFrontMatterPlugin() {
         const stats = fs.statSync(filePath);
 
         // Get creation and modification dates
-        const createdDate = stats.birthtime.toISOString();
-        const modifiedDate = stats.mtime.toISOString();
+        const publishedDate = stats.birthtime.toISOString();
+        const updatedDate = stats.mtime.toISOString();
 
         // Append new fields to the frontmatter
-        file.data.astro.frontmatter.createdDate = createdDate;
-        file.data.astro.frontmatter.modifiedDate = modifiedDate;
+        file.data.astro.frontmatter.publishedDate = publishedDate;
+        file.data.astro.frontmatter.updatedDate = updatedDate;
 
     };
 }

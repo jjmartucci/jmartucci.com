@@ -1,9 +1,10 @@
 ---
 title: "DEAD LORD - Distance Over Time"
-published: 2020-05-25T15:06:05+00:00
+published: 2020-05-25
 description: (Elvis Costello + Thin Lizzy) \* 11
 draft: false
 slug: dead-lord-distance-over-time
+updated: 2020-05-25
 ---
 
 (Elvis Costello + Thin Lizzy) \* 11

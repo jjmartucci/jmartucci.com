@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending June 20, 2021
-published: 2021-06-20T20:50:47-04:00
+published: 2021-06-21
 description: The "no not salad" days of Summer.
+updated: 2021-06-21
 ---
 
 - It’s finished:

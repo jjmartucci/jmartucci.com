@@ -4,9 +4,10 @@ slug: triggers-marshall-goldsmith
 description: Some notes on the book Triggers by Marshall Goldsmith.
 image: ../images/2023/triggers.jpg
 draft: false
-published: 2023-09-05T04:00:00.000Z
+published: 2023-09-05
 tags:
   - books
+updated: 2023-09-05
 ---
 
 *Triggers* ended up on one of my “want to read” lists after seeing it at a local bookstore. I think I mostly liked the cover, but if you [look through my past reading list](https://www.builtwith.coffee/books) and you’ll see a fair number of books on similar topics. *Triggers* has some themes in common with books like *Atomic Habits* and *The Checklist Manifesto* and *Smarter Faster Better*, specifically how do you change your routines and thinking about how you live your life to achieve meaningful change. Or, to use the title in a sentence: when something in your environment triggers you, do you respond without thinking, or do you introspectively look at how that trigger impacts you then respond. And can you get to a point where you respond to triggers in your environment as you want to without having to think about them.

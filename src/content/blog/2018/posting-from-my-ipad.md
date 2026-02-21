@@ -4,6 +4,7 @@ published: 2018-05-28
 draft: false
 slug: posting-from-my-ipad
 description: This is my first attempt at updating this site from my iPad.
+updated: 2018-05-28
 ---
 
 This is my first attempt at updating this site from my iPad. "Wait, how hard is that," you might wonder. "Just log in to your CMS and write something and hit publish."

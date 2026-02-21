@@ -3,8 +3,8 @@ title: Fountain Pens
 description: Notes on fountain pens, writing on paper, etc
 tags:
   - analog
-created: 2026-01-31
-modified: 2026-01-31
+published: 2026-01-31
+updated: 2026-01-31
 ---
 # Fountain Pens
 

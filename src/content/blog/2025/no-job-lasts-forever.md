@@ -8,6 +8,7 @@ created: 2026-04-14T14:50:38-0400
 modified: 2025-04-17T09:05:09-0400
 published: 2025-06-03
 draft: false
+updated: 2025-06-03
 ---
 My first job out of college was working as a Technical Writer in an airplane engine factory. Most of the work was around regulatory compliance, creating documentation to show that everyone was trained on the work they were doing and the machines they were using.
 

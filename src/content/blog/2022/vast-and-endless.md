@@ -1,8 +1,9 @@
 ---
- title: Teach Them to Yearn for the Vast and Endless Sea
- published: 2022-09-30T19:43:56-04:00
- draft: false
- description: Three loosely related thoughts on “getting things done”. Entirely not something on my mind after a week of work, for any reason.
+title: Teach Them to Yearn for the Vast and Endless Sea
+published: 2022-09-30
+draft: false
+description: Three loosely related thoughts on "getting things done". Entirely not something on my mind after a week of work, for any reason.
+updated: 2022-09-30
 ---
 Three loosely related thoughts on “getting things done”. Entirely not something on my mind after a week of work, for any reason.
 

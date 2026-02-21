@@ -2,9 +2,10 @@
 title: "Coolidge Reservation"
 meta_title: "Coolidge Reservation"
 description: "The kiddo and I set out for a hike yesterday. We planned on going to Ravenswood Park, but when we got there the parking lot was full. A sign outside said “if the lot is full, come back some other time”. On the way we had passed another parking lot in the woods with a sign that I didn’t get a chance to read as we drove by, but I figured, “it’s a trail, it’ll get us in the woods either way”."
-published: 2020-10-06T19:51:41+00:00
+published: 2020-10-06
 draft: false
 slug: coolidge-reservation
+updated: 2020-10-06
 ---
 
 The kiddo and I set out for a hike yesterday. We planned on going to [Ravenswood Park](https://thetrustees.org/place/ravenswood-park/), but when we got there the parking lot was full. A sign outside said “if the lot is full, come back some other time”. On the way we had passed another parking lot in the woods with a sign that I didn’t get a chance to read as we drove by, but I figured, “it’s a trail, it’ll get us in the woods either way”.

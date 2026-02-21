@@ -1,7 +1,8 @@
 ---
 title: Wintering
-published: 2022-01-29T18:20:15-05:00
+published: 2022-01-29
 description: Some ice, and some snow.
+updated: 2022-01-29
 ---
 Some ice, and some snow.
 ![][image-1]![][image-2]

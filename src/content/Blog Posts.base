@@ -10,6 +10,7 @@ views:
     order:
       - title
       - published
+      - updated
     sort:
       - property: published
         direction: DESC

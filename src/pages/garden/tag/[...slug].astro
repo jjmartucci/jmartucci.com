@@ -31,7 +31,8 @@ export async function getStaticPaths() {
 
 type Props = {posts: Array<CollectionEntry<'garden'>>};
 const {slug} = Astro.params;
-const {posts} = Astro.props;
+const {posts: unsortedPosts} = Astro.props;
+const posts = unsortedPosts.sort((a, b) => new Date(b.data.updated).getTime() - new Date(a.data.updated).getTime());
 const pages = [
     {
         text: `tag: ${slug}`,

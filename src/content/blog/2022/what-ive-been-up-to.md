@@ -1,8 +1,9 @@
 ---
 draft: false
 title: An illustrated guide to why I haven’t been posting as much
-published: 2022-07-16T09:30:11-04:00
+published: 2022-07-16
 description: What I’ve been up to for the last month instead of posting here.
+updated: 2022-07-16
 ---
 A few reasons:
 

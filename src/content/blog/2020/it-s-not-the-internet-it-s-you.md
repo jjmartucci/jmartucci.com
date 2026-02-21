@@ -1,9 +1,10 @@
 ---
 title: "It's Not The Internet It's You"
 description: "2020 might get worse before it gets better, and no, no one on the Internet has any idea what to do about that."
-published: 2020-09-11T19:51:41+00:00
+published: 2020-09-11
 draft: false
 slug: it-s-not-the-internet-it-s-you
+updated: 2020-09-11
 ---
 
 I read [It's Not The Internet It's You](https://gr36.com/not-the-internet-its-you/) this morning (in a chain of RSS reader → [here](https://www.patrickrhone.net/8189-2/) → there). It touches on a lot of points I’ve been thinking about around Twitter and other social media, but it felt particularly relevant today, the 19th anniversary of 9/11. I’ve often thought about what that day would have been like it Twitter/Facebook had been around then.

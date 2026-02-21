@@ -4,8 +4,8 @@ description: ""
 image: ./images/work-better.png
 tags:
   - life
-created: 2020-04-08T12:47:20-0400
-modified: 2025-04-30T09:20:08-0400
+published: 2020-04-08
+updated: 2025-04-30
 ---
 # How to work better
 

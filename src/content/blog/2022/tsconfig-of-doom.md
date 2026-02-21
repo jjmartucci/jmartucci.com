@@ -1,10 +1,11 @@
 ---
 draft: false
 title: My favorite part of TypeScript is debugging the config
-published: 2022-03-10T12:38:34-05:00
+published: 2022-03-10
 description: I love TypeScript, I do.
 tags:
   - web-development
+updated: 2022-03-10
 ---
 Really nothing I love more than figuring out why a random config option got added 2 years ago by a dev, with no comments, and removing or changing it causes thousands of seemingly unrelated errors.
 

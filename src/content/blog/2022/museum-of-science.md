@@ -1,9 +1,10 @@
 ---
 draft: false
 title: Museum of Science
-published: 2022-04-18T20:50:16-04:00
+published: 2022-04-19
 description: Spending a school-break day underwhelmed at the Boston Museum of Science.
 tags: [life]
+updated: 2022-04-19
 ---
 
 We went to the Boston Museum of Science today. I have fond memories of it from when I was a kid, although growing up in Connecticut it was a rare treat, so far away in the big city of Boston.

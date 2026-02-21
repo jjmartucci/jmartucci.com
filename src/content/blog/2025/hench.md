@@ -4,7 +4,8 @@ description: Henchman temping honestly seems like a decent gig.
 image: ../images/2025/hench.jpeg
 tags:
   - books
-published: 2025-05-26T14:59:00
+published: 2025-05-26
+updated: 2025-05-26
 ---
 Finished [_Hench_ by Natalie Zina Walschots](https://bookshop.org/p/books/hench-natalie-zina-walschots/14843591?ean=9780062978585&next=t) today. The premise of the book is that superheroes and supervillains exist, and there’s an entire ecosystem of employees who need to support them. For the villains it’s henches handling business operations and meat handling… well getting punched or blown up, mostly.
 

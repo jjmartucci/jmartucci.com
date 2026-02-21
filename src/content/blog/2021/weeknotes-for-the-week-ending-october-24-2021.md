@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending October 24, 2021
-published: 2021-10-24T19:08:18-04:00
+published: 2021-10-24
 description: I’m just glad I’m not the oldest person at this show yet.
+updated: 2021-10-24
 ---
 
 ### Get in the pit

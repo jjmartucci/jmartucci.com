@@ -3,6 +3,7 @@ title: Dude You Got a Dell
 published: 2018-02-03
 description: About a year ago I was ready for a new computer. I had money set aside to buy one, and was just waiting for the release of the new Macbook Pros. And then they released it... and I didn't get one. I had a number of older Macbook Pros that I 💖, and when I had them you couldn’t convince me to ever use a Windows laptop instead. 
 draft: false
+updated: 2018-02-03
 ---
 
 About a year ago I was ready for a new computer.

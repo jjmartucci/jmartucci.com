@@ -1,8 +1,9 @@
 ---
 title: "TIL: Mojibake"
-published: 2022-10-06T00:19:34.137Z
+published: 2022-10-06
 draft: false
 description: The garbled text that is the result of text being decoded using an unintended character encoding.
+updated: 2022-10-06
 ---
 > the garbled text that is the result of text being decoded using an unintended character encoding.
 

@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending August 22, 2021
-published: 2021-08-22T13:35:54-04:00
+published: 2021-08-22
 description: Cupcake art.
+updated: 2021-08-22
 ---
 A minor change this week, I’m going from bullet points to headers. This week was either chill, or I forgot to write down a bunch of stuff.
 

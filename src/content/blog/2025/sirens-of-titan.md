@@ -6,6 +6,7 @@ description: A passage from Kurt Vonnegut’s “The Sirens of Titan”.
 image: ../images/2025/siren.jpeg
 tags:
   - books
+updated: 2025-09-28
 ---
 Likely the highest regard you can give a work of science fiction is to say it was ahead of it’s time. I finished “The Sirens of Titan” this weekend and it was amazing to see how much Vonnegut managed to nail a loathsome billionaire like Elon Musk in the character Malachi Constant. Sending him to Mars seems almost spooky, but really it’s just a great read of how a billionaire would behave entangled with an interplanetary plot line.
 

@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending September 12, 2021
-published: 2021-09-12T21:51:50-04:00
+published: 2021-09-13
 description: Blarg. That’s my high level recap of the week. Nothing bad happened, just a lot of blarg. I think it’s a bit of recovering from the whiplash of going from “school is about to start” to “September is almost half over”.
+updated: 2021-09-13
 ---
 
 Blarg. That’s my high level recap of the week. Nothing bad happened, just a lot of blarg. I think it’s a bit of recovering from the whiplash of going from “school is about to start” to “September is almost half over”.

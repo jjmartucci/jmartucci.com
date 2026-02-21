@@ -4,8 +4,9 @@ description: I first read The Master and Margarita by Mikhail Bulgakov about 15 
 image: ../images/2025/master-and-margarita.jpg
 tags:
   - books
-published: 2025-05-14T12:00:00
+published: 2025-05-14
 modified: 2025-05-14T14:48:27-0400
+updated: 2025-05-14
 ---
 I first read The Master and Margarita by Mikhail Bulgakov about 15 years ago. I’m pretty sure I picked it up after reading that “Sympathy for the Devil” by the Rolling Stones was written after Mick Jagger read the book. I was in the bookstore recently and saw this [50th anniversary edition](https://bookshop.org/p/books/the-master-and-margarita-mikhail-bulgakov/6708240?ean=9780143108276&next=t)[^1] and liked the cover art so I bought it and read it again.
 

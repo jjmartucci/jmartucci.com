@@ -6,6 +6,7 @@ tags:
   - hardware
 published: 2025-08-02
 draft: false
+updated: 2025-08-02
 ---
 Lorelei was at a “technology and gaming camp” this week. I learned a little late that she could bring a device with her for their free time through the week. I suggested she take her iPad, which she mostly uses for Minecraft, but in a moment of personal responsibility she said she didn’t want to because she had bought it herself, and didn’t want to break or lose it.
 

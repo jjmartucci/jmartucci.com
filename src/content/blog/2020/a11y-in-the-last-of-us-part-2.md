@@ -1,9 +1,10 @@
 ---
 title: "A11Y in the Last of Us Part 2"
-published: 2020-06-14T15:06:05+00:00
+published: 2020-06-14
 draft: false
 slug: a11y-in-the-last-of-us-part-2
 description: Some inspiration for the next time you think making a dropdown menu accessible is hard.
+updated: 2020-06-14
 ---
 
 Some inspiration for the next time you think making a dropdown menu accessible is hard.

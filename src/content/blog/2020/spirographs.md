@@ -1,12 +1,13 @@
 ---
 title: "Spirographs"
-published: 2020-11-11T19:13:27.166Z
+published: 2020-11-11
 description: "Did you know that there's a direct correlation between the decline of Spirograph and the rise in gang activity? Think about it."
 draft: false
 slug: spirographs
 tags:
   - art
 image: ../images/2020/gear-drawings.jpg
+updated: 2020-11-11
 ---
 
 We were cleaning out toys this weekend and found a gear drawing set for making spirographs. A family member bought it for my daughter to take on a flight when she was younger, but she was _too_ young to enjoy it at the time. We had more fun with it this week, and finally got around to using [these Zebra pens](https://www.zebrapen.com/product/sarasa-clip-gel-retractable/?source=brand) I had.

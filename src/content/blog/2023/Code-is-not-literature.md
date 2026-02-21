@@ -2,8 +2,9 @@
 title: Code is not literature
 image: ../images/2023/lit.jpg
 draft: false
-published: 2023-08-16T04:00:00.000Z
+published: 2023-08-16
 description: The overlap between coding and writing, to me, are the mental models you make while doing both.
+updated: 2023-08-16
 ---
 
 Another link found via Hacker News: [Code is not literature](https://gigamonkeys.com/code-reading/). Start of the second paragraph this had me interested:

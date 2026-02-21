@@ -1,9 +1,10 @@
 ---
 title: What’s a new year anyway
-published: 2020-12-31T16:36:31.292Z
+published: 2020-12-31
 description: I’ve never been one for New Year’s resolutions. I think that is, in part, because I’ve lived in New England my entire life. Why start something in January - the month of short days, cold weather, general malaise, and then hope it sticks through February, the month I will always argue does not need to exist.
 draft: false
 slug: whats-a-new-year
+updated: 2020-12-31
 ---
 
 I’ve never been one for New Year’s resolutions. I think that is, in part, because I’ve lived in New England my entire life. Why start something in January - the month of short days, cold weather, general malaise, and then hope it sticks through February, the month I will always argue does not need to exist.

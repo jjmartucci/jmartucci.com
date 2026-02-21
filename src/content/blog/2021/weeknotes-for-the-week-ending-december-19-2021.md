@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending December 19, 2021
-published: 2021-12-19T15:29:59-05:00
+published: 2021-12-19
 description: Red sky at morning, sailors take warning.
+updated: 2021-12-19
 ---
 
 My father has a few rhymes that he breaks out whenever relevant, and one is a common weather forecasting one:

@@ -5,7 +5,8 @@ created: 2024-11-30T12:00:00-0400
 tags:
   - cooking
 image: ../images/2024/pie.jpeg
-published: 2024-11-30T12:04:00
+published: 2024-11-30
+updated: 2024-11-30
 ---
 Even though I’ve made Thanksgiving dinner for the last… 14? years now, I’m _surprisingly bad_ at keeping notes of what went well and didn’t or what was good or wasn’t. I also, as an elder millennial, am not inclined to take pictures of food, so I had to go back a few years for the header image here [^1].
 

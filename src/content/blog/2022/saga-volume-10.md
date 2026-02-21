@@ -1,10 +1,11 @@
 ---
 title: Saga, Volume 10
-published: 2022-12-04T21:35:06-05:00
+published: 2022-12-05
 draft: false
 description: Back to Saga after it’s break.
 tags:
   - comics
+updated: 2022-12-05
 ---
 Took Lorelei to the comic book store yesterday. She got some Pokemon cards, I got Saga, volume 10. I’ve been waiting for it for a while, volume 9 released in 2018! And ended on a total gut punch too. Fortunately this one has a happier ending.
 

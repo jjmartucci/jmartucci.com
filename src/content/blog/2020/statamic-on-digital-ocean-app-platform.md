@@ -3,9 +3,10 @@ title: "Statamic on Digital Ocean App Platform"
 meta_title: "Testing out Statamic on the Digital Ocean App Platform"
 image: ../images/2020/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png
 description: "I have always really liked Digital Ocean's guides/documentation/shark loading animations, so thought I'd see what their new App Platform was about."
-published: 2020-10-07T19:51:41+00:00
+published: 2020-10-07
 draft: false
 slug: statamic-on-digital-ocean-app-platform
+updated: 2020-10-07
 ---
 
 Digital Ocean released their [App Platform](https://www.digitalocean.com/products/app-platform/) the other day. It's similar to Heroku, which has been around for forever, but I never really got along with how Heroku works and have always really liked Digital Ocean's guides/documentation/shark loading animations, so thought I'd see what it's about.

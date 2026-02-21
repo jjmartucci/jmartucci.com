@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending December 5, 2021
-published: 2021-12-05T17:59:04-05:00
+published: 2021-12-05
 description: None of us are comfortable until we are all comfortable.
+updated: 2021-12-05
 ---
 
 Added a December folder. I also spent some time looking for a previous post on this site that I thought existed, but it doesn’t. I can search the files that make up this blog in [iA Writer](https://ia.net/writer), but maybe it’s time to figure out a search feature for the site itself.

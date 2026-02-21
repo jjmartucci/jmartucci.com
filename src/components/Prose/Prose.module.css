@@ -1,3 +1,19 @@
+@keyframes pop-up {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.prose {
+    anchor-name: --prose;
+    padding-bottom: 6rem;
+}
+
 .prose h1 {
     font-size: 2rem;
     color: var(--big-blue);
@@ -25,6 +41,7 @@
 .prose h5 {
     color: var(--tag);
 }
+
 .prose {
     width: 720px;
     max-width: 100%;
@@ -92,13 +109,78 @@
     padding: 0.1rem;
 }
 
-.prose aside {
-    float: right;
-    width: 40%;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+.prose :global(aside) {
+    font-size: .9rem;
     color: rgba(var(--green), .8);
-    border-left: 1px solid rgba(var(--green), .8);
-    padding-left: 1rem;
-    font-style: italic;
+    max-width: 80%;
+    background: rgba(var(--green), .1);
+    padding: .8rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    animation: pop-up linear;
+    animation-timeline: view();
+    animation-range: cover 0% cover 30%;    
+}
+
+.prose :global(aside) p {
+    margin: 0;
+}
+
+.prose :global(aside):after {
+    content: attr(data-emoji);
+    position: absolute;
+    bottom: -.8rem;
+    left: calc(50% - .8rem);
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid rgba(var(--green), .2);
+    background: white;
+    padding: .2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 7px rgba(var(--green), 33%);
+}
+
+
+.prose :global(aside) a {
+    color: rgba(var(--green), .8);
+    background: inherit;
+    text-decoration: underline;
+}
+
+.prose :global(aside) a:hover {
+    color: rgba(var(--green), .9);
+    background: inherit;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    .prose :global(aside) {
+        animation: pop-up linear;
+        animation-timeline: view();
+        animation-range: cover 0% cover 20%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .prose :global(aside) {
+        position: absolute;
+        max-width: 300px;
+        padding: .4rem .4rem .8rem;
+        margin-top: -4rem;
+    }
+
+    .prose :global(aside):nth-of-type(odd) {
+        left: anchor(--prose right);
+        margin-left: 1rem;
+    }
+
+    .prose :global(aside):nth-of-type(even) {
+        right: anchor(--prose left);
+        margin-right: 1rem;
+
+    }
+
 }

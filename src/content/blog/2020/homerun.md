@@ -1,8 +1,9 @@
 ---
 title: HomeRun
-published: 2020-07-15T15:06:05+00:00
+published: 2020-07-15
 draft: false
 description: I’ve been slowly “smartening” our current home.
+updated: 2020-07-15
 ---
 
 I’ve been slowly “smartening” our current home. It started with some Ecobee 3 thermostats (the ones not yet haunted by Alexa), then a HomePod, and more recently some Hue bulbs. I bought the bulbs for our master bathroom thinking it would be nice to have lights that adapted to the time of day; very bright during daylight hours and dim and warm when the sun has set. What I didn’t realize is that the bulbs have a boot up time, so if you turn them off with a conventional switch, when you turn them on they won’t immediately set themselves to whatever time-based settings you have them on. I moved them all to the office, where I can now turn on the overhead light and desk light at the same time. It’s… an ok trick.

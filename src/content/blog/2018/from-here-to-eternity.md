@@ -4,6 +4,7 @@ published: 2018-10-13
 description: I like cemeteries. I find the quiet relaxing, I like wandering around looking for unique headstones, and I make a game out of trying to find the oldest grave in the park. I especially love the colonial-era headstones you can find in New England, with their hand-hewn skulls that are either dopey or terrifying or reverent or some mix of all three.
 draft: false
 slug: from-here-to-eternity
+updated: 2018-10-13
 ---
 
 Let me start this by saying: I like cemeteries. I find the quiet relaxing, I like wandering around looking for unique headstones, and I make a game out of trying to find the oldest grave in the park. I especially love the colonial-era headstones you can find in New England, with their hand-hewn skulls that are either dopey or terrifying or reverent or some mix of all three.

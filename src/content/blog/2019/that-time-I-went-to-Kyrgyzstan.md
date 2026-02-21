@@ -4,6 +4,7 @@ published: 2019-10-08
 description: This was a great bug from my iPhone 3G that just keeps on giving every time I open Photos.
 draft: false
 slug: that-time-I-went-to-Kyrgyzstan
+updated: 2019-10-08
 ---
 
 This was a [great bug](https://arstechnica.com/gadgets/2008/07/careful-with-that-iphone-or-you-might-end-up-in-kazakhstan/) from my iPhone 3G that just keeps on giving every time I open Photos.

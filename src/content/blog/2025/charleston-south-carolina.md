@@ -6,6 +6,7 @@ description: Carolina Hurrican’ts stop this trip.
 image: ../images/2025/charleston-header.jpeg
 tags:
   - travel
+updated: 2025-08-26
 ---
 
 Got back from a late-Summer family trip to Charleston, South Carolina yesterday. While I was keeping an eye on hurricane Erin before we left, it ended up turning before the coast, and we had mostly great weather for the trip. Just the one day where we were caught in [flooding from record breaking amounts of rain fall](https://www.postandcourier.com/news/local_state_news/record-breaking-rainfall-high-tides-charleston-lowcountry/article_2460ee90-2555-4875-8476-ca40d804dd1b.html). My notes!

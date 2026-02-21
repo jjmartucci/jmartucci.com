@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending November 14, 2021
-published: 2021-11-14T18:31:19-05:00
+published: 2021-11-14
 description: No words only leaves
+updated: 2021-11-14
 ---
 <span role="image" aria-label="Falling Leaves">🍂🍂🍂</span>
 

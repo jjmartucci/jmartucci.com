@@ -6,6 +6,7 @@ slug: digital-minimalism
 tags:
   - books
 description: I finished "Digital Minimalism" by Cal Newport last weekend.
+updated: 2019-03-17
 ---
 I finished "Digital Minimalism" by Cal Newport last weekend. I assumed, from the title, the book would just be this:
 

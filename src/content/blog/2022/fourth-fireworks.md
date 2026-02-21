@@ -1,10 +1,11 @@
 ---
 draft: false
 title: Not all ideas are good ideas
-published: 2022-07-02T22:03:52-04:00
+published: 2022-07-03
 description: Convincing your kid that walking into the woods at night is worth it.
 tags:
 - life
+updated: 2022-07-03
 ---
 
 The back of our house points towards Salem, and Salem had their 4th of July fireworks tonight. In past years the booms have been loud enough to wake up Lorelei, and we could see the flashes through the trees on our back deck, but it wasn’t “watching fireworks”.

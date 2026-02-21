@@ -2,8 +2,8 @@
 title: "Homeserver"
 description: "Notes on setting up a Homeserver. I wrote about my build here: The Big Dumb Box of Computer Parts: Linux Edition."
 tags: []
-created: 2025-04-14T14:33:31-0400
-modified: 2025-05-03T09:30:15-0400
+published: 2025-04-14
+updated: 2025-05-03
 ---
 # Homeserver
 
@@ -44,11 +44,7 @@ Stuff I have seen while researching homeserver ideas but not yet installed or us
 
 *   [Vikunja](https://vikunja.io). Project and todo list management.
 
-  
-
 ## Unraid VM usage
-
-  
 
 ### Linux installs
 
@@ -62,7 +58,4 @@ I had a heck of a time getting Windows 11 set up. The final best settings seemed
 *   `Network Model`: `e1000`
 *   Multifunction on for the GPU — there’s not a lot of great descriptions in the UI of what multifunction does here, but it essentially presents the GPU card as one device with video and sound outputs instead of two separate devices that could be rejected by the VM.
 *   Find your GPU bios on [TechPowerUP](https://www.techpowerup.com/vgabios/) and select it when installing the VM. I didn’t need to do this for any Linux VM but not using it with a Windows VM meant the initial boot with the GPU passthrough had an extremely low resolution and it refused to correctly install the AMD drivers.
-
-  
-
 For no particular reason, look at this [cool project on Github](https://github.com/massgravel/Microsoft-Activation-Scripts).

@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Even Zecora knows to wear a mask!
-published: 2021-10-19T20:02:15-04:00
+published: 2021-10-20
 description: Pandemic tips from My Little Pony.
+updated: 2021-10-20
 ---
 
 ![Zecora from My Little Ponies saying she needs to wear a mask to prevent infection](../images/2021/my-little-pony.jpeg)

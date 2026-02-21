@@ -1,8 +1,9 @@
 ---
 title: "The 20 year history of a Partscaster"
-published: 2020-08-05T15:06:05+00:00
+published: 2020-08-05
 draft: false
 description: Fixing up a 20 year old MIM Stratocaster.
+updated: 2020-08-05
 ---
 
 ## The 90s

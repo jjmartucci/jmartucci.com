@@ -1,8 +1,9 @@
 ---
 draft: false
 title: All we need is just a little patience
-published: 2022-03-13T15:28:00-04:00
+published: 2022-03-13
 description: Two things I worked on this weekend.
+updated: 2022-03-13
 ---
 Two things I worked on this weekend:
 

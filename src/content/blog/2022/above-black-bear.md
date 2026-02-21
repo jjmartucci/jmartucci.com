@@ -1,9 +1,10 @@
 ---
 title: Above Black Bear
-published: 2022-08-23T17:59:25.144Z
+published: 2022-08-23
 description: Even the bears don't want to hike up this.
 tags:
   - travel
+updated: 2022-08-23
 ---
 
 ![The gazebo in East Haven at the top of the Haul Road trail](/assets/images/2022/my-east-haven.jpeg)

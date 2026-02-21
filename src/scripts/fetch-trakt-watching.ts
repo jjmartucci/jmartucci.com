@@ -23,6 +23,7 @@ async function main() {
   const clientId = process.env.TRAKT_CLIENT_ID;
   const clientSecret = process.env.TRAKT_CLIENT_SECRET;
   const accessToken = process.env.TRAKT_ACCESS_TOKEN;
+  const refreshToken = process.env.TRAKT_REFRESH_TOKEN;
   const tmdbApiKey = process.env.TMDB_API_KEY;
 
   if (!clientId) {
@@ -52,8 +53,12 @@ async function main() {
     console.log('✅ TMDb API key found - images will be downloaded\n');
   }
 
+  if (!refreshToken) {
+    console.warn('⚠️  TRAKT_REFRESH_TOKEN not set - token refresh will not be available if the access token expires.');
+  }
+
   console.log('📺 Connecting to Trakt API...');
-  const client = new TraktClient(clientId, clientSecret, accessToken, tmdbApiKey);
+  const client = new TraktClient(clientId, clientSecret, accessToken, tmdbApiKey, refreshToken);
 
   console.log('🎬 Fetching watched shows and movies...');
 

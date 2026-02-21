@@ -1,9 +1,10 @@
 ---
 title: "Note ↔ Note, thinking outside the folder"
-published: 2020-07-10T15:06:05+00:00
+published: 2020-07-10
 draft: false
 slug: note-note-thinking-outside-the-folder
 description: Getting rid of folders in note apps.
+updated: 2020-07-10
 ---
 
 I’ve used a bunch of note taking apps over the years (Evernote, OneNote, Apple Notes, [Goodnotes](https://www.goodnotes.com), [Notion](https://www.notion.so), [Bear](****)) and I’ve almost always used them similarly to how you’d use a file system: folders for organization, notes as files. I’m always a little curious about new note apps and how they organize things. I was using Notion for a while, and got along well with using it’s concept of relational databases to make connections between notes. If you create notes in a database in Notion, you can make it look like Google Keep, you can make it correlate notes to a calendar (ala [Agenda](https://www.agenda.com), another app I’ve tried, if only for a few minutes), or you can organize them in columns Trello style and use your notes as todos. It’s all the same set of notes, just with different views of the database. There’s a somewhat clunky way to associate one note with another, or one tag with another, and only if you’re using a database of notes (i.e, not just a “page” style note), but once you have that you can organize your notes in almost any fashion you can think of. A relational database + a nice UI is really just a primitive app building platform in the tradition of Access on top of Excel.

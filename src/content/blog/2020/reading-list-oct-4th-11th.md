@@ -2,9 +2,10 @@
 title: "Reading List Oct 4th - 11th"
 meta_title: "Reading List Oct 4th - 11th"
 description: "I was trying to keep up with what I read in the last week on Friday mornings, but it turns out Friday mornings are crazy. Sunday mornings, not so much."
-published: 2020-10-11T19:51:41+00:00
+published: 2020-10-11
 draft: false
 slug: reading-list-oct-4th-11th
+updated: 2020-10-11
 ---
 
 I was trying to keep up with what I read in the last week on Friday mornings, but it turns out Friday mornings are crazy. Sunday mornings, not so much.

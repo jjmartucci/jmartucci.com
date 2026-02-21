@@ -6,7 +6,7 @@ import Search from "../../components/Search/Search.astro";
 
 const {content,  tags : allTags} = (await getAllGardenContent())
 const posts = content.sort((a,b) => {
-    return Date.parse(b.rendered.metadata.frontmatter.modifiedDate) - Date.parse(a.rendered.metadata.frontmatter.modifiedDate)
+    return new Date(b.data.updated).getTime() - new Date(a.data.updated).getTime()
 }).slice(0,20)
 ---
 

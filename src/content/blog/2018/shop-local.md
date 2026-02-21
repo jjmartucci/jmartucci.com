@@ -5,6 +5,7 @@ draft: false
 slug: shop-local
 description: A great article on the problem with the idea of "shop local" saving small businesses, and an [old school styled blog ](https://vanishingnewyork.blogspot.com/)to go along with it.
 
+updated: 2018-10-20
 ---
 
 A [great article](https://www.vox.com/the-goods/2018/10/16/17980424/shop-local-jeremiah-moss 'the problem with shop local') on the problem with the idea of "shop local" saving small businesses, and an [old school styled blog ](https://vanishingnewyork.blogspot.com/)to go along with it.

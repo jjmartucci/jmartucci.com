@@ -1,10 +1,11 @@
 ---
 draft: false
 title: Seven
-published: 2022-05-21T16:29:53-04:00
+published: 2022-05-21
 description: Lorelei turned seven this week.
 tags:
 - life
+updated: 2022-05-21
 ---
 
 Lorelei turned seven this week. We had a party today, with a princess / fairy theme. We did a pile of yard work on Friday to finish off projects in the back yard, then woke up to clouds. Luckily it burned off by the time the kids got here, and they got to play outside for a bit. None of them mentioned the work we did, although I suppose they would have noticed if it was all a big dirt pile still (and, maybe enjoyed it more).

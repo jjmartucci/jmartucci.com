@@ -4,6 +4,7 @@ published: 2024-06-23
 draft: false
 description: Insert the “this is fine” meme here.
 image: ../images/2024/dr-m.jpg
+updated: 2024-06-23
 ---
 If you’ve ever referred to yourself as a “web developer”, you’re probably aware that the job market right now is _not great_. 
 

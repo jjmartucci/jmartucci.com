@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Throwback Thursday
-published: 2021-04-15T19:00:00Z
+published: 2021-04-15
 description: Remnants of the past from my parent's attic.
+updated: 2021-04-15
 ---
 Picked up some more boxes of “stuff”  from my parents house while visiting for Easter. Among the piles, CDs for web browsers for both the Dreamcast and Playstation 2. Funny to think that 20 years ago “going online” was still a thing you had to do on a console, instead of the constant state of modern consoles.
 

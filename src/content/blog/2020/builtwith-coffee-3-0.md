@@ -3,9 +3,10 @@ title: "builtwith.coffee 3.0"
 metaimage:
   - ../images/2020/Statamic-Logo-Rad.png
 description: 'It''s 2020 and I''m stuck in my house watching Democracy fall apart, why not rebuild my website again, and why not go full on "old man yells at clouds" while I''m at it.'
-published: 2020-09-29T19:51:41+00:00
+published: 2020-09-29
 draft: false
 slug: builtwith-coffee-3-0
+updated: 2020-09-29
 ---
 
 It's 2020 and I'm stuck in my house watching Democracy fall apart, why not rebuild my website again, and why not go full on "old man yells at clouds" while I'm at it.

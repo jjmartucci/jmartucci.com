@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Another set of speakers for the $100 speaker shootout
-published: 2022-03-14T20:51:00-04:00
+published: 2022-03-15
 description: Edifier R1280T compared to the JBL 104, Apple Mini and Sonos Symfonisk.
+updated: 2022-03-15
 ---
 ![Edifier R1280Ts next to JBL104s](/assets/images/2022/edifier.jpeg)
 

@@ -2,9 +2,10 @@
 title: More with Less
 description: Asking "what problem does this really solve?"
 image: ../images/2023/ouroboros.jpg
-published: 2023-11-03T04:00:00.000Z
+published: 2023-11-03
 tags:
   - tech
+updated: 2023-11-03
 ---
 
 I read [Why did the metaverse die? Because Silicon Valley doesn’t understand the concept of fun](https://www.fastcompany.com/90965361/why-did-the-metaverse-die-silicon-valley-doesnt-understand-fun) yesterday. As the title suggests, it primarily talks to the failure of the metaverse due to its inability to find “fun” reasons to use it. But it also talks about how Silicon Valley is so obsessed with “productivity”. If you’ve ever moved from Notion to Asana to Airtable to Monday to Jira to Trello and back, or used a combination of more than one of those on the same day, you’d probably understand why I put quote marks around the word productivity. There’s nothing inherently wrong with any of those apps, but I doubt they’d ever add a feature that shows you some objective increase in productivity / spend metric compared to not using them.

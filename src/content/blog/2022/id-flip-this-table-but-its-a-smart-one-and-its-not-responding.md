@@ -1,9 +1,10 @@
 ---
 title: I’d flip this table but it’s a smart one and it’s not responding
-published: 2022-12-01T02:39:27.833Z
+published: 2022-12-01
 draft: false
 description: Not so smart now, are you.
 tags: [tech]
+updated: 2022-12-01
 ---
 I [wrote about this when iOS15 released](https://www.builtwith.coffee/blog-posts/2021/09/weeknotes-for-the-week-ending-september-26-2021?searchterm=smart), but by far the most frustrating thing about any new technology is that when it doesn’t work there’s absolutely fuck-all you can do to try to debug the issue.
 

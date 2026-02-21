@@ -2,8 +2,8 @@
 title: "Nature Obscura"
 description: "No one will protect what they don’t are about; and no one will care about what they have never experienced."
 tags: ["quote"]
-created: 2020-04-25T07:12:28-0400
-modified: 2025-04-30T09:58:02-0400
+published: 2020-04-25
+updated: 2025-04-30
 ---
 # Nature Obscura
 

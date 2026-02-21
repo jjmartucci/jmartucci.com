@@ -1,10 +1,11 @@
 ---
 title: Amish Barn
-published: 2018-04-15T00:58:18.181Z
+published: 2018-04-15
 description: The only thing where you need a big group of people to do something is when you’re building an Amish barn.
 draft: false
 tags:
   - quote
+updated: 2018-04-15
 ---
 
 > The only thing where you need a big group of people to do something is when you’re building an Amish barn.

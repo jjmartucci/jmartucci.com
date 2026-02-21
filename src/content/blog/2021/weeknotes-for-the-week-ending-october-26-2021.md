@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending October 3, 2021
-published: 2021-10-03T20:51:20-04:00
+published: 2021-10-04
 description: Welcome to spooky season.
+updated: 2021-10-04
 ---
 
 It’s October. The wife and I had Friday off, and thought maybe we’d get lunch in Salem. We didn’t really think October 1st, a full 30 days away from Halloween would be an issue, but people take October being spooky season seriously. Instead we ate lunch in town, which is another town that used to be part of Danvers, which is where the “Salem” Witch Trials took place, but don’t tell the tourists that.

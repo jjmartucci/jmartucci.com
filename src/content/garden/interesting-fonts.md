@@ -2,8 +2,8 @@
 title: "Interesting Fonts"
 description: "https://monolisa.dev/"
 tags: ["design"]
-created: 2020-11-14T18:29:09-0500
-modified: 2025-04-28T08:12:03-0400
+published: 2020-11-14
+updated: 2025-04-28
 ---
 # Interesting Fonts
 A nice overview of open-source typefaces: https://beautifulwebtype.com

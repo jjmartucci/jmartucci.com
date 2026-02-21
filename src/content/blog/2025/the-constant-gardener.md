@@ -6,7 +6,8 @@ tags:
   - web-development
 created: 2025-04-17T23:19:36-0400
 modified: 2025-04-18T11:06:13-0400
-published: 2025-04-17T12:01:00
+published: 2025-04-17
+updated: 2025-04-17
 ---
 I’ve been working behind the scenes for the last few months on converting this site into less of a _blog_ and more of a _digital garden_.
 ## What is a digital garden?

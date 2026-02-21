@@ -1,8 +1,9 @@
 ---
 title: From Netlify CMS to Forestry
-published: 2021-02-23T17:00:00Z
+published: 2021-02-23
 description: Why I switched the content editor on this site from Netlify CMS
   to Forestry.io.
+updated: 2021-02-23
 ---
 I’ve used [Netlify CMS](https://www.netlifycms.org) on and off on this site (and previous iterations of it) and while I think it’s a really great idea, the execution of the application is incredibly lacking, for a few reason:
 

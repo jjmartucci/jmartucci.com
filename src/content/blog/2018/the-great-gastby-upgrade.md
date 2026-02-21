@@ -3,6 +3,7 @@ title: The Great Gatsby - Upgrade
 published: 2018-07-21
 description: If you're reading this, huzzah, it worked!
 draft: false
+updated: 2018-07-21
 ---
 
 If you're reading this, huzzah, it worked!

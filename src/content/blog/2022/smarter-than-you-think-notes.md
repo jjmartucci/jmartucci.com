@@ -1,10 +1,11 @@
 ---
 title: Smarter Than You Think
-published: 2022-12-17T20:47:31-05:00
+published: 2022-12-18
 draft: false
 description: Book notes on Smarter Than You Think.
 tags:
   - books
+updated: 2022-12-18
 ---
 I finished [Smarter Than You Think](https://www.indiebound.org/book/9780143125822) by [Clive Thompson](http://www.collisiondetection.net)[^1] today. I started it many months ago, it was a book I read in fits and starts. I thought it approached the subject of “what is technology doing to how we think” well enough, with lots of references to historical precedence (people thinking writing would ruin the mind hundreds of years ago) and non-technical studies of similar topics like shared knowledge and the overhead of organizing large and wide knowledge networks.
 

@@ -4,6 +4,7 @@ published: 2019-12-22
 description: I set a goal to read 40 books in 2019. I didn’t hit it. I did come a lot closer than I thought I would though, ending up at 30 books, with two in progress as I write this, one of which I *might* finish by the end of the year.  Some notes on what helped me read way more this year than the year before.
 draft: false
 slug: no-pizza-for-me
+updated: 2019-12-22
 ---
 
 I set a goal to read 40 books in 2019. I didn’t hit it.

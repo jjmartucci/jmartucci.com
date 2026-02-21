@@ -2,9 +2,10 @@
 title: You Only Die Once
 description: Reading notes from "You Only Die Once", plus a handy calculator!
 image: ../images/2024/you-only-die-once.webp
-published: 2024-10-09T12:00:00
+published: 2024-10-09
 tags:
   - books
+updated: 2024-10-09
 ---
 I saw “You Only Die Once” at the local bookstore[^1], and being one to judge books by their covers and interior illustrations, it seemed fun. It acknowledges some overlap with [4000 Weeks - Time Management for Mortals](https://www.oliverburkeman.com/books) by Oliver Burkeman, but with more humor and less philosophy. Also, there’s worksheets and questionaires to fill out, if those are things you find helpful. Overall, Jodi Wellman would like you to live this life:
 

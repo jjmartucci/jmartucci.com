@@ -1,8 +1,9 @@
 ---
 title: Annual Maintenance Again
-published: 2023-01-20T09:56:40-05:00
+published: 2023-01-20
 description: Still haven’t hit 10k miles.
 image: ../images/2023/vw.jpg
+updated: 2023-01-20
 ---
 Last year I wrote [Annual Maintenance](https://www.builtwith.coffee/blog-posts/2022/01/annual-maintenance?searchterm=GTI) about the differences in the one day in January of 2020, 2021, and 2022 I sat in a VW dealership. I made a guess about 2023:
 

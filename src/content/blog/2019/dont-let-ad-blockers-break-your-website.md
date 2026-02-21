@@ -4,6 +4,7 @@ published: 2019-01-27
 draft: false
 slug: dont-let-ad-blockers-break-your-website
 description: If you're a web developer working on a website running tracking or analytics scripts of any type, you absolutely need to make sure it works for users blocking third-party scripts.
+updated: 2019-01-27
 ---
 
 If you're a web developer working on a website running tracking or analytics scripts of any type, you absolutely need to make sure it works for users blocking third-party scripts. This is just the latest example, from [fabric.com](https://www.fabric.com/), but I've seen this happen many times: a completely blank screen when Ghostery is blocking scripts.

@@ -1,9 +1,10 @@
 ---
 title: "Reading List, May 29, 2020"
-published: 2020-05-29T15:06:05+00:00
+published: 2020-05-29
 draft: false
 slug: reading-list-may-29-2020
 description: Interesting things from the week of May 29, 2020.
+updated: 2020-05-29
 ---
 
 I split my mornings between reading a book or combing through my RSS feeds. This week skewed more heavily towards reading a book ([How to Do Nothing](https://www.indiebound.org/book/9781612197494)), but I did find a few things that avoided my “read later” list.

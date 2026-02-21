@@ -1,10 +1,11 @@
 ---
 draft: false
 title: Two articles on web APIs
-published: 2022-03-19T13:49:54-04:00
+published: 2022-03-19
 description: Web links worth reading on Canvas2D and the File System Access API.
 tags:
   - web-development
+updated: 2022-03-19
 ---
 The first one: [It’s always been you, Canvas2D - Chrome Developers](https://developer.chrome.com/blog/canvas2d/). Lots of nice updates to performance and quality of life for the Canvas API. I have a soft spot for the `<canvas>` tag — when I was (re)learning web development I spent a lot of time at my non-development related job spinning up little web projects that required no libraries or compilation steps to run in the browser pre-installed on my laptop. The canvas element was the most readily available but also _complex_  web API that runs locally, so I built all kinds of interfaces and animations in it while learning.
 

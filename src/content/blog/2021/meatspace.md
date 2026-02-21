@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Meatspace
-published: 2021-05-12T08:27:41-04:00
+published: 2021-05-12
 description: Nearly post-COVID life.
+updated: 2021-05-12
 ---
 ![343 Congress Street in Boston](../images/2021/343-congress.jpeg)
 I went to the office yesterday, and then went out with people I only knew through video chat for food at a restaurant. Wild times.

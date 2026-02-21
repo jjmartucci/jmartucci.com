@@ -3,8 +3,8 @@ title: Creamy, Light Macaroni and Cheese
 description: You might initially recoil at the butternut squash but this is my favorite Mac & Cheese for the colder months. Originally from Creamy, Light Macaroni and Cheese Recipe | Cooking Light.
 tags:
   - recipes
-created: 2020-10-25T10:57:17-0400
-modified: 2025-04-30T09:32:02-0400
+published: 2020-10-25
+updated: 2025-04-30
 ---
 # Creamy, Light Macaroni and Cheese
 

@@ -1,8 +1,9 @@
 ---
 title: "Reading List May 15, 2020"
-published: 2020-05-15T15:06:05+00:00
+published: 2020-05-15
 draft: false
 description: Interesting things from the week of May 15th, 2020.
+updated: 2020-05-15
 ---
 
 1. [Modern CSS Solutions](https://moderncss.dev)
