@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending November 28, 2021
-published: 2021-11-28T18:39:32-05:00
+published: 2021-11-28
 description: Letting your brain turn to the consistency of canned cranberry sauce.
+updated: 2021-11-28
 ---
 
 Since we did the family Thanksgiving last weekend, the last four days have been nothing but relaxation for us. The six-year old watched TV until her brain melted, my wife read books or did research until her brain melted, and I just kind of chilled until my already melted brain reshaped. Or something. Maybe it’s still a little gooey.

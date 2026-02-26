@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending June 6, 2021
-published: 2021-06-06T08:06:23-04:00
+published: 2021-06-06
 description: Vacation all I ever wanted, vacation, had to get away.
+updated: 2021-06-06
 ---
 
 - Our vacation didn’t quite go as planned, we ended up back and home after the long weekend, but still took the week off. Instead of going to one beach we went to a different, closer beach. Lessons were learned, let’s leave it at that.

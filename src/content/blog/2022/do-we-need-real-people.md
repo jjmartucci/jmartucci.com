@@ -1,8 +1,9 @@
 ---
 draft: false
 title: The cognitive dissonance of digital communication.
-published: 2022-02-13T20:06:29-05:00
+published: 2022-02-14
 description: Is a human on a Zoom call just an avatar of a human?
+updated: 2022-02-14
 ---
 Two things I read this weekend.
 

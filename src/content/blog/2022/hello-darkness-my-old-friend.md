@@ -1,8 +1,9 @@
 ---
 title: Hello Darkness My Old Friend
-published: 2022-11-06T22:06:17.038Z
+published: 2022-11-06
 draft: false
 description: Happy first 5 PM after Daylight Savings ends.
+updated: 2022-11-06
 ---
 Happy first 5 PM after Daylight Savings ends. I know Winter doesn’t officially start for more than a month but something changes today. Maybe we need a micro-season for it, like Dark Fall.
 

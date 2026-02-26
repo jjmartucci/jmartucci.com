@@ -6,9 +6,16 @@
     "dev": "astro dev",
     "start": "astro dev",
     "check": "astro check",
-    "build": "astro build",
+    "build": "npm run fetch:all; astro build",
+    "fetch:all": "npm run fetch:books; npm run fetch:music; npm run fetch:watching; npm run fetch:toots",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "fetch:books": "tsx --env-file=.env src/scripts/fetch-hardcover-books.ts",
+    "fetch:music": "tsx --env-file=.env src/scripts/fetch-lastfm-tracks.ts",
+    "fetch:watching": "tsx --env-file=.env src/scripts/fetch-trakt-watching.ts",
+    "fetch:games": "tsx --env-file=.env src/scripts/fetch-igdb-games.ts",
+    "fetch:toots": "tsx --env-file=.env src/scripts/fetch-mastodon-toots.ts",
+    "trakt:auth": "tsx --env-file=.env src/scripts/trakt-oauth-helper.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -19,7 +26,9 @@
     "fuse.js": "^7.1.0",
     "markdown-it": "^14.1.0",
     "node-html-parser": "^7.0.1",
+    "rehype-slug": "^6.0.0",
     "sanitize-html": "^2.13.0",
+    "tsx": "^4.7.0",
     "typescript": "^5.6.2"
   }
 }

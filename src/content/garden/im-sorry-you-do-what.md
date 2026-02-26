@@ -2,8 +2,8 @@
 title: "I’m sorry you do what?"
 description: "A running list of company descriptions I’ve seen while job searching that made me wonder either “why does this need to be a company” or “what does this even mean”."
 tags: []
-created: 2025-04-21T10:49:12-0400
-modified: 2025-05-12T09:39:49-0400
+published: 2025-04-21
+updated: 2025-05-12
 ---
 # I’m sorry you do what?
 

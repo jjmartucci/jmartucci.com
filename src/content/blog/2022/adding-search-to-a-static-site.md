@@ -1,9 +1,10 @@
 ---
 draft: false
 title: Adding search to a static site
-published: 2022-01-10T12:59:06-05:00
+published: 2022-01-10
 description: Using Lunr to add search to this site.
 slug: adding-search-to-a-static-site
+updated: 2022-01-10
 ---
 This blog post is [based off this tweet reply][1]. Because I read it and thought “oh, I already did write about this!” then tried searching for it on the site and couldn’t find it by clicking around, so I searched in the files for the site on my computer and couldn’t find it, then searched across my entire computer and found a long blog post about using [Lunr][2] to search gifs that I never finished[^1].
 

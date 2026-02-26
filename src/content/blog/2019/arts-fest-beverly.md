@@ -5,6 +5,7 @@ image: ../images/2018/arts-fest.jpeg
 draft: false
 slug: arts-fest-beverly
 description: Art we picked up at the Beverly Arts Fest.
+updated: 2019-06-16
 ---
 
 ![Art we picked up at the Beverly Arts Fest](../images/2018/arts-fest.jpeg)

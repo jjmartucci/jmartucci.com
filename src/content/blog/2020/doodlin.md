@@ -1,11 +1,12 @@
 ---
 title: Happy Little Clouds
-published: 2020-12-07T01:38:33.207Z
+published: 2020-12-07
 draft: false
 slug: doodlin
 description: doodlin'
 tags:
   - art
+updated: 2020-12-07
 ---
 
 ...that get sad. Some [Procreate](https://procreate.art/) doodlin’ on a Winter weekend.

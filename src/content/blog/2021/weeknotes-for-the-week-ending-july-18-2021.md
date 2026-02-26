@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending July 18, 2021
-published: 2021-07-18T19:36:11-04:00
+published: 2021-07-18
 description: I celebrate the guy's entire catalogue.
+updated: 2021-07-18
 ---
 
 - 🌧🌧🌧🌧☀️☀️🌧

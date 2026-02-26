@@ -1,8 +1,9 @@
 ---
 title: PAGNIs and YAGNIs
-published: 2022-10-18T02:15:02.273Z
+published: 2022-10-18
 draft: false
 description: You aren’t going to need it, or will you probably need it?
+updated: 2022-10-18
 ---
 
 YAGNI = [You aren't going to need it](https://martinfowler.com/bliki/Yagni.html). 

@@ -1,9 +1,10 @@
 ---
 title: "New Art for the Office"
 description: "Nice try, death!"
-published: 2020-09-02T19:51:41+00:00
+published: 2020-09-02
 draft: false
 slug: new-art-for-the-office
+updated: 2020-09-02
 ---
 
 ![](../images/2020/img_3909.jpg)

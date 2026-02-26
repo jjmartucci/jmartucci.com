@@ -1,8 +1,9 @@
 ---
 title: How to Beat Worry
-published: 2022-09-27T20:53:41.375Z
+published: 2022-09-27
 draft: false
 description: "Link: How to Beat Worry"
+updated: 2022-09-27
 ---
 I like blogs where people add little cartoons and drawings to the text, which makes me think I should do it more. This one does it, and is a good read: [How to Beat Worry](https://moretothat.com/how-to-beat-worry/).
 

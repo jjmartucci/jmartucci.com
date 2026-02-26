@@ -3,9 +3,10 @@ title: 15 Years of the App Store
 slug: 15-years-of-the-app-store
 description: My day 1 downloads from the App Store.
 draft: false
-published: 2023-07-10T04:00:00.000Z
+published: 2023-07-10
 tags:
   - tech
+updated: 2023-07-10
 ---
 
 [App Store turns 15 today](https://mstdn.social/@pschiller/110690395011183022). If you had a phone back then (the 3G, the worst phone they made, I broke three of them), you can look at your past purchases in the App Store. Looks like day 1 I picked up:

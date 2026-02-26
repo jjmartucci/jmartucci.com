@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending December 12, 2021
-published: 2021-12-12T20:09:45-05:00
+published: 2021-12-13
 description: None of us are comfortable until we are all comfortable.
+updated: 2021-12-13
 ---
 
 I was in the office two days this week. I took the train in both days, it was a ~50% as crowded as I remembered it from the pre-pandemic times. It was comfortably crowded, if you can call it that.

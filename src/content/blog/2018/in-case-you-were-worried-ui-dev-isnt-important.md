@@ -4,6 +4,7 @@ published: 2018-10-28
 draft: false
 slug: in-case-you-were-worried-ui-dev-isnt-important
 description: Basic human user interfaces.
+updated: 2018-10-28
 ---
 
 ![Post from Reddit about electronic voting machinges failing](../images/2018/81103EFB-D1F7-49DA-8430-E5B1488B9EF0.jpeg)

@@ -1,8 +1,9 @@
 ---
 draft: false
 title: One Year
-published: 2021-03-11T05:00:00Z
+published: 2021-03-11
 description: One year of working from home, or whatever this last year was.
+updated: 2021-03-11
 ---
 A year ago was my last day in the office. It was also my first day in that particular office — we were moving out of a WeWork into a new space and I needed to get my stuff out before everything shut down.
 

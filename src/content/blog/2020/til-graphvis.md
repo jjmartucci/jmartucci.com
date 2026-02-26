@@ -1,8 +1,9 @@
 ---
 title: "TIL: graphvis"
-published: 2020-06-15T15:06:05+00:00
+published: 2020-06-15
 draft: false
 description: Graphvis!
+updated: 2020-06-15
 ---
 
 I worked for a number of years as a low-budget technical writer, producing documentation and technical diagrams at a few different companies. I say low-budget because these were manufacturing companies, not software companies, and the documentation was more “we need to keep this on file” than “we need this to function”. My go to tool for diagrams was Visio, and by the end of my stint as a technical writer I could do 3D diagrams in it that would put Autocad to shame, but lining up boxes for 2D diagrams was always a chore.

@@ -1,9 +1,10 @@
 ---
 title: "Bookmark memory lane"
-published: 2020-01-20T15:06:05+00:00
+published: 2020-01-20
 description: There’s a bookmark folder in Safari across all of my devices titled “HTML/CSS”. I don’t use bookmarks that much, but I did when I was first getting interested in web development. I’ve gone back to Safari on all of my devices lately, mostly to use handoff and have consistent sharing options, and I thought it was time to take a look at those bookmarks and see what was worth keeping.
 draft: false
 slug: bookmark-memory-lane
+updated: 2020-01-20
 ---
 
 There’s a bookmark folder in Safari across all of my devices titled “HTML/CSS”. I don’t use bookmarks that much, but I did when I was first getting interested in web development. I’ve gone back to Safari on all of my devices lately, mostly to use handoff and have consistent sharing options, and I thought it was time to take a look at those bookmarks and see what was worth keeping.

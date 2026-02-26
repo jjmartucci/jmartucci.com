@@ -1,8 +1,9 @@
 ---
 title: Forty
-published: 2022-05-30T18:48:47-04:00
+published: 2022-05-30
 description: Notes on turning forty.
 tags: ['life']
+updated: 2022-05-30
 ---
 
 I turned forty today. It was a nice day at home, and there was ice cream cake. One upside to having a birthday on a holiday: you almost always have it off. One downside: a lot of other people do too. But late May also coincides with peak allergy season for me, so I’m happy with at home cake instead of sneezing the top scoop of ice cream off my cone.

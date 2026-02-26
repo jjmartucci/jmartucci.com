@@ -5,6 +5,7 @@ description: I always set out to make Halloween decorations that are creepy-cute
 image: ../images/2018/2D45DB2F-C1A4-43FF-95DB-CD131BF4D81C.jpeg
 draft: false
 slug: window-goblin
+updated: 2018-10-15
 ---
 
 ![A creepy window decoration we made for Halloween.](../images/2018/2D45DB2F-C1A4-43FF-95DB-CD131BF4D81C.jpeg)

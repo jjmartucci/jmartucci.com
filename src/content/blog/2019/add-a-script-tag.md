@@ -6,6 +6,7 @@ draft: false
 tags:
   - web-development
 description: 2019 marks twenty years since I first pushed a website to the internet, yet today I was trying to set up a project and I got caught on something very... silly.
+updated: 2019-03-04
 ---
 
 2019 marks twenty years since I first pushed a website to the internet, yet today I was trying to set up a project and I got caught on something very... silly. I was testing a webpack configuration for a React library so it would run in Internet Explorer 11, but I couldn't get the application code to execute when running the development server. I dug through the code and searched for anything I could think of to narrow down if it was the fault of webpack, the dev server, my application code, or the polyfills I had added for IE11 support. After a (too long) search, it came down to this:

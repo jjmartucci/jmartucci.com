@@ -1,9 +1,10 @@
 ---
 title: "A Picture of Change for a World of Constant Motion"
-published: 2020-08-27T15:06:05+00:00
+published: 2020-08-27
 draft: false
 slug: a-picture-of-change-for-a-world-of-constant-motion
 description: I’m always jealous of the developers who get to build the interactive / scrolling features for the New York Times.
+updated: 2020-08-27
 ---
 
 I’m always jealous of the developers who get to build the interactive / scrolling features for the New York Times. I read [A Picture of Change for a World in Constant Motion][1] this morning while drinking coffee. I found it calming. I learned that Mount Fuji appears in [The Great Wave off Kanagawa][2], a picture I’ve seen a million times.

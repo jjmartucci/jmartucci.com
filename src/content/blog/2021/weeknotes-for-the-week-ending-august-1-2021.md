@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending August 1, 2021
-published: 2021-08-01T13:13:13-04:00
+published: 2021-08-01
 description: Summer speeding by.
+updated: 2021-08-01
 ---
 - I took Monday off and the week flew by. Also, it’s August?
 - Released code at work this week which was a huge refactor that had (🤞) no noticeable changes to the existing application. Another to add to the list of “big red diff refactors” I’ve done. I think I enjoy doing them, but much less than adding features that users get to use, so if I could instead figure out a way to, Terminator style, go back and prevent devs from thinking they need to immensely overcomplicate a handful of asynchronous API calls before building the project that I eventually work on, that would be even better.

@@ -1,9 +1,10 @@
 ---
 title: "Don't worry, bee happy"
-published: 2019-05-21T01:00:00.000Z
+published: 2019-05-21
 draft: false
 slug: don-t-worry-bee-happy
 description: scootering
+updated: 2019-05-21
 ---
 
 ![](../images/2019/be_happy_m.jpg)

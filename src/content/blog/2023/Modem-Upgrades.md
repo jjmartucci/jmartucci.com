@@ -1,10 +1,11 @@
 ---
 title: Modem Upgrades
-published: 2023-02-06T21:29:47-05:00
+published: 2023-02-07
 description: 2x-ing the amount of cute cat pictures I can download.
 image: ../images/2023/fast.jpg
 tags:
   - hardware
+updated: 2023-02-07
 ---
 Xfinity sent me an email a while back saying service in our area had been upgraded to 600 Mbps, and that my modem couldn’t handle this extreme new bandwidth. But any network test was showing 550-580 Mbps so… seemingly it could handle _most_ of it. I filed a mental note, went on with my life.
 

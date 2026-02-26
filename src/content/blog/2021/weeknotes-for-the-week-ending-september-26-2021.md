@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending September 26, 2021
-published: 2021-09-26T19:27:28-04:00
+published: 2021-09-26
 description: General complaints about software updates and specific excitement about snake updates.
+updated: 2021-09-26
 ---
 ### iOS 15
 I upgraded all of my iDevices to iOS15 (or… whatever their equivalents are called. tvOS/HomeOS _something-point-oh_). A few quick notes:

@@ -2,8 +2,8 @@
 title: "Comics & Cartoons"
 description: "Top level list of web comics I enjoy and other notes about comics & cartoons."
 tags: []
-created: 2025-04-07T09:26:51-0400
-modified: 2025-04-07T09:27:28-0400
+published: 2025-04-07
+updated: 2025-04-07
 ---
   
 

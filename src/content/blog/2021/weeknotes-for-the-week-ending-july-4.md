@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending July 4, 2021
-published: 2021-07-04T15:44:20-04:00
+published: 2021-07-04
 description: 🦅🇺🇸🎆. Or not, we’re just bumming around the house. If we’re lucky we’ll see some fireworks from the back deck.
+updated: 2021-07-04
 ---
 
 - 🦅🇺🇸🎆. Or not, we’re just bumming around the house. If we’re lucky we’ll see some fireworks from the back deck.

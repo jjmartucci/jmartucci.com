@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("garden")
+    order:
+      - title
+      - file.name
+      - tags
+    image: note.image

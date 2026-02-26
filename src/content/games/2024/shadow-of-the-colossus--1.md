@@ -1,0 +1,27 @@
+---
+title: "Shadow of the Colossus"
+igdbId: 37094
+link: "https://www.igdb.com/games/shadow-of-the-colossus--1"
+image: "../images/2024/shadow-of-the-colossus--1.jpg"
+tags:
+  - Platform
+  - Puzzle
+  - Adventure
+dateAdded: "2024-12-02T20:38:45.000Z"
+lastUpdated: "2024-12-02T20:38:45.000Z"
+platform: "PlayStation 4"
+status: "played"
+playtime: "348"
+draft: false
+summary: "Tales speak of an ancient land where creatures the size of mountains, roam the majestic landscape. Bound to the land, these creatures hold a key to a mystical power of revival - a power you must obtain to waken a loved one.
+
+Shadow of the Colossus is a majestic journey through ancient lands to seek out and destroy gigantic mythical beasts. With your trusty horse at your side, explore the spacious lands and unearth each Colossi. Armed with your wits, a sword and a bow, use cunning and strategy to topple each behemoth.
+
+A remake of the critically-claimed game of the same title. Also from the minds that brought you The Last Guardian & ICO"
+---
+
+Tales speak of an ancient land where creatures the size of mountains, roam the majestic landscape. Bound to the land, these creatures hold a key to a mystical power of revival - a power you must obtain to waken a loved one.
+
+Shadow of the Colossus is a majestic journey through ancient lands to seek out and destroy gigantic mythical beasts. With your trusty horse at your side, explore the spacious lands and unearth each Colossi. Armed with your wits, a sword and a bow, use cunning and strategy to topple each behemoth.
+
+A remake of the critically-claimed game of the same title. Also from the minds that brought you The Last Guardian & ICO

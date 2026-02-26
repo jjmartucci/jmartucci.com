@@ -1,8 +1,9 @@
 ---
 title: THE HIERARCHY IS BULLSHIT, WE CAN DO BETTER.
-published: 2022-09-23T10:10:29.580Z
+published: 2022-09-23
 draft: false
 description: "🔗 Link: THE HIERARCHY IS BULLSHIT, WE CAN DO BETTER"
+updated: 2022-09-23
 ---
 > Why do people climb the ladder? “Because it’s there.” And when they don’t have any other goals, the ladder fills a vacuum.
 

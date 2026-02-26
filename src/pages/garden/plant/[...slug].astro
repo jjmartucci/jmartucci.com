@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BaseLayout from "@layouts/BaseLayout.astro";
-import {convertISOToMMMDDYYYY} from "@utils/time";
+import FormattedDate from "@components/FormattedDate.astro";
 import PlantTag from "@components/PlantTag/PlantTag.astro";
 import GardenBreadcrumbs from "@components/GardenBreadcrumbs/GardenBreadcrumbs.astro";
 import {getAllGardenContent} from "../../../utils/getAllGardenContent";
@@ -36,7 +36,7 @@ const { Content, remarkPluginFrontmatter } = await post.render();
     <hr />
     <PlantTag tags={post.data.tags} />
     <p class="file-details">
-        <span class="time">Created:</span> {convertISOToMMMDDYYYY(remarkPluginFrontmatter.createdDate)}, <span class="time">Last updated:</span> {convertISOToMMMDDYYYY(remarkPluginFrontmatter.modifiedDate)}
+        <span class="time">Created:</span> {post.data.published && <FormattedDate date={post.data.published} />}, <span class="time">Last updated:</span> {post.data.updated && <FormattedDate date={post.data.updated} />}
     </p>
 </BaseLayout>
 

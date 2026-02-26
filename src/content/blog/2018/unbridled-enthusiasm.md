@@ -4,6 +4,7 @@ published: 2018-05-27
 description: You never see a dog walk after a ball, even old dogs will run their slow wobbly-kneed run after a thrown ball.
 draft: false
 slug: unbridled-enthusiasm
+updated: 2018-05-27
 ---
 
 Every morning, on the way to the office, I walk by a dog park. It's in a nice part of the city, so it's a lot of _fancy_ dogs with hypoallergenic hair and such, although I doubt the dogs know that. What I always enjoy about the dog park is how excited the dogs are. Excited to chase a ball, excited to sniff other dogs, excited to roll in the grass. You never see a dog walk after a ball, even old dogs will run their slow wobbly-kneed run after a thrown ball.

@@ -4,6 +4,7 @@ published: 2018-12-08
 slug: electron
 draft: false
 description: My most used apps, on a day to day basis, are Visual Studio Code, Slack, and Notion. Just in case anyone wonders where I stand on the Electron debate.
+updated: 2018-12-08
 ---
 
 My most used apps, on a day to day basis, are:

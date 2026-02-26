@@ -2,8 +2,11 @@
 import { defineConfig } from "astro/config";
 
 import sitemap from "@astrojs/sitemap";
-import {gardenFrontMatterPlugin} from "./remark-plugins/garden-frontmatter.mjs";
 import {externalLink} from "./remark-plugins/link-rewrite.ts";
+import {imageLink} from "./remark-plugins/image-link.ts";
+import {footnoteAnchor} from "./remark-plugins/footnote-anchor.ts";
+import rehypeSlug from "rehype-slug";
+// import {gardenFrontMatterPlugin} from "./remark-plugins/garden-frontmatter.mjs";
 
 
 // https://astro.build/config
@@ -13,7 +16,7 @@ export default defineConfig({
   integrations: [sitemap()],
 
   markdown: {
-    rehypePlugins: [externalLink],
-    remarkPlugins: [gardenFrontMatterPlugin]
+    rehypePlugins: [rehypeSlug, externalLink, imageLink, footnoteAnchor],
+    //remarkPlugins: [gardenFrontMatterPlugin]
   },
 });

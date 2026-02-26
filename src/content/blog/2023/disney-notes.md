@@ -1,11 +1,12 @@
 ---
 title: Disney World
-published: 2023-04-26T12:13:36-04:00
+published: 2023-04-26
 draft: false
 description: Field notes from our 2023 trip to Disney World.
 image: ../images/2023/epcot.jpeg
 tags:
   - travel
+updated: 2023-04-26
 ---
 This trip was originally planned as a larger family trip in 2019 that got postponed because hurricane Dorian hit Orlando the day our flights were booked for, and the rescheduling of multiple flights and the week’s plans were a lot, so we pushed it to April of 2020. We all know what happened there. Earlier this year we finally agreed at least the three of us should take a family vacation and it’s hard to find as place to divorce yourself from reality with a kid that _isn’t_ Disney. 
 

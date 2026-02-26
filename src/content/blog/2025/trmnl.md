@@ -6,6 +6,7 @@ tags:
   - hardware
 published: 2025-06-07
 draft: false
+updated: 2025-06-07
 ---
 
 A while back I tried setting up an old iPad as a “family dashboard” of sorts, just a quick way to list out upcoming events, the weather, maybe meals for the week or another important note. It kind of… sucked, for a lot of reasons, namely needing to configure a user for the device and the iPadOS widgets not being an ideal UI for “at a glance (at a distance)” viewing. 

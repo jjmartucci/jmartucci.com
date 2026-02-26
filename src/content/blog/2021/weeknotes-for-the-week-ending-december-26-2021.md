@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending December 26, 2021
-published: 2021-12-26T09:12:41-05:00
+published: 2021-12-26
 description: Looking back on 2021. Also I guess Christmas happened.
+updated: 2021-12-26
 ---
 Last weeknotes of the year. Andrea and I were reflecting on something the other day, and we realized how hard it is to separate 2020 from 2021. There were some big, obvious, very good differences between the years but in terms of how things got filed away mentally they didn’t get their own boxes. For me 2020 continued until April / May, when Lorelei went to in-person school, I started a new job, and the adults started getting vaccines.
 

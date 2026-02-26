@@ -6,6 +6,7 @@ description: Bonjour/hello to our neighbors to the North. Or West? I’m still n
 image: ../images/2024/montreal.jpeg
 tags:
   - travel
+updated: 2024-06-30
 ---
 
 Back from another family vacation with notes on how things went. This year we went to Montreal!

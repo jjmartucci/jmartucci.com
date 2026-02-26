@@ -1,10 +1,11 @@
 ---
 title: Sweet Potato Casserole
 description: Sweet Potato Casserole Recipe.
-published: 2024-11-29T15:15:00.000Z
+published: 2024-11-29
 tags: [recipes]
 homepage: false
 hideRSS: true
+updated: 2024-11-29
 ---
 
 ## Ingredients

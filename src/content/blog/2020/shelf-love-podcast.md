@@ -1,9 +1,10 @@
 ---
 title: "Shelf Love Podcast"
-published: 2020-05-03T15:06:05+00:00
+published: 2020-05-03
 description: Late last year my wife started a new podcast called [Shelf Love](https://podcasts.apple.com/us/podcast/shelf-love-a-romance-novel-book-club/id1480593827). I built her a website. It was not good. It worked, but brought us both great shame.
 draft: false
 slug: shelf-love-podcast
+updated: 2020-05-03
 ---
 
 Late last year my wife started a new podcast called [Shelf Love](https://podcasts.apple.com/us/podcast/shelf-love-a-romance-novel-book-club/id1480593827).

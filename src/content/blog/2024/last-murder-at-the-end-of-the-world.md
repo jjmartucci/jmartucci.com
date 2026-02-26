@@ -2,9 +2,10 @@
 title: The Last Murder at the End of the World by Stuart Turton
 description: Tiny little review of "The Last Murder at the End of the World" by Stuart Turton.
 image: ../images/2024/last-murder.webp
-published: 2024-10-15T15:15:00.000Z
+published: 2024-10-15
 tags:
   - books
+updated: 2024-10-15
 ---
 
 The last two books I read ([Supercommunicators](/blog/2024/supercommunicators/) and [You Only Die Once](/blog/2024/you-only-die-once/)) were non-fiction, but I usually have a fiction and non-fiction book going at the same time. This was my most recent fiction one.

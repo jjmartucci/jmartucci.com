@@ -3,8 +3,8 @@ title: Fish Taco Topping
 description: Quick mix for topping fish tacos.
 tags:
   - recipes
-created: 2025-04-14T09:16:51-0400
-modified: 2025-04-14T09:17:56-0400
+published: 2025-04-14
+updated: 2025-04-14
 ---
 # Fish Taco Topping
 

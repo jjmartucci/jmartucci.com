@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending June 13, 2021
-published: 2021-06-13T20:07:54-04:00
+published: 2021-06-14
 description: A little bit of everything, but only some of the time.
+updated: 2021-06-14
 ---
 
 - Watching more TV than usual around here. Went through the entire first season of [Sweet Tooth](https://www.netflix.com/title/81221380), and now I have to go back and read the comics. I remember the end of the world events being more vague in the comics, they’ve added detail to the TV series but I’m not sure the details make logical sense. Still, I adored the comics, and the first season does a pretty delightful job of bringing it to life (Bobby is…much cuter). Also watched [Bo Burnham: Inside](https://www.netflix.com/title/81289483), also good. If you want to be convinced to watch it, just watch _Welcome to the Internet_ here:

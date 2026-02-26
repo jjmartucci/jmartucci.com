@@ -1,8 +1,9 @@
 ---
- title: Franklin Park Zoo
- published: 2022-09-24T20:08:01-04:00
- draft: false
- description: Do the lions not delight you, child?
+title: Franklin Park Zoo
+published: 2022-09-24
+draft: false
+description: Do the lions not delight you, child?
+updated: 2022-09-24
 ---
 We had plans to visit friends in Dorchester today, and earlier in the week I thought “well what else can we do if we have to drive to Dorchester”, then realized the [Franklin Park Zoo](https://www.zoonewengland.org/franklin-park-zoo) was nearby, and the weather looked nice, and it was “Princess & Pirates” day so why not.
 

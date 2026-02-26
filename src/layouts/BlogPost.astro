@@ -9,7 +9,7 @@ import Prose from "../components/Prose/Prose.astro";
 
 type Props = CollectionEntry<"garden">["data"];
 
-const {title, published, description, created, image} = Astro.props;
+const {title, published, description, updated, image} = Astro.props;
 ---
 
 <BaseLayout title={title} description={description} image={image?.src}>
@@ -108,9 +108,142 @@ const {title, published, description, created, image} = Astro.props;
     .date {
         margin-bottom: 0.5em;
         color: rgb(var(--gray));
+        text-transform: uppercase;
+        
+        font-size: .8rem;
+        font-weight: 800;
+        font-style: italic;
     }
 
     .last-updated-on {
         font-style: italic;
     }
+
+    #content :global(h1[id]),
+    #content :global(h2[id]),
+    #content :global(h3[id]),
+    #content :global(h4[id]),
+    #content :global(h5[id]),
+    #content :global(h6[id]) {
+        position: relative;
+    }
+
+    #content :global(.header-link) {
+        position: absolute;
+        left: -2rem;
+        top: 0;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        text-decoration: none;
+        font-size: 0.8em;
+        padding: 0.2rem 1rem 0.2rem 0.2rem;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    #content :global(h1[id]:hover .header-link),
+    #content :global(h2[id]:hover .header-link),
+    #content :global(h3[id]:hover .header-link),
+    #content :global(h4[id]:hover .header-link),
+    #content :global(h5[id]:hover .header-link),
+    #content :global(h6[id]:hover .header-link),
+    #content :global(.header-link:hover) {
+        opacity: 1;
+    }
+
+    #content :global(h1[id] .header-link) {
+        color: var(--big-blue);
+    }
+
+    #content :global(h2[id] .header-link) {
+        color: var(--bright-blue);
+    }
+
+    #content :global(h3[id] .header-link) {
+        color: rgb(var(--green));
+    }
+
+    #content :global(h4[id] .header-link) {
+        color: var(--yellow);
+    }
+
+    #content :global(h5[id] .header-link) {
+        color: var(--tag);
+    }
+
+    #content :global(h6[id] .header-link) {
+        color: rgb(var(--gray));
+    }
+
+    @keyframes copyPulse {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1.5);
+            opacity: 0;
+        }
+    }
+
+    #content :global(.header-link.copied) {
+        animation: copyPulse 0.6s ease-out;
+    }
 </style>
+
+<script>
+    // Fix image link hrefs to use the actual processed img src
+    function setupImageLinks() {
+        const imageLinks = document.querySelectorAll('#content a.image-link');
+        imageLinks.forEach(link => {
+            const img = link.querySelector('img');
+            if (img && img.src) {
+                link.setAttribute('href', img.src);
+            }
+        });
+    }
+
+    // Add copy link functionality to headers
+    function setupHeaderLinks() {
+        const headers = document.querySelectorAll('#content h1[id], #content h2[id], #content h3[id], #content h4[id], #content h5[id], #content h6[id]');
+
+        headers.forEach(header => {
+            // Create link icon
+            const link = document.createElement('span');
+            link.className = 'header-link';
+            link.innerHTML = '#';
+            link.setAttribute('aria-label', 'Copy link to this section');
+            link.setAttribute('title', 'Copy link');
+
+            // Add click handler
+            link.addEventListener('click', async (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const url = `${window.location.origin}${window.location.pathname}#${header.id}`;
+
+                try {
+                    await navigator.clipboard.writeText(url);
+                    link.classList.add('copied');
+                    setTimeout(() => {
+                        link.classList.remove('copied');
+                    }, 1500);
+                } catch (err) {
+                    console.error('Failed to copy:', err);
+                }
+            });
+
+            header.insertBefore(link, header.firstChild);
+        });
+    }
+
+    // Run on page load
+    setupImageLinks();
+    setupHeaderLinks();
+
+    // Re-run after view transitions if using Astro view transitions
+    document.addEventListener('astro:page-load', () => {
+        setupImageLinks();
+        setupHeaderLinks();
+    });
+</script>

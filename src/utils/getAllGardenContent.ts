@@ -1,14 +1,13 @@
 import {getCollection} from "astro:content";
 
 export const getAllGardenContent = async () => {
-    const books = (await getCollection("books"))
     const posts = (await getCollection("blog"))
     const garden = (await getCollection("garden"))
-    const all =[...books, ...posts, ...garden];
+    const all =[...posts, ...garden];
         all.filter((post) => {
             return process.env.NODE_ENV === "production" ? !post.data.draft : true;
         })
-        .sort((a,b) => new Date(b.data.modified) - new Date(a.data.modified))
+        .sort((a,b) => new Date(b.data.updated) - new Date(a.data.updated))
 
     const allTags =  getTags(all)
     return {

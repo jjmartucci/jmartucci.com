@@ -5,6 +5,7 @@ image: ../images/2018/x70bbhvlnrhiivsi5v0t.png
 description: I took my daughter to see _Spirited Away_ at the local theatre today, part of the [Studio Ghibli Fest 2019](https://www.ghiblifest.com/) , reshowing the films on big(ish) screens.
 slug: ghibli-fest
 draft: false
+updated: 2019-10-27
 ---
 
 I took my daughter to see _Spirited Away_ at the local theatre today, part of the [Studio Ghibli Fest 2019](https://www.ghiblifest.com/) , reshowing the films on big(ish) screens. Some thoughts:

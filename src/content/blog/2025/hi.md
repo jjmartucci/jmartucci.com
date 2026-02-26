@@ -6,8 +6,9 @@ tags:
   - draft
 created: 2026-04-14T14:50:38-0400
 modified: 2025-04-17T09:05:09-0400
-published: 2025-10-31T21:02:00
+published: 2025-11-01
 draft: true
+updated: 2025-11-01
 ---
 # Hi
 

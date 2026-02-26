@@ -2,8 +2,8 @@
 title: "AI Programming Tools"
 description: "Notes on AI tools and techniques to aide with programming tasks."
 tags: ["ai", "programming"]
-created: 2025-04-15T20:24:05-0400
-modified: 2025-04-16T14:05:34-0400
+published: 2025-04-16
+updated: 2025-04-16
 ---
 # AI Programming Tools
 

@@ -2,8 +2,8 @@
 title: "Software Development"
 description: "#mind-garden"
 tags: []
-created: 2025-04-14T14:34:11-0400
-modified: 2025-04-14T14:34:33-0400
+published: 2025-04-14
+updated: 2025-04-14
 ---
 # Software Development
 

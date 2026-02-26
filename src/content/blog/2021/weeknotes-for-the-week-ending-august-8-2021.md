@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending August 8, 2021
-published: 2021-08-08T18:08:08-04:00
+published: 2021-08-08
 description: How do they know the load limit on bridges?
+updated: 2021-08-08
 ---
 > Released code at work this week which was a huge refactor that had (🤞) no noticeable changes to the existing application. 
 - I said that [last week](https://www.builtwith.coffee/blog-posts/2021/08/weeknotes-for-the-week-ending-august-1-2021) then learned, well, there were noticeable changes for the end user, mainly in that the old code gracefully handled 500 errors that should not have been thrown in the first place. It drove good conversation around how to do things better in the future (and an investigation into where/why those 500s even exist), but it was a week where being a developer felt a bit like this:

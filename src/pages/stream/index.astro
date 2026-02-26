@@ -1,0 +1,456 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Prose from "../../components/Prose/Prose.astro";
+import {
+  fetchAllItems,
+  groupByYearMonth,
+  groupByType,
+  getCategoryCounts,
+  renderStarRating,
+  STREAM_TYPES,
+  type StreamTypeKey,
+} from "../../utils/stream";
+
+const allItems = await fetchAllItems();
+const itemsByYearMonth = groupByYearMonth(allItems);
+---
+
+<BaseLayout title="Stream" description="Books, music, movies/TV, games, and toots from my life">
+  <Prose>
+    <h1>Stream</h1>
+    <p>A collection of all the stuff I've read, watched, played, etc. This page was created in 2026, so data before then is... flaky at best!</p>
+  {Object.entries(itemsByYearMonth)
+    .sort(([a], [b]) => Number(b) - Number(a))
+    .map(([year, months]) => (
+      <section class="year-section">
+        <h2>{year}</h2>
+
+        {Object.entries(months).map(([month, items]) => {
+          const counts = getCategoryCounts(items);
+          const grouped = groupByType(items);
+          return (
+            <div class="month-section">
+              <h3>
+                {month}
+                <span class="count">
+                  Books: {counts.books}, Movies: {counts.movies}, TV: {counts.tv}, Tracks: {counts.tracks}, Games: {counts.games}, Toots: {counts.toots}
+                </span>
+              </h3>
+
+              {/* Books Section */}
+              {grouped.books.length > 0 && (
+                <>
+                  <h4 class="type-heading"><a href="/stream/books">Books</a></h4>
+                  <ul class="item-list media-grid">
+                    {grouped.books.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 5)} />
+                            )}
+                          </a>
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 5)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* Movies Section */}
+              {grouped.movies.length > 0 && (
+                <>
+                  <h4 class="type-heading"><a href="/stream/movies">Movies</a></h4>
+                  <ul class="item-list media-grid">
+                    {grouped.movies.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </a>
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* TV Section */}
+              {grouped.tv.length > 0 && (
+                <>
+                  <h4 class="type-heading"><a href="/stream/tv">TV Shows</a></h4>
+                  <ul class="item-list media-grid">
+                    {grouped.tv.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </a>
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={180}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* Music Section */}
+              {grouped.music.length > 0 && (
+                <>
+                  <h4 class="type-heading"><a href="/stream/music">Songs</a></h4>
+                  <ul class="item-list media-grid">
+                    {grouped.music.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={120}
+                            />
+                          </a>
+                        ) : item.data.data.image ? (
+                          <Image
+                            src={item.data.data.image}
+                            alt={item.data.data.title}
+                            width={120}
+                            height={120}
+                          />
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* Games Section */}
+              {grouped.games.length > 0 && (
+                <>
+                  <h4 class="type-heading"><a href="/stream/games">Games</a></h4>
+                  <ul class="item-list media-grid">
+                    {grouped.games.map((item) => (
+                      <li class="media-item">
+                        {item.data.data.image && item.data.data.link ? (
+                          <a href={item.data.data.link} target="_blank" rel="noopener noreferrer" class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={160}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </a>
+                        ) : item.data.data.image ? (
+                          <div class="media-link">
+                            <Image
+                              src={item.data.data.image}
+                              alt={item.data.data.title}
+                              width={120}
+                              height={160}
+                            />
+                            {item.data.data.rating && (
+                              <div class="rating-overlay" set:html={renderStarRating(item.data.data.rating, 10)} />
+                            )}
+                          </div>
+                        ) : null}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {/* Toots Section */}
+              {grouped.toots.length > 0 && (
+                <>
+                  <h4 class="type-heading"><a href="/stream/toots">Mastodon</a></h4>
+                  <ul class="item-list toots-list">
+                    {grouped.toots.map((item) => (
+                      <li class={`item ${item.type}`}>
+                        <span class="category-label"></span>
+                        <div class="item-details toot-content">
+                          <div class="toot-text" set:html={item.data.body} />
+                          <p class="toot-meta">
+                            <a href={item.data.data.url} target="_blank" rel="noopener noreferrer">
+                              View on Mastodon →
+                            </a>
+                          </p>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </div>
+          );
+        })}
+      </section>
+    ))}
+
+  {allItems.length === 0 && (
+    <p class="empty-state">
+      No items found. Run <code>npm run fetch:books</code>, <code>npm run fetch:music</code>, <code>npm run fetch:watching</code>, <code>npm run fetch:games</code>, and <code>npm run fetch:toots</code> to sync.
+    </p>
+  )}
+  </Prose>
+</BaseLayout>
+
+<style>
+  /* Override Prose width constraint for stream page */
+  :global(.prose) {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .year-section {
+    margin-bottom: 3rem;
+  }
+
+  .year-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .month-section {
+    margin-bottom: 2rem;
+  }
+
+  .month-section h3 {
+    margin-bottom: 1.5rem;
+  }
+
+  .count {
+    font-size: 0.875rem;
+    color: var(--text-color-muted, #999);
+    margin-left: 0.75rem;
+    font-weight: normal;
+  }
+
+  .type-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .media-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .media-item {
+    list-style: none;
+  }
+
+  .media-link {
+    display: block;
+    position: relative;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+
+  .media-link:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+  }
+
+  .media-link img,
+  .media-item img {
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: block;
+  }
+
+  .rating-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    gap: 2px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 4px 6px;
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+  }
+
+  .rating-overlay .star {
+    display: inline-block;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.8));
+  }
+
+  .rating-overlay .star path {
+    pointer-events: none;
+  }
+
+  .toots-list {
+    display: block;
+  }
+
+  .item {
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color, #eee);
+    border-radius: 8px;
+    background: var(--bg-color, #fff);
+    transition: box-shadow 0.2s;
+    position: relative;
+  }
+
+  .item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .category-label {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    display: inline-block;
+    height: .5rem;
+    width: 100%;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0;
+  }
+
+  .item.toot .category-label {
+    background: #d1c4e9;
+    color: #4a148c;
+  }
+
+  .item-details {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .toot-content {
+    width: 100%;
+  }
+
+  .toot-text {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--text-color, #333);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .toot-text a {
+    color: var(--link-color, #0066cc);
+    text-decoration: none;
+  }
+
+  .toot-text a:hover {
+    text-decoration: underline;
+  }
+
+  .toot-meta {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .toot-meta a {
+    color: var(--link-color, #0066cc);
+    text-decoration: none;
+  }
+
+  .toot-meta a:hover {
+    text-decoration: underline;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-color-muted, #999);
+  }
+
+  .empty-state code {
+    background: var(--code-bg, #f5f5f5);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+
+  @media (max-width: 768px) {
+    .media-grid {
+      gap: 0.5rem;
+    }
+  }
+</style>

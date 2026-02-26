@@ -1,10 +1,11 @@
 ---
 title: Books and cats and books and cats and….
-published: 2022-04-24T21:27:57.000Z
+published: 2022-04-24
 description: >-
   The end of last week we were in Connecticut and Andrea wanted to go to a used
   book store, so I suggested we go to the Niantic Book Barn.
 tags: ['life', 'travel']
+updated: 2022-04-24
 ---
 
 Our trips in the past few years have been there-and-back affairs, due to the complications of figuring out COVID hours/openings, the fickle nature of New England nature, and wanting some amount of post-travel pre-work time to relax. But the end of last week we were in Connecticut, Andrea wanted to go to a used book store, and none of the aforementioned issues were issues, so I suggested we go to the [Niantic Book Barn](https://www.bookbarnniantic.com), which met everyone’s requests:

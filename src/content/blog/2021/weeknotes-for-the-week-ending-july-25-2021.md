@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending July 25, 2021
-published: 2021-07-25T20:22:58-04:00
+published: 2021-07-26
 description: The Green Mountain State.
+updated: 2021-07-26
 ---
 
 - I set up a suite of tests on a project I’m working on at work that uses [Cypress component tests](https://www.cypress.io/blog/2021/04/06/cypress-component-testing-react/). This might be the most perfect testing solution for me. I like Cypress for e2e tests, and the component tests allow you to use the syntax but mount slices of your application for testing. Not only does it mesh nicely with e2e tests, it makes testing pieces of your application visually without having to invoke the entire application on a dev server a piece of cake.

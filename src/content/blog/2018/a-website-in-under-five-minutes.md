@@ -4,6 +4,7 @@ published: 2018-03-27
 description: At first glance, five minutes and fifty-five seconds seems like a pretty arbitraty unit of time to measure something by. Does it read better as 1 “Bohemain Rhapsody”?
 draft: false
 slug: a-website-in-under-five-minutes
+updated: 2018-03-27
 ---
 
 At first glance, five minutes and fifty-five seconds seems like a pretty arbitraty unit of time to measure something by. Does it read better as 1 “Bohemain Rhapsody”?

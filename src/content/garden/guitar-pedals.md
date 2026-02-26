@@ -2,8 +2,8 @@
 title: "Guitar Pedals"
 description: "Notes on guitar pedals, brands, settings, etc."
 tags: ["guitar"]
-created: 2025-04-08T11:08:06-0400
-modified: 2025-04-30T09:48:51-0400
+published: 2025-04-08
+updated: 2025-04-30
 ---
 # Guitar Pedals
 

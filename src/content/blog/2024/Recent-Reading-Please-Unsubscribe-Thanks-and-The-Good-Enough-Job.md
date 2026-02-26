@@ -6,6 +6,7 @@ image: ../images/2024/recent-reading.jpeg
 published: 2024-02-28
 tags:
   - books
+updated: 2024-02-28
 ---
 
 In this period I’m in currently, “figuring out what’s next”, I’ve been hitting the library more often and doing more reading. Two recent library pickups were [Please Unsubscribe, Thanks!](https://hardcover.app/books/please-unsubscribe-thanks-how-to-take-back-our-time-attention-and-purpose-in-a-world-designed-to-bury-us-in-bullshit) by Julio Vincent Gambuto and [The Good Enough Job: Reclaiming Life from Work](https://hardcover.app/books/the-good-enough-job) by Simone Stolzoff.

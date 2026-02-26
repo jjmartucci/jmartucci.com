@@ -5,6 +5,7 @@ image: ../images/2019/0F3AA697-702C-41BC-8C27-DB1585671F79.jpeg
 draft: false
 slug: floppy-memories
 description: This week is my last week as a software developer at Education First.
+updated: 2019-12-03
 ---
 
 This week is my last week as a software developer at Education First. I’m off to something new, but before going I wanted to take a look back at my first EF trip. I went on two trips while working at EF (Spain first, then [Ireland and the United Kingdom](https://www.builtwith.coffee/posts/2019/april/capitals-of-the-british-isles/)), but my very first one was as a customer, back in high school, when my Latin class went to Italy on a tour now called [Bell’Italia](https://www.eftours.com/educational-tour/beautiful-italy).

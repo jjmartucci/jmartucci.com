@@ -7,6 +7,7 @@ draft: false
 slug: sunday-slothspiration
 tags:
   - places
+updated: 2018-05-08
 ---
 
 ![A sloth relaxing](../images/2018/sloth.jpg)

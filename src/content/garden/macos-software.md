@@ -2,8 +2,8 @@
 title: "MacOS Software"
 description: "Notes on MacOS (and iOS and iPadOS) software."
 tags: ["software"]
-created: 2025-04-15T21:14:32-0400
-modified: 2025-04-18T10:12:00-0400
+published: 2025-04-16
+updated: 2025-04-18
 ---
 # MacOS Software
 

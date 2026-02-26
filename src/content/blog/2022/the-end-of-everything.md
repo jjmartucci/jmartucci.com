@@ -1,10 +1,11 @@
 ---
 draft: false
 title: The End of Everything
-published: 2022-01-23T12:50:58-05:00
+published: 2022-01-23
 description: Happy Sunday, life is meaningless. But not just yours, everyone's!
 tags:
   - books
+updated: 2022-01-23
 ---
 Finished [The End of Everything][1] this morning. Here’s a fun quote from the epilogue to chew over:
 

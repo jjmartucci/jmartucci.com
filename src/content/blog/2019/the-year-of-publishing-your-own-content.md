@@ -4,6 +4,7 @@ published: 2019-06-01
 draft: false
 slug: the-year-of-publishing-your-own-content
 description: There's a running – joke? commentary? zen koan? – in the Linux community about the "Year of the Linux Desktop", meaning the year where people finally start using Linux instead of Windows.
+updated: 2019-06-01
 ---
 
 There's a running – joke? commentary? zen koan? – in the Linux community about the "Year of the Linux Desktop", meaning the year where people finally start using Linux instead of Windows. You can find an [endless number of hot takes](https://duckduckgo.com/?q=year+of+the+linux+desktop&t=ffab&atb=v102-1&ia=web) on the web about whether it has happened, is happening, will happen, will _never_ happen, has happened but by way of the Android operating system... you get the idea.

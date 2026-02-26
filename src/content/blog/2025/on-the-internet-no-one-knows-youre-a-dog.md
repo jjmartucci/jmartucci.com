@@ -5,6 +5,7 @@ image: ../images/2025/dog.jpeg
 tags:
   - internet
 published: 2025-06-11
+updated: 2025-06-11
 ---
 I saw this on Hacker News yesterday: [Low-background Steel: content without AI contamination](https://blog.jgc.org/2025/06/low-background-steel-content-without-ai.html).
 

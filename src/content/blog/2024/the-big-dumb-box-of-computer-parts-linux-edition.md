@@ -6,7 +6,8 @@ tags:
   - hardware
 created: 2024-12-17T12:00:00-0400
 modified: 2025-04-16T08:50:14-0400
-published: 2024-12-17T12:01:00
+published: 2024-12-17
+updated: 2024-12-17
 ---
 # The Big Dumb Box of Computer Parts: Linux Edition
 Let me start by saying this: I like Macs. I’m writing this on a Mac, I use a Mac every day for personal and work use, I have an iPad and an iPhone and a Watch and an Apple TV. I’m all in on the Mac ecosystem.  

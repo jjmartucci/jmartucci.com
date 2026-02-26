@@ -1,9 +1,10 @@
 ---
 title: At this point I have to hope Twitter fails
-published: 2022-11-10T23:20:18.109Z
+published: 2022-11-10
 draft: false
 description: We don’t need more bad ideas getting popular.
 slug: at-this-point-i-have-to-hope-twitter-fails
+updated: 2022-11-10
 ---
 At this point I have to hope Twitter fails because if it’s successful a lot of other CEOs are going to wonder if they can cut half their staff and force people back to offices.
 

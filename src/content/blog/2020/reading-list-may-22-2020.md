@@ -1,9 +1,10 @@
 ---
 title: "Reading List May 22, 2020"
-published: 2020-05-22T15:06:05+00:00
+published: 2020-05-22
 draft: false
 slug: reading-list-may-22-2020
 description: Interesting things from the week of May 22, 2020.
+updated: 2020-05-22
 ---
 
 Things I read over the last week. At first glance this week might appear to have a theme of “everything is broken!” but I prefer to read it as “look at all these things we can do better!”.

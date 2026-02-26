@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending October 31, 2021
-published: 2021-10-31T19:28:53-04:00
+published: 2021-10-31
 description: Waiting for the Great Pumpkin edition.
+updated: 2021-10-31
 ---
 
 Writing this while manning the trick-or-treat duties. Not a lot of kids so far this year[^3], which is surprising. Last year we had a decent turnout even with COVID and it being below freezing.

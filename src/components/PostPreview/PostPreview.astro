@@ -16,12 +16,14 @@ import { Image } from 'astro:assets';
       <FormattedDate date={post.data.published} />
     </span>
             <h4 class={styles.title}>{post.data.title}</h4>
+            {post.data.draft && <div class={styles.draft}>[DRAFT]</div>}
         </div>}
     {!post.data.image &&
-
+        <>
         <h4 class={styles.title}>{post.data.title}</h4>
+        {post.data.draft && <div class={styles.draft}>[DRAFT]</div>}
         <span class={styles.date}><FormattedDate date={post.data.published} /></span>
-
+        </>
     }
 
     <p class={styles.description}>{post.data.description}</p>

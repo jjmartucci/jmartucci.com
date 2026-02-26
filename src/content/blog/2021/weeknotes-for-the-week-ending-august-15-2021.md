@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending August 15, 2021
-published: 2021-08-15T18:24:19-04:00
+published: 2021-08-15
 description: Hold on, good things never last.
+updated: 2021-08-15
 ---
 - We had a writer in residence this week, so while my wife was off doing [cool and fun things](https://www.copperdogbooks.com/event/virtual-event-jodie-slaughter) I was going full Dad with my daughter, enjoying a couple of pints of ice cream and crushing levels in a [new video game](https://www.nintendo.com/games/detail/moving-out-switch/)[^1]. I consider this slightly more appropriate than what my dad used to do with me when my mom was out, which was watching 80s action movies on HBO.
 - One night the ice cream was accompanied by crying. When I asked Lorelei why she was upset (seemingly out of nowhere) she said she was sad because if she got older, eventually she would die. It took a bit of back and forth to tease out that these ideas had maybe come from a TV show she likes (_Last Kids on Earth_), but I pointed out that I was much older than her, and still alive, so it was at least not a thing to worry about at the present moment. Certainly it could wait until the ice cream was finished.

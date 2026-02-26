@@ -1,8 +1,9 @@
 ---
 title: Weeknotes for the week ending May 30, 2021
-published: 2021-05-30T16:00:00Z
+published: 2021-05-30
 description: Notes for the week ending May 30, 2021. Got older, read a book,
   did some work. 
+updated: 2021-05-30
 ---
 - It’s my birthday. And we’re on vacation. And it’s like 50 degrees and raining. I still put May as the second best weather in New England (the end of September / beginning of October being the best) but it’s still New England weather.
 - But we’re renting a house and who doesn’t love digging through the random mugs at the rental house for the best one (I didn’t pick this, but I appreciate the choice).

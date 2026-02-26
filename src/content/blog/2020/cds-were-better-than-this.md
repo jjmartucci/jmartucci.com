@@ -1,10 +1,11 @@
 ---
 title: "CDs were better than this"
 image: ../images/2020/216x216sr-60.jpg
-published: 2020-10-16T19:51:41+00:00
+published: 2020-10-16
 decription: “Hey Siri, play Disney Radio”
 draft: false
 description: Siri you piece of shit.
+updated: 2020-10-16
 ---
 
 Me: “Hey Siri, play Disney Radio”

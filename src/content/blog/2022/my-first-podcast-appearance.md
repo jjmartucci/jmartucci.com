@@ -1,8 +1,9 @@
 ---
 draft: false
 title: My first podcast appearance
-published: 2022-02-09T19:37:39-05:00
+published: 2022-02-10
 description: Because my wife is an amazing podcaster and, when it comes to dealing with me, editor.
+updated: 2022-02-10
 ---
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/ceac1cdb-4d69-4604-af30-611062495210?dark=false"></iframe>
 

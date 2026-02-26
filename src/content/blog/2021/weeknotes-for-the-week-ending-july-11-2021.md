@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending July 11, 2021
-published: 2021-07-11T11:02:23-04:00
+published: 2021-07-11
 description: Wherein I get mad at computers and retreat to my yard.
+updated: 2021-07-11
 ---
 
 - I spent too many hours dealing with an issue where a previous employer off by one’d my social security number. Double check it! Also, I wonder who this person who is me shifted once is.

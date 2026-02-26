@@ -1,12 +1,13 @@
 ---
 title: Monoprice 35in Zero-G Curved Ultra-Wide Gaming Monitor
-published: 2020-12-01T14:31:06.797Z
+published: 2020-12-01
 description: I picked up a (deep inhale) [Monoprice 35in Zero-G Curved
   Ultra-Wide Gaming Monitor] during the CyberblackFriMonTurkeyWeek sales.
 draft: false
 slug: monoprice-35-ultrawide
 tags:
   - hardware
+updated: 2020-12-01
 ---
 
 ![ultrawide Monoprice monitor](../images/2020/ultrawide.jpeg)

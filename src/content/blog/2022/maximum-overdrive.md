@@ -1,8 +1,9 @@
 ---
 draft: false
 title: When you steal your ideas for a self-driving car from Maximum Overdrive
-published: 2022-02-01T19:54:03-05:00
+published: 2022-02-02
 description: Full self-driving beta controls the whole car, but you’ll only need the edge of your seat!
+updated: 2022-02-02
 ---
 [Maximum Overdrive][1] was a film written and directed by Stephen King in which all machines become sentient, including vehicles. It’s probably best known for:
 

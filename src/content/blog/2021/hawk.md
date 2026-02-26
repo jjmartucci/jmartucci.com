@@ -1,7 +1,8 @@
 ---
 title: "Hawk, guy"
-published: 2021-01-11T02:49:12.997Z
+published: 2021-01-11
 description: Our backyard is a tiny stretch of trees before a river, but there are a lot of trees. If you asked me how many, I couldn’t guess, if you asked me what kinds I’d say “tree kinds”, but if you ask me to look at the back window and spot a bird through the hundreds of thousands of branches my brain will pick them out in an instant every time. Just don’t ask me what kind of bird.
+updated: 2021-01-11
 ---
 
 Our backyard is a tiny stretch of trees before a river, but there are a lot of trees. If you asked me how many, I couldn’t guess, if you asked me what kinds I’d say “tree kinds”, but if you ask me to look at the back window and spot a bird through the hundreds of thousands of branches my brain will pick them out in an instant every time. Just don’t ask me what kind of bird.

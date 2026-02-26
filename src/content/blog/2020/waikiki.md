@@ -1,10 +1,11 @@
 ---
 title: Waikiki Beach
-published: 2020-12-14T00:32:35.497Z
+published: 2020-12-14
 image: ../images/2020/waikiki.jpg
 description: Hawaii is one of the places we’re allowed unrestricted travel to right now, but this is a closer, possibly ironically named Waikiki Beach.
 draft: false
 slug: waikiki
+updated: 2020-12-14
 ---
 
 Hawaii is one of the places we’re allowed unrestricted travel to right now, but this is a closer, possibly ironically named Waikiki Beach.

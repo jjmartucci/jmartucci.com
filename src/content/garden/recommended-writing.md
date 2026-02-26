@@ -2,8 +2,8 @@
 title: "Recommended Writing"
 description: "https://reallifemag.com/recommended-writing/"
 tags: ["link"]
-created: 2021-03-11T07:21:36-0500
-modified: 2025-05-01T20:44:12-0400
+published: 2021-03-11
+updated: 2025-05-02
 ---
 # Recommended Writing
 

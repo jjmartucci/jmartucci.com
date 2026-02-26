@@ -1,10 +1,11 @@
 ---
 draft: false
 title: React 18
-published: 2022-03-29T21:48:01-04:00
+published: 2022-03-30
 description: React 18 is now available on npm.
 tags:
   - web-development
+updated: 2022-03-30
 ---
 React 18 [is now available on npm](https://reactjs.org/blog/2022/03/29/react-v18.html).
 

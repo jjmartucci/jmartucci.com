@@ -25,3 +25,10 @@ pnpm-debug.log*
 
 # Local Netlify folder
 .netlify
+
+# VS Code / IDEs
+
+
+# Claude Code / AI files
+.claude
+AI--*.md

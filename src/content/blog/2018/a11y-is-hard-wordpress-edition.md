@@ -3,6 +3,7 @@ title: A11Y
 published: 2018-12-16
 description: Accessibility is hard. But it is no harder than security, performance, usability, internationalization, or quality code.
 draft: false
+updated: 2018-12-16
 ---
 
 > Accessibility is hard. But it is no harder than security, performance, usability, internationalization, or quality code. And frankly, we don’t put up with software companies (even open source ones) saying “whoops, well you know, security is hard, so it fell by the wayside, sorry”.

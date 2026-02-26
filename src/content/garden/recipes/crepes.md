@@ -3,8 +3,8 @@ title: Crepes
 description: My go-to crepe batter recipe.
 tags:
   - recipes
-created: 2024-07-08T16:30:40-0400
-modified: 2025-04-30T09:55:43-0400
+published: 2024-07-08
+updated: 2025-04-30
 ---
 # Crepes
 

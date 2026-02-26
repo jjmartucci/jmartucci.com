@@ -2,8 +2,8 @@
 title: "100 Best Books of the 21st Century"
 description: "Archive link: https://archive.is/h4hwM"
 tags: ["link"]
-created: 2025-04-15T15:18:08-0400
-modified: 2025-04-15T15:28:53-0400
+published: 2025-04-15
+updated: 2025-04-15
 ---
 # 100 Best Books of the 21st Century
 

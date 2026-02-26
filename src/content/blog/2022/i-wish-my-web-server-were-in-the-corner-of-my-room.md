@@ -1,8 +1,9 @@
 ---
 title: I wish my web server were in the corner of my room
-published: 2022-10-12T02:26:34.426Z
+published: 2022-10-12
 draft: false
 description: Hosting on your own hardware.
+updated: 2022-10-12
 ---
 > I could hear the hard drive spin up if somebody accessed the machine, and a little chug-chug-chug while Festival (the open source text-to-speech engine I’d installed) generated the voice. Like footsteps approaching before the door opens.
 

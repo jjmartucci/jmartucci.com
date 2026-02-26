@@ -1,8 +1,9 @@
 ---
 draft: false
 title: First ride
-published: 2022-02-23T21:09:32-05:00
+published: 2022-02-24
 description: 66 and sunny.
+updated: 2022-02-24
 ---
 I see:
 

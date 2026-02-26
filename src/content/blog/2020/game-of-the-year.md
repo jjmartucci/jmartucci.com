@@ -1,11 +1,12 @@
 ---
 title: Game of the Year
-published: 2020-11-20T01:37:42.635Z
+published: 2020-11-20
 draft: false
 slug: game-of-the-year
 description: Games of the Year
 tags:
   - gaming
+updated: 2020-11-20
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here are your six nominees for Game of the Year at <a href="https://twitter.com/hashtag/TheGameAwards?src=hash&amp;ref_src=twsrc%5Etfw">#TheGameAwards</a> <a href="https://t.co/ikRltsnBrm">pic.twitter.com/ikRltsnBrm</a></p>&mdash; Geoff Keighley (@geoffkeighley) <a href="https://twitter.com/geoffkeighley/status/1329109716891357184?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

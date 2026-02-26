@@ -3,8 +3,8 @@ title: "Mechanical Keyboards"
 description: "Clicky clacky things."
 image: "./images/Keychron-K2-HE-75-Percent-Layout-Wireless-Magnetic-Switch-Custom-Keyboard-Special-Edition-Wooden-White-RGB-Backlight-Double-Shot-PBT-Keycaps.jpg"
 tags: ["hardware"]
-created: 2025-04-14T14:33:57-0400
-modified: 2025-04-19T10:43:58-0400
+published: 2025-04-14
+updated: 2025-04-19
 ---
 # Mechanical Keyboards
 

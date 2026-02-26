@@ -1,6 +1,6 @@
 ---
 
-import PlantTag from "../PlantTag/PlantTag.astro";
+import Tag from "../Tag/Tag.astro";
 interface Props {
     type: string,
     title: string,
@@ -37,7 +37,16 @@ try {
 
     <p class="description">{description}</p>
         <slot />
-        <div class="date-and-tag"><span class="last-update">{`Updated: ${display}`}</span><PlantTag tags={tags} /></div>
+        <div class="date-and-tag">
+            <span class="last-update">{`Updated: ${display}`}</span>
+            {tags && (
+                <ul class="tag-list">
+                    {tags.map((tag: string) => (
+                        <li><Tag tag={tag} /></li>
+                    ))}
+                </ul>
+            )}
+        </div>
     </div>
     <div class="image">
         {image && <Image src={image}
@@ -68,6 +77,20 @@ try {
     .last-update {
         margin-right: 1rem;
         color: var(--tag)
+    }
+
+    .tag-list {
+        list-style: none;
+        margin: 0.25rem 0 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+
+    .tag-list li {
+        margin: 0;
+        padding: 0;
     }
 
     .title {

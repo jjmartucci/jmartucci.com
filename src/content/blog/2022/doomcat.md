@@ -1,8 +1,9 @@
 ---
 title: DOOMCAT
-published: 2022-09-21T19:42:09-04:00
+published: 2022-09-21
 draft: false
 description: Because Hangman seemed too morbid.
+updated: 2022-09-21
 ---
 
 We were out at lunch the other day and after burning through all the games on the front of the kids menu, Lorelei turned the menu over and started Tic-Tac-Toe on the back. Andrea suggested Hangman instead, and started explaining how you play it. It occurred to me that Hangman is… well kind of awful, so I suggested instead of Hangman we play DOOMCAT. Which is drawing a cat: two ears, two eyes, two pairs of whiskers, two teeth and then the DOOMCAT eats you. Which is also a little morbid but at least avoids antiquated forms of capital punishment.

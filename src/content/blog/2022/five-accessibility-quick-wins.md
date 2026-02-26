@@ -1,10 +1,11 @@
 ---
 draft: false
 title: 5 Accessibility Quick Wins (and two for this site)
-published: 2022-02-27T19:41:32-05:00
+published: 2022-02-28
 description: Practical A11Y improvements.
 tags:
   - web-development
+updated: 2022-02-28
 ---
 From CSS Tricks: [5 Accessibility Quick Wins You Can Implement Today](https://css-tricks.com/5-accessibility-quick-wins-you-can-implement-today/).
 

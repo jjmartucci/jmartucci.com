@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Annual maintenance
-published: 2022-01-15T15:53:59-05:00
+published: 2022-01-15
 description: Pandemic musings while waiting for an oil change. And tire rotation. Oh and the inspection, don’t forget that.
+updated: 2022-01-15
 ---
 In January of 2020 we bought a new car, a 2019 Volkswagen GTI. It’s become a little touchpoint on the pandemic over the years. 
 

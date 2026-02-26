@@ -1,11 +1,12 @@
 ---
 draft: false
 title: An obvious bug
-published: 2022-04-09T07:51:56-04:00
+published: 2022-04-09
 description: A minimal reproduction of a bug that took too long to find. 
 slug: an-obvious-bug
 tags:
 - programming
+updated: 2022-04-09
 ---
 Debugging is one of the things I enjoy about programming. It’s like a little puzzle to solve. But as code gets more complicated, the little bugs can hide themselves in ways that make them very, very, annoyingly hard to find. This one, minimally reproduced in this Codepen, got me this week:
 

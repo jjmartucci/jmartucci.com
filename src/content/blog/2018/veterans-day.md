@@ -4,6 +4,7 @@ published: 2018-11-12
 slug: veterans-day
 draft: false
 description: A WWII Vet.
+updated: 2018-11-12
 ---
 
 I always knew my grandfather fought in France in World War II, but the details were fuzzy. As a kid I’d ask dumb questions like, “did you ever shoot anyone,” and he’d reply with, “I shot at them, they shot at me, who knows where the bullets went,” before shooing me off. In High School I was given an “Interview a World War II veteran” assignment for an American History class, so I asked him some more formalized questions, but he couldn’t quite remember the names of places he had been to, or when exactly things had happened. At the time I wondered how it would be possible to forget something like fighting in World War II, but he was there as twenty year-old in 1944, this was maybe in 1998, he was trying to recall fifty-four year-old memories of things he probably didn’t want to remember.

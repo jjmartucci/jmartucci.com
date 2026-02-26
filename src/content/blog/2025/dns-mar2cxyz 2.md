@@ -6,7 +6,8 @@ tags:
   - homeserver
 created: 2025-01-03T12:00:00-0400
 modified: 2025-04-16T08:36:18-0400
-published: 2025-01-03T12:04:00
+published: 2025-01-03
+updated: 2025-01-03
 ---
 # DNS & [mar2c.xyz](mar2c.xyz)
 After setting up my [homeserver](/blog/the-big-dumb-box-of-computer-parts-linux-edition/) I wanted to do something seemingly simple: visit `[service].mar2c.xyz` from anywhere and be able to reach that service on my home server via HTTPS.  

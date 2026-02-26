@@ -1,8 +1,9 @@
 ---
 title: "Arts Fest Beverly 2022: Bridge to Nowhere"
-published: 2022-06-18T16:12:23-04:00
+published: 2022-06-18
 description: Arts Fest Beverly 2022.
 tags: ['life']
+updated: 2022-06-18
 ---
 Took a walk down to [Arts Fest Beverly](https://www.bevmain.org/arts-fest-beverly/) early this morning. Nice weather for a walk, and it seemed like a lot of other people agreed, it was quite crowded. We picked up some prints for the house, and Lorelei went a bit cat crazy:
 

@@ -6,7 +6,8 @@ tags:
   - travel
 created: 2025-04-25T21:54:14-0400
 modified: 2025-04-26T13:23:01-0400
-published: 2025-04-25T12:01:00
+published: 2025-04-25
+updated: 2025-04-25
 ---
 # Portland
 A mid-week trip to the Portland of the East Coast. 

@@ -1,9 +1,10 @@
 ---
 draft: false
 title: String Cleaning
-published: 2021-05-01T14:55:30-04:00
+published: 2021-05-01
 description: Yet another Strat made nicer.
 slug: string-cleaning
+updated: 2021-05-01
 ---
 After [fixing up my old Squier Stratocaster](https://www.builtwith.coffee/blog-posts/2020/08/the-20-year-history-of-a-partscaster) last Summer, it became my go to guitar when I sat down to play over my _other_ Strat, a 2000 Lone Star. I started to wonder why, since the Lone Star is (or should be) the nicer of the two. I sat down and looked it over and tried to figure out what was wrong, and this is what I came up with. Note that “at some point below” could have been any point in the last 20 years:
 1. At some point I’d lost the spring in the tremolo, which caused it to either flop around or stay locked into position.

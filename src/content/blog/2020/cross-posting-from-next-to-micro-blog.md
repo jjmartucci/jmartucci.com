@@ -1,9 +1,10 @@
 ---
 title: Cross posting from a next.js blog to micro.blog
-published: 2020-11-13T18:02:03.590Z
+published: 2020-11-13
 draft: false
 slug: cross-posting-from-next-to-micro-blog
 description: micro.blog
+updated: 2020-11-13
 ---
 
 I like the idea of [micro.blog](https://micro.blog), and I’ve lazily cross-posted my blog to the site via RSS for a while, but the feed always ended up in the format of [post title] - [link to post], which doesn’t capture the spirt of microblogging.

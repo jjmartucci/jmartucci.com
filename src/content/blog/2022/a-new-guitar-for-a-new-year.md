@@ -1,10 +1,11 @@
 ---
 title: A New Guitar for a New Year
-published: 2022-12-30T22:02:56-05:00
+published: 2022-12-31
 draft: false
 description: 20-odd years later, I finally have a shreddy guitar.
 tags: [guitar]
 slug: a-new-guitar-for-a-new-year
+updated: 2022-12-31
 ---
 
 [I wrote in 2020 about fixing up my first guitar](https://www.builtwith.coffee/blog-posts/2020/08/the-20-year-history-of-a-partscaster?searchterm=partscaster), a black Squire Stratocaster. It is (I think) from 1995. My other guitar is a nicer Stratocaster from 1999. When I got that guitar I was torn between it and something more “shreddy”. If I remember correctly I was comparing it to an Ibanez JS1000, but in the end I wanted the bridge and middle single coils, so I went with the Strat.

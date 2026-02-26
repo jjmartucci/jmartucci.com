@@ -1,9 +1,10 @@
 ---
 title: Big Sur
-published: 2020-11-13T00:58:18.181Z
+published: 2020-11-13
 draft: false
 slug: micro
 description: Updating my old Macbook Pro to Big Sur.
+updated: 2020-11-13
 ---
 
 Trying two things: updating my old Macbook Pro to Big Sur.

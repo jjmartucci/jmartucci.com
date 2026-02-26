@@ -3,9 +3,10 @@ title: I give 2023 an A (but the A is for Anxiety)
 slug: 2023-gets-an-a
 description: In either looking back at 2023 or looking forward to 2024, now seems like the right time to write about how I’ve been dealing with anxiety.
 image: ../images/2024/scream.jpg
-published: 2024-01-16T21:15:00.000Z
+published: 2024-01-16
 tags:
   - life
+updated: 2024-01-16
 ---
 
 This is a post I’ve been meaning to write for a while (I started a draft on World Mental Health Day, October of last year!), but in either looking back at 2023 or looking forward to 2024, now seems like the right time to finally sit down and finish it.

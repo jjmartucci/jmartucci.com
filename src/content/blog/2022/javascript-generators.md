@@ -1,10 +1,11 @@
 ---
 title: JavaScript Generators
-published: 2022-11-08T03:45:19.875Z
+published: 2022-11-08
 draft: false
 description: Functions with but with a fun *.
 tags:
   - web-development
+updated: 2022-11-08
 ---
 With Tim Tams, at [Why Would Anyone Need JavaScript Generator Functions](https://jrsinclair.com/articles/2022/why-would-anyone-need-javascript-generator-functions/), an enjoyable write-up of a confusing part of JavaScript, although I’m not entirely sure I’d ever use them short of a library that hides all of the implementation details. 
 

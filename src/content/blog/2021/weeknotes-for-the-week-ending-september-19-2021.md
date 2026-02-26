@@ -1,8 +1,9 @@
 ---
 draft: false
 title: Weeknotes for the week ending September 19, 2021
-published: 2021-09-19T19:01:29-04:00
+published: 2021-09-19
 description: This week, summed up in two short scenes with my daughter.
+updated: 2021-09-19
 ---
 
 This week, summed up in two short scenes with my daughter.
